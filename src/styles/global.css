@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  /* Your Custom Colors */
+  --color-navy: #00234B;
+  --color-orange: #F06A3F;
+  --color-gold: #FF9900;
+  --color-grey: #666666;
+
+  /* Your Custom Fonts */
+  --font-display: "Roboto Condensed", Impact, sans-serif;
+  --font-script: "Dancing Script", cursive;
+  --font-sub: Montserrat, sans-serif;
+  --font-body: Lato, sans-serif;
+}
+
+/* You can paste all the custom CSS from your original HTML file's <style> tag below this line */
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Lato', sans-serif; color: #333; background: #fff; -webkit-font-smoothing: antialiased; }
+.situation-card { transition: border-color .15s, background .15s; cursor: pointer; }
+.situation-card:hover { border-color: #F06A3F; background: #fdf8f6; }
+.situation-card.selected { border-color: #F06A3F; background: #fdf8f6; box-shadow: 0 0 0 2px #F06A3F; }
+.step-dot { transition: background .25s, border-color .25s, color .25s; }
+.step-dot.active { background: #F06A3F; border-color: #F06A3F; color: #fff; }
+.step-dot.done { background: #00234B; border-color: #00234B; color: #fff; }
+.field { transition: border-color .15s; }
+.field:focus { border-color: #F06A3F; box-shadow: 0 0 0 3px rgba(240,106,63,.12); outline: none; }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+.fade-up { animation: fadeUp .3s ease forwards; }
+.mob-nav { max-height: 0; overflow: hidden; transition: max-height .3s ease; }
+.mob-nav.open { max-height: 280px; }
+.lift { transition: box-shadow .2s, transform .2s; }
+.lift:hover { transform: translateY(-2px); box-shadow: 0 6px 24px rgba(0,35,75,.08); }
