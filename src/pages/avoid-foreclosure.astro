@@ -38,353 +38,414 @@ import Layout from '../layouts/Layout.astro';
   </div>
 </header>
 
-<!-- HERO -->
-<section class="bg-white pt-16 pb-20 sm:pt-20 sm:pb-28 border-b border-gray-100">
-  <div class="max-w-5xl mx-auto px-5 sm:px-8">
-    <div class="grid lg:grid-cols-[1fr_420px] gap-12 lg:gap-16 items-start">
+<!-- URGENCY BANNER -->
+<div class="bg-orange text-white px-5 py-2.5 text-center">
+  <p class="font-sub font-bold text-xs uppercase tracking-wider">
+    <span class="opacity-80 mr-2">&#9888;</span>
+    Auction date approaching? We can close in as few as 7 days &mdash;
+    <a href="tel:+15015551234" class="underline underline-offset-2 hover:text-white/80 transition-colors ml-1">Call (501) 555-1234 now</a>
+  </p>
+</div>
 
-      <!-- Left: content -->
-      <div class="pt-1 lg:pt-4">
-        <p class="font-sub font-bold text-xs text-orange uppercase tracking-widest mb-4">Little Rock, Arkansas</p>
-        <h1 class="font-display font-bold text-navy uppercase leading-tight text-4xl sm:text-5xl mb-3">We Buy Properties<br>In Any Condition</h1>
-        <p class="font-script text-orange text-xl mb-6">Find out if your property qualifies.</p>
-        <p class="font-body text-grey text-base leading-relaxed mb-8 max-w-md">Find out below if your Little Rock property qualifies for us to make you an all-cash offer. No repairs, no commissions, no hassle — just a fair offer and a fast close.</p>
+<!-- MAIN CONTENT: 2-column sticky layout -->
+<div class="bg-white">
+  <div class="max-w-5xl mx-auto px-5 sm:px-8 py-14 sm:py-20">
+    <div class="grid lg:grid-cols-[1fr_400px] gap-12 lg:gap-14 items-start">
 
-        <div class="flex flex-col gap-5 mb-10">
-          <div class="flex items-center gap-3">
-            <div class="w-9 h-9 rounded-full bg-navy flex items-center justify-center flex-shrink-0">
-              <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+      <!-- ═══ LEFT COLUMN: all scrollable content ═══ -->
+      <div>
+
+        <!-- HEADLINE & OPENER -->
+        <div class="mb-12">
+          <p class="font-sub font-bold text-xs text-orange uppercase tracking-widest mb-4">Little Rock, Arkansas</p>
+          <h1 class="font-display font-bold text-navy uppercase leading-tight text-4xl sm:text-5xl mb-4">Facing Foreclosure?<br>You Still Have Options.</h1>
+          <p class="font-script text-orange text-xl mb-5">It's not too late — let us show you the way out.</p>
+          <p class="font-body text-grey text-base leading-relaxed mb-6 max-w-lg">We buy properties in any condition across Little Rock and all of Arkansas. Find out if your property qualifies for an all-cash offer — and how we can help you avoid foreclosure before time runs out.</p>
+
+          <!-- Quick trust bar -->
+          <div class="flex flex-wrap gap-x-6 gap-y-2 mb-8">
+            <div class="flex items-center gap-2 font-sub font-bold text-navy text-xs">
+              <svg class="w-4 h-4 text-orange" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+              Close in 7 days
             </div>
-            <div>
-              <p class="font-sub font-bold text-navy text-sm">Close Before Your Auction Date</p>
-              <p class="font-body text-grey text-sm">We move fast — sometimes in as few as 7 days.</p>
+            <div class="flex items-center gap-2 font-sub font-bold text-navy text-xs">
+              <svg class="w-4 h-4 text-orange" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+              Zero fees or commissions
+            </div>
+            <div class="flex items-center gap-2 font-sub font-bold text-navy text-xs">
+              <svg class="w-4 h-4 text-orange" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+              No repairs or cleanout
+            </div>
+            <div class="flex items-center gap-2 font-sub font-bold text-navy text-xs">
+              <svg class="w-4 h-4 text-orange" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+              100% no obligation
             </div>
           </div>
-          <div class="flex items-center gap-3">
-            <div class="w-9 h-9 rounded-full bg-navy flex items-center justify-center flex-shrink-0">
-              <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-            </div>
-            <div>
-              <p class="font-sub font-bold text-navy text-sm">Zero Fees or Commissions</p>
-              <p class="font-body text-grey text-sm">What we offer is what you keep.</p>
-            </div>
-          </div>
-          <div class="flex items-center gap-3">
-            <div class="w-9 h-9 rounded-full bg-navy flex items-center justify-center flex-shrink-0">
-              <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
-            </div>
-            <div>
-              <p class="font-sub font-bold text-navy text-sm">No Repairs or Cleanout Required</p>
-              <p class="font-body text-grey text-sm">Sell your property exactly as it sits.</p>
-            </div>
-          </div>
-        </div>
 
-        <div class="flex items-center gap-3 text-sm text-grey font-body border-t border-gray-100 pt-6">
-          <svg class="w-4 h-4 text-navy flex-shrink-0" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-          <span>Serving Little Rock and all of Arkansas</span>
-        </div>
-      </div>
-
-      <!-- Right: 2-step lead capture form -->
-      <div id="lead-form" class="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm">
-        <div class="bg-navy px-6 py-5">
-          <h2 class="font-display font-bold text-white uppercase text-lg tracking-wide">Get Your Fair Cash Offer</h2>
-          <p class="font-body text-white/60 text-sm mt-1">Fill out the short form below — it takes less than a minute.</p>
-        </div>
-
-        <!-- Step indicator -->
-        <div class="px-6 pt-5 pb-2 flex items-center gap-2">
-          <div id="dot1" class="step-dot active w-7 h-7 rounded-full border-2 border-orange bg-orange text-white flex items-center justify-center font-sub font-bold text-xs flex-shrink-0">1</div>
-          <div id="connector" class="flex-1 h-0.5 bg-gray-200 transition-colors duration-300"></div>
-          <div id="dot2" class="step-dot w-7 h-7 rounded-full border-2 border-gray-200 flex items-center justify-center font-sub font-bold text-xs text-grey flex-shrink-0">2</div>
-          <span id="step-label" class="font-body text-xs text-grey ml-1 flex-shrink-0">Step 1 of 2</span>
-        </div>
-
-        <!-- STEP 1: Name + Phone -->
-        <div id="step1" class="px-6 pb-6 pt-3 fade-up">
-          <p class="font-sub font-bold text-navy text-xs uppercase tracking-wider mb-4">Tell us who you are</p>
-          <div class="flex flex-col gap-4">
-            <div>
-              <label for="f-name" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Your Name</label>
-              <input id="f-name" type="text" placeholder="First &amp; Last Name" class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
-            </div>
-            <div>
-              <label for="f-phone" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Phone Number</label>
-              <input id="f-phone" type="tel" placeholder="(501) 000-0000" class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
-            </div>
-            <button type="button" onclick="goToStep2()" class="w-full bg-orange hover:bg-gold text-white font-sub font-bold text-sm px-6 py-3.5 rounded transition-colors uppercase tracking-wider mt-1">
-              Next: Property Address &rarr;
-            </button>
-          </div>
-          <p class="font-body text-xs text-grey text-center mt-4">100% free &middot; no obligation &middot; no commitment</p>
-        </div>
-
-        <!-- STEP 2: Property Address -->
-        <!-- Salesforce Web-to-Lead: update action URL, oid value, and retURL before going live -->
-        <div id="step2" class="px-6 pb-6 pt-3 hidden">
-          <p class="font-sub font-bold text-navy text-xs uppercase tracking-wider mb-4">Tell us about the property</p>
-          <form id="lead-capture-form" action="#" method="POST">
-            <input type="hidden" name="oid" value="YOUR_SALESFORCE_OID">
-            <input type="hidden" name="retURL" value="/thank-you">
-            <input type="hidden" id="sf-name" name="first_name" value="">
-            <input type="hidden" id="sf-phone" name="phone" value="">
-            <div class="flex flex-col gap-4">
-              <div>
-                <label for="f-street" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Street Address</label>
-                <input id="f-street" type="text" name="street" placeholder="123 Main St" class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
-              </div>
-              <div class="grid grid-cols-2 gap-3">
-                <div>
-                  <label for="f-city" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">City</label>
-                  <input id="f-city" type="text" name="city" placeholder="Little Rock" class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
-                </div>
-                <div>
-                  <label for="f-zip" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Zip Code</label>
-                  <input id="f-zip" type="text" name="zip" placeholder="72201" class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
-                </div>
-              </div>
-              <div class="flex gap-2 mt-1">
-                <button type="button" onclick="goToStep1()" class="w-1/3 border border-gray-200 text-grey font-sub font-bold text-xs px-4 py-3.5 rounded hover:border-navy hover:text-navy transition-colors">&larr; Back</button>
-                <button type="submit" class="flex-1 bg-orange hover:bg-gold text-white font-sub font-bold text-sm px-6 py-3.5 rounded transition-colors uppercase tracking-wider">Get My Cash Offer</button>
-              </div>
-            </div>
-          </form>
-          <p class="font-body text-xs text-grey text-center mt-4">We'll call you within 24 hours &middot; no pushy sales</p>
-        </div>
-
-        <!-- Phone CTA -->
-        <div class="px-6 pb-6 pt-1 border-t border-gray-100">
-          <a href="tel:+15015551234" class="inline-flex items-center justify-center gap-2 bg-navy hover:bg-orange text-white font-sub font-bold text-sm px-6 py-3.5 rounded transition-colors uppercase tracking-wider w-full">
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-            Or Call (501) 555-1234
+          <!-- Mobile-only: CTA into form -->
+          <a href="#lead-form" class="lg:hidden inline-flex items-center justify-center gap-2 bg-orange hover:bg-gold text-white font-sub font-bold text-sm px-7 py-3.5 rounded transition-colors uppercase tracking-wider w-full sm:w-auto">
+            See If My Property Qualifies &darr;
           </a>
         </div>
+
+        <!-- DIVIDER -->
+        <hr class="border-gray-100 mb-12">
+
+        <!-- SITUATIONS CHECKLIST -->
+        <div class="mb-12">
+          <p class="font-sub font-bold text-xs text-orange uppercase tracking-widest mb-3">See How We Can Help</p>
+          <h2 class="font-display font-bold text-navy uppercase text-2xl sm:text-3xl leading-tight mb-2">Are You Currently Facing<br>Any of These Situations?</h2>
+          <p class="font-body text-grey text-sm mb-8">If any of these sound familiar, we can help.</p>
+
+          <div class="flex flex-col gap-3">
+            <div class="flex items-start gap-3 bg-gray-50 border border-gray-100 rounded-lg px-4 py-3.5">
+              <svg class="w-4 h-4 text-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+              <p class="font-body text-grey text-sm leading-snug">Are You In Foreclosure or Are About To Be?</p>
+            </div>
+            <div class="flex items-start gap-3 bg-gray-50 border border-gray-100 rounded-lg px-4 py-3.5">
+              <svg class="w-4 h-4 text-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+              <p class="font-body text-grey text-sm leading-snug">Do You Own Unwanted Rental Property?</p>
+            </div>
+            <div class="flex items-start gap-3 bg-gray-50 border border-gray-100 rounded-lg px-4 py-3.5">
+              <svg class="w-4 h-4 text-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+              <p class="font-body text-grey text-sm leading-snug">Do You Have Frustrating Tenants (Or Family Members) That You Can't Get Rid Of?</p>
+            </div>
+            <div class="flex items-start gap-3 bg-gray-50 border border-gray-100 rounded-lg px-4 py-3.5">
+              <svg class="w-4 h-4 text-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+              <p class="font-body text-grey text-sm leading-snug">Do You Own A Vacant Property?</p>
+            </div>
+            <div class="flex items-start gap-3 bg-gray-50 border border-gray-100 rounded-lg px-4 py-3.5">
+              <svg class="w-4 h-4 text-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+              <p class="font-body text-grey text-sm leading-snug">Did You Inherit An Unwanted Property?</p>
+            </div>
+            <div class="flex items-start gap-3 bg-gray-50 border border-gray-100 rounded-lg px-4 py-3.5">
+              <svg class="w-4 h-4 text-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+              <p class="font-body text-grey text-sm leading-snug">Do You Need To Relocate Quickly And Need To Sell Your Current House Fast?</p>
+            </div>
+            <div class="flex items-start gap-3 bg-gray-50 border border-gray-100 rounded-lg px-4 py-3.5">
+              <svg class="w-4 h-4 text-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+              <p class="font-body text-grey text-sm leading-snug">Do You Want To Avoid Paying Realtor Commissions?</p>
+            </div>
+            <div class="flex items-start gap-3 bg-gray-50 border border-gray-100 rounded-lg px-4 py-3.5">
+              <svg class="w-4 h-4 text-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+              <p class="font-body text-grey text-sm leading-snug">Are You Going Through A Divorce?</p>
+            </div>
+            <div class="flex items-start gap-3 bg-gray-50 border border-gray-100 rounded-lg px-4 py-3.5">
+              <svg class="w-4 h-4 text-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+              <p class="font-body text-grey text-sm leading-snug">Do You Have Little Or No Equity And Need To Sell?</p>
+            </div>
+            <div class="flex items-start gap-3 bg-gray-50 border border-gray-100 rounded-lg px-4 py-3.5">
+              <svg class="w-4 h-4 text-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+              <p class="font-body text-grey text-sm leading-snug">Do You Own A "Fixer Upper" That You Don't Want To Fix Up Or Don't Have Time To Fix Up?</p>
+            </div>
+          </div>
+
+          <!-- Inline CTA after checklist -->
+          <div class="mt-8 p-5 bg-navy rounded-xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+            <p class="font-sub font-bold text-white text-sm">If you said yes to any of these — we can help.</p>
+            <a href="#lead-form" class="flex-shrink-0 bg-orange hover:bg-gold text-white font-sub font-bold text-xs px-5 py-2.5 rounded transition-colors uppercase tracking-wider">Fill Out the Form &rarr;</a>
+          </div>
+        </div>
+
+        <!-- DIVIDER -->
+        <hr class="border-gray-100 mb-12">
+
+        <!-- BODY COPY -->
+        <div class="mb-12">
+          <p class="font-sub font-bold text-xs text-orange uppercase tracking-widest mb-3">We Solve Real Estate Problems</p>
+          <h2 class="font-display font-bold text-navy uppercase text-2xl sm:text-3xl leading-tight mb-5">We Can Help — Here's How</h2>
+
+          <div class="space-y-4 font-body text-grey text-sm leading-relaxed">
+            <p>If you answered "yes" to one or more of those questions, <strong class="text-navy font-bold">we can help.</strong> We are specialists in solving real estate problems&hellip; especially ones that pose a financial burden on you, the homeowner. We can solve almost any financial problem that your property is causing.</p>
+            <p>We want to help you take control of your situation, end the hassles, and get back to living the life you want to live. And you deserve to know all of the options available to you right now.</p>
+            <p>Simply fill out the short form on this page or give us a call, and our experts will help you (with <strong class="text-navy font-bold">no pushy sales techniques or obligation</strong>)&hellip; we'll help you make sense of all of this confusion and present you with the options that can potentially change your life and help you get back to normal.</p>
+            <p>Send us your information and we'll get back to you promptly &mdash; <strong class="text-navy font-bold">usually within 24 hours</strong>. We'll give you a call and walk you through every option available for your situation.</p>
+          </div>
+
+          <!-- Guarantee strip -->
+          <div class="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-3">
+            <div class="text-center bg-gray-50 border border-gray-100 rounded-lg p-3">
+              <p class="font-display font-bold text-navy text-lg leading-none mb-1">100%</p>
+              <p class="font-body text-xs text-grey">Free to You</p>
+            </div>
+            <div class="text-center bg-gray-50 border border-gray-100 rounded-lg p-3">
+              <p class="font-display font-bold text-navy text-lg leading-none mb-1">100%</p>
+              <p class="font-body text-xs text-grey">No Hassle</p>
+            </div>
+            <div class="text-center bg-gray-50 border border-gray-100 rounded-lg p-3">
+              <p class="font-display font-bold text-navy text-lg leading-none mb-1">Zero</p>
+              <p class="font-body text-xs text-grey">Obligation</p>
+            </div>
+            <div class="text-center bg-gray-50 border border-gray-100 rounded-lg p-3">
+              <p class="font-display font-bold text-navy text-lg leading-none mb-1">Zero</p>
+              <p class="font-body text-xs text-grey">Commitment</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- DIVIDER -->
+        <hr class="border-gray-100 mb-12">
+
+        <!-- TESTIMONIALS -->
+        <div class="mb-12">
+          <p class="font-sub font-bold text-xs text-orange uppercase tracking-widest mb-3">What Others Say</p>
+          <h2 class="font-display font-bold text-navy uppercase text-2xl sm:text-3xl leading-tight mb-8">Real Arkansas Homeowners. Real Results.</h2>
+
+          <div class="flex flex-col gap-5">
+            <div class="bg-gray-50 border border-gray-100 rounded-xl p-6">
+              <div class="flex gap-0.5 mb-3">
+                <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              </div>
+              <p class="font-body text-grey text-sm leading-relaxed mb-4">"I received a foreclosure notice and panicked. Arkansas Property Buyers called me back within hours, explained my options clearly, and we closed two weeks before my auction date. They literally saved my credit."</p>
+              <div class="flex items-center gap-3">
+                <div class="w-8 h-8 bg-navy rounded-full flex items-center justify-center font-sub font-bold text-white text-xs">TW</div>
+                <div>
+                  <p class="font-sub font-bold text-navy text-sm">Testimonial Placeholder</p>
+                  <p class="font-body text-xs text-grey">Little Rock, AR</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-gray-50 border border-gray-100 rounded-xl p-6">
+              <div class="flex gap-0.5 mb-3">
+                <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              </div>
+              <p class="font-body text-grey text-sm leading-relaxed mb-4">"Going through a divorce and trying to sell at the same time was overwhelming. These guys made it simple. No showings, no repairs — just a fair offer and a closing date that worked for both of us."</p>
+              <div class="flex items-center gap-3">
+                <div class="w-8 h-8 bg-navy rounded-full flex items-center justify-center font-sub font-bold text-white text-xs">TW</div>
+                <div>
+                  <p class="font-sub font-bold text-navy text-sm">Testimonial Placeholder</p>
+                  <p class="font-body text-xs text-grey">North Little Rock, AR</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-gray-50 border border-gray-100 rounded-xl p-6">
+              <div class="flex gap-0.5 mb-3">
+                <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              </div>
+              <p class="font-body text-grey text-sm leading-relaxed mb-4">"I'd been sitting on a vacant rental for two years. Arkansas Property Buyers bought it as-is, handled everything, and I finally had peace of mind. Best decision I made all year."</p>
+              <div class="flex items-center gap-3">
+                <div class="w-8 h-8 bg-navy rounded-full flex items-center justify-center font-sub font-bold text-white text-xs">TW</div>
+                <div>
+                  <p class="font-sub font-bold text-navy text-sm">Testimonial Placeholder</p>
+                  <p class="font-body text-xs text-grey">Russellville, AR</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- DIVIDER -->
+        <hr class="border-gray-100 mb-12">
+
+        <!-- FAQ -->
+        <div class="mb-12">
+          <p class="font-sub font-bold text-xs text-orange uppercase tracking-widest mb-3">Got Questions?</p>
+          <h2 class="font-display font-bold text-navy uppercase text-2xl sm:text-3xl leading-tight mb-8">Frequently Asked Questions</h2>
+
+          <div class="flex flex-col gap-3">
+            <details class="bg-gray-50 border border-gray-100 rounded-xl overflow-hidden group">
+              <summary class="flex items-center justify-between px-5 py-4 cursor-pointer list-none">
+                <span class="font-sub font-bold text-navy text-sm">How quickly can you close on my property?</span>
+                <svg class="w-4 h-4 text-orange flex-shrink-0 ml-3 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+              </summary>
+              <div class="px-5 pb-5 border-t border-gray-100 pt-4">
+                <p class="font-body text-grey text-sm leading-relaxed">We can close in as few as 7 days, depending on the situation. If you have an upcoming auction date, let us know right away and we'll do everything possible to move quickly and protect your equity.</p>
+              </div>
+            </details>
+
+            <details class="bg-gray-50 border border-gray-100 rounded-xl overflow-hidden group">
+              <summary class="flex items-center justify-between px-5 py-4 cursor-pointer list-none">
+                <span class="font-sub font-bold text-navy text-sm">Do I need to make repairs before selling?</span>
+                <svg class="w-4 h-4 text-orange flex-shrink-0 ml-3 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+              </summary>
+              <div class="px-5 pb-5 border-t border-gray-100 pt-4">
+                <p class="font-body text-grey text-sm leading-relaxed">Absolutely not. We buy properties in any condition — roof damage, foundation problems, outdated systems, you name it. You don't need to clean out the property either. Sell it exactly as it sits.</p>
+              </div>
+            </details>
+
+            <details class="bg-gray-50 border border-gray-100 rounded-xl overflow-hidden group">
+              <summary class="flex items-center justify-between px-5 py-4 cursor-pointer list-none">
+                <span class="font-sub font-bold text-navy text-sm">Are there any fees or commissions?</span>
+                <svg class="w-4 h-4 text-orange flex-shrink-0 ml-3 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+              </summary>
+              <div class="px-5 pb-5 border-t border-gray-100 pt-4">
+                <p class="font-body text-grey text-sm leading-relaxed">None. We charge no agent commissions, no service fees, and no hidden costs. We even cover closing costs. The offer we make is the amount you walk away with — period.</p>
+              </div>
+            </details>
+
+            <details class="bg-gray-50 border border-gray-100 rounded-xl overflow-hidden group">
+              <summary class="flex items-center justify-between px-5 py-4 cursor-pointer list-none">
+                <span class="font-sub font-bold text-navy text-sm">What if I owe more than the property is worth?</span>
+                <svg class="w-4 h-4 text-orange flex-shrink-0 ml-3 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+              </summary>
+              <div class="px-5 pb-5 border-t border-gray-100 pt-4">
+                <p class="font-body text-grey text-sm leading-relaxed">This is a situation we deal with regularly. We're experienced in short sales and can work with your lender on your behalf. Give us a call and we'll walk you through the options for your specific situation.</p>
+              </div>
+            </details>
+
+            <details class="bg-gray-50 border border-gray-100 rounded-xl overflow-hidden group">
+              <summary class="flex items-center justify-between px-5 py-4 cursor-pointer list-none">
+                <span class="font-sub font-bold text-navy text-sm">Is there any obligation when I fill out the form?</span>
+                <svg class="w-4 h-4 text-orange flex-shrink-0 ml-3 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+              </summary>
+              <div class="px-5 pb-5 border-t border-gray-100 pt-4">
+                <p class="font-body text-grey text-sm leading-relaxed">Zero obligation. Filling out the form lets us learn about your situation so we can present you with options. There's no pressure, no commitment, and you can walk away at any point. We're here to help, not to sell you something.</p>
+              </div>
+            </details>
+          </div>
+
+          <!-- Final inline CTA -->
+          <div class="mt-8 p-6 border border-orange/30 bg-orange/5 rounded-xl">
+            <p class="font-sub font-bold text-navy text-sm mb-1">Still have questions? We're happy to talk.</p>
+            <p class="font-body text-grey text-sm mb-4">No pressure, no commitment. Just a conversation about your options.</p>
+            <div class="flex flex-col sm:flex-row gap-3">
+              <a href="#lead-form" class="flex-1 text-center bg-orange hover:bg-gold text-white font-sub font-bold text-xs px-5 py-3 rounded transition-colors uppercase tracking-wider">Fill Out the Form</a>
+              <a href="tel:+15015551234" class="flex-1 text-center border border-navy text-navy hover:bg-navy hover:text-white font-sub font-bold text-xs px-5 py-3 rounded transition-colors uppercase tracking-wider">(501) 555-1234</a>
+            </div>
+          </div>
+        </div>
+
       </div>
+      <!-- ═══ END LEFT COLUMN ═══ -->
+
+      <!-- ═══ RIGHT COLUMN: sticky form ═══ -->
+      <div id="lead-form" class="lg:sticky lg:top-24">
+
+        <!-- Form card -->
+        <div class="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm">
+          <div class="bg-navy px-6 py-5">
+            <h2 class="font-display font-bold text-white uppercase text-lg tracking-wide">Get Your Fair Cash Offer</h2>
+            <p class="font-body text-white/60 text-sm mt-1">Fill out the short form below — it takes less than a minute.</p>
+          </div>
+
+          <!-- Step indicator -->
+          <div class="px-6 pt-5 pb-2 flex items-center gap-2">
+            <div id="dot1" class="step-dot active w-7 h-7 rounded-full border-2 border-orange bg-orange text-white flex items-center justify-center font-sub font-bold text-xs flex-shrink-0">1</div>
+            <div id="connector" class="flex-1 h-0.5 bg-gray-200 transition-colors duration-300"></div>
+            <div id="dot2" class="step-dot w-7 h-7 rounded-full border-2 border-gray-200 flex items-center justify-center font-sub font-bold text-xs text-grey flex-shrink-0">2</div>
+            <span id="step-label" class="font-body text-xs text-grey ml-1 flex-shrink-0">Step 1 of 2</span>
+          </div>
+
+          <!-- STEP 1: Name + Phone -->
+          <div id="step1" class="px-6 pb-5 pt-3 fade-up">
+            <p class="font-sub font-bold text-navy text-xs uppercase tracking-wider mb-4">Tell us who you are</p>
+            <div class="flex flex-col gap-4">
+              <div>
+                <label for="f-name" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Your Name</label>
+                <input id="f-name" type="text" placeholder="First &amp; Last Name" class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+              </div>
+              <div>
+                <label for="f-phone" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Phone Number</label>
+                <input id="f-phone" type="tel" placeholder="(501) 000-0000" class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+              </div>
+              <button type="button" onclick="goToStep2()" class="w-full bg-orange hover:bg-gold text-white font-sub font-bold text-sm px-6 py-3.5 rounded transition-colors uppercase tracking-wider mt-1">
+                Next: Property Address &rarr;
+              </button>
+            </div>
+            <p class="font-body text-xs text-grey text-center mt-3">100% free &middot; no obligation &middot; no commitment</p>
+          </div>
+
+          <!-- STEP 2: Address -->
+          <!-- Salesforce Web-to-Lead: update action URL, oid value, and retURL before going live -->
+          <div id="step2" class="px-6 pb-5 pt-3 hidden">
+            <p class="font-sub font-bold text-navy text-xs uppercase tracking-wider mb-4">Tell us about the property</p>
+            <form id="lead-capture-form" action="#" method="POST">
+              <input type="hidden" name="oid" value="YOUR_SALESFORCE_OID">
+              <input type="hidden" name="retURL" value="/thank-you">
+              <input type="hidden" id="sf-name" name="first_name" value="">
+              <input type="hidden" id="sf-phone" name="phone" value="">
+              <div class="flex flex-col gap-4">
+                <div>
+                  <label for="f-street" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Street Address</label>
+                  <input id="f-street" type="text" name="street" placeholder="123 Main St" class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+                </div>
+                <div class="grid grid-cols-2 gap-3">
+                  <div>
+                    <label for="f-city" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">City</label>
+                    <input id="f-city" type="text" name="city" placeholder="Little Rock" class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+                  </div>
+                  <div>
+                    <label for="f-zip" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Zip Code</label>
+                    <input id="f-zip" type="text" name="zip" placeholder="72201" class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+                  </div>
+                </div>
+                <div class="flex gap-2 mt-1">
+                  <button type="button" onclick="goToStep1()" class="w-1/3 border border-gray-200 text-grey font-sub font-bold text-xs px-4 py-3.5 rounded hover:border-navy hover:text-navy transition-colors">&larr; Back</button>
+                  <button type="submit" class="flex-1 bg-orange hover:bg-gold text-white font-sub font-bold text-sm px-6 py-3.5 rounded transition-colors uppercase tracking-wider">Get My Cash Offer</button>
+                </div>
+              </div>
+            </form>
+            <p class="font-body text-xs text-grey text-center mt-3">We'll call you within 24 hours &middot; no pushy sales</p>
+          </div>
+
+          <!-- Phone CTA -->
+          <div class="px-6 pb-5 pt-1 border-t border-gray-100">
+            <a href="tel:+15015551234" class="inline-flex items-center justify-center gap-2 bg-navy hover:bg-orange text-white font-sub font-bold text-sm px-6 py-3.5 rounded transition-colors uppercase tracking-wider w-full">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              Or Call (501) 555-1234
+            </a>
+          </div>
+        </div>
+
+        <!-- Social proof strip below form -->
+        <div class="mt-4 bg-gray-50 border border-gray-100 rounded-xl px-5 py-4">
+          <div class="flex items-center gap-2 mb-2">
+            <div class="flex gap-0.5">
+              <svg class="w-3.5 h-3.5 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-3.5 h-3.5 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-3.5 h-3.5 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-3.5 h-3.5 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-3.5 h-3.5 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </div>
+            <span class="font-sub font-bold text-navy text-xs">5.0 &mdash; 100+ Arkansas homeowners helped</span>
+          </div>
+          <p class="font-body text-grey text-xs leading-relaxed italic">"They called me back within hours and we closed before my auction date. Incredible team."</p>
+          <p class="font-sub font-bold text-navy text-xs mt-1.5">&mdash; Testimonial Placeholder, Little Rock AR</p>
+        </div>
+
+        <!-- Trust badges below social proof -->
+        <div class="mt-4 grid grid-cols-3 gap-2 text-center">
+          <div class="bg-gray-50 border border-gray-100 rounded-lg px-2 py-3">
+            <svg class="w-5 h-5 text-navy mx-auto mb-1" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+            <p class="font-sub font-bold text-navy text-xs leading-tight">No Obligation</p>
+          </div>
+          <div class="bg-gray-50 border border-gray-100 rounded-lg px-2 py-3">
+            <svg class="w-5 h-5 text-navy mx-auto mb-1" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <p class="font-sub font-bold text-navy text-xs leading-tight">Zero Fees</p>
+          </div>
+          <div class="bg-gray-50 border border-gray-100 rounded-lg px-2 py-3">
+            <svg class="w-5 h-5 text-navy mx-auto mb-1" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <p class="font-sub font-bold text-navy text-xs leading-tight">Close in 7 Days</p>
+          </div>
+        </div>
+
+      </div>
+      <!-- ═══ END RIGHT COLUMN ═══ -->
 
     </div>
   </div>
-</section>
+</div>
 
-<!-- SITUATIONS -->
-<section class="bg-gray-50 py-20 sm:py-28 border-b border-gray-100">
-  <div class="max-w-5xl mx-auto px-5 sm:px-8">
-    <div class="max-w-3xl mx-auto">
-      <div class="text-center mb-10">
-        <p class="font-sub font-bold text-xs text-orange uppercase tracking-widest mb-3">See How We Can Help</p>
-        <h2 class="font-display font-bold text-navy uppercase text-3xl sm:text-4xl leading-tight">Are You Currently Facing<br>Any of These Situations?</h2>
-      </div>
-
-      <div class="grid sm:grid-cols-2 gap-3 mb-10">
-        <div class="flex items-start gap-3 bg-white border border-gray-100 rounded-lg p-4 lift">
-          <svg class="w-5 h-5 text-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
-          <p class="font-body text-grey text-sm leading-relaxed">Are You In Foreclosure or Are About To Be?</p>
-        </div>
-        <div class="flex items-start gap-3 bg-white border border-gray-100 rounded-lg p-4 lift">
-          <svg class="w-5 h-5 text-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
-          <p class="font-body text-grey text-sm leading-relaxed">Do You Own Unwanted Rental Property?</p>
-        </div>
-        <div class="flex items-start gap-3 bg-white border border-gray-100 rounded-lg p-4 lift">
-          <svg class="w-5 h-5 text-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
-          <p class="font-body text-grey text-sm leading-relaxed">Do You Have Frustrating Tenants (Or Family Members) That You Can't Get Rid Of?</p>
-        </div>
-        <div class="flex items-start gap-3 bg-white border border-gray-100 rounded-lg p-4 lift">
-          <svg class="w-5 h-5 text-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
-          <p class="font-body text-grey text-sm leading-relaxed">Do You Own A Vacant Property?</p>
-        </div>
-        <div class="flex items-start gap-3 bg-white border border-gray-100 rounded-lg p-4 lift">
-          <svg class="w-5 h-5 text-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
-          <p class="font-body text-grey text-sm leading-relaxed">Did You Inherit An Unwanted Property?</p>
-        </div>
-        <div class="flex items-start gap-3 bg-white border border-gray-100 rounded-lg p-4 lift">
-          <svg class="w-5 h-5 text-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
-          <p class="font-body text-grey text-sm leading-relaxed">Do You Need To Relocate Quickly And Need To Sell Your Current House Fast?</p>
-        </div>
-        <div class="flex items-start gap-3 bg-white border border-gray-100 rounded-lg p-4 lift">
-          <svg class="w-5 h-5 text-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
-          <p class="font-body text-grey text-sm leading-relaxed">Do You Want To Avoid Paying Realtor Commissions?</p>
-        </div>
-        <div class="flex items-start gap-3 bg-white border border-gray-100 rounded-lg p-4 lift">
-          <svg class="w-5 h-5 text-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
-          <p class="font-body text-grey text-sm leading-relaxed">Are You Going Through A Divorce?</p>
-        </div>
-        <div class="flex items-start gap-3 bg-white border border-gray-100 rounded-lg p-4 lift">
-          <svg class="w-5 h-5 text-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
-          <p class="font-body text-grey text-sm leading-relaxed">Do You Have Little Or No Equity And Need To Sell?</p>
-        </div>
-        <div class="flex items-start gap-3 bg-white border border-gray-100 rounded-lg p-4 lift">
-          <svg class="w-5 h-5 text-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
-          <p class="font-body text-grey text-sm leading-relaxed">Do You Own A "Fixer Upper" That You Don't Want To Fix Up Or Don't Have Time To Fix Up?</p>
-        </div>
-      </div>
-
-      <!-- Body copy -->
-      <div class="bg-white border border-gray-100 rounded-xl p-8">
-        <p class="font-sub font-bold text-navy text-base mb-4">If you answered "yes" to one or more of these questions, we can help!</p>
-        <p class="font-body text-grey text-sm leading-relaxed mb-4">We are specialists in solving real estate problems… especially ones that pose a financial burden on you, the homeowner. We can solve almost any financial problem that your property is causing.</p>
-        <p class="font-body text-grey text-sm leading-relaxed mb-4">We want to help you take control of your situation, end the hassles, and get back to living the life you want to live. And you deserve to know all of the options available to you right now. Simply fill out the short form above or give us a call, and our experts will help you (with no pushy sales techniques or obligation)&hellip; we'll help you make sense of all of this confusion and we'll present you with the options that can potentially change your life and help you get back to normal.</p>
-        <p class="font-body text-grey text-sm leading-relaxed mb-6">Send us information in the form above and we'll get back to you promptly (usually within 24 hours) — we'll give you a call and show you the options to help solve your current situation.</p>
-        <div class="flex flex-wrap gap-x-8 gap-y-3 pt-5 border-t border-gray-100">
-          <div class="flex items-center gap-2 font-sub font-bold text-navy text-sm">
-            <svg class="w-4 h-4 text-orange flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
-            100% Free to You
-          </div>
-          <div class="flex items-center gap-2 font-sub font-bold text-navy text-sm">
-            <svg class="w-4 h-4 text-orange flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
-            100% No Hassle
-          </div>
-          <div class="flex items-center gap-2 font-sub font-bold text-navy text-sm">
-            <svg class="w-4 h-4 text-orange flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
-            No Obligation
-          </div>
-          <div class="flex items-center gap-2 font-sub font-bold text-navy text-sm">
-            <svg class="w-4 h-4 text-orange flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
-            No Commitment
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- TESTIMONIALS -->
-<section id="testimonials" class="bg-white py-20 sm:py-28 border-b border-gray-100">
-  <div class="max-w-5xl mx-auto px-5 sm:px-8">
-    <div class="text-center mb-12">
-      <p class="font-sub font-bold text-xs text-orange uppercase tracking-widest mb-3">Client Stories</p>
-      <h2 class="font-display font-bold text-navy uppercase text-3xl sm:text-4xl leading-tight">What Our Clients Say</h2>
-      <p class="font-body text-grey mt-3 text-sm">Real experiences from Arkansas homeowners we've helped.</p>
-    </div>
-    <div class="grid md:grid-cols-3 gap-6">
-
-      <div class="bg-white border border-gray-100 rounded-xl p-7">
-        <div class="flex gap-0.5 mb-4">
-          <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-          <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-          <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-          <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-          <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-        </div>
-        <p class="font-body text-grey text-sm leading-relaxed mb-5">"I received a foreclosure notice and panicked. Arkansas Property Buyers called me back within hours, explained my options clearly, and we closed two weeks before my auction date. They literally saved my credit."</p>
-        <div class="flex items-center gap-3">
-          <div class="w-8 h-8 bg-navy rounded-full flex items-center justify-center font-sub font-bold text-white text-xs">TW</div>
-          <div>
-            <p class="font-sub font-bold text-navy text-sm">Testimonial Placeholder</p>
-            <p class="font-body text-xs text-grey">Little Rock, AR</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="bg-white border border-gray-100 rounded-xl p-7">
-        <div class="flex gap-0.5 mb-4">
-          <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-          <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-          <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-          <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-          <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-        </div>
-        <p class="font-body text-grey text-sm leading-relaxed mb-5">"Going through a divorce and trying to sell a house at the same time was overwhelming. These guys made it so simple. No showings, no repairs, just a fair offer and a closing date that worked for both of us."</p>
-        <div class="flex items-center gap-3">
-          <div class="w-8 h-8 bg-navy rounded-full flex items-center justify-center font-sub font-bold text-white text-xs">TW</div>
-          <div>
-            <p class="font-sub font-bold text-navy text-sm">Testimonial Placeholder</p>
-            <p class="font-body text-xs text-grey">North Little Rock, AR</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="bg-white border border-gray-100 rounded-xl p-7">
-        <div class="flex gap-0.5 mb-4">
-          <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-          <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-          <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-          <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-          <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-        </div>
-        <p class="font-body text-grey text-sm leading-relaxed mb-5">"I'd been sitting on a vacant rental for two years with bad tenants who wouldn't leave. Arkansas Property Buyers bought it as-is, handled everything, and I finally had peace of mind. Best decision I made all year."</p>
-        <div class="flex items-center gap-3">
-          <div class="w-8 h-8 bg-navy rounded-full flex items-center justify-center font-sub font-bold text-white text-xs">TW</div>
-          <div>
-            <p class="font-sub font-bold text-navy text-sm">Testimonial Placeholder</p>
-            <p class="font-body text-xs text-grey">Russellville, AR</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- FAQ -->
-<section class="bg-gray-50 py-20 sm:py-28 border-b border-gray-100">
-  <div class="max-w-3xl mx-auto px-5 sm:px-8">
-    <div class="text-center mb-12">
-      <p class="font-sub font-bold text-xs text-orange uppercase tracking-widest mb-3">Common Questions</p>
-      <h2 class="font-display font-bold text-navy uppercase text-3xl sm:text-4xl leading-tight">Frequently Asked Questions</h2>
-      <p class="font-body text-grey mt-3 text-sm">FAQ placeholder — swap in your own questions and answers.</p>
-    </div>
-    <div class="flex flex-col gap-3">
-
-      <details class="bg-white border border-gray-100 rounded-xl overflow-hidden group">
-        <summary class="flex items-center justify-between px-6 py-5 cursor-pointer list-none">
-          <span class="font-sub font-bold text-navy text-sm">How quickly can you close on my property?</span>
-          <svg class="w-4 h-4 text-orange flex-shrink-0 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
-        </summary>
-        <div class="px-6 pb-5 border-t border-gray-100 pt-4">
-          <p class="font-body text-grey text-sm leading-relaxed">We can close in as few as 7 days, depending on the situation. If you have an upcoming auction date, let us know right away and we'll do everything we can to move quickly and protect your equity.</p>
-        </div>
-      </details>
-
-      <details class="bg-white border border-gray-100 rounded-xl overflow-hidden group">
-        <summary class="flex items-center justify-between px-6 py-5 cursor-pointer list-none">
-          <span class="font-sub font-bold text-navy text-sm">Do I need to make repairs before selling?</span>
-          <svg class="w-4 h-4 text-orange flex-shrink-0 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
-        </summary>
-        <div class="px-6 pb-5 border-t border-gray-100 pt-4">
-          <p class="font-body text-grey text-sm leading-relaxed">Absolutely not. We buy properties in any condition — roof damage, foundation problems, outdated systems, you name it. You don't need to clean out the property either. Sell it exactly as it sits.</p>
-        </div>
-      </details>
-
-      <details class="bg-white border border-gray-100 rounded-xl overflow-hidden group">
-        <summary class="flex items-center justify-between px-6 py-5 cursor-pointer list-none">
-          <span class="font-sub font-bold text-navy text-sm">Are there any fees or commissions?</span>
-          <svg class="w-4 h-4 text-orange flex-shrink-0 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
-        </summary>
-        <div class="px-6 pb-5 border-t border-gray-100 pt-4">
-          <p class="font-body text-grey text-sm leading-relaxed">None whatsoever. We charge no agent commissions, no service fees, and no hidden costs. We even cover closing costs. The offer we make is the amount you walk away with — period.</p>
-        </div>
-      </details>
-
-      <details class="bg-white border border-gray-100 rounded-xl overflow-hidden group">
-        <summary class="flex items-center justify-between px-6 py-5 cursor-pointer list-none">
-          <span class="font-sub font-bold text-navy text-sm">What if I owe more than the property is worth?</span>
-          <svg class="w-4 h-4 text-orange flex-shrink-0 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
-        </summary>
-        <div class="px-6 pb-5 border-t border-gray-100 pt-4">
-          <p class="font-body text-grey text-sm leading-relaxed">This is actually a situation we deal with often. We're experienced in short sales and can work with your lender on your behalf. Give us a call and we'll walk you through the options available in your specific situation.</p>
-        </div>
-      </details>
-
-      <details class="bg-white border border-gray-100 rounded-xl overflow-hidden group">
-        <summary class="flex items-center justify-between px-6 py-5 cursor-pointer list-none">
-          <span class="font-sub font-bold text-navy text-sm">Is there any obligation when I fill out the form?</span>
-          <svg class="w-4 h-4 text-orange flex-shrink-0 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
-        </summary>
-        <div class="px-6 pb-5 border-t border-gray-100 pt-4">
-          <p class="font-body text-grey text-sm leading-relaxed">Zero obligation. Filling out the form simply lets us learn about your situation so we can present you with options. There's no pressure, no commitment, and you can walk away at any point. We're here to help, not to sell you something.</p>
-        </div>
-      </details>
-
-    </div>
-  </div>
-</section>
-
-<!-- FINAL CTA -->
-<section class="bg-navy py-20 sm:py-28">
+<!-- FINAL CTA BANNER -->
+<section class="bg-navy py-16 sm:py-20">
   <div class="max-w-2xl mx-auto px-5 sm:px-8 text-center">
     <p class="font-script text-orange text-2xl mb-2">Don't wait — let's talk.</p>
-    <h2 class="font-display font-bold text-white uppercase text-3xl sm:text-4xl leading-tight mb-4">Ready to Find Out What Your Property Qualifies For?</h2>
-    <p class="font-body text-white/60 text-base mb-10 max-w-md mx-auto">100% free. No hassle. No obligation. Fill out the form or call us directly — we'll present your options and let you decide.</p>
+    <h2 class="font-display font-bold text-white uppercase text-3xl sm:text-4xl leading-tight mb-4">Time Is Your Most Valuable Asset Right Now.</h2>
+    <p class="font-body text-white/60 text-base mb-8 max-w-md mx-auto">The sooner you reach out, the more options you have. It costs nothing and takes less than a minute.</p>
     <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
       <a href="#lead-form" class="bg-orange hover:bg-gold text-white font-sub font-bold text-xs px-8 py-3.5 rounded transition-colors uppercase tracking-wider">Get My Cash Offer</a>
       <a href="tel:+15015551234" class="font-sub font-bold text-sm text-orange hover:text-gold transition-colors flex items-center gap-2">
@@ -411,11 +472,11 @@ import Layout from '../layouts/Layout.astro';
       <div>
         <h4 class="font-sub font-bold text-white text-xs uppercase tracking-wider mb-4">Quick Links</h4>
         <nav class="flex flex-col gap-2.5 font-body text-sm text-white/50">
-          <a href="/"              class="hover:text-white transition-colors">Home</a>
-          <a href="/#how-it-works" class="hover:text-white transition-colors">How It Works</a>
-          <a href="/#about"        class="hover:text-white transition-colors">About Us</a>
-          <a href="/#testimonials" class="hover:text-white transition-colors">Reviews</a>
-          <a href="#lead-form"     class="hover:text-white transition-colors">Get an Offer</a>
+          <a href="/"               class="hover:text-white transition-colors">Home</a>
+          <a href="/#how-it-works"  class="hover:text-white transition-colors">How It Works</a>
+          <a href="/#about"         class="hover:text-white transition-colors">About Us</a>
+          <a href="/#testimonials"  class="hover:text-white transition-colors">Reviews</a>
+          <a href="#lead-form"      class="hover:text-white transition-colors">Get an Offer</a>
         </nav>
       </div>
       <div>
@@ -430,6 +491,12 @@ import Layout from '../layouts/Layout.astro';
     <div class="border-t border-white/10 pt-6 text-center font-body text-xs text-white/30">&copy; 2026 Arkansas Property Buyers. All rights reserved.</div>
   </div>
 </footer>
+
+<!-- Mobile sticky CTA bar -->
+<div class="lg:hidden fixed bottom-0 left-0 right-0 z-40 bg-white border-t border-gray-200 px-4 py-3 flex gap-3">
+  <a href="#lead-form" class="flex-1 text-center bg-orange hover:bg-gold text-white font-sub font-bold text-xs py-3 rounded transition-colors uppercase tracking-wider">Get My Cash Offer</a>
+  <a href="tel:+15015551234" class="flex-1 text-center bg-navy hover:bg-orange text-white font-sub font-bold text-xs py-3 rounded transition-colors uppercase tracking-wider">Call Now</a>
+</div>
 
 </Layout>
 
