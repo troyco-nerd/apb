@@ -17,7 +17,7 @@
 /* You can paste all the custom CSS from your original HTML file's <style> tag below this line */
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
-body { font-family: 'Lato', sans-serif; color: #333; background: #fff; -webkit-font-smoothing: antialiased; }
+body { font-size: 17px; font-family: 'Lato', sans-serif; color: #333; background: #fff; -webkit-font-smoothing: antialiased; }
 .situation-card { transition: border-color .15s, background .15s; cursor: pointer; }
 .situation-card:hover { border-color: #F06A3F; background: #fdf8f6; }
 .situation-card.selected { border-color: #F06A3F; background: #fdf8f6; box-shadow: 0 0 0 2px #F06A3F; }
