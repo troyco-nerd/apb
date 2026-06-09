@@ -360,13 +360,12 @@ import Layout from '../layouts/Layout.astro';
           </div>
 
           <!-- STEP 2: Address -->
-          <!-- Salesforce Web-to-Lead: update action URL, oid value, and retURL before going live -->
           <div id="step2" class="px-6 pb-5 pt-3 hidden">
             <p class="font-sub font-bold text-navy text-xs uppercase tracking-wider mb-4">Tell us about the property</p>
-            <form id="lead-capture-form" action="#" method="POST">
-              <input type="hidden" name="oid" value="YOUR_SALESFORCE_OID">
-              <input type="hidden" name="retURL" value="/thank-you">
-              <input type="hidden" id="sf-name" name="first_name" value="">
+            <form id="lead-capture-form" name="avoid-foreclosure-lead" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+              <input type="hidden" name="form-name" value="avoid-foreclosure-lead">
+              <input type="hidden" name="bot-field">
+              <input type="hidden" id="sf-name" name="name" value="">
               <input type="hidden" id="sf-phone" name="phone" value="">
               <div class="flex flex-col gap-4">
                 <div>
