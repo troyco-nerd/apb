@@ -360,18 +360,17 @@ import Layout from '../layouts/Layout.astro';
           </div>
 
           <!-- STEP 2: Address -->
-          <!-- Salesforce Web-to-Lead: update action URL, oid value, and retURL before going live -->
+          <!-- GoHighLevel: In GHL go to Automations → New Workflow → Webhook trigger.
+               Copy the webhook URL it gives you and paste it into the action attribute below. -->
           <div id="step2" class="px-6 pb-5 pt-3 hidden">
             <p class="font-sub font-bold text-navy text-xs uppercase tracking-wider mb-4">Tell us about the property</p>
-            <form id="lead-capture-form" action="#" method="POST">
-              <input type="hidden" name="oid" value="YOUR_SALESFORCE_OID">
-              <input type="hidden" name="retURL" value="/thank-you">
-              <input type="hidden" id="sf-name" name="first_name" value="">
+            <form id="lead-capture-form" action="YOUR_GHL_WEBHOOK_URL" method="POST">
+              <input type="hidden" id="sf-name" name="firstName" value="">
               <input type="hidden" id="sf-phone" name="phone" value="">
               <div class="flex flex-col gap-4">
                 <div>
                   <label for="f-street" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Street Address</label>
-                  <input id="f-street" type="text" name="street" placeholder="123 Main St" class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+                  <input id="f-street" type="text" name="address1" placeholder="123 Main St" class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
                 </div>
                 <div class="grid grid-cols-2 gap-3">
                   <div>
@@ -380,7 +379,7 @@ import Layout from '../layouts/Layout.astro';
                   </div>
                   <div>
                     <label for="f-zip" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Zip Code</label>
-                    <input id="f-zip" type="text" name="zip" placeholder="72201" class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+                    <input id="f-zip" type="text" name="postalCode" placeholder="72201" class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
                   </div>
                 </div>
                 <div class="flex gap-2 mt-1">
