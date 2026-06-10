@@ -1,0 +1,565 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout>
+
+<!-- HEADER -->
+<header class="bg-white border-b border-gray-100 sticky top-0 z-50">
+  <div class="max-w-5xl mx-auto px-5 sm:px-8">
+    <div class="flex items-center justify-between h-16">
+      <a href="/" class="flex items-center gap-2.5 flex-shrink-0">
+        <img src="/images/apb icon.png" alt="Arkansas Property Buyers" class="h-10 w-auto object-contain">
+        <span class="font-sub font-bold text-navy text-sm tracking-tight">Arkansas Property Buyers</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-7">
+        <a href="/#how-it-works" class="font-sub font-bold text-xs text-grey uppercase tracking-wider hover:text-navy transition-colors">How It Works</a>
+        <a href="/about"         class="font-sub font-bold text-xs text-navy uppercase tracking-wider hover:text-orange transition-colors">About Us</a>
+        <a href="/#testimonials" class="font-sub font-bold text-xs text-grey uppercase tracking-wider hover:text-navy transition-colors">Reviews</a>
+        <a href="tel:+15015047109" class="font-sub font-bold text-sm text-orange flex items-center gap-1.5 hover:text-gold transition-colors">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          (501) 504-7109
+        </a>
+        <a href="/contact" class="bg-orange hover:bg-gold text-white font-sub font-bold text-xs px-4 py-2 rounded transition-colors uppercase tracking-wider">Contact Us</a>
+      </nav>
+      <button onclick="document.getElementById('mobNav').classList.toggle('open')" class="md:hidden p-2 text-grey">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+    <div id="mobNav" class="mob-nav md:hidden border-t border-gray-100">
+      <nav class="flex flex-col py-4 gap-1">
+        <a href="/#how-it-works" class="py-2 px-1 font-sub font-bold text-xs text-grey uppercase tracking-wider hover:text-navy">How It Works</a>
+        <a href="/about"         class="py-2 px-1 font-sub font-bold text-xs text-navy uppercase tracking-wider hover:text-orange">About Us</a>
+        <a href="/#testimonials" class="py-2 px-1 font-sub font-bold text-xs text-grey uppercase tracking-wider hover:text-navy">Reviews</a>
+        <a href="tel:+15015047109" class="py-2 px-1 font-sub font-bold text-sm text-orange">(501) 504-7109</a>
+        <a href="/contact" class="mt-2 bg-orange text-white font-sub font-bold text-xs px-4 py-2.5 rounded text-center uppercase tracking-wider">Contact Us</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="bg-navy pt-16 pb-14 sm:pt-22 sm:pb-18">
+  <div class="max-w-4xl mx-auto px-5 sm:px-8 text-center">
+    <p class="font-sub font-bold text-xs text-orange uppercase tracking-widest mb-4">Family-Owned &amp; Serving Arkansas for Over 30 Years</p>
+    <h1 class="font-display font-bold text-white uppercase leading-tight text-3xl sm:text-5xl mb-6">We're Not Just Here To Buy Houses.<br class="hidden sm:block"> We're Here To Help Arkansas Families<br class="hidden sm:block"> Navigate Difficult Real Estate Decisions.</h1>
+    <p class="font-script text-orange text-2xl mb-7">Built on trust, driven by compassion.</p>
+    <p class="font-body text-white/70 text-base leading-relaxed max-w-2xl mx-auto">We're a family-owned company based in Little Rock. For over 30 years we've worked with homeowners across Arkansas who are facing some of the hardest moments of their lives – and we've always put their wellbeing first.</p>
+  </div>
+</section>
+
+<!-- TRUST STATEMENT -->
+<section class="bg-white py-14 sm:py-20">
+  <div class="max-w-4xl mx-auto px-5 sm:px-8">
+    <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+      <div>
+        <p class="font-sub font-bold text-xs text-orange uppercase tracking-widest mb-3">Our Approach</p>
+        <h2 class="font-display font-bold text-navy uppercase text-2xl sm:text-3xl leading-tight mb-6">It Starts With Understanding Your Situation</h2>
+        <p class="font-body text-grey text-base leading-relaxed mb-5">Most homeowners who reach out to us aren't just looking to sell a house – they're dealing with a life transition. A loved one in a memory care facility. A probate estate that's become overwhelming. A foreclosure that crept up faster than expected.</p>
+        <p class="font-body text-grey text-base leading-relaxed mb-5">We don't start by making an offer. We start by listening. Once we understand what's going on, we walk through every option available – not just ours. If selling to us isn't the right answer for your family, we'll tell you.</p>
+        <p class="font-body text-grey text-base leading-relaxed">That's not a sales pitch. That's just how we've always done it.</p>
+      </div>
+      <div class="bg-gray-50 border border-gray-100 rounded-2xl p-8">
+        <p class="font-sub font-bold text-xs text-orange uppercase tracking-wider mb-5">What Sets Us Apart</p>
+        <ul class="flex flex-col gap-4">
+          <li class="flex items-start gap-3">
+            <div class="w-5 h-5 bg-orange rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+              <svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+            </div>
+            <p class="font-body text-grey text-sm leading-relaxed"><span class="font-bold text-navy">30+ years</span> serving Arkansas homeowners</p>
+          </li>
+          <li class="flex items-start gap-3">
+            <div class="w-5 h-5 bg-orange rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+              <svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+            </div>
+            <p class="font-body text-grey text-sm leading-relaxed"><span class="font-bold text-navy">No pressure</span> – we present options, you decide</p>
+          </li>
+          <li class="flex items-start gap-3">
+            <div class="w-5 h-5 bg-orange rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+              <svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+            </div>
+            <p class="font-body text-grey text-sm leading-relaxed"><span class="font-bold text-navy">Full-service help</span> with cleanout, estate sales, and referrals</p>
+          </li>
+          <li class="flex items-start gap-3">
+            <div class="w-5 h-5 bg-orange rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+              <svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+            </div>
+            <p class="font-body text-grey text-sm leading-relaxed"><span class="font-bold text-navy">Honest communication</span> every step of the way</p>
+          </li>
+          <li class="flex items-start gap-3">
+            <div class="w-5 h-5 bg-orange rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+              <svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+            </div>
+            <p class="font-body text-grey text-sm leading-relaxed"><span class="font-bold text-navy">Family-owned</span> – you work with the owners, not a call center</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OUR STORY -->
+<section class="bg-gray-50 border-t border-gray-100 py-14 sm:py-20">
+  <div class="max-w-4xl mx-auto px-5 sm:px-8">
+    <div class="text-center mb-12">
+      <p class="font-sub font-bold text-xs text-orange uppercase tracking-widest mb-3">How We Got Here</p>
+      <h2 class="font-display font-bold text-navy uppercase text-2xl sm:text-3xl leading-tight">Built On Relationships, Experience, And Service</h2>
+    </div>
+    <div class="max-w-3xl mx-auto">
+      <p class="font-body text-grey text-base leading-relaxed mb-5">Arkansas Property Buyers was built on a simple foundation: treat people the way you'd want your own family treated. Randy Thomason launched the company after decades of experience in entrepreneurship, real estate, and community involvement across Arkansas. He saw too many families get lost in complicated transactions during some of the hardest moments of their lives – and set out to create a better option.</p>
+      <p class="font-body text-grey text-base leading-relaxed mb-5">Over the years, that mission grew into a team and a network. Randy brought in his son Anthony, who combines an entrepreneurial mindset with hands-on contracting experience, giving APB the ability to evaluate and help with properties in virtually any condition. Bobby Holts joined the team to help expand APB's reach and continue the family's commitment to honest, relationship-first service.</p>
+      <p class="font-body text-grey text-base leading-relaxed">Today, APB works with families across all of Arkansas – from the Arkansas River Valley to the Delta – helping them navigate foreclosure, probate, senior living transitions, and as-is sales. We've built long-term relationships with attorneys, estate sale companies, assisted living placement specialists, and other professionals so we can offer families a true resource, not just a cash offer.</p>
+    </div>
+  </div>
+</section>
+
+<!-- OUR VALUES -->
+<section class="bg-white border-t border-gray-100 py-14 sm:py-20">
+  <div class="max-w-5xl mx-auto px-5 sm:px-8">
+    <div class="text-center mb-12">
+      <p class="font-sub font-bold text-xs text-orange uppercase tracking-widest mb-3">What We Believe</p>
+      <h2 class="font-display font-bold text-navy uppercase text-2xl sm:text-3xl leading-tight">Our Core Values</h2>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+
+      <div class="bg-navy rounded-xl p-6">
+        <div class="w-10 h-10 bg-orange rounded-lg flex items-center justify-center mb-4">
+          <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+        </div>
+        <h3 class="font-sub font-bold text-white text-sm uppercase tracking-wide mb-2">Honesty Above All</h3>
+        <p class="font-body text-white/60 text-sm leading-relaxed">We'll never steer you toward a decision that isn't right for you. If a traditional sale is your best option, we'll say so.</p>
+      </div>
+
+      <div class="bg-navy rounded-xl p-6">
+        <div class="w-10 h-10 bg-orange rounded-lg flex items-center justify-center mb-4">
+          <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+        </div>
+        <h3 class="font-sub font-bold text-white text-sm uppercase tracking-wide mb-2">Compassion First</h3>
+        <p class="font-body text-white/60 text-sm leading-relaxed">The people who call us are going through something hard. We meet them where they are – with patience and genuine care.</p>
+      </div>
+
+      <div class="bg-navy rounded-xl p-6">
+        <div class="w-10 h-10 bg-orange rounded-lg flex items-center justify-center mb-4">
+          <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"/></svg>
+        </div>
+        <h3 class="font-sub font-bold text-white text-sm uppercase tracking-wide mb-2">No Pressure. Ever.</h3>
+        <p class="font-body text-white/60 text-sm leading-relaxed">We present your options clearly and let you make the call. There are no deadlines, no pushy tactics, and no hard closes.</p>
+      </div>
+
+      <div class="bg-navy rounded-xl p-6">
+        <div class="w-10 h-10 bg-orange rounded-lg flex items-center justify-center mb-4">
+          <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+        </div>
+        <h3 class="font-sub font-bold text-white text-sm uppercase tracking-wide mb-2">Win-Win Solutions</h3>
+        <p class="font-body text-white/60 text-sm leading-relaxed">The best transactions work for everyone. We structure deals to give families real relief, not just a check.</p>
+      </div>
+
+      <div class="bg-navy rounded-xl p-6">
+        <div class="w-10 h-10 bg-orange rounded-lg flex items-center justify-center mb-4">
+          <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
+        </div>
+        <h3 class="font-sub font-bold text-white text-sm uppercase tracking-wide mb-2">Long-Term Relationships</h3>
+        <p class="font-body text-white/60 text-sm leading-relaxed">We're not transactional. Families who work with us often refer their friends and neighbors – and that trust means everything to us.</p>
+      </div>
+
+      <div class="bg-orange rounded-xl p-6">
+        <div class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center mb-4">
+          <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+        </div>
+        <h3 class="font-sub font-bold text-white text-sm uppercase tracking-wide mb-2">Proudly Arkansas</h3>
+        <p class="font-body text-white/80 text-sm leading-relaxed">We live here. We raise our families here. Helping Arkansas communities thrive is personal to us.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- HOW WE WORK -->
+<section class="bg-gray-50 border-t border-gray-100 py-14 sm:py-20">
+  <div class="max-w-4xl mx-auto px-5 sm:px-8">
+    <div class="text-center mb-12">
+      <p class="font-sub font-bold text-xs text-orange uppercase tracking-widest mb-3">Our Process</p>
+      <h2 class="font-display font-bold text-navy uppercase text-2xl sm:text-3xl leading-tight">A Simple, Stress-Free Approach</h2>
+      <p class="font-body text-grey text-sm mt-3 max-w-xl mx-auto">No complicated timelines, no hidden fees, no surprises. Here's how we work.</p>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="text-center">
+        <div class="w-12 h-12 bg-orange rounded-full flex items-center justify-center mx-auto mb-4">
+          <span class="font-sub font-bold text-white text-base">1</span>
+        </div>
+        <h3 class="font-sub font-bold text-navy text-sm uppercase tracking-wide mb-2">Tell Us Your Story</h3>
+        <p class="font-body text-grey text-sm leading-relaxed">Call or fill out a short form. We listen first and ask questions to understand your full situation.</p>
+      </div>
+      <div class="text-center">
+        <div class="w-12 h-12 bg-orange rounded-full flex items-center justify-center mx-auto mb-4">
+          <span class="font-sub font-bold text-white text-base">2</span>
+        </div>
+        <h3 class="font-sub font-bold text-navy text-sm uppercase tracking-wide mb-2">We Review Your Options</h3>
+        <p class="font-body text-grey text-sm leading-relaxed">We walk through every path available – including options that don't involve selling to us.</p>
+      </div>
+      <div class="text-center">
+        <div class="w-12 h-12 bg-orange rounded-full flex items-center justify-center mx-auto mb-4">
+          <span class="font-sub font-bold text-white text-base">3</span>
+        </div>
+        <h3 class="font-sub font-bold text-navy text-sm uppercase tracking-wide mb-2">Get A Fair Offer</h3>
+        <p class="font-body text-grey text-sm leading-relaxed">If a cash sale makes sense, we'll present a no-obligation offer with a clear explanation of how we got there.</p>
+      </div>
+      <div class="text-center">
+        <div class="w-12 h-12 bg-orange rounded-full flex items-center justify-center mx-auto mb-4">
+          <span class="font-sub font-bold text-white text-base">4</span>
+        </div>
+        <h3 class="font-sub font-bold text-navy text-sm uppercase tracking-wide mb-2">Close On Your Timeline</h3>
+        <p class="font-body text-grey text-sm leading-relaxed">We close when you're ready. We handle paperwork, coordinate with the title company, and keep it simple.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT WE HELP WITH -->
+<section class="bg-white border-t border-gray-100 py-14 sm:py-20">
+  <div class="max-w-5xl mx-auto px-5 sm:px-8">
+    <div class="text-center mb-12">
+      <p class="font-sub font-bold text-xs text-orange uppercase tracking-widest mb-3">Our Services</p>
+      <h2 class="font-display font-bold text-navy uppercase text-2xl sm:text-3xl leading-tight">How We Help Arkansas Families</h2>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+
+      <a href="/avoid-foreclosure" class="lift situation-card group block border border-gray-100 rounded-xl p-6 hover:border-orange transition-colors">
+        <div class="w-10 h-10 bg-orange/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-orange transition-colors">
+          <svg class="w-5 h-5 text-orange group-hover:text-white transition-colors" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        </div>
+        <h3 class="font-sub font-bold text-navy text-sm uppercase tracking-wide mb-2">Avoid Foreclosure</h3>
+        <p class="font-body text-grey text-sm leading-relaxed">Behind on payments? We help you understand every option – from loan modification to a fast cash sale – before the bank takes action.</p>
+        <p class="font-sub font-bold text-orange text-xs uppercase tracking-wider mt-4">Learn More &rarr;</p>
+      </a>
+
+      <a href="/probate-help" class="lift situation-card group block border border-gray-100 rounded-xl p-6 hover:border-orange transition-colors">
+        <div class="w-10 h-10 bg-orange/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-orange transition-colors">
+          <svg class="w-5 h-5 text-orange group-hover:text-white transition-colors" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+        </div>
+        <h3 class="font-sub font-bold text-navy text-sm uppercase tracking-wide mb-2">Probate Assistance</h3>
+        <p class="font-body text-grey text-sm leading-relaxed">Inheriting a property can be complicated. We work alongside your attorney to simplify the process and help the estate settle faster.</p>
+        <p class="font-sub font-bold text-orange text-xs uppercase tracking-wider mt-4">Learn More &rarr;</p>
+      </a>
+
+      <a href="/senior-living-transition" class="lift situation-card group block border border-gray-100 rounded-xl p-6 hover:border-orange transition-colors">
+        <div class="w-10 h-10 bg-orange/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-orange transition-colors">
+          <svg class="w-5 h-5 text-orange group-hover:text-white transition-colors" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+        </div>
+        <h3 class="font-sub font-bold text-navy text-sm uppercase tracking-wide mb-2">Senior Living Transitions</h3>
+        <p class="font-body text-grey text-sm leading-relaxed">When a parent moves into assisted living, the family home becomes a responsibility. We handle the property so you can focus on your loved one.</p>
+        <p class="font-sub font-bold text-orange text-xs uppercase tracking-wider mt-4">Learn More &rarr;</p>
+      </a>
+
+      <a href="/sell-as-is" class="lift situation-card group block border border-gray-100 rounded-xl p-6 hover:border-orange transition-colors">
+        <div class="w-10 h-10 bg-orange/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-orange transition-colors">
+          <svg class="w-5 h-5 text-orange group-hover:text-white transition-colors" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z"/></svg>
+        </div>
+        <h3 class="font-sub font-bold text-navy text-sm uppercase tracking-wide mb-2">Sell As-Is</h3>
+        <p class="font-body text-grey text-sm leading-relaxed">Don't want to make repairs or deal with showings? We buy houses in any condition – no clean-out required, no contractor headaches.</p>
+        <p class="font-sub font-bold text-orange text-xs uppercase tracking-wider mt-4">Learn More &rarr;</p>
+      </a>
+
+      <div class="border border-gray-100 rounded-xl p-6 col-span-1 sm:col-span-2 lg:col-span-1">
+        <div class="w-10 h-10 bg-orange/10 rounded-lg flex items-center justify-center mb-4">
+          <svg class="w-5 h-5 text-orange" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        </div>
+        <h3 class="font-sub font-bold text-navy text-sm uppercase tracking-wide mb-2">Not Sure? Just Ask.</h3>
+        <p class="font-body text-grey text-sm leading-relaxed">Every situation is different. If you're not sure whether we can help, call us. We'll give you an honest answer and point you in the right direction – even if it's not us.</p>
+        <a href="/contact" class="inline-block mt-4 font-sub font-bold text-orange text-xs uppercase tracking-wider hover:text-gold transition-colors">Contact Us &rarr;</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SENIOR LIVING MISSION -->
+<section class="bg-navy border-t border-white/10 py-14 sm:py-20">
+  <div class="max-w-4xl mx-auto px-5 sm:px-8">
+    <div class="grid lg:grid-cols-[1fr_auto] gap-10 lg:gap-16 items-center">
+      <div>
+        <p class="font-sub font-bold text-xs text-orange uppercase tracking-widest mb-3">A Cause Close to Our Hearts</p>
+        <h2 class="font-display font-bold text-white uppercase text-2xl sm:text-3xl leading-tight mb-6">Supporting Arkansas Seniors &amp; Their Families</h2>
+        <p class="font-body text-white/70 text-base leading-relaxed mb-5">Helping families with senior living transitions is one of the most meaningful parts of what we do. When a parent or grandparent moves into memory care or assisted living, the family is often left managing a house that's full of memories – and full of logistics.</p>
+        <p class="font-body text-white/70 text-base leading-relaxed">We don't just buy the property. We help coordinate the entire process – from estate sale referrals and cleanout assistance to connecting families with trusted senior placement specialists. Our goal is to take as much off your plate as possible so you can focus on being present with your loved one during this transition.</p>
+      </div>
+      <div class="flex-shrink-0">
+        <a href="/senior-living-transition" class="inline-flex items-center gap-2 bg-orange hover:bg-gold text-white font-sub font-bold text-sm px-6 py-3.5 rounded transition-colors uppercase tracking-wider whitespace-nowrap">
+          Senior Living Help &rarr;
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROFESSIONAL NETWORK -->
+<section class="bg-white border-t border-gray-100 py-14 sm:py-20">
+  <div class="max-w-4xl mx-auto px-5 sm:px-8 text-center">
+    <p class="font-sub font-bold text-xs text-orange uppercase tracking-widest mb-3">More Than a Buyer</p>
+    <h2 class="font-display font-bold text-navy uppercase text-2xl sm:text-3xl leading-tight mb-6">A Trusted Network at Your Disposal</h2>
+    <p class="font-body text-grey text-base leading-relaxed max-w-2xl mx-auto mb-10">Over 30 years, we've built relationships with professionals across Arkansas who can help at every stage of a real estate transition. When you work with APB, you get access to that whole network – not just a cash offer.</p>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div class="bg-gray-50 border border-gray-100 rounded-xl p-5">
+        <div class="w-9 h-9 bg-orange/10 rounded-lg flex items-center justify-center mx-auto mb-3">
+          <svg class="w-4.5 h-4.5 text-orange" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+        </div>
+        <p class="font-sub font-bold text-navy text-xs uppercase tracking-wide">Probate Attorneys</p>
+      </div>
+      <div class="bg-gray-50 border border-gray-100 rounded-xl p-5">
+        <div class="w-9 h-9 bg-orange/10 rounded-lg flex items-center justify-center mx-auto mb-3">
+          <svg class="w-4.5 h-4.5 text-orange" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"/></svg>
+        </div>
+        <p class="font-sub font-bold text-navy text-xs uppercase tracking-wide">Estate Sale Companies</p>
+      </div>
+      <div class="bg-gray-50 border border-gray-100 rounded-xl p-5">
+        <div class="w-9 h-9 bg-orange/10 rounded-lg flex items-center justify-center mx-auto mb-3">
+          <svg class="w-4.5 h-4.5 text-orange" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+        </div>
+        <p class="font-sub font-bold text-navy text-xs uppercase tracking-wide">Senior Placement Specialists</p>
+      </div>
+      <div class="bg-gray-50 border border-gray-100 rounded-xl p-5">
+        <div class="w-9 h-9 bg-orange/10 rounded-lg flex items-center justify-center mx-auto mb-3">
+          <svg class="w-4.5 h-4.5 text-orange" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+        </div>
+        <p class="font-sub font-bold text-navy text-xs uppercase tracking-wide">Cleanout &amp; Contractors</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MEET THE TEAM -->
+<section id="team" class="bg-gray-50 border-t border-gray-100 py-14 sm:py-20">
+  <div class="max-w-5xl mx-auto px-5 sm:px-8">
+    <div class="text-center mb-12">
+      <p class="font-sub font-bold text-xs text-orange uppercase tracking-widest mb-3">The People Behind APB</p>
+      <h2 class="font-display font-bold text-navy uppercase text-2xl sm:text-3xl leading-tight">Meet The Team</h2>
+      <p class="font-body text-grey text-sm mt-3 max-w-xl mx-auto">When you call us, you talk to us. No call centers, no gatekeepers – just the people who will actually be handling your situation.</p>
+    </div>
+
+    <div class="grid sm:grid-cols-3 gap-8">
+
+      <!-- Randy Thomason -->
+      <div class="text-center">
+        <div class="w-40 h-40 mx-auto mb-5 rounded-full overflow-hidden bg-gray-200 border-4 border-white shadow-md">
+          <img src="/images/randy-thomason.jpg" alt="Randy Thomason" class="w-full h-full object-cover" onerror="this.style.display='none'; this.parentElement.classList.add('flex','items-center','justify-center')">
+          <span class="font-sub font-bold text-gray-400 text-sm hidden">Photo<br>Coming Soon</span>
+        </div>
+        <h3 class="font-display font-bold text-navy uppercase text-lg mb-1">Randy Thomason</h3>
+        <p class="font-sub font-bold text-orange text-xs uppercase tracking-wider mb-4">Founder &amp; Principal</p>
+        <p class="font-body text-grey text-sm leading-relaxed">With over 30 years of entrepreneurial experience in Arkansas, Randy built APB on a foundation of honest relationships and genuine service. His background spans real estate, business ownership, and deep community involvement across the state. Randy leads every client engagement with patience and a commitment to finding the right answer – not just the quick one.</p>
+      </div>
+
+      <!-- Anthony Thomason -->
+      <div class="text-center">
+        <div class="w-40 h-40 mx-auto mb-5 rounded-full overflow-hidden bg-gray-200 border-4 border-white shadow-md">
+          <img src="/images/anthony-thomason.jpg" alt="Anthony Thomason" class="w-full h-full object-cover" onerror="this.style.display='none'; this.parentElement.classList.add('flex','items-center','justify-center')">
+          <span class="font-sub font-bold text-gray-400 text-sm hidden">Photo<br>Coming Soon</span>
+        </div>
+        <h3 class="font-display font-bold text-navy uppercase text-lg mb-1">Anthony Thomason</h3>
+        <p class="font-sub font-bold text-orange text-xs uppercase tracking-wider mb-4">Partner</p>
+        <p class="font-body text-grey text-sm leading-relaxed">Anthony brings both an entrepreneurial mindset and hands-on contracting experience to the team. His ability to quickly assess a property's condition and understand what improvements are realistic – or unnecessary – helps APB make fair, informed offers that work for sellers. He handles much of APB's day-to-day operations and property evaluations.</p>
+      </div>
+
+      <!-- Bobby Holts -->
+      <div class="text-center">
+        <div class="w-40 h-40 mx-auto mb-5 rounded-full overflow-hidden bg-gray-200 border-4 border-white shadow-md">
+          <img src="/images/bobby-holts.jpg" alt="Bobby Holts" class="w-full h-full object-cover" onerror="this.style.display='none'; this.parentElement.classList.add('flex','items-center','justify-center')">
+          <span class="font-sub font-bold text-gray-400 text-sm hidden">Photo<br>Coming Soon</span>
+        </div>
+        <h3 class="font-display font-bold text-navy uppercase text-lg mb-1">Bobby Holts</h3>
+        <p class="font-sub font-bold text-orange text-xs uppercase tracking-wider mb-4">Team Member</p>
+        <p class="font-body text-grey text-sm leading-relaxed">Bobby joined the APB team to help extend the family's commitment to service across more of Arkansas. He brings dedication, local knowledge, and a genuine interest in helping families navigate difficult real estate situations. Bobby is a key part of APB's continued growth and community relationships.</p>
+      </div>
+
+    </div>
+
+    <div class="mt-10 text-center">
+      <p class="font-body text-grey text-sm italic max-w-xl mx-auto">Want to put faces to the names? Upload your team photos to <code class="bg-gray-100 px-1.5 py-0.5 rounded text-xs font-mono text-navy">public/images/</code> named <code class="bg-gray-100 px-1.5 py-0.5 rounded text-xs font-mono text-navy">randy-thomason.jpg</code>, <code class="bg-gray-100 px-1.5 py-0.5 rounded text-xs font-mono text-navy">anthony-thomason.jpg</code>, and <code class="bg-gray-100 px-1.5 py-0.5 rounded text-xs font-mono text-navy">bobby-holts.jpg</code>.</p>
+    </div>
+  </div>
+</section>
+
+<!-- WHY FAMILIES CHOOSE APB -->
+<section class="bg-white border-t border-gray-100 py-14 sm:py-20">
+  <div class="max-w-4xl mx-auto px-5 sm:px-8">
+    <div class="text-center mb-12">
+      <p class="font-sub font-bold text-xs text-orange uppercase tracking-widest mb-3">The APB Difference</p>
+      <h2 class="font-display font-bold text-navy uppercase text-2xl sm:text-3xl leading-tight">Why Arkansas Families Choose Us</h2>
+    </div>
+    <div class="grid sm:grid-cols-2 gap-5">
+      <div class="flex items-start gap-4 bg-gray-50 border border-gray-100 rounded-xl p-5">
+        <div class="w-8 h-8 bg-orange rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+          <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+        </div>
+        <div>
+          <h4 class="font-sub font-bold text-navy text-sm uppercase tracking-wide mb-1">We're Locals, Not Investors</h4>
+          <p class="font-body text-grey text-sm leading-relaxed">We're an Arkansas family working with Arkansas families. This isn't a national hedge fund – it's your neighbors.</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4 bg-gray-50 border border-gray-100 rounded-xl p-5">
+        <div class="w-8 h-8 bg-orange rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+          <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+        </div>
+        <div>
+          <h4 class="font-sub font-bold text-navy text-sm uppercase tracking-wide mb-1">No Repairs Required</h4>
+          <p class="font-body text-grey text-sm leading-relaxed">We buy houses exactly as they are – no cleaning, no fixing, no staging. Leave whatever you can't take with you.</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4 bg-gray-50 border border-gray-100 rounded-xl p-5">
+        <div class="w-8 h-8 bg-orange rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+          <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+        </div>
+        <div>
+          <h4 class="font-sub font-bold text-navy text-sm uppercase tracking-wide mb-1">Fast or Flexible – Your Call</h4>
+          <p class="font-body text-grey text-sm leading-relaxed">We can close in as little as two weeks, or on whatever timeline works for your family. You're in control.</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4 bg-gray-50 border border-gray-100 rounded-xl p-5">
+        <div class="w-8 h-8 bg-orange rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+          <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+        </div>
+        <div>
+          <h4 class="font-sub font-bold text-navy text-sm uppercase tracking-wide mb-1">No Commissions or Hidden Fees</h4>
+          <p class="font-body text-grey text-sm leading-relaxed">The offer we make is what you receive. No agent commissions, no closing cost surprises, no nickel-and-diming.</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4 bg-gray-50 border border-gray-100 rounded-xl p-5">
+        <div class="w-8 h-8 bg-orange rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+          <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+        </div>
+        <div>
+          <h4 class="font-sub font-bold text-navy text-sm uppercase tracking-wide mb-1">We Handle the Hard Parts</h4>
+          <p class="font-body text-grey text-sm leading-relaxed">From coordinating title to helping with cleanout and referrals, we take on the logistics so you don't have to.</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4 bg-gray-50 border border-gray-100 rounded-xl p-5">
+        <div class="w-8 h-8 bg-orange rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+          <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+        </div>
+        <div>
+          <h4 class="font-sub font-bold text-navy text-sm uppercase tracking-wide mb-1">30+ Years of Trust</h4>
+          <p class="font-body text-grey text-sm leading-relaxed">Our reputation is everything. We've built it one family at a time, and we protect it in every single transaction.</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4 bg-gray-50 border border-gray-100 rounded-xl p-5">
+        <div class="w-8 h-8 bg-orange rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+          <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+        </div>
+        <div>
+          <h4 class="font-sub font-bold text-navy text-sm uppercase tracking-wide mb-1">Confidential &amp; Private</h4>
+          <p class="font-body text-grey text-sm leading-relaxed">No yard signs, no MLS listings, no nosy neighbors. Your situation stays private from start to finish.</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4 bg-gray-50 border border-gray-100 rounded-xl p-5">
+        <div class="w-8 h-8 bg-orange rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+          <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+        </div>
+        <div>
+          <h4 class="font-sub font-bold text-navy text-sm uppercase tracking-wide mb-1">Honest If We Can't Help</h4>
+          <p class="font-body text-grey text-sm leading-relaxed">If selling to us isn't your best option, we'll tell you – and help point you toward someone who can do better by you.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="bg-gray-50 border-t border-gray-100 py-14 sm:py-20">
+  <div class="max-w-4xl mx-auto px-5 sm:px-8">
+    <div class="text-center mb-10">
+      <p class="font-sub font-bold text-xs text-orange uppercase tracking-widest mb-3">Don't Take Our Word For It</p>
+      <h2 class="font-display font-bold text-navy uppercase text-2xl sm:text-3xl leading-tight">What Arkansas Families Say</h2>
+    </div>
+    <div class="grid sm:grid-cols-2 gap-6">
+
+      <div class="bg-white border border-gray-100 rounded-xl p-7">
+        <div class="flex gap-1 mb-4">
+          <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+        </div>
+        <p class="font-body text-grey text-sm leading-relaxed italic mb-5">"Just wanted to let you know it was a great pleasure doing business with you. You made everything so easy for us. I will definitely let anyone who may be looking to sell know about you."</p>
+        <div class="border-t border-gray-100 pt-4">
+          <p class="font-sub font-bold text-navy text-xs uppercase tracking-wider">Allen C.</p>
+          <p class="font-body text-grey text-xs">Arkansas Homeowner</p>
+        </div>
+      </div>
+
+      <div class="bg-white border border-gray-100 rounded-xl p-7">
+        <div class="flex gap-1 mb-4">
+          <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+        </div>
+        <p class="font-body text-grey text-sm leading-relaxed italic mb-5">"We were approaching retirement and needed to sell our home in Little Rock, which was well-loved but needed some work. Randy and his team were the perfect partners for us. They were professional, courteous, and fair. The process was easy and stress-free."</p>
+        <div class="border-t border-gray-100 pt-4">
+          <p class="font-sub font-bold text-navy text-xs uppercase tracking-wider">Jaime M.</p>
+          <p class="font-body text-grey text-xs">Little Rock, Arkansas</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="bg-navy py-14 sm:py-20">
+  <div class="max-w-3xl mx-auto px-5 sm:px-8 text-center">
+    <p class="font-sub font-bold text-xs text-orange uppercase tracking-widest mb-4">No Obligation. No Pressure.</p>
+    <h2 class="font-display font-bold text-white uppercase text-2xl sm:text-4xl leading-tight mb-5">Let's Talk About Your Situation</h2>
+    <p class="font-script text-orange text-xl mb-7">There's no such thing as a problem we can't at least point you in the right direction on.</p>
+    <p class="font-body text-white/70 text-base leading-relaxed max-w-xl mx-auto mb-10">Whether you're in the middle of a crisis or just starting to explore your options, a conversation with our team costs you nothing. We'll listen, share what we know, and give you an honest take on the best path forward.</p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="tel:+15015047109" class="inline-flex items-center justify-center gap-2 bg-orange hover:bg-gold text-white font-sub font-bold text-sm px-8 py-4 rounded transition-colors uppercase tracking-wider">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        Call (501) 504-7109
+      </a>
+      <a href="/contact" class="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white border border-white/20 font-sub font-bold text-sm px-8 py-4 rounded transition-colors uppercase tracking-wider">
+        Send Us a Message &rarr;
+      </a>
+    </div>
+    <p class="font-body text-white/40 text-xs mt-6">Based in Little Rock &bull; Serving all of Arkansas &bull; (501) 504-7109</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-navy border-t border-white/10 py-12">
+  <div class="max-w-5xl mx-auto px-5 sm:px-8">
+    <div class="grid sm:grid-cols-3 gap-8 mb-10">
+      <div>
+        <div class="flex items-center gap-2 mb-3">
+          <div class="w-7 h-7 bg-orange rounded flex items-center justify-center">
+            <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <span class="font-sub font-bold text-white text-sm">Arkansas Property Buyers</span>
+        </div>
+        <p class="font-body text-white/50 text-sm leading-relaxed">A family-owned Arkansas company helping homeowners navigate life's real estate challenges for over 30 years.</p>
+      </div>
+      <div>
+        <h4 class="font-sub font-bold text-white text-xs uppercase tracking-wider mb-4">Quick Links</h4>
+        <nav class="flex flex-col gap-2.5 font-body text-sm text-white/50">
+          <a href="/"              class="hover:text-white transition-colors">Home</a>
+          <a href="/#how-it-works" class="hover:text-white transition-colors">How It Works</a>
+          <a href="/about"         class="hover:text-white transition-colors">About Us</a>
+          <a href="/#testimonials" class="hover:text-white transition-colors">Reviews</a>
+          <a href="/contact"       class="hover:text-white transition-colors">Contact Us</a>
+        </nav>
+      </div>
+      <div>
+        <h4 class="font-sub font-bold text-white text-xs uppercase tracking-wider mb-4">Contact</h4>
+        <div class="flex flex-col gap-2.5 font-body text-sm text-white/50">
+          <a href="tel:+15015047109" class="text-orange hover:text-gold transition-colors font-bold">(501) 504-7109</a>
+          <p>2024 Arkansas Valley Dr., Ste 407</p>
+          <p>Little Rock, Arkansas 72212</p>
+        </div>
+      </div>
+    </div>
+    <div class="border-t border-white/10 pt-6 text-center font-body text-xs text-white/30">&copy; 2026 Arkansas Property Buyers. All rights reserved.</div>
+  </div>
+</footer>
+
+</Layout>
