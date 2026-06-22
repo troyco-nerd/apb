@@ -2,7 +2,7 @@
 title: "Sell House Before or After Divorce in Arkansas?"
 description: "Decide whether to sell a house before or after divorce in Arkansas by weighing tax impacts and equitable distribution laws to protect your financial future."
 pubDate: 2026-03-09
-author: "etaccess"
+author: "Arkansas Property Buyers"
 featuredImage: "/images/blog/sell-house-before-or-after-divorce-in-arkansas/Model-house-beside-a-judges-gavel-and-scales-of-justice-symbolizing-real-estate-law-or-property-legal-matters.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/sell-house-before-or-after-divorce-in-arkansas/"
 draft: false

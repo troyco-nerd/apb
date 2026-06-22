@@ -2,7 +2,7 @@
 title: "How to Get Tenants Out of a Property in Arkansas"
 description: "Learn how to get tenants out of a property in Arkansas legally by following proper eviction procedures to protect your investment and avoid costly lawsuits."
 pubDate: 2026-03-09
-author: "etaccess"
+author: "Arkansas Property Buyers"
 featuredImage: "/images/blog/how-to-get-tenants-out-of-a-property-in-arkansas/image-80.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/how-to-get-tenants-out-of-a-property-in-arkansas/"
 draft: false

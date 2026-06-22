@@ -2,7 +2,7 @@
 title: "How Can I Save My Home From Foreclosure in Arkansas?"
 description: "Discover how to save your home from foreclosure in Arkansas by exploring legal pathways, state-specific rights, and strategies to stop the bank immediately."
 pubDate: 2026-03-09
-author: "etaccess"
+author: "Arkansas Property Buyers"
 featuredImage: "/images/blog/how-can-i-save-my-home-from-foreclosure-in-arkansas/Magnifying-glass-over-a-small-house-model-with-rolled-cash-and-paperwork-in-the-background-symbolizing-property-evaluation-or-real-estate-inspection.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/how-can-i-save-my-home-from-foreclosure-in-arkansas/"
 draft: false

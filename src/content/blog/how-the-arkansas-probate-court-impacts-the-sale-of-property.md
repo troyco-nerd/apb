@@ -2,7 +2,7 @@
 title: "How the Arkansas Probate Court Impacts the Sale of Property"
 description: "Learn how the Arkansas probate court impacts the sale of property to ensure you navigate legal hurdles, settle debts, and transfer real estate titles correctly."
 pubDate: 2026-03-09
-author: "etaccess"
+author: "Arkansas Property Buyers"
 featuredImage: "/images/blog/how-the-arkansas-probate-court-impacts-the-sale-of-property/Close-up-of-a-probate-court-document-with-a-judges-gavel-resting-on-it.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/how-the-arkansas-probate-court-impacts-the-sale-of-property/"
 draft: false

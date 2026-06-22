@@ -1,0 +1,127 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<Layout>
+
+<!-- HEADER -->
+<header class="bg-white border-b border-gray-100 sticky top-0 z-50">
+  <div class="max-w-5xl mx-auto px-5 sm:px-8">
+    <div class="flex items-center justify-between h-16">
+      <a href="/" class="flex items-center gap-2.5 flex-shrink-0">
+        <img src="/images/apb icon.png" alt="Arkansas Property Buyers" class="h-10 w-auto object-contain">
+        <span class="font-sub font-bold text-navy text-sm tracking-tight">Arkansas Property Buyers</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-7">
+        <a href="/#how-it-works" class="font-sub font-bold text-xs text-grey uppercase tracking-wider hover:text-navy transition-colors">How It Works</a>
+        <a href="/about"         class="font-sub font-bold text-xs text-grey uppercase tracking-wider hover:text-navy transition-colors">About Us</a>
+        <a href="/#testimonials" class="font-sub font-bold text-xs text-grey uppercase tracking-wider hover:text-navy transition-colors">Reviews</a>
+        <a href="tel:+15015047109" class="font-sub font-bold text-sm text-orange flex items-center gap-1.5 hover:text-gold transition-colors">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          (501) 504-7109
+        </a>
+        <a href="/contact" class="bg-orange hover:bg-gold text-white font-sub font-bold text-xs px-4 py-2 rounded transition-colors uppercase tracking-wider">Contact Us</a>
+      </nav>
+      <button onclick="document.getElementById('mobNav').classList.toggle('open')" class="md:hidden p-2 text-grey">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+    <div id="mobNav" class="mob-nav md:hidden border-t border-gray-100">
+      <nav class="flex flex-col py-4 gap-1">
+        <a href="/#how-it-works" class="py-2 px-1 font-sub font-bold text-xs text-grey uppercase tracking-wider hover:text-navy">How It Works</a>
+        <a href="/about"         class="py-2 px-1 font-sub font-bold text-xs text-grey uppercase tracking-wider hover:text-navy">About Us</a>
+        <a href="/#testimonials" class="py-2 px-1 font-sub font-bold text-xs text-grey uppercase tracking-wider hover:text-navy">Reviews</a>
+        <a href="tel:+15015047109" class="py-2 px-1 font-sub font-bold text-sm text-orange">(501) 504-7109</a>
+        <a href="/contact" class="mt-2 bg-orange text-white font-sub font-bold text-xs px-4 py-2.5 rounded text-center uppercase tracking-wider">Contact Us</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="bg-white border-b border-gray-100 pt-14 pb-12 sm:pt-18 sm:pb-16">
+  <div class="max-w-5xl mx-auto px-5 sm:px-8 text-center">
+    <p class="font-sub font-bold text-xs text-orange uppercase tracking-widest mb-3">Resources &amp; Insights</p>
+    <h1 class="font-display font-bold text-navy uppercase leading-tight text-4xl sm:text-5xl mb-4">Arkansas Property Buyers Blog</h1>
+    <p class="font-script text-orange text-xl mb-5">Helpful guidance for Arkansas homeowners.</p>
+    <p class="font-body text-grey text-base leading-relaxed max-w-xl mx-auto">Articles on selling your home, navigating foreclosure, probate, divorce, landlord situations, and more — written for Arkansas homeowners making important real estate decisions.</p>
+  </div>
+</section>
+
+<!-- POST GRID -->
+<section class="bg-white py-14 sm:py-20">
+  <div class="max-w-5xl mx-auto px-5 sm:px-8">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {posts.map((post) => (
+        <a href={`/blog/${post.id}/`} class="lift group block border border-gray-100 rounded-xl overflow-hidden hover:border-orange transition-colors">
+          {post.data.featuredImage ? (
+            <div class="aspect-[16/9] overflow-hidden bg-gray-100">
+              <img
+                src={post.data.featuredImage}
+                alt={post.data.title}
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                loading="lazy"
+              />
+            </div>
+          ) : (
+            <div class="aspect-[16/9] bg-gray-100 flex items-center justify-center">
+              <svg class="w-10 h-10 text-gray-300" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/></svg>
+            </div>
+          )}
+          <div class="p-5">
+            <p class="font-sub font-bold text-xs text-orange uppercase tracking-wider mb-2">
+              {post.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+            </p>
+            <h2 class="font-sub font-bold text-navy text-sm leading-snug mb-3 group-hover:text-orange transition-colors">{post.data.title}</h2>
+            {post.data.description && (
+              <p class="font-body text-grey text-xs leading-relaxed line-clamp-3">{post.data.description}</p>
+            )}
+            <p class="font-sub font-bold text-xs text-orange uppercase tracking-wider mt-4">Read More &rarr;</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-navy border-t border-white/10 py-12">
+  <div class="max-w-5xl mx-auto px-5 sm:px-8">
+    <div class="grid sm:grid-cols-3 gap-8 mb-10">
+      <div>
+        <div class="flex items-center gap-2 mb-3">
+          <div class="w-7 h-7 bg-orange rounded flex items-center justify-center">
+            <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <span class="font-sub font-bold text-white text-sm">Arkansas Property Buyers</span>
+        </div>
+        <p class="font-body text-white/50 text-sm leading-relaxed">A family-owned Arkansas company helping homeowners navigate life's real estate challenges for over 30 years.</p>
+      </div>
+      <div>
+        <h4 class="font-sub font-bold text-white text-xs uppercase tracking-wider mb-4">Quick Links</h4>
+        <nav class="flex flex-col gap-2.5 font-body text-sm text-white/50">
+          <a href="/"              class="hover:text-white transition-colors">Home</a>
+          <a href="/#how-it-works" class="hover:text-white transition-colors">How It Works</a>
+          <a href="/about"         class="hover:text-white transition-colors">About Us</a>
+          <a href="/blog"          class="hover:text-white transition-colors">Blog</a>
+          <a href="/contact"       class="hover:text-white transition-colors">Contact Us</a>
+        </nav>
+      </div>
+      <div>
+        <h4 class="font-sub font-bold text-white text-xs uppercase tracking-wider mb-4">Contact</h4>
+        <div class="flex flex-col gap-2.5 font-body text-sm text-white/50">
+          <a href="tel:+15015047109" class="text-orange hover:text-gold transition-colors font-bold">(501) 504-7109</a>
+          <p>2024 Arkansas Valley Dr., Ste 407</p>
+          <p>Little Rock, Arkansas 72212</p>
+        </div>
+      </div>
+    </div>
+    <div class="border-t border-white/10 pt-6 text-center font-body text-xs text-white/30">&copy; 2026 Arkansas Property Buyers. All rights reserved.</div>
+  </div>
+</footer>
+
+</Layout>

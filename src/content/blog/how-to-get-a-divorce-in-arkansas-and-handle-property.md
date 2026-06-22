@@ -2,7 +2,7 @@
 title: "How to Get a Divorce in Arkansas and Handle Property"
 description: "Learn how to get a divorce in Arkansas and handle property division by understanding residency rules, legal grounds, and equitable distribution laws."
 pubDate: 2026-03-09
-author: "etaccess"
+author: "Arkansas Property Buyers"
 featuredImage: "/images/blog/how-to-get-a-divorce-in-arkansas-and-handle-property/Paper-cutout-figures-dividing-a-house-beside-a-judges-gavel-symbolizing-a-divorce-or-property-dispute.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/how-to-get-a-divorce-in-arkansas-and-handle-property/"
 draft: false

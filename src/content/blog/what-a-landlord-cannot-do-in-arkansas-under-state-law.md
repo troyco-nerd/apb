@@ -2,7 +2,7 @@
 title: "What a Landlord Cannot Do in Arkansas Under State Law"
 description: "Understand what a landlord cannot do in Arkansas under state law to protect your rights against illegal evictions and security deposit violations."
 pubDate: 2026-03-09
-author: "etaccess"
+author: "Arkansas Property Buyers"
 featuredImage: "/images/blog/what-a-landlord-cannot-do-in-arkansas-under-state-law/Gavel-house-keys-and-a-book-titled-Landlord-Tenant-Law-on-a-wooden-desk-1.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/what-a-landlord-cannot-do-in-arkansas-under-state-law/"
 draft: false

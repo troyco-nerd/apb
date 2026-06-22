@@ -2,7 +2,7 @@
 title: "Divorce and Selling a House in Arkansas: What to Expect"
 description: "Navigate Arkansas equitable distribution laws to protect your equity when divorcing and selling a house; what to expect includes legal and financial steps."
 pubDate: 2026-03-09
-author: "etaccess"
+author: "Arkansas Property Buyers"
 featuredImage: "/images/blog/divorce-and-selling-a-house-in-arkansas-what-to-expect/Hands-placing-a-sold-sign-in-front-of-a-house-for-sale-in-Arkansas-1.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/divorce-and-selling-a-house-in-arkansas-what-to-expect/"
 draft: false

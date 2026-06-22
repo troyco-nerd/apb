@@ -2,7 +2,7 @@
 title: "Should I Accept a Cash Offer for My House in Arkansas?"
 description: "Decide if you should accept a cash offer for your house in Arkansas by weighing the benefits of speed and certainty against traditional selling goals."
 pubDate: 2026-03-09
-author: "etaccess"
+author: "Arkansas Property Buyers"
 featuredImage: "/images/blog/should-i-accept-a-cash-offer-for-my-house-in-arkansas/Two-people-shaking-hands-over-real-estate-documents-with-a-model-house-cash-and-a-calculator-on-the-desk.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/should-i-accept-a-cash-offer-for-my-house-in-arkansas/"
 draft: false

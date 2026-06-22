@@ -2,7 +2,7 @@
 title: "How to Ready Your House for Sale in Arkansas"
 description: "Learn how to ready your house for sale in Arkansas by mastering local market trends and buyer expectations to maximize your home value and sell quickly."
 pubDate: 2026-03-09
-author: "etaccess"
+author: "Arkansas Property Buyers"
 featuredImage: "/images/blog/how-to-ready-your-house-for-sale-in-arkansas/Untitled-design-2026-03-09T182112.107.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/how-to-ready-your-house-for-sale-in-arkansas/"
 draft: false

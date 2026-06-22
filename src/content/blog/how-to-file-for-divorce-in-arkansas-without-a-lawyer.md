@@ -2,7 +2,7 @@
 title: "How to File for Divorce in Arkansas Without a Lawyer"
 description: "Learn how to file for divorce in Arkansas without a lawyer by following our step-by-step guide to property division, child custody, and filing pro se forms."
 pubDate: 2026-03-09
-author: "etaccess"
+author: "Arkansas Property Buyers"
 featuredImage: "/images/blog/how-to-file-for-divorce-in-arkansas-without-a-lawyer/Wooden-gavel-wedding-rings-stacked-coins-and-paper-cutout-figures-of-a-family-holding-hands-symbolizing-divorce-and-family-law.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/how-to-file-for-divorce-in-arkansas-without-a-lawyer/"
 draft: false

@@ -2,7 +2,7 @@
 title: "Foreclosures in Arkansas: What Homeowners Should Know"
 description: "Understand the legal timeline and your rights regarding foreclosures in Arkansas that homeowners should know about to save their property from auction."
 pubDate: 2026-03-09
-author: "etaccess"
+author: "Arkansas Property Buyers"
 featuredImage: "/images/blog/foreclosures-in-arkansas-what-homeowners-should-know/gavel.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/foreclosures-in-arkansas-what-homeowners-should-know/"
 draft: false

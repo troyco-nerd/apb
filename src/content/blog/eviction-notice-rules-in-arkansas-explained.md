@@ -2,7 +2,7 @@
 title: "Eviction Notice Rules in Arkansas Explained"
 description: "Learn how to navigate the dual-track legal system as eviction notice rules in Arkansas are explained to help you avoid costly delays and legal penalties."
 pubDate: 2026-03-09
-author: "etaccess"
+author: "Arkansas Property Buyers"
 featuredImage: "/images/blog/eviction-notice-rules-in-arkansas-explained/Illustration-of-houses-surrounding-a-larger-house-labeled-Eviction-symbolizing-tenant-eviction-or-housing-displacement.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/eviction-notice-rules-in-arkansas-explained/"
 draft: false

@@ -2,7 +2,7 @@
 title: "We Buy Houses for Cash in Arkansas: What Sellers Should Expect"
 description: "Understand what to expect when selling your house for cash in Arkansas, including how to skip repairs and close quickly with a simple, hassle-free process."
 pubDate: 2026-03-09
-author: "etaccess"
+author: "Arkansas Property Buyers"
 featuredImage: "/images/blog/we-buy-houses-for-cash-in-arkansas-what-sellers-should-expect/Smiling-couple-shaking-hands-with-a-real-estate-agent-in-front-of-a-white-house-with-a-22SOLD22-sign.jpg"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/we-buy-houses-for-cash-in-arkansas-what-sellers-should-expect/"
 draft: false

@@ -2,7 +2,7 @@
 title: "Why Cash Offers Are Better for Arkansas Home Sellers"
 description: "Discover why cash offers are better for Arkansas home sellers by exploring how to bypass bank delays, skip repairs, and close on your house in days."
 pubDate: 2026-03-09
-author: "etaccess"
+author: "Arkansas Property Buyers"
 featuredImage: "/images/blog/why-cash-offers-are-better-for-arkansas-home-sellers/image-4.jpeg"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/why-cash-offers-are-better-for-arkansas-home-sellers/"
 draft: false

@@ -2,7 +2,7 @@
 title: "Sell My House Fast Before Foreclosure in Arkansas"
 description: "Understand the legal timeline and your options to sell your house fast before foreclosure in Arkansas to protect your credit and avoid a judicial auction."
 pubDate: 2026-03-09
-author: "etaccess"
+author: "Arkansas Property Buyers"
 featuredImage: "/images/blog/sell-my-house-fast-before-foreclosure-in-arkansas/Foreclosure-and-For-Sale-sign-in-front-of-a-house-indicating-a-foreclosed-property-on-the-market.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/sell-my-house-fast-before-foreclosure-in-arkansas/"
 draft: false

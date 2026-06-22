@@ -2,7 +2,7 @@
 title: "Arkansas Probate Timeline: What Homeowners Should Expect"
 description: "Navigate the Arkansas probate timeline for homeowners to understand legal deadlines, avoid costly errors, and manage inherited property with confidence."
 pubDate: 2026-03-09
-author: "etaccess"
+author: "Arkansas Property Buyers"
 featuredImage: "/images/blog/arkansas-probate-timeline-what-homeowners-should-expect/image-85.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/arkansas-probate-timeline-what-homeowners-should-expect/"
 draft: false

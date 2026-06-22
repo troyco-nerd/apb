@@ -2,7 +2,7 @@
 title: "How to Get a Free Divorce in Arkansas"
 description: "Learn how to get a free divorce in Arkansas by using fee waivers and legal aid programs to end your marriage without paying expensive court or lawyer fees."
 pubDate: 2026-03-09
-author: "etaccess"
+author: "Arkansas Property Buyers"
 featuredImage: "/images/blog/how-to-get-a-free-divorce-in-arkansas/Untitled-design-2026-03-09T182737.685.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/how-to-get-a-free-divorce-in-arkansas/"
 draft: false

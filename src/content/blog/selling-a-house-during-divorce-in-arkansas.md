@@ -2,7 +2,7 @@
 title: "Selling a House During Divorce in Arkansas"
 description: "Navigate Arkansas property laws and equitable distribution rules to maximize your financial outcome when selling a house during divorce in Arkansas efficiently."
 pubDate: 2026-03-09
-author: "etaccess"
+author: "Arkansas Property Buyers"
 featuredImage: "/images/blog/selling-a-house-during-divorce-in-arkansas/Woman-signing-divorce-documents-while-a-man-sits-beside-her-looking-down.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/selling-a-house-during-divorce-in-arkansas/"
 draft: false
