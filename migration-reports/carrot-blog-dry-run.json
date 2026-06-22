@@ -1,0 +1,12 @@
+{
+  "mode": "dry-run",
+  "timestamp": "2026-06-22T03:15:07.339Z",
+  "totalArchivePages": 1,
+  "totalPostsFound": 0,
+  "totalExtracted": 0,
+  "totalFailed": 0,
+  "duplicateSlugs": [],
+  "suspiciouslyShortPosts": [],
+  "posts": [],
+  "failed": []
+}
