@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Footer from '../components/Footer.astro';
 ---
 
 <Layout
@@ -301,39 +302,7 @@ import Layout from '../layouts/Layout.astro';
   </div>
 </section>
 
-<!-- FOOTER -->
-<footer class="bg-navy border-t border-white/10 py-12">
-  <div class="max-w-5xl mx-auto px-5 sm:px-8">
-    <div class="grid sm:grid-cols-3 gap-8 mb-10">
-      <div>
-        <div class="flex items-center gap-2 mb-3">
-          <div class="w-7 h-7 bg-orange rounded flex items-center justify-center">
-            <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-          </div>
-          <span class="font-sub font-bold text-white text-sm">Arkansas Property Buyers</span>
-        </div>
-        <p class="font-body text-white/50 text-sm leading-relaxed">A family-owned Arkansas company helping homeowners navigate life's real estate challenges for over 30 years.</p>
-      </div>
-      <div>
-        <h4 class="font-sub font-bold text-white text-xs uppercase tracking-wider mb-4">Quick Links</h4>
-        <nav class="flex flex-col gap-2.5 font-body text-sm text-white/50">
-          <a href="#how-it-works" class="hover:text-white transition-colors">How It Works</a>
-          <a href="/about"        class="hover:text-white transition-colors">About Us</a>
-          <a href="#testimonials" class="hover:text-white transition-colors">Reviews</a>
-          <a href="#offer-tool"   class="hover:text-white transition-colors">Talk to Our Team</a>
-        </nav>
-      </div>
-      <div>
-        <h4 class="font-sub font-bold text-white text-xs uppercase tracking-wider mb-4">Contact</h4>
-        <div class="flex flex-col gap-2.5 font-body text-sm text-white/50">
-          <a href="tel:+15015047109" class="text-orange hover:text-gold transition-colors font-bold">(501) 504-7109</a>
-          <p>Little Rock, Arkansas</p>
-        </div>
-      </div>
-    </div>
-    <div class="border-t border-white/10 pt-6 text-center font-body text-xs text-white/30">&copy; 2026 Arkansas Property Buyers. All rights reserved.</div>
-  </div>
-</footer>
+<Footer />
 
 </Layout>
 
