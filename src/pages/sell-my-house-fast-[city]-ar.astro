@@ -416,7 +416,7 @@ const { city } = Astro.props;
             <form id="lead-capture-form" action="YOUR_GHL_WEBHOOK_URL" method="POST">
               <input type="hidden" id="sf-name" name="firstName" value="">
               <input type="hidden" id="sf-phone" name="phone" value="">
-              <input type="hidden" name="source" value={`sell-your-house-fast-${city.slug}`}>
+              <input type="hidden" name="source" value={`sell-my-house-fast-${city.slug}-ar`}>
               <input type="hidden" name="city_market" value={city.name}>
               <div class="flex flex-col gap-4">
                 <div>
