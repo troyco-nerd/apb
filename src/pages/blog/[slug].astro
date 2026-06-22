@@ -15,7 +15,10 @@ const formattedDate = post.data.pubDate.toLocaleDateString('en-US', {
 });
 ---
 
-<Layout>
+<Layout
+  title={`${post.data.title} | Arkansas Property Buyers`}
+  description={post.data.description}
+>
 
 <!-- HEADER -->
 <header class="bg-white border-b border-gray-100 sticky top-0 z-50">

@@ -6,7 +6,10 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
-<Layout>
+<Layout
+  title="Blog | Arkansas Property Buyers"
+  description="Helpful articles for Arkansas homeowners on selling your home, avoiding foreclosure, navigating probate, divorce, and more — written by Arkansas Property Buyers."
+>
 
 <!-- HEADER -->
 <header class="bg-white border-b border-gray-100 sticky top-0 z-50">
