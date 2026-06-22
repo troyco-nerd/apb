@@ -51,9 +51,9 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
 <!-- HERO -->
 <section class="bg-white border-b border-gray-100 pt-14 pb-12 sm:pt-18 sm:pb-16">
   <div class="max-w-5xl mx-auto px-5 sm:px-8 text-center">
-    <p class="font-sub font-bold text-xs text-orange uppercase tracking-widest mb-3">Resources &amp; Insights</p>
+    <p class="eyebrow tracking-widest mb-3">Resources &amp; Insights</p>
     <h1 class="font-display font-bold text-navy uppercase leading-tight text-4xl sm:text-5xl mb-4">Arkansas Property Buyers Blog</h1>
-    <p class="font-script text-orange text-xl mb-5">Helpful guidance for Arkansas homeowners.</p>
+    <p class="tagline-script mb-5">Helpful guidance for Arkansas homeowners.</p>
     <p class="font-body text-grey text-base leading-relaxed max-w-xl mx-auto">Articles on selling your home, navigating foreclosure, probate, divorce, landlord situations, and more — written for Arkansas homeowners making important real estate decisions.</p>
   </div>
 </section>
@@ -79,14 +79,14 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
             </div>
           )}
           <div class="p-5">
-            <p class="font-sub font-bold text-xs text-orange uppercase tracking-wider mb-2">
+            <p class="eyebrow tracking-wider mb-2">
               {post.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
             </p>
             <h2 class="font-sub font-bold text-navy text-sm leading-snug mb-3 group-hover:text-orange transition-colors">{post.data.title}</h2>
             {post.data.description && (
               <p class="font-body text-grey text-xs leading-relaxed line-clamp-3">{post.data.description}</p>
             )}
-            <p class="font-sub font-bold text-xs text-orange uppercase tracking-wider mt-4">Read More &rarr;</p>
+            <p class="eyebrow tracking-wider mt-4">Read More &rarr;</p>
           </div>
         </a>
       ))}

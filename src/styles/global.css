@@ -32,3 +32,7 @@ body { font-size: 17px; font-family: 'Lato', sans-serif; color: #333; background
 .mob-nav.open { max-height: 280px; }
 .lift { transition: box-shadow .2s, transform .2s; }
 .lift:hover { transform: translateY(-2px); box-shadow: 0 6px 24px rgba(0,35,75,.08); }
+
+/* Orange text patterns — change sizes here to update across the whole site */
+.eyebrow { font-family: var(--font-sub); font-weight: 700; font-size: 0.875rem; color: var(--color-orange); text-transform: uppercase; }
+.tagline-script { font-family: var(--font-script); color: var(--color-orange); font-size: 1.5rem; }
