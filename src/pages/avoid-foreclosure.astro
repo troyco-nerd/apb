@@ -440,9 +440,10 @@ import Footer from '../components/Footer.astro';
                Copy the webhook URL it gives you and paste it into the action attribute below. -->
           <div id="step2" class="px-6 pb-5 pt-3 hidden">
             <p class="font-sub font-bold text-navy text-xs uppercase tracking-wider mb-4">Tell us about the property</p>
-            <form id="lead-capture-form" action="YOUR_GHL_WEBHOOK_URL" method="POST">
+            <form id="lead-capture-form" action="https://services.leadconnectorhq.com/hooks/kqj3LlvP9g5EoyEpo1w2/webhook-trigger/e679b911-14a9-4c0a-a38b-50a40d4a8fc8" method="POST">
               <input type="hidden" id="sf-name" name="firstName" value="">
               <input type="hidden" id="sf-phone" name="phone" value="">
+              <input type="hidden" name="source" value="avoid-foreclosure">
               <div class="flex flex-col gap-4">
                 <div>
                   <label for="f-street" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Street Address</label>
