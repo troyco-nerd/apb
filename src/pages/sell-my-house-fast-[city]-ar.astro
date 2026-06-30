@@ -424,6 +424,9 @@ const { city } = Astro.props;
               <input type="hidden" id="sf-phone" name="phone" value="">
               <input type="hidden" name="source" value={`sell-my-house-fast-${city.slug}-ar`}>
               <input type="hidden" name="city_market" value={city.name}>
+              <input type="hidden" name="lead_source" value="Organic Website">
+              <input type="hidden" name="lead_type" value="General Seller">
+              <input type="hidden" name="pipeline_category" value="Seller Lead">
               <div class="flex flex-col gap-4">
                 <div>
                   <label for="f-street" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Street Address</label>
