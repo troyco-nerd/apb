@@ -500,6 +500,10 @@ import Footer from '../components/Footer.astro';
                 <label for="f-phone" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Phone Number</label>
                 <input id="f-phone" type="tel" placeholder="(501) 000-0000" class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
               </div>
+              <div>
+                <label for="f-email" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Email Address</label>
+                <input id="f-email" type="email" placeholder="you@example.com" class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+              </div>
               <button type="button" onclick="goToStep2()" class="w-full bg-orange hover:bg-gold text-white font-sub font-bold text-sm px-6 py-3.5 rounded transition-colors uppercase tracking-wider mt-1">
                 Next: Property Address &rarr;
               </button>
@@ -514,6 +518,7 @@ import Footer from '../components/Footer.astro';
             <form id="lead-capture-form" action="YOUR_GHL_WEBHOOK_URL" method="POST">
               <input type="hidden" id="sf-name" name="firstName" value="">
               <input type="hidden" id="sf-phone" name="phone" value="">
+              <input type="hidden" id="sf-email" name="email" value="">
               <input type="hidden" name="source" value="probate-help">
               <input type="hidden" name="lead_source" value="Organic Website">
               <input type="hidden" name="lead_type" value="Probate">
@@ -617,12 +622,14 @@ import Footer from '../components/Footer.astro';
 function goToStep2() {
   const name = document.getElementById('f-name').value.trim();
   const phone = document.getElementById('f-phone').value.trim();
-  if (!name || !phone) {
-    alert('Please enter your name and phone number to continue.');
+  const email = document.getElementById('f-email').value.trim();
+  if (!name || !phone || !email) {
+    alert('Please enter your name, phone number, and email to continue.');
     return;
   }
   document.getElementById('sf-name').value = name;
   document.getElementById('sf-phone').value = phone;
+  document.getElementById('sf-email').value = email;
 
   const s1 = document.getElementById('step1');
   const s2 = document.getElementById('step2');
