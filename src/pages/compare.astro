@@ -99,20 +99,22 @@ const benefits = [
       </div>
 
       {rows.map((row, i) => (
-        <div class={`grid sm:grid-cols-[1.1fr_1fr_1fr] ${i % 2 === 0 ? 'bg-white' : 'bg-gray-50'} border-t border-gray-200 first:border-t-0`}>
-          <div class="px-4 pt-4 sm:py-4 sm:border-r sm:border-gray-200 sm:flex sm:items-center">
-            <p class="font-sub font-bold text-navy text-xs sm:text-sm uppercase tracking-wider">{row.label}</p>
+        <div class={`sm:grid sm:grid-cols-[1.1fr_1fr_1fr] px-4 py-4 sm:p-0 ${i % 2 === 0 ? 'bg-white' : 'bg-gray-50'} border-t border-gray-200 first:border-t-0`}>
+          <div class="mb-3 sm:mb-0 sm:px-4 sm:py-4 sm:border-r sm:border-gray-200 sm:flex sm:items-center">
+            <p class="font-display font-bold text-navy uppercase text-lg leading-snug tracking-wide sm:font-sub sm:text-sm sm:leading-normal sm:tracking-wider">{row.label}</p>
           </div>
-          <div class="px-4 pt-3 pb-1 sm:py-4 sm:border-r sm:border-gray-200 sm:flex sm:items-center">
-            <div>
-              <p class="sm:hidden font-sub font-bold text-grey text-[11px] uppercase tracking-wider mb-1">Selling w/ An Agent</p>
-              <p class="font-body text-grey text-sm leading-snug">{row.agent}</p>
+          <div class="grid grid-cols-2 gap-2.5 sm:contents">
+            <div class="bg-gray-100 rounded-lg p-3 sm:bg-transparent sm:rounded-none sm:p-0 sm:px-4 sm:py-4 sm:border-r sm:border-gray-200 sm:flex sm:items-center">
+              <div>
+                <p class="sm:hidden font-sub font-bold text-grey text-[10px] uppercase tracking-wider mb-1.5">Agent</p>
+                <p class="font-body text-grey text-xs sm:text-sm leading-snug">{row.agent}</p>
+              </div>
             </div>
-          </div>
-          <div class="px-4 pt-3 pb-4 sm:py-4 sm:flex sm:items-center">
-            <div>
-              <p class="sm:hidden font-sub font-bold text-orange text-[11px] uppercase tracking-wider mb-1">Sold To Arkansas Property Buyers</p>
-              <p class="font-sub font-bold text-navy text-sm leading-snug">{row.apb}</p>
+            <div class="bg-orange/10 rounded-lg p-3 sm:bg-transparent sm:rounded-none sm:p-0 sm:px-4 sm:py-4 sm:flex sm:items-center">
+              <div>
+                <p class="sm:hidden font-sub font-bold text-orange text-[10px] uppercase tracking-wider mb-1.5">APB</p>
+                <p class="font-sub font-bold text-navy text-xs sm:text-sm leading-snug">{row.apb}</p>
+              </div>
             </div>
           </div>
         </div>
