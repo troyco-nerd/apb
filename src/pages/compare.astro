@@ -87,24 +87,31 @@ const benefits = [
     <h2 class="font-display font-bold text-navy uppercase text-2xl sm:text-3xl leading-tight text-center mb-10">Work The Numbers And See Which Way Helps You Get There</h2>
 
     <div class="border border-gray-200 rounded-xl overflow-hidden">
-      <div class="grid grid-cols-2 bg-navy">
-        <div class="px-4 py-4 border-r border-white/10">
-          <p class="font-sub font-bold text-white/70 text-xs sm:text-sm uppercase tracking-wider">Selling w/ An Agent</p>
+      <!-- Desktop header row (3 columns, first cell blank) -->
+      <div class="hidden sm:grid sm:grid-cols-[1.1fr_1fr_1fr] bg-navy">
+        <div class="px-4 py-4"></div>
+        <div class="px-4 py-4 border-l border-white/10">
+          <p class="font-sub font-bold text-white/70 text-sm uppercase tracking-wider">Selling w/ An Agent</p>
         </div>
-        <div class="px-4 py-4 bg-orange">
-          <p class="font-sub font-bold text-white text-xs sm:text-sm uppercase tracking-wider">SOLD To Arkansas Property Buyers</p>
+        <div class="px-4 py-4 bg-orange border-l border-white/10">
+          <p class="font-sub font-bold text-white text-sm uppercase tracking-wider">SOLD To Arkansas Property Buyers</p>
         </div>
       </div>
+
       {rows.map((row, i) => (
-        <div class={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
-          <div class="px-4 pt-3 sm:pt-4">
-            <p class="font-sub font-bold text-navy text-xs uppercase tracking-wider">{row.label}</p>
+        <div class={`grid sm:grid-cols-[1.1fr_1fr_1fr] ${i % 2 === 0 ? 'bg-white' : 'bg-gray-50'} border-t border-gray-200 first:border-t-0`}>
+          <div class="px-4 pt-4 sm:py-4 sm:border-r sm:border-gray-200 sm:flex sm:items-center">
+            <p class="font-sub font-bold text-navy text-xs sm:text-sm uppercase tracking-wider">{row.label}</p>
           </div>
-          <div class="grid sm:grid-cols-2">
-            <div class="px-4 pb-3 sm:pb-4 sm:pt-1 border-r-0 sm:border-r border-gray-200">
+          <div class="px-4 pt-3 pb-1 sm:py-4 sm:border-r sm:border-gray-200 sm:flex sm:items-center">
+            <div>
+              <p class="sm:hidden font-sub font-bold text-grey text-[11px] uppercase tracking-wider mb-1">Selling w/ An Agent</p>
               <p class="font-body text-grey text-sm leading-snug">{row.agent}</p>
             </div>
-            <div class="px-4 pb-3 sm:pb-4 sm:pt-1">
+          </div>
+          <div class="px-4 pt-3 pb-4 sm:py-4 sm:flex sm:items-center">
+            <div>
+              <p class="sm:hidden font-sub font-bold text-orange text-[11px] uppercase tracking-wider mb-1">Sold To Arkansas Property Buyers</p>
               <p class="font-sub font-bold text-navy text-sm leading-snug">{row.apb}</p>
             </div>
           </div>
