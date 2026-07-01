@@ -568,4 +568,11 @@ function goToStep1() {
   document.getElementById('connector').classList.remove('bg-orange');
   document.getElementById('step-label').textContent = 'Step 1 of 2';
 }
+
+document.getElementById('lead-capture-form').addEventListener('submit', function (e) {
+  e.preventDefault();
+  const form = e.target;
+  fetch(form.action, { method: 'POST', body: new FormData(form), mode: 'no-cors' })
+    .finally(() => { window.location.href = '/thank-you/senior-living-transition/'; });
+});
 </script>
