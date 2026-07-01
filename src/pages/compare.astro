@@ -101,7 +101,7 @@ const benefits = [
       {rows.map((row, i) => (
         <div class={`sm:grid sm:grid-cols-[1.1fr_1fr_1fr] px-4 py-4 sm:p-0 ${i % 2 === 0 ? 'bg-white' : 'bg-gray-50'} border-t border-gray-200 first:border-t-0`}>
           <div class="mb-3 sm:mb-0 sm:px-4 sm:py-4 sm:border-r sm:border-gray-200 sm:flex sm:items-center">
-            <p class="font-sub font-bold text-navy text-sm uppercase tracking-wider">{row.label}</p>
+            <p class="font-display font-bold text-navy uppercase text-lg leading-snug tracking-wide sm:font-sub sm:text-sm sm:leading-normal sm:tracking-wider">{row.label}</p>
           </div>
           <div class="grid grid-cols-2 gap-2.5 sm:contents">
             <div class="bg-gray-100 rounded-lg p-3 sm:bg-transparent sm:rounded-none sm:p-0 sm:px-4 sm:py-4 sm:border-r sm:border-gray-200 sm:flex sm:items-center">
