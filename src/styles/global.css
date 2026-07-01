@@ -9,7 +9,7 @@
 
   /* Your Custom Fonts */
   --font-display: "Roboto Condensed", Impact, sans-serif;
-  --font-script: "Dancing Script", cursive;
+  --font-script: "Lora", serif;
   --font-sub: Montserrat, sans-serif;
   --font-body: Lato, sans-serif;
 }
@@ -35,4 +35,4 @@ body { font-size: 17px; font-family: 'Lato', sans-serif; color: #333; background
 
 /* Orange text patterns — change sizes here to update across the whole site */
 .eyebrow { font-family: var(--font-sub); font-weight: 700; font-size: 0.875rem; color: var(--color-orange); text-transform: uppercase; }
-.tagline-script { font-family: var(--font-script); color: var(--color-orange); font-size: 1.5rem; }
+.tagline-script { font-family: var(--font-script); font-style: italic; font-weight: 500; color: var(--color-orange); font-size: 1.5rem; }
