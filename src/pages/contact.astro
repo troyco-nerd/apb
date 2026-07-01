@@ -66,7 +66,7 @@ import Footer from '../components/Footer.astro';
 
         <!-- GoHighLevel: In GHL go to Automations → New Workflow → Webhook trigger.
              Copy the webhook URL and paste it into the action attribute below. -->
-        <form action="https://services.leadconnectorhq.com/hooks/kqj3LlvP9g5EoyEpo1w2/webhook-trigger/9c49cd24-d60e-411d-b111-acb479a9cb80" method="POST" class="flex flex-col gap-5">
+        <form id="lead-capture-form" action="https://services.leadconnectorhq.com/hooks/kqj3LlvP9g5EoyEpo1w2/webhook-trigger/9c49cd24-d60e-411d-b111-acb479a9cb80" method="POST" class="flex flex-col gap-5">
           <input type="hidden" name="source" value="contact">
           <input type="hidden" name="lead_source" value="Organic Website">
           <input type="hidden" name="lead_type" value="General Seller">
@@ -241,3 +241,12 @@ import Footer from '../components/Footer.astro';
 <Footer />
 
 </Layout>
+
+<script is:inline>
+document.getElementById('lead-capture-form').addEventListener('submit', function (e) {
+  e.preventDefault();
+  const form = e.target;
+  fetch(form.action, { method: 'POST', body: new FormData(form), mode: 'no-cors' })
+    .finally(() => { window.location.href = '/thank-you/contact/'; });
+});
+</script>
