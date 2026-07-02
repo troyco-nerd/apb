@@ -1,6 +1,6 @@
 ---
 interface Props {
-  active?: 'about' | 'compare' | 'faq' | 'blog';
+  active?: 'about' | 'compare' | 'faq' | 'blog' | 'senior-care';
 }
 
 const { active } = Astro.props;
@@ -28,6 +28,7 @@ const mobLinkClass = (key: string) =>
         <a href="/about"         class={linkClass('about')}>About Us</a>
         <a href="/compare"       class={linkClass('compare')}>Compare</a>
         <a href="/faq"           class={linkClass('faq')}>FAQ</a>
+        <a href="/senior-care-help" class={linkClass('senior-care')}>Senior Care</a>
         <a href="/#testimonials" class={linkClass('testimonials')}>Reviews</a>
         <a href="/blog"          class={linkClass('blog')}>Blog</a>
         <a href="tel:+15015047109" class="font-sub font-bold text-sm text-orange flex items-center gap-1.5 hover:text-gold transition-colors">
@@ -46,6 +47,7 @@ const mobLinkClass = (key: string) =>
         <a href="/about"         class={mobLinkClass('about')}>About Us</a>
         <a href="/compare"       class={mobLinkClass('compare')}>Compare</a>
         <a href="/faq"           class={mobLinkClass('faq')}>FAQ</a>
+        <a href="/senior-care-help" class={mobLinkClass('senior-care')}>Senior Care</a>
         <a href="/#testimonials" class={mobLinkClass('testimonials')}>Reviews</a>
         <a href="/blog"          class={mobLinkClass('blog')}>Blog</a>
         <a href="tel:+15015047109" class="py-2 px-1 font-sub font-bold text-sm text-orange">(501) 504-7109</a>

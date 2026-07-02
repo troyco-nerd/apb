@@ -1,0 +1,158 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const guideBenefits = [
+  'Discover resources for funding senior care',
+  'Evaluate senior living options for your loved one',
+  'Strategize a smooth transition into care',
+  "Ensure your loved one's safety and companionship",
+  'Learn how to cope with the emotional journey',
+];
+---
+
+<Layout
+  title="Senior Care Help | Arkansas Property Buyers"
+  description="Free resources for Arkansas families navigating a senior care transition — funding senior care, evaluating options, and selling mom or dad's house as-is, stress-free."
+>
+
+<!-- HEADER -->
+<Header active="senior-care" />
+
+<!-- HERO -->
+<section class="bg-navy pt-16 pb-14 sm:pt-22 sm:pb-18">
+  <div class="max-w-3xl sm:max-w-6xl mx-auto px-5 sm:px-8 text-center">
+    <p class="eyebrow tracking-widest mb-4">Senior Care Resources</p>
+    <h1 class="font-display font-bold text-white uppercase leading-tight text-3xl sm:text-6xl mb-6">Senior Care Help For Arkansas Families</h1>
+    <p class="tagline-script mb-7">A personal mission, not just a business.</p>
+    <p class="font-body text-white/70 text-base sm:text-lg leading-relaxed max-w-3xl mx-auto">Having gone through with my dad the same scenario that almost everybody with an elderly parent will go through, I've retooled my company to bring clarity and calmness to others going through what I went through &mdash; and to help get the person who needs care the care they need, when they need it most.</p>
+  </div>
+</section>
+
+<!-- FOUNDER'S PASSION -->
+<section class="bg-white py-14 sm:py-20">
+  <div class="max-w-3xl mx-auto px-5 sm:px-8 text-center">
+    <p class="eyebrow tracking-widest mb-3">Why This Matters To Us</p>
+    <h2 class="font-display font-bold text-navy uppercase text-2xl sm:text-3xl leading-tight mb-8">Arkansas Property Buyers' Passion For The Senior Living Industry</h2>
+    <p class="font-body text-grey text-base leading-relaxed italic mb-4">"I want to lessen the stress as much as possible for these families. Offer guidance, when possible, from my own experiences. Help them speed their process along if they choose to, and most importantly get the person who needs the help the care they need when they need it most."</p>
+    <p class="font-sub font-bold text-navy text-sm">&ndash; Randy Thomason, Founder</p>
+  </div>
+</section>
+
+<!-- MOM'S HOUSE CERTIFIED -->
+<section class="bg-gray-50 border-y border-gray-100 py-14 sm:py-20">
+  <div class="max-w-3xl mx-auto px-5 sm:px-8">
+    <p class="eyebrow tracking-widest text-center mb-3">A Certified Partner</p>
+    <h2 class="font-display font-bold text-navy uppercase text-2xl sm:text-3xl leading-tight text-center mb-6">We Are Mom's House Certified Senior Transition Specialists</h2>
+    <p class="font-body text-grey text-base leading-relaxed mb-4">Arkansas Property Buyers is a Mom's House&reg; certified Senior Transition Specialist and homebuyer, experienced in as-is senior home buying. Furthering our commitment to using our real estate knowledge and skills to help members of our community, we give seniors and their families an easier, less stressful way to sell mom's house.</p>
+    <p class="font-body text-grey text-base leading-relaxed mb-4">We purchase senior homes as-is, relieving families of the burden of fixing it up, cleaning it out, and waiting for it to sell &mdash; so families can close within weeks instead of months and get mom the care she needs.</p>
+    <p class="font-body text-grey text-base leading-relaxed mb-4">We work directly with seniors throughout Central Arkansas and surrounding communities, helping them transition from their family home into long-term care communities. We're dedicated to serving families and to continuing education within the senior living industry.</p>
+
+    <div class="bg-white border border-gray-100 rounded-xl p-6 mt-8">
+      <h3 class="font-sub font-bold text-navy text-sm uppercase tracking-wide mb-2">Mom's House Senior Transition Specialist</h3>
+      <p class="font-body text-grey text-sm leading-relaxed mb-3">Trusted Senior Transition Specialists are advocates for seniors and specialize in helping families transition their aging loved ones into senior care. We eliminate the stress of making the house ready for sale.</p>
+      <p class="font-body text-grey text-sm leading-relaxed">We're proud to be part of a larger movement to help families transition their loved ones into long-term care. Want to see more about that movement and our commitment to the senior industry? Learn more at <a href="https://momshouse.com" target="_blank" rel="noopener" class="text-orange hover:text-gold transition-colors font-bold">momshouse.com</a>.</p>
+    </div>
+  </div>
+</section>
+
+<!-- MISSION & VISION -->
+<section class="bg-white py-14 sm:py-20">
+  <div class="max-w-3xl mx-auto px-5 sm:px-8">
+    <p class="eyebrow tracking-widest text-center mb-3">Our Mission &amp; Vision</p>
+    <h2 class="font-display font-bold text-navy uppercase text-2xl sm:text-3xl leading-tight text-center mb-6">Easing The Journey To Senior Care</h2>
+    <p class="font-body text-grey text-base leading-relaxed mb-4">To help families solve one of their biggest challenges in the journey to senior care by offering an easier, less stressful way to sell mom's (or dad's) house &mdash; without cleaning it up, cleaning it out, or paying realtor fees. We purchase senior homes outright, in as-is condition, so families can close within weeks instead of months and get mom the care she needs.</p>
+    <p class="font-body text-grey text-base leading-relaxed">Our ecosystem is made up of senior care and service providers across Central Arkansas &mdash; including senior living operators, placement agents, home healthcare providers, downsizing experts, and elder law attorneys &mdash; working in alignment to ease each family's burden in the journey to senior care, respectfully and compassionately.</p>
+  </div>
+</section>
+
+<!-- EBOOK OPT-IN -->
+<section id="lead-form" class="bg-navy py-14 sm:py-20">
+  <div class="max-w-lg mx-auto px-5 sm:px-8">
+    <div class="text-center mb-8">
+      <p class="eyebrow tracking-widest mb-3">Free Download</p>
+      <h2 class="font-display font-bold text-white uppercase text-2xl sm:text-3xl leading-tight mb-4">Essential Guide To Understanding Senior Care</h2>
+      <p class="font-body text-white/70 text-base leading-relaxed max-w-md mx-auto">Get our free guide sent straight to your inbox. Inside, you'll learn how to:</p>
+    </div>
+
+    <ul class="flex flex-col gap-2.5 mb-8">
+      {guideBenefits.map((item) => (
+        <li class="flex items-start gap-3 bg-white/5 border border-white/10 rounded-lg px-4 py-3">
+          <svg class="w-4 h-4 text-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+          <p class="font-body text-white/80 text-sm">{item}</p>
+        </li>
+      ))}
+    </ul>
+
+    <div class="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm">
+      <div class="bg-navy px-6 py-5 border-b border-white/10">
+        <h3 class="font-display font-bold text-white uppercase text-lg tracking-wide">Download Your Free eBook</h3>
+        <p class="font-body text-white/60 text-sm mt-1">No cost. No obligation. Just helpful guidance.</p>
+      </div>
+
+      <div class="px-6 pt-6 pb-6">
+        <form id="lead-capture-form" action="YOUR_GHL_WEBHOOK_URL" method="POST">
+          <input type="hidden" name="source" value="senior-care-help">
+          <input type="hidden" name="lead_source" value="Organic Website">
+          <input type="hidden" name="lead_type" value="Senior Care Guide">
+          <input type="hidden" name="pipeline_category" value="Seller Lead">
+          <div class="flex flex-col gap-4">
+            <div>
+              <label for="f-name" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Your Name</label>
+              <input id="f-name" type="text" name="firstName" placeholder="First &amp; Last Name" required class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+            </div>
+            <div>
+              <label for="f-email" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Email Address</label>
+              <input id="f-email" type="email" name="email" placeholder="you@example.com" required class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+            </div>
+            <button type="submit" class="w-full bg-orange hover:bg-gold text-white font-sub font-bold text-sm px-6 py-3.5 rounded transition-colors uppercase tracking-wider mt-1">Download Your Free eBook Now</button>
+          </div>
+        </form>
+        <p class="font-body text-xs text-grey text-center mt-4">We'll never share your email &middot; unsubscribe anytime</p>
+      </div>
+
+      <div class="px-6 pb-6 pt-1 border-t border-gray-100">
+        <p class="font-sub font-bold text-navy text-xs uppercase tracking-wider text-center mb-3">Prefer to talk to someone directly?</p>
+        <a href="tel:+15015047109" class="inline-flex items-center justify-center gap-2 bg-navy hover:bg-orange text-white font-sub font-bold text-sm px-6 py-3.5 rounded transition-colors uppercase tracking-wider w-full">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          Call (501) 504-7109
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LINK TO SELLING PATH -->
+<section class="bg-white py-14 sm:py-16">
+  <div class="max-w-2xl mx-auto px-5 sm:px-8 text-center">
+    <p class="font-body text-grey text-base leading-relaxed mb-5">Already know you need to sell mom or dad's house? We can help with that directly, too.</p>
+    <a href="/senior-living-transition" class="inline-flex items-center justify-center gap-2 border border-navy text-navy hover:bg-navy hover:text-white font-sub font-bold text-sm px-7 py-3.5 rounded transition-colors uppercase tracking-wider">
+      Visit Our Senior Living Transition Page &rarr;
+    </a>
+  </div>
+</section>
+
+<Footer />
+
+<!-- MOBILE STICKY BAR -->
+<div class="lg:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 px-4 py-3 flex gap-3 z-40">
+  <a href="tel:+15015047109" class="flex-1 inline-flex items-center justify-center gap-2 bg-navy text-white font-sub font-bold text-xs px-4 py-3 rounded uppercase tracking-wider">
+    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+    Call Now
+  </a>
+  <a href="#lead-form" class="flex-1 inline-flex items-center justify-center gap-2 bg-orange text-white font-sub font-bold text-xs px-4 py-3 rounded uppercase tracking-wider">
+    Get The Guide
+  </a>
+</div>
+
+<script>
+  document.getElementById('lead-capture-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    const form = e.target;
+    fetch(form.action, { method: 'POST', body: new FormData(form), mode: 'no-cors' })
+      .finally(() => { window.location.href = '/thank-you/senior-care-help/'; });
+  });
+</script>
+
+</Layout>
