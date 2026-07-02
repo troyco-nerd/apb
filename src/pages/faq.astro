@@ -1,0 +1,191 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Footer from '../components/Footer.astro';
+
+const faqs = [
+  {
+    q: 'Will you be listing my house on the MLS or actually buying it?',
+    a: "Great question. We're not agents, and we don't list houses. We are professional home buyers: We buy houses in Little Rock, and all surrounding areas that meet our purchasing criteria. From there we may repair the house and resell it to another homeowner or keep it as a rental ourselves.",
+  },
+  {
+    q: 'Do you pay fair prices for properties?',
+    a: "In our experience, many sellers aren't necessarily expecting a large \"windfall\" on the property, but rather appreciate that we can offer cash, we close very quickly (no waiting for financing), and no time or effort or expense is required on your part to fix up the property or pay agent fees. If that's what you're looking for and you see the value in getting your house sold fast&hellip; let's see if we can come to a fair win-win price. (Besides, our no-obligation pricing commitment means that you do not have to move forward with the offer we give&hellip; but it's good to know what we're offering!)",
+  },
+  {
+    q: 'How do you determine the price to offer on my house?',
+    a: "Great question, and we're an open book: Our process is very straightforward. We look at the location of the property, what repairs are needed, the current condition of the property, and values of comparable houses sold in the area recently. We take many pieces of information into consideration&hellip; and come up with a fair price that works for us and works for you too.",
+  },
+  {
+    q: 'Are there any fees or commissions to work with you?',
+    a: "This is what makes us stand out from the traditional method of selling your house: There are NO fees or commissions when you sell your house to us. We'll make you an offer, and if it's a fit then we'll buy your house (and we'll often pay for the closing costs too!). No hassle. No fees. We make our money after we pay for repairs on the house (if any) and sell it for a profit (we're taking the risks here on whether we can sell it for a profit or not, once we buy the house from you&hellip; the responsibility is ours and you walk away without the burden of the property and its payments&hellip; and often with cash in your hand).",
+  },
+  {
+    q: 'How are you different from a real estate agent?',
+    a: "Real estate agents list properties and hope that someone will buy them. The agent shows the properties to prospective buyers if there are any (the average time to sell a property in many markets right now is 6-12 months) and then take a percentage of the sale price if they find a buyer. Usually, the agent's commission is 6% of the sale price of your house (so if it's a $100,000 house, you'll pay $6,000 in commissions to an agent). Agents provide a great service for those that can wait 6-12 months to sell and who don't mind giving up some of that sale price to pay for the commissions. But that's where we're different: We're not agents, we're home buyers. Our company actually buys houses. We don't list houses. Since we're actually the one buying the house from you, and we pay with all cash&hellip; we can make a decision to buy your house within a couple of days (sometimes the same day). Again, we make our living by taking the risk to buy the house with our own cash, repair the house, and market it ourselves to find a buyer (which is the hard part in this market).",
+  },
+  {
+    q: 'Is there any obligation when I submit my info?',
+    a: "There is absolutely zero obligation for you. Once you tell us a bit about your property, we'll take a look at things, maybe set up a call with you to find out a bit more, and make you an all-cash offer that's fair for you and fair for us. From there, it's 100% your decision on whether or not you'd like to sell your house to us&hellip; and we won't hassle you, won't harass you&hellip; it's 100% your decision and we'll let you decide what's right for you.",
+  },
+];
+---
+
+<Layout
+  title="Frequently Asked Questions | Arkansas Property Buyers"
+  description="Answers to the most common questions homeowners ask Arkansas Property Buyers about selling a house for cash — pricing, fees, timelines, and how we're different from a real estate agent."
+>
+
+<!-- HEADER -->
+<header class="bg-white border-b border-gray-100 sticky top-0 z-50">
+  <div class="max-w-5xl mx-auto px-5 sm:px-8">
+    <div class="flex items-center justify-between h-16">
+      <a href="/" class="flex items-center gap-2.5 flex-shrink-0">
+        <img src="/images/apb icon.png" alt="Arkansas Property Buyers" class="h-10 w-auto object-contain">
+        <span class="font-sub font-bold text-navy text-sm tracking-tight">Arkansas Property Buyers</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-7">
+        <a href="/#how-it-works" class="font-sub font-bold text-xs text-grey uppercase tracking-wider hover:text-navy transition-colors">How It Works</a>
+        <a href="/about"        class="font-sub font-bold text-xs text-grey uppercase tracking-wider hover:text-navy transition-colors">About Us</a>
+        <a href="/#testimonials" class="font-sub font-bold text-xs text-grey uppercase tracking-wider hover:text-navy transition-colors">Reviews</a>
+        <a href="/blog"          class="font-sub font-bold text-xs text-grey uppercase tracking-wider hover:text-navy transition-colors">Blog</a>
+        <a href="tel:+15015047109" class="font-sub font-bold text-sm text-orange flex items-center gap-1.5 hover:text-gold transition-colors">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          (501) 504-7109
+        </a>
+        <a href="/contact" class="bg-orange hover:bg-gold text-white font-sub font-bold text-xs px-4 py-2 rounded transition-colors uppercase tracking-wider">Contact Us</a>
+      </nav>
+      <button onclick="document.getElementById('mobNav').classList.toggle('open')" class="md:hidden p-2 text-grey">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+    <div id="mobNav" class="mob-nav md:hidden border-t border-gray-100">
+      <nav class="flex flex-col py-4 gap-1">
+        <a href="/#how-it-works" class="py-2 px-1 font-sub font-bold text-xs text-grey uppercase tracking-wider hover:text-navy">How It Works</a>
+        <a href="/about"        class="py-2 px-1 font-sub font-bold text-xs text-grey uppercase tracking-wider hover:text-navy">About Us</a>
+        <a href="/#testimonials" class="py-2 px-1 font-sub font-bold text-xs text-grey uppercase tracking-wider hover:text-navy">Reviews</a>
+        <a href="/blog"         class="py-2 px-1 font-sub font-bold text-xs text-grey uppercase tracking-wider hover:text-navy">Blog</a>
+        <a href="tel:+15015047109" class="py-2 px-1 font-sub font-bold text-sm text-orange">(501) 504-7109</a>
+        <a href="/contact" class="mt-2 bg-orange text-white font-sub font-bold text-xs px-4 py-2.5 rounded text-center uppercase tracking-wider">Contact Us</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="bg-navy pt-16 pb-14 sm:pt-22 sm:pb-18">
+  <div class="max-w-3xl sm:max-w-6xl mx-auto px-5 sm:px-8 text-center">
+    <p class="eyebrow tracking-widest mb-4">Common Questions</p>
+    <h1 class="font-display font-bold text-white uppercase leading-tight text-3xl sm:text-6xl mb-6">Frequently Asked Questions</h1>
+    <p class="tagline-script mb-7">Straight answers, no sales pitch.</p>
+    <p class="font-body text-white/70 text-base sm:text-lg leading-relaxed max-w-3xl mx-auto">Maybe you have a few questions. That's okay, most people do. Here's a quick collection of some of the questions people ask us&hellip; along with our answers. If you still have a question, don't hesitate to contact us (or give us a call) and we'll be happy to answer it for you.</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="bg-white py-14 sm:py-20">
+  <div class="max-w-3xl mx-auto px-5 sm:px-8">
+    <div class="flex flex-col gap-3">
+      {faqs.map((faq) => (
+        <details class="bg-gray-50 border border-gray-100 rounded-xl overflow-hidden group">
+          <summary class="flex items-center justify-between px-5 py-4 cursor-pointer list-none">
+            <span class="font-sub font-bold text-navy text-sm">{faq.q}</span>
+            <svg class="w-4 h-4 text-orange flex-shrink-0 ml-3 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="px-5 pb-5 border-t border-gray-100 pt-4">
+            <p class="font-body text-grey text-sm leading-relaxed" set:html={faq.a} />
+          </div>
+        </details>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- LEAD FORM -->
+<section id="lead-form" class="bg-navy py-14 sm:py-20">
+  <div class="max-w-2xl mx-auto px-5 sm:px-8">
+    <div class="text-center mb-8">
+      <p class="eyebrow tracking-widest mb-3">Still Have Questions?</p>
+      <h2 class="font-display font-bold text-white uppercase text-2xl sm:text-3xl leading-tight mb-4">Let's Talk It Through</h2>
+      <p class="font-body text-white/70 text-base leading-relaxed max-w-md mx-auto">We buy houses in ANY CONDITION in Arkansas. There are no commissions or fees, and no obligation whatsoever. Fill out the form below or call us at <a href="tel:+15015047109" class="text-orange hover:text-gold transition-colors font-bold">(501) 504-7109</a> &mdash; let's chat.</p>
+    </div>
+
+    <div class="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm">
+      <div class="bg-navy px-6 py-5 border-b border-white/10">
+        <h3 class="font-display font-bold text-white uppercase text-lg tracking-wide">Get Your No-Obligation Offer</h3>
+        <p class="font-body text-white/60 text-sm mt-1">No pressure. No obligation. Just honest guidance.</p>
+      </div>
+
+      <div class="px-6 pt-6 pb-6">
+        <form id="lead-capture-form" action="YOUR_GHL_WEBHOOK_URL" method="POST">
+          <input type="hidden" name="source" value="faq">
+          <input type="hidden" name="lead_source" value="Organic Website">
+          <input type="hidden" name="lead_type" value="General Seller">
+          <input type="hidden" name="pipeline_category" value="Seller Lead">
+          <div class="flex flex-col gap-4">
+            <div class="grid sm:grid-cols-2 gap-4">
+              <div>
+                <label for="f-name" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Your Name</label>
+                <input id="f-name" type="text" name="firstName" placeholder="First &amp; Last Name" required class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+              </div>
+              <div>
+                <label for="f-phone" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Phone Number</label>
+                <input id="f-phone" type="tel" name="phone" placeholder="(501) 000-0000" required class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+              </div>
+            </div>
+            <div>
+              <label for="f-email" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Email Address</label>
+              <input id="f-email" type="email" name="email" placeholder="you@example.com" required class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+            </div>
+            <div>
+              <label for="f-street" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Street Address</label>
+              <input id="f-street" type="text" name="address1" placeholder="123 Main St" class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+            </div>
+            <div class="grid grid-cols-2 gap-3">
+              <div>
+                <label for="f-city" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">City</label>
+                <input id="f-city" type="text" name="city" placeholder="Little Rock" class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+              </div>
+              <div>
+                <label for="f-zip" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Zip Code</label>
+                <input id="f-zip" type="text" name="postalCode" placeholder="72201" class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+              </div>
+            </div>
+            <button type="submit" class="w-full bg-orange hover:bg-gold text-white font-sub font-bold text-sm px-6 py-3.5 rounded transition-colors uppercase tracking-wider mt-1">Request My Free Offer</button>
+          </div>
+        </form>
+        <p class="font-body text-xs text-grey text-center mt-4">We'll follow up within 24 hours &middot; no pressure &middot; no obligation</p>
+      </div>
+
+      <div class="px-6 pb-6 pt-1 border-t border-gray-100">
+        <a href="tel:+15015047109" class="inline-flex items-center justify-center gap-2 bg-navy hover:bg-orange text-white font-sub font-bold text-sm px-6 py-3.5 rounded transition-colors uppercase tracking-wider w-full">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          Or Call (501) 504-7109
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<Footer />
+
+<!-- MOBILE STICKY BAR -->
+<div class="lg:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 px-4 py-3 flex gap-3 z-40">
+  <a href="tel:+15015047109" class="flex-1 inline-flex items-center justify-center gap-2 bg-navy text-white font-sub font-bold text-xs px-4 py-3 rounded uppercase tracking-wider">
+    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+    Call Now
+  </a>
+  <a href="#lead-form" class="flex-1 inline-flex items-center justify-center gap-2 bg-orange text-white font-sub font-bold text-xs px-4 py-3 rounded uppercase tracking-wider">
+    Get My Offer
+  </a>
+</div>
+
+<script>
+  document.getElementById('lead-capture-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    const form = e.target;
+    fetch(form.action, { method: 'POST', body: new FormData(form), mode: 'no-cors' })
+      .finally(() => { window.location.href = '/thank-you/sell-my-house-fast/'; });
+  });
+</script>
+
+</Layout>
