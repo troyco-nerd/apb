@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 ---
 
@@ -9,40 +10,7 @@ import Footer from '../components/Footer.astro';
 >
 
 <!-- HEADER -->
-<header class="bg-white border-b border-gray-100 sticky top-0 z-50">
-  <div class="max-w-5xl mx-auto px-5 sm:px-8">
-    <div class="flex items-center justify-between h-16">
-      <a href="/" class="flex items-center gap-2.5 flex-shrink-0">
-        <img src="/images/apb icon.png" alt="Arkansas Property Buyers" class="h-10 w-auto object-contain">
-        <span class="font-sub font-bold text-navy text-sm tracking-tight">Arkansas Property Buyers</span>
-      </a>
-      <nav class="hidden md:flex items-center gap-7">
-        <a href="/#how-it-works" class="font-sub font-bold text-xs text-grey uppercase tracking-wider hover:text-navy transition-colors">How It Works</a>
-        <a href="/about"        class="font-sub font-bold text-xs text-grey uppercase tracking-wider hover:text-navy transition-colors">About Us</a>
-        <a href="/#testimonials" class="font-sub font-bold text-xs text-grey uppercase tracking-wider hover:text-navy transition-colors">Reviews</a>
-        <a href="/blog"          class="font-sub font-bold text-xs text-grey uppercase tracking-wider hover:text-navy transition-colors">Blog</a>
-        <a href="tel:+15015047109" class="font-sub font-bold text-sm text-orange flex items-center gap-1.5 hover:text-gold transition-colors">
-          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-          (501) 504-7109
-        </a>
-        <a href="/contact" class="bg-orange hover:bg-gold text-white font-sub font-bold text-xs px-4 py-2 rounded transition-colors uppercase tracking-wider">Contact Us</a>
-      </nav>
-      <button onclick="document.getElementById('mobNav').classList.toggle('open')" class="md:hidden p-2 text-grey">
-        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
-      </button>
-    </div>
-    <div id="mobNav" class="mob-nav md:hidden border-t border-gray-100">
-      <nav class="flex flex-col py-4 gap-1">
-        <a href="/#how-it-works" class="py-2 px-1 font-sub font-bold text-xs text-grey uppercase tracking-wider hover:text-navy">How It Works</a>
-        <a href="/about"        class="py-2 px-1 font-sub font-bold text-xs text-grey uppercase tracking-wider hover:text-navy">About Us</a>
-        <a href="/#testimonials" class="py-2 px-1 font-sub font-bold text-xs text-grey uppercase tracking-wider hover:text-navy">Reviews</a>
-        <a href="/blog"         class="py-2 px-1 font-sub font-bold text-xs text-grey uppercase tracking-wider hover:text-navy">Blog</a>
-        <a href="tel:+15015047109" class="py-2 px-1 font-sub font-bold text-sm text-orange">(501) 504-7109</a>
-        <a href="/contact" class="mt-2 bg-orange text-white font-sub font-bold text-xs px-4 py-2.5 rounded text-center uppercase tracking-wider">Contact Us</a>
-      </nav>
-    </div>
-  </div>
-</header>
+<Header />
 
 <!-- INFO BANNER -->
 <div class="bg-navy text-white px-5 py-2.5 text-center">
