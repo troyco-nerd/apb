@@ -436,6 +436,19 @@ import Footer from '../components/Footer.astro';
                     <input id="f-zip" type="text" name="postalCode" placeholder="72201" class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
                   </div>
                 </div>
+                <div class="flex flex-col gap-2.5">
+                  <label class="flex items-start gap-2.5 cursor-pointer">
+                    <input type="checkbox" id="cb-sms-transactional" class="mt-0.5 w-4 h-4 flex-shrink-0 rounded border-gray-300 text-orange focus:ring-orange focus:ring-offset-0">
+                    <span class="font-body text-grey text-[11px] leading-snug">I agree to receive text messages from Arkansas Property Buyers LLC regarding my property inquiry, requested information, appointment scheduling, and related follow-up. Message frequency varies. Message and data rates may apply. Reply STOP to opt out or HELP for help.</span>
+                  </label>
+                  <label class="flex items-start gap-2.5 cursor-pointer">
+                    <input type="checkbox" id="cb-sms-marketing" class="mt-0.5 w-4 h-4 flex-shrink-0 rounded border-gray-300 text-orange focus:ring-orange focus:ring-offset-0">
+                    <span class="font-body text-grey text-[11px] leading-snug">I agree to receive occasional promotional and educational text messages from Arkansas Property Buyers LLC about property-selling options, homeowner resources, and related services. Message frequency varies. Message and data rates may apply. Reply STOP to opt out or HELP for help.</span>
+                  </label>
+                  <input type="hidden" id="sms-transactional-consent" name="sms_transactional_consent" value="false">
+                  <input type="hidden" id="sms-marketing-consent" name="sms_marketing_consent" value="false">
+                  <p class="font-body text-grey text-[11px] leading-snug">By submitting this form, you agree to our <a href="/terms-and-conditions/" class="text-orange hover:text-gold underline">Terms and Conditions</a> and acknowledge our <a href="/privacy-policy/" class="text-orange hover:text-gold underline">Privacy Policy</a>.</p>
+                </div>
                 <div class="flex gap-2 mt-1">
                   <button type="button" onclick="goToStep1()" class="w-1/3 border border-gray-200 text-grey font-sub font-bold text-xs px-4 py-3.5 rounded hover:border-navy hover:text-navy transition-colors">&larr; Back</button>
                   <button type="submit" class="flex-1 bg-orange hover:bg-gold text-white font-sub font-bold text-sm px-6 py-3.5 rounded transition-colors uppercase tracking-wider">Request Consultation</button>
@@ -557,6 +570,8 @@ function goToStep1() {
 document.getElementById('lead-capture-form').addEventListener('submit', function (e) {
   e.preventDefault();
   const form = e.target;
+  document.getElementById('sms-transactional-consent').value = document.getElementById('cb-sms-transactional').checked ? 'true' : 'false';
+  document.getElementById('sms-marketing-consent').value = document.getElementById('cb-sms-marketing').checked ? 'true' : 'false';
   fetch(form.action, { method: 'POST', body: new FormData(form), mode: 'no-cors' })
     .finally(() => { window.location.href = '/thank-you/avoid-foreclosure/'; });
 });
