@@ -1,0 +1,182 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const reviews = [
+  {
+    quote: "I can not say enough about this company. If you knew our story it would blow your mind. Purchasing our new home has been amazing, Anthony was amazing and he worked so hard in getting everything done so quick for us. He went above and beyond in my books, very easy to talk to and very pleasant. I would and will recommend them to everyone I know looking for a home. I can't say thank you enough for all you've done.",
+    name: 'Mandi T.',
+  },
+  {
+    quote: "Working with Anthony was one of the most positive experiences I've had during a major life transition. I first reached out while trying to figure out how to move forward with selling my home. Although his home-buying company was not the right fit for my particular property, he didn't just end the conversation there. He took the time to point me in the right direction and connected me with someone who could truly help — and that guidance changed the trajectory of my situation. When it came time to prepare the home for sale, several repairs were needed to ensure everything was in good condition for closing. I reconnected with Anthony through his handyman and contracting company, Premier Property Solutions, and he and his crew handled everything quickly and professionally. They did a great job on the repairs, completing the work efficiently, with clear communication, and at a very fair price. What stands out most is his character. Anthony genuinely believes in helping people. Even when he couldn't directly assist me through one business, he made sure I had the support I needed — and later delivered excellent service through another. That level of integrity and care is rare.",
+    name: 'L. Hopkins',
+  },
+  {
+    quote: "Arkansas Property Buyers was great to work with from start to finish. Anthony and Randy were straightforward, honest, and did exactly what they said they would do. No pressure, no games, just clear communication and follow-through. They went above and beyond to make the process smooth, and I genuinely felt like I could trust them the whole way through. If you're looking for people who do business the right way, these are the guys.",
+    name: 'Benjamin K.',
+  },
+  {
+    quote: "No mess, no fuss. After Anthony took a look around our place and did his due diligence/research, he contacted us with a transparent and fair offer - all within a matter of a couple of weeks. He was candid throughout the whole process and entirely nonjudgmental about the condition of our dated home, which needed some pretty serious TLC. He permitted us ample time to find a new place after signing the purchase agreement; didn't hound us at all. Calling Anthony and his team turned out to be the best decision for us. It was a quick and essentially hassle free experience on our end.",
+    name: 'Jordan B.',
+  },
+  {
+    quote: "I had an amazing experience working with Anthony and Randy at Arkansas Property Buyer. Anthony sold me a property today, and the way he handled everything truly meant a lot to me. I was one of the first people to come look at the property, and I told Anthony how much I really liked it. He looked into me and said, \"If you really want this, I'll hold it for you.\" And he did exactly that. He could have easily sold it quickly to someone else, but he kept his word. In today's world, that says a lot. It honestly restored my faith in people and reminded me that there are still honest, trustworthy individuals out there who do business the right way. Anthony and Randy were great to work with from start to finish—professional, respectful, and genuine. I 100% recommend Arkansas Property Buyer to anyone looking to work with people who truly stand by their word.",
+    name: 'Oliver O.',
+  },
+  {
+    quote: "We had a very complicated situation, and I can't even explain how great both Anthony and Randy were throughout the entire process. They helped sort everything out from beginning to end, going above and beyond the entire way. They treated us like family and we can't thank them enough.",
+    name: 'Mark L.',
+  },
+  {
+    quote: "Anthony and Randy with Arkansas Property Buyers are truly top-notch professionals in the real estate game. From the first conversation, it's clear they care about people just as much as they care about doing great business. They operate with honesty, integrity, and a level of transparency that's rare to find. The communication is excellent. They're responsive, clear, and keep their word. Every step of the process was smooth, straightforward, and handled with professionalism, and genuine care. You can truly tell they take pride in what they do and want the best outcome for everyone involved! I highly recommend working with them!",
+    name: 'Nick H.',
+  },
+  {
+    quote: "Got the opportunity to talk and work with Anthony. Extremely helpful and worked with me and helped me with any question that I had. Looking forward to work with Anthony again in the future and will be recommending them to anyone I know. THANK YOU!",
+    name: 'Seth A.',
+  },
+];
+---
+
+<Layout
+  title="Testimonials | Arkansas Property Buyers"
+  description="See what Arkansas homeowners are saying about working with Arkansas Property Buyers — honest, straightforward, and hassle-free from start to finish."
+>
+
+<!-- HEADER -->
+<Header />
+
+<!-- HERO -->
+<section class="bg-navy pt-16 pb-14 sm:pt-22 sm:pb-18">
+  <div class="max-w-3xl sm:max-w-6xl mx-auto px-5 sm:px-8 text-center">
+    <p class="eyebrow tracking-widest mb-4">Real Reviews From Real Homeowners</p>
+    <h1 class="font-display font-bold text-white uppercase leading-tight text-3xl sm:text-6xl mb-6">What Our Clients Say</h1>
+    <p class="tagline-script mb-7">Honest people. Honest reviews.</p>
+    <p class="font-body text-white/70 text-base sm:text-lg leading-relaxed max-w-3xl mx-auto">For over 30 years, Arkansas Property Buyers has helped hundreds of satisfied homeowners across the state sell their properties quickly, fairly, and without the hassle of a traditional listing. Don't just take our word for it &mdash; here's what our clients have to say.</p>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="bg-white py-14 sm:py-20">
+  <div class="max-w-3xl mx-auto px-5 sm:px-8">
+    <div class="flex flex-col gap-5">
+      {reviews.map((review) => (
+        <div class="bg-gray-50 border border-gray-100 rounded-xl p-6">
+          <div class="flex gap-0.5 mb-3">
+            {Array.from({ length: 5 }).map(() => (
+              <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            ))}
+          </div>
+          <p class="font-body text-grey text-sm leading-relaxed italic mb-4">"{review.quote}"</p>
+          <p class="font-sub font-bold text-navy text-sm">&ndash; {review.name}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- LEAD FORM -->
+<section id="lead-form" class="bg-navy py-14 sm:py-20">
+  <div class="max-w-lg mx-auto px-5 sm:px-8">
+    <div class="text-center mb-8">
+      <p class="eyebrow tracking-widest mb-3">Join Our Happy Clients</p>
+      <h2 class="font-display font-bold text-white uppercase text-2xl sm:text-3xl leading-tight mb-4">Get Your No-Obligation Offer</h2>
+      <p class="font-body text-white/70 text-base leading-relaxed max-w-md mx-auto">We buy houses in ANY CONDITION in Arkansas. There are no commissions or fees, and no obligation whatsoever. Fill out the form below or call us at <a href="tel:+15015047109" class="text-orange hover:text-gold transition-colors font-bold">(501) 504-7109</a> &mdash; let's chat.</p>
+    </div>
+
+    <div class="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm">
+      <div class="bg-navy px-6 py-5 border-b border-white/10">
+        <h3 class="font-display font-bold text-white uppercase text-lg tracking-wide">Get Your No-Obligation Offer</h3>
+        <p class="font-body text-white/60 text-sm mt-1">No pressure. No obligation. Just honest guidance.</p>
+      </div>
+
+      <div class="px-6 pt-6 pb-6">
+        <form id="lead-capture-form" action="YOUR_GHL_WEBHOOK_URL" method="POST">
+          <input type="hidden" name="source" value="testimonials">
+          <input type="hidden" name="lead_source" value="Organic Website">
+          <input type="hidden" name="lead_type" value="General Seller">
+          <input type="hidden" name="pipeline_category" value="Seller Lead">
+          <div class="flex flex-col gap-4">
+            <div class="grid sm:grid-cols-2 gap-4">
+              <div>
+                <label for="f-name" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Your Name</label>
+                <input id="f-name" type="text" name="firstName" placeholder="First &amp; Last Name" required class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+              </div>
+              <div>
+                <label for="f-phone" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Phone Number</label>
+                <input id="f-phone" type="tel" name="phone" placeholder="(501) 000-0000" required class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+              </div>
+            </div>
+            <div>
+              <label for="f-email" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Email Address</label>
+              <input id="f-email" type="email" name="email" placeholder="you@example.com" required class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+            </div>
+            <div>
+              <label for="f-street" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Street Address</label>
+              <input id="f-street" type="text" name="address1" placeholder="123 Main St" class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+            </div>
+            <div class="grid grid-cols-2 gap-3">
+              <div>
+                <label for="f-city" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">City</label>
+                <input id="f-city" type="text" name="city" placeholder="Little Rock" class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+              </div>
+              <div>
+                <label for="f-zip" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Zip Code</label>
+                <input id="f-zip" type="text" name="postalCode" placeholder="72201" class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+              </div>
+            </div>
+            <div class="flex flex-col gap-2.5">
+              <label class="flex items-start gap-2.5 cursor-pointer">
+                <input type="checkbox" id="cb-sms-transactional" class="mt-0.5 w-4 h-4 flex-shrink-0 rounded border-gray-300 text-orange focus:ring-orange focus:ring-offset-0">
+                <span class="font-body text-grey text-[11px] leading-snug">I agree to receive text messages from Arkansas Property Buyers LLC regarding my property inquiry, requested information, appointment scheduling, and related follow-up. Message frequency varies. Message and data rates may apply. Reply STOP to opt out or HELP for help.</span>
+              </label>
+              <label class="flex items-start gap-2.5 cursor-pointer">
+                <input type="checkbox" id="cb-sms-marketing" class="mt-0.5 w-4 h-4 flex-shrink-0 rounded border-gray-300 text-orange focus:ring-orange focus:ring-offset-0">
+                <span class="font-body text-grey text-[11px] leading-snug">I agree to receive occasional promotional and educational text messages from Arkansas Property Buyers LLC about property-selling options, homeowner resources, and related services. Message frequency varies. Message and data rates may apply. Reply STOP to opt out or HELP for help.</span>
+              </label>
+              <input type="hidden" id="sms-transactional-consent" name="sms_transactional_consent" value="false">
+              <input type="hidden" id="sms-marketing-consent" name="sms_marketing_consent" value="false">
+              <p class="font-body text-grey text-[11px] leading-snug">By submitting this form, you agree to our <a href="/terms-and-conditions/" class="text-orange hover:text-gold underline">Terms and Conditions</a> and acknowledge our <a href="/privacy/" class="text-orange hover:text-gold underline">Privacy Policy</a>.</p>
+            </div>
+            <button type="submit" class="w-full bg-orange hover:bg-gold text-white font-sub font-bold text-sm px-6 py-3.5 rounded transition-colors uppercase tracking-wider mt-1">Request My Free Offer</button>
+          </div>
+        </form>
+        <p class="font-body text-xs text-grey text-center mt-4">We'll follow up within 24 hours &middot; no pressure &middot; no obligation</p>
+      </div>
+
+      <div class="px-6 pb-6 pt-1 border-t border-gray-100">
+        <a href="tel:+15015047109" class="inline-flex items-center justify-center gap-2 bg-navy hover:bg-orange text-white font-sub font-bold text-sm px-6 py-3.5 rounded transition-colors uppercase tracking-wider w-full">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          Or Call (501) 504-7109
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<Footer />
+
+<!-- MOBILE STICKY BAR -->
+<div class="lg:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 px-4 py-3 flex gap-3 z-40">
+  <a href="tel:+15015047109" class="flex-1 inline-flex items-center justify-center gap-2 bg-navy text-white font-sub font-bold text-xs px-4 py-3 rounded uppercase tracking-wider">
+    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+    Call Now
+  </a>
+  <a href="#lead-form" class="flex-1 inline-flex items-center justify-center gap-2 bg-orange text-white font-sub font-bold text-xs px-4 py-3 rounded uppercase tracking-wider">
+    Get My Offer
+  </a>
+</div>
+
+<script>
+  document.getElementById('lead-capture-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    const form = e.target;
+    document.getElementById('sms-transactional-consent').value = document.getElementById('cb-sms-transactional').checked ? 'true' : 'false';
+    document.getElementById('sms-marketing-consent').value = document.getElementById('cb-sms-marketing').checked ? 'true' : 'false';
+    fetch(form.action, { method: 'POST', body: new FormData(form), mode: 'no-cors' })
+      .finally(() => { window.location.href = '/thank-you/sell-my-house-fast/'; });
+  });
+</script>
+
+</Layout>
