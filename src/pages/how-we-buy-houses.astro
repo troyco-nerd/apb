@@ -1,0 +1,286 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const steps = [
+  { title: 'Tell Us About Your Property', body: 'Quick, easy, and free!' },
+  { title: "We'll Set Up An Appointment", body: "If it meets our buying criteria, we'll contact you to set up a quick appointment." },
+  { title: "You'll Get A Fair Offer", body: "We'll present you with a fair, written, no-obligation offer." },
+  { title: 'We Close, You Get Paid', body: 'We close at a local, reputable title company, cash in your hands in as little as 3 days.' },
+];
+---
+
+<Layout
+  title="How We Buy Houses | Arkansas Property Buyers"
+  description="See exactly how our process works: tell us about your property, get a fair cash offer within 24 hours, and close in as little as 3 days — on your schedule."
+>
+
+<!-- HEADER -->
+<Header />
+
+<!-- SOFTEN URGENCY BANNER -->
+<div class="bg-navy text-white px-5 py-2.5 text-center">
+  <p class="font-sub font-bold text-xs uppercase tracking-wider">
+    Family-owned &middot; Arkansas-based &middot; 30+ years serving homeowners &ndash;
+    <a href="tel:+15015047109" class="text-orange hover:text-gold transition-colors ml-1 underline underline-offset-2">(501) 504-7109</a>
+  </p>
+</div>
+
+<!-- MAIN CONTENT: 2-column sticky layout -->
+<div class="bg-white">
+  <div class="max-w-5xl mx-auto px-5 sm:px-8 py-14 sm:py-20">
+    <div class="grid lg:grid-cols-[1fr_400px] gap-12 lg:gap-14 items-start">
+
+      <!-- ═══ LEFT COLUMN: all scrollable content ═══ -->
+      <div>
+
+        <!-- HERO CONTENT -->
+        <div class="mb-12">
+          <p class="eyebrow tracking-widest mb-4">How It Works</p>
+          <h1 class="font-display font-bold text-navy uppercase leading-tight text-4xl sm:text-5xl mb-4">How The Process Works</h1>
+          <p class="tagline-script mb-5">Quick. Easy. Free.</p>
+
+          <a href="#lead-form" class="lg:hidden inline-flex items-center justify-center gap-2 bg-orange hover:bg-gold text-white font-sub font-bold text-sm px-7 py-3.5 rounded transition-colors uppercase tracking-wider w-full sm:w-auto">
+            Get My Cash Offer &darr;
+          </a>
+        </div>
+
+        <hr class="border-gray-100 mb-12">
+
+        <!-- PROCESS STEPS -->
+        <div class="mb-12">
+          <div class="flex flex-col gap-6">
+            {steps.map((step, i) => (
+              <div class="flex gap-5">
+                <div class="w-10 h-10 bg-orange rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <span class="font-sub font-bold text-white text-sm">{i + 1}</span>
+                </div>
+                <div class="pt-1">
+                  <h3 class="font-sub font-bold text-navy text-sm uppercase tracking-wide mb-1.5">{step.title}</h3>
+                  <p class="font-body text-grey text-sm leading-relaxed">{step.body}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div class="mt-8 p-5 bg-navy rounded-xl">
+            <p class="font-sub font-bold text-orange text-xs uppercase tracking-wider mb-1.5">Timeframe</p>
+            <p class="font-body text-white/80 text-sm leading-relaxed">Once we get your info, we're usually able to make you a fair all-cash offer within 24 hours. From there, we can close as quickly as 3 days&hellip; or on your schedule.</p>
+          </div>
+        </div>
+
+        <hr class="border-gray-100 mb-12">
+
+        <!-- WHY IT'S SIMPLE -->
+        <div class="mb-12">
+          <p class="eyebrow tracking-widest mb-3">No Fees. No Repairs. No Hassle.</p>
+          <h2 class="font-display font-bold text-navy uppercase text-2xl sm:text-3xl leading-tight mb-5">Selling Your House Can Be A Quick And Simple Process</h2>
+          <p class="font-body text-grey text-base leading-relaxed mb-4">Arkansas Property Buyers LLC buys houses in and around Little Rock (and other areas too!). We're not listing your house&hellip; we're actually the ones buying your house. Because we pay cash, we're able to close quickly&hellip; or on a date of your choice.</p>
+          <p class="font-body text-grey text-base leading-relaxed mb-4">Like we've mentioned, when you work with us there are no fees&hellip; like there are when you list your house with an agent. What this means to you is you don't have to worry about extra costs, having to come out of pocket to sell your house fast, or even getting your house ready for a sale (we'll buy your house as-is).</p>
+          <p class="font-body text-grey text-base leading-relaxed">Don't worry about repairing or cleaning up your property. We'll buy your house in as-is condition&hellip; no matter how ugly or pretty it is&hellip; no matter the location.</p>
+
+          <div class="mt-8 p-5 bg-gray-50 border border-gray-100 rounded-xl text-center">
+            <p class="font-sub font-bold text-navy text-sm">See What We Can Offer You For Your House&hellip;</p>
+          </div>
+        </div>
+
+      </div>
+      <!-- ═══ END LEFT COLUMN ═══ -->
+
+      <!-- ═══ RIGHT COLUMN: sticky form ═══ -->
+      <div id="lead-form" class="lg:sticky lg:top-24">
+
+        <div class="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm">
+          <div class="bg-navy px-6 py-5">
+            <h2 class="font-display font-bold text-white uppercase text-lg tracking-wide">Get Your No-Obligation Offer</h2>
+            <p class="font-body text-white/60 text-sm mt-1">No pressure. No obligation. Just honest guidance.</p>
+          </div>
+
+          <div class="px-6 pt-5 pb-2 flex items-center gap-2">
+            <div id="dot1" class="step-dot active w-7 h-7 rounded-full border-2 border-orange bg-orange text-white flex items-center justify-center font-sub font-bold text-xs flex-shrink-0">1</div>
+            <div id="connector" class="flex-1 h-0.5 bg-gray-200 transition-colors duration-300"></div>
+            <div id="dot2" class="step-dot w-7 h-7 rounded-full border-2 border-gray-200 flex items-center justify-center font-sub font-bold text-xs text-grey flex-shrink-0">2</div>
+            <span id="step-label" class="font-body text-xs text-grey ml-1 flex-shrink-0">Step 1 of 2</span>
+          </div>
+
+          <div id="step1" class="px-6 pb-5 pt-3 fade-up">
+            <p class="font-sub font-bold text-navy text-xs uppercase tracking-wider mb-4">Tell us who you are</p>
+            <div class="flex flex-col gap-4">
+              <div>
+                <label for="f-name" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Your Name</label>
+                <input id="f-name" type="text" placeholder="First &amp; Last Name" class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+              </div>
+              <div>
+                <label for="f-phone" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Phone Number</label>
+                <input id="f-phone" type="tel" placeholder="(501) 000-0000" class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+              </div>
+              <div>
+                <label for="f-email" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Email Address</label>
+                <input id="f-email" type="email" placeholder="you@example.com" class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+              </div>
+              <button type="button" onclick="goToStep2()" class="w-full bg-orange hover:bg-gold text-white font-sub font-bold text-sm px-6 py-3.5 rounded transition-colors uppercase tracking-wider mt-1">
+                Next: Property Address &rarr;
+              </button>
+            </div>
+            <p class="font-body text-xs text-grey text-center mt-3">Confidential &middot; no obligation &middot; no pressure</p>
+          </div>
+
+          <!-- GoHighLevel: In GHL go to Automations → New Workflow → Webhook trigger.
+               Copy the webhook URL it gives you and paste it into the action attribute below. -->
+          <div id="step2" class="px-6 pb-5 pt-3 hidden">
+            <p class="font-sub font-bold text-navy text-xs uppercase tracking-wider mb-4">Tell us about the property</p>
+            <form id="lead-capture-form" action="YOUR_GHL_WEBHOOK_URL" method="POST">
+              <input type="hidden" id="sf-name" name="firstName" value="">
+              <input type="hidden" id="sf-phone" name="phone" value="">
+              <input type="hidden" id="sf-email" name="email" value="">
+              <input type="hidden" name="source" value="how-we-buy-houses">
+              <input type="hidden" name="lead_source" value="Organic Website">
+              <input type="hidden" name="lead_type" value="General Seller">
+              <input type="hidden" name="pipeline_category" value="Seller Lead">
+              <div class="flex flex-col gap-4">
+                <div>
+                  <label for="f-street" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Street Address</label>
+                  <input id="f-street" type="text" name="address1" placeholder="123 Main St" class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+                </div>
+                <div class="grid grid-cols-2 gap-3">
+                  <div>
+                    <label for="f-city" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">City</label>
+                    <input id="f-city" type="text" name="city" placeholder="Little Rock" class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+                  </div>
+                  <div>
+                    <label for="f-zip" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Zip Code</label>
+                    <input id="f-zip" type="text" name="postalCode" placeholder="72201" class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+                  </div>
+                </div>
+                <div class="flex flex-col gap-2.5">
+                  <label class="flex items-start gap-2.5 cursor-pointer">
+                    <input type="checkbox" id="cb-sms-transactional" class="mt-0.5 w-4 h-4 flex-shrink-0 rounded border-gray-300 text-orange focus:ring-orange focus:ring-offset-0">
+                    <span class="font-body text-grey text-[11px] leading-snug">I agree to receive text messages from Arkansas Property Buyers LLC regarding my property inquiry, requested information, appointment scheduling, and related follow-up. Message frequency varies. Message and data rates may apply. Reply STOP to opt out or HELP for help.</span>
+                  </label>
+                  <label class="flex items-start gap-2.5 cursor-pointer">
+                    <input type="checkbox" id="cb-sms-marketing" class="mt-0.5 w-4 h-4 flex-shrink-0 rounded border-gray-300 text-orange focus:ring-orange focus:ring-offset-0">
+                    <span class="font-body text-grey text-[11px] leading-snug">I agree to receive occasional promotional and educational text messages from Arkansas Property Buyers LLC about property-selling options, homeowner resources, and related services. Message frequency varies. Message and data rates may apply. Reply STOP to opt out or HELP for help.</span>
+                  </label>
+                  <input type="hidden" id="sms-transactional-consent" name="sms_transactional_consent" value="false">
+                  <input type="hidden" id="sms-marketing-consent" name="sms_marketing_consent" value="false">
+                  <p class="font-body text-grey text-[11px] leading-snug">By submitting this form, you agree to our <a href="/terms-and-conditions/" class="text-orange hover:text-gold underline">Terms and Conditions</a> and acknowledge our <a href="/privacy/" class="text-orange hover:text-gold underline">Privacy Policy</a>.</p>
+                </div>
+                <div class="flex gap-2 mt-1">
+                  <button type="button" onclick="goToStep1()" class="w-1/3 border border-gray-200 text-grey font-sub font-bold text-xs px-4 py-3.5 rounded hover:border-navy hover:text-navy transition-colors">&larr; Back</button>
+                  <button type="submit" class="flex-1 bg-orange hover:bg-gold text-white font-sub font-bold text-sm px-6 py-3.5 rounded transition-colors uppercase tracking-wider">Get My Offer</button>
+                </div>
+              </div>
+            </form>
+            <p class="font-body text-xs text-grey text-center mt-3">We'll follow up within 24 hours &middot; no pressure</p>
+          </div>
+
+          <div class="px-6 pb-5 pt-1 border-t border-gray-100">
+            <a href="tel:+15015047109" class="inline-flex items-center justify-center gap-2 bg-navy hover:bg-orange text-white font-sub font-bold text-sm px-6 py-3.5 rounded transition-colors uppercase tracking-wider w-full">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              Or Call (501) 504-7109
+            </a>
+          </div>
+        </div>
+
+        <!-- SIDEBAR WIDGET: Listing vs Selling to Us -->
+        <div class="mt-4 bg-gray-50 border border-gray-100 rounded-xl px-5 py-5">
+          <h3 class="font-sub font-bold text-navy text-sm uppercase tracking-wide mb-3">Listing vs. Selling To Us</h3>
+          <ul class="flex flex-col gap-2 mb-4">
+            <li class="flex items-start gap-2.5">
+              <svg class="w-4 h-4 text-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+              <p class="font-body text-grey text-sm">Which route is quicker?</p>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <svg class="w-4 h-4 text-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+              <p class="font-body text-grey text-sm">Puts more cash in your pocket?</p>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <svg class="w-4 h-4 text-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+              <p class="font-body text-grey text-sm">Has less hassle?</p>
+            </li>
+          </ul>
+          <a href="/compare/" class="inline-flex items-center justify-center gap-2 w-full bg-navy hover:bg-orange text-white font-sub font-bold text-xs px-5 py-3 rounded transition-colors uppercase tracking-wider">
+            See The Difference Here &rarr;
+          </a>
+        </div>
+
+        <div class="mt-4 grid grid-cols-3 gap-2 text-center">
+          <div class="bg-gray-50 border border-gray-100 rounded-lg px-2 py-3">
+            <svg class="w-5 h-5 text-navy mx-auto mb-1" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+            <p class="font-sub font-bold text-navy text-xs leading-tight">No Obligation</p>
+          </div>
+          <div class="bg-gray-50 border border-gray-100 rounded-lg px-2 py-3">
+            <svg class="w-5 h-5 text-navy mx-auto mb-1" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+            <p class="font-sub font-bold text-navy text-xs leading-tight">Confidential</p>
+          </div>
+          <div class="bg-gray-50 border border-gray-100 rounded-lg px-2 py-3">
+            <svg class="w-5 h-5 text-navy mx-auto mb-1" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            <p class="font-sub font-bold text-navy text-xs leading-tight">Local Arkansas</p>
+          </div>
+        </div>
+
+      </div>
+      <!-- ═══ END RIGHT COLUMN ═══ -->
+
+    </div>
+  </div>
+</div>
+
+<Footer />
+
+<!-- Mobile sticky CTA bar -->
+<div class="lg:hidden fixed bottom-0 left-0 right-0 z-40 bg-white border-t border-gray-200 px-4 py-3 flex gap-3">
+  <a href="#lead-form" class="flex-1 text-center bg-orange hover:bg-gold text-white font-sub font-bold text-xs py-3 rounded transition-colors uppercase tracking-wider">Get My Offer</a>
+  <a href="tel:+15015047109" class="flex-1 text-center bg-navy hover:bg-orange text-white font-sub font-bold text-xs py-3 rounded transition-colors uppercase tracking-wider">Call Now</a>
+</div>
+
+<script is:inline>
+function goToStep2() {
+  const name = document.getElementById('f-name').value.trim();
+  const phone = document.getElementById('f-phone').value.trim();
+  const email = document.getElementById('f-email').value.trim();
+  if (!name || !phone || !email) {
+    alert('Please enter your name, phone number, and email to continue.');
+    return;
+  }
+  document.getElementById('sf-name').value = name;
+  document.getElementById('sf-phone').value = phone;
+  document.getElementById('sf-email').value = email;
+
+  const s1 = document.getElementById('step1');
+  const s2 = document.getElementById('step2');
+  s1.classList.add('hidden');
+  s2.classList.remove('hidden');
+  s2.classList.add('fade-up');
+
+  document.getElementById('dot1').className = 'step-dot done w-7 h-7 rounded-full border-2 border-navy bg-navy text-white flex items-center justify-center font-sub font-bold text-xs flex-shrink-0';
+  document.getElementById('dot2').className = 'step-dot active w-7 h-7 rounded-full border-2 border-orange bg-orange text-white flex items-center justify-center font-sub font-bold text-xs flex-shrink-0';
+  document.getElementById('connector').classList.add('bg-orange');
+  document.getElementById('step-label').textContent = 'Step 2 of 2';
+}
+
+function goToStep1() {
+  const s1 = document.getElementById('step1');
+  const s2 = document.getElementById('step2');
+  s2.classList.add('hidden');
+  s1.classList.remove('hidden');
+  s1.classList.add('fade-up');
+
+  document.getElementById('dot1').className = 'step-dot active w-7 h-7 rounded-full border-2 border-orange bg-orange text-white flex items-center justify-center font-sub font-bold text-xs flex-shrink-0';
+  document.getElementById('dot2').className = 'step-dot w-7 h-7 rounded-full border-2 border-gray-200 flex items-center justify-center font-sub font-bold text-xs text-grey flex-shrink-0';
+  document.getElementById('connector').classList.remove('bg-orange');
+  document.getElementById('step-label').textContent = 'Step 1 of 2';
+}
+
+document.getElementById('lead-capture-form').addEventListener('submit', function (e) {
+  e.preventDefault();
+  const form = e.target;
+  document.getElementById('sms-transactional-consent').value = document.getElementById('cb-sms-transactional').checked ? 'true' : 'false';
+  document.getElementById('sms-marketing-consent').value = document.getElementById('cb-sms-marketing').checked ? 'true' : 'false';
+  fetch(form.action, { method: 'POST', body: new FormData(form), mode: 'no-cors' })
+    .finally(() => { window.location.href = '/thank-you/sell-my-house-fast/'; });
+});
+</script>
+
+</Layout>
