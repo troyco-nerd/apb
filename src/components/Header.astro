@@ -24,17 +24,20 @@ const mobLinkClass = (key: string) =>
         <span class="font-sub font-bold text-navy text-sm tracking-tight">Arkansas Property Buyers</span>
       </a>
       <nav class="hidden md:flex items-center gap-5">
-        <a href="/about"         class={linkClass('about')}>About Us</a>
+        <a href="/our-company"         class={linkClass('about')}>About Us</a>
         <a href="/compare"       class={linkClass('compare')}>Compare</a>
         <a href="/faq"           class={linkClass('faq')}>FAQ</a>
         <a href="/making-the-transition-easier" class={linkClass('senior-care')}>Senior Care</a>
-        <a href="/#testimonials" class={linkClass('testimonials')}>Reviews</a>
+        <a href="/testimonials" class={linkClass('testimonials')}>Reviews</a>
         <a href="/blog"          class={linkClass('blog')}>Blog</a>
+        <a href="https://www.facebook.com/propertybuyersar/" target="_blank" rel="noopener" aria-label="Arkansas Property Buyers on Facebook" class="text-grey hover:text-navy transition-colors">
+          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/></svg>
+        </a>
         <a href="tel:+15015047109" class="font-sub font-bold text-sm text-orange flex items-center gap-1.5 hover:text-gold transition-colors">
           <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
           (501) 504-7109
         </a>
-        <a href="/contact" class="bg-orange hover:bg-gold text-white font-sub font-bold text-xs px-4 py-2 rounded transition-colors uppercase tracking-wider">Contact Us</a>
+        <a href="/contact-us" class="bg-orange hover:bg-gold text-white font-sub font-bold text-xs px-4 py-2 rounded transition-colors uppercase tracking-wider">Contact Us</a>
       </nav>
       <button onclick="document.getElementById('mobNav').classList.toggle('open')" class="md:hidden p-2 text-grey">
         <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
@@ -42,14 +45,15 @@ const mobLinkClass = (key: string) =>
     </div>
     <div id="mobNav" class="mob-nav md:hidden border-t border-gray-100">
       <nav class="flex flex-col py-4 gap-1">
-        <a href="/about"         class={mobLinkClass('about')}>About Us</a>
+        <a href="/our-company"         class={mobLinkClass('about')}>About Us</a>
         <a href="/compare"       class={mobLinkClass('compare')}>Compare</a>
         <a href="/faq"           class={mobLinkClass('faq')}>FAQ</a>
         <a href="/making-the-transition-easier" class={mobLinkClass('senior-care')}>Senior Care</a>
-        <a href="/#testimonials" class={mobLinkClass('testimonials')}>Reviews</a>
+        <a href="/testimonials" class={mobLinkClass('testimonials')}>Reviews</a>
         <a href="/blog"          class={mobLinkClass('blog')}>Blog</a>
+        <a href="https://www.facebook.com/propertybuyersar/" target="_blank" rel="noopener" class="py-2 px-1 font-sub font-bold text-xs text-grey uppercase tracking-wider hover:text-navy">Facebook</a>
         <a href="tel:+15015047109" class="py-2 px-1 font-sub font-bold text-sm text-orange">(501) 504-7109</a>
-        <a href="/contact" class="mt-2 bg-orange text-white font-sub font-bold text-xs px-4 py-2.5 rounded text-center uppercase tracking-wider">Contact Us</a>
+        <a href="/contact-us" class="mt-2 bg-orange text-white font-sub font-bold text-xs px-4 py-2.5 rounded text-center uppercase tracking-wider">Contact Us</a>
       </nav>
     </div>
   </div>

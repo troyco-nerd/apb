@@ -3,66 +3,74 @@ import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 
-const faqs = [
+const reviews = [
   {
-    q: 'Will you be listing my house on the MLS or actually buying it?',
-    a: "Great question. We're not agents, and we don't list houses. We are professional home buyers: We buy houses in Little Rock, and all surrounding areas that meet our purchasing criteria. From there we may repair the house and resell it to another homeowner or keep it as a rental ourselves.",
+    quote: "I can not say enough about this company. If you knew our story it would blow your mind. Purchasing our new home has been amazing, Anthony was amazing and he worked so hard in getting everything done so quick for us. He went above and beyond in my books, very easy to talk to and very pleasant. I would and will recommend them to everyone I know looking for a home. I can't say thank you enough for all you've done.",
+    name: 'Mandi T.',
   },
   {
-    q: 'Do you pay fair prices for properties?',
-    a: "In our experience, many sellers aren't necessarily expecting a large \"windfall\" on the property, but rather appreciate that we can offer cash, we close very quickly (no waiting for financing), and no time or effort or expense is required on your part to fix up the property or pay agent fees. If that's what you're looking for and you see the value in getting your house sold fast&hellip; let's see if we can come to a fair win-win price. (Besides, our no-obligation pricing commitment means that you do not have to move forward with the offer we give&hellip; but it's good to know what we're offering!)",
+    quote: "Working with Anthony was one of the most positive experiences I've had during a major life transition. I first reached out while trying to figure out how to move forward with selling my home. Although his home-buying company was not the right fit for my particular property, he didn't just end the conversation there. He took the time to point me in the right direction and connected me with someone who could truly help — and that guidance changed the trajectory of my situation. When it came time to prepare the home for sale, several repairs were needed to ensure everything was in good condition for closing. I reconnected with Anthony through his handyman and contracting company, Premier Property Solutions, and he and his crew handled everything quickly and professionally. They did a great job on the repairs, completing the work efficiently, with clear communication, and at a very fair price. What stands out most is his character. Anthony genuinely believes in helping people. Even when he couldn't directly assist me through one business, he made sure I had the support I needed — and later delivered excellent service through another. That level of integrity and care is rare.",
+    name: 'L. Hopkins',
   },
   {
-    q: 'How do you determine the price to offer on my house?',
-    a: "Great question, and we're an open book: Our process is very straightforward. We look at the location of the property, what repairs are needed, the current condition of the property, and values of comparable houses sold in the area recently. We take many pieces of information into consideration&hellip; and come up with a fair price that works for us and works for you too.",
+    quote: "Arkansas Property Buyers was great to work with from start to finish. Anthony and Randy were straightforward, honest, and did exactly what they said they would do. No pressure, no games, just clear communication and follow-through. They went above and beyond to make the process smooth, and I genuinely felt like I could trust them the whole way through. If you're looking for people who do business the right way, these are the guys.",
+    name: 'Benjamin K.',
   },
   {
-    q: 'Are there any fees or commissions to work with you?',
-    a: "This is what makes us stand out from the traditional method of selling your house: There are NO fees or commissions when you sell your house to us. We'll make you an offer, and if it's a fit then we'll buy your house (and we'll often pay for the closing costs too!). No hassle. No fees. We make our money after we pay for repairs on the house (if any) and sell it for a profit (we're taking the risks here on whether we can sell it for a profit or not, once we buy the house from you&hellip; the responsibility is ours and you walk away without the burden of the property and its payments&hellip; and often with cash in your hand).",
+    quote: "No mess, no fuss. After Anthony took a look around our place and did his due diligence/research, he contacted us with a transparent and fair offer - all within a matter of a couple of weeks. He was candid throughout the whole process and entirely nonjudgmental about the condition of our dated home, which needed some pretty serious TLC. He permitted us ample time to find a new place after signing the purchase agreement; didn't hound us at all. Calling Anthony and his team turned out to be the best decision for us. It was a quick and essentially hassle free experience on our end.",
+    name: 'Jordan B.',
   },
   {
-    q: 'How are you different from a real estate agent?',
-    a: "Real estate agents list properties and hope that someone will buy them. The agent shows the properties to prospective buyers if there are any (the average time to sell a property in many markets right now is 6-12 months) and then take a percentage of the sale price if they find a buyer. Usually, the agent's commission is 6% of the sale price of your house (so if it's a $100,000 house, you'll pay $6,000 in commissions to an agent). Agents provide a great service for those that can wait 6-12 months to sell and who don't mind giving up some of that sale price to pay for the commissions. But that's where we're different: We're not agents, we're home buyers. Our company actually buys houses. We don't list houses. Since we're actually the one buying the house from you, and we pay with all cash&hellip; we can make a decision to buy your house within a couple of days (sometimes the same day). Again, we make our living by taking the risk to buy the house with our own cash, repair the house, and market it ourselves to find a buyer (which is the hard part in this market).",
+    quote: "I had an amazing experience working with Anthony and Randy at Arkansas Property Buyer. Anthony sold me a property today, and the way he handled everything truly meant a lot to me. I was one of the first people to come look at the property, and I told Anthony how much I really liked it. He looked into me and said, \"If you really want this, I'll hold it for you.\" And he did exactly that. He could have easily sold it quickly to someone else, but he kept his word. In today's world, that says a lot. It honestly restored my faith in people and reminded me that there are still honest, trustworthy individuals out there who do business the right way. Anthony and Randy were great to work with from start to finish—professional, respectful, and genuine. I 100% recommend Arkansas Property Buyer to anyone looking to work with people who truly stand by their word.",
+    name: 'Oliver O.',
   },
   {
-    q: 'Is there any obligation when I submit my info?',
-    a: "There is absolutely zero obligation for you. Once you tell us a bit about your property, we'll take a look at things, maybe set up a call with you to find out a bit more, and make you an all-cash offer that's fair for you and fair for us. From there, it's 100% your decision on whether or not you'd like to sell your house to us&hellip; and we won't hassle you, won't harass you&hellip; it's 100% your decision and we'll let you decide what's right for you.",
+    quote: "We had a very complicated situation, and I can't even explain how great both Anthony and Randy were throughout the entire process. They helped sort everything out from beginning to end, going above and beyond the entire way. They treated us like family and we can't thank them enough.",
+    name: 'Mark L.',
+  },
+  {
+    quote: "Anthony and Randy with Arkansas Property Buyers are truly top-notch professionals in the real estate game. From the first conversation, it's clear they care about people just as much as they care about doing great business. They operate with honesty, integrity, and a level of transparency that's rare to find. The communication is excellent. They're responsive, clear, and keep their word. Every step of the process was smooth, straightforward, and handled with professionalism, and genuine care. You can truly tell they take pride in what they do and want the best outcome for everyone involved! I highly recommend working with them!",
+    name: 'Nick H.',
+  },
+  {
+    quote: "Got the opportunity to talk and work with Anthony. Extremely helpful and worked with me and helped me with any question that I had. Looking forward to work with Anthony again in the future and will be recommending them to anyone I know. THANK YOU!",
+    name: 'Seth A.',
   },
 ];
 ---
 
 <Layout
-  title="Frequently Asked Questions | Arkansas Property Buyers"
-  description="Answers to the most common questions homeowners ask Arkansas Property Buyers about selling a house for cash — pricing, fees, timelines, and how we're different from a real estate agent."
+  title="Testimonials | Arkansas Property Buyers"
+  description="See what Arkansas homeowners are saying about working with Arkansas Property Buyers — honest, straightforward, and hassle-free from start to finish."
 >
 
 <!-- HEADER -->
-<Header active="faq" />
+<Header />
 
 <!-- HERO -->
 <section class="bg-navy pt-16 pb-14 sm:pt-22 sm:pb-18">
   <div class="max-w-3xl sm:max-w-6xl mx-auto px-5 sm:px-8 text-center">
-    <p class="eyebrow tracking-widest mb-4">Common Questions</p>
-    <h1 class="font-display font-bold text-white uppercase leading-tight text-3xl sm:text-6xl mb-6">Frequently Asked Questions</h1>
-    <p class="tagline-script mb-7">Straight answers, no sales pitch.</p>
-    <p class="font-body text-white/70 text-base sm:text-lg leading-relaxed max-w-3xl mx-auto">Maybe you have a few questions. That's okay, most people do. Here's a quick collection of some of the questions people ask us&hellip; along with our answers. If you still have a question, don't hesitate to contact us (or give us a call) and we'll be happy to answer it for you.</p>
+    <p class="eyebrow tracking-widest mb-4">Real Reviews From Real Homeowners</p>
+    <h1 class="font-display font-bold text-white uppercase leading-tight text-3xl sm:text-6xl mb-6">What Our Clients Say</h1>
+    <p class="tagline-script mb-7">Honest people. Honest reviews.</p>
+    <p class="font-body text-white/70 text-base sm:text-lg leading-relaxed max-w-3xl mx-auto">For over 30 years, Arkansas Property Buyers has helped hundreds of satisfied homeowners across the state sell their properties quickly, fairly, and without the hassle of a traditional listing. Don't just take our word for it &mdash; here's what our clients have to say.</p>
   </div>
 </section>
 
-<!-- FAQ -->
+<!-- TESTIMONIALS -->
 <section class="bg-white py-14 sm:py-20">
   <div class="max-w-3xl mx-auto px-5 sm:px-8">
-    <div class="flex flex-col gap-3">
-      {faqs.map((faq) => (
-        <details class="bg-gray-50 border border-gray-100 rounded-xl overflow-hidden group">
-          <summary class="flex items-center justify-between px-5 py-4 cursor-pointer list-none">
-            <span class="font-sub font-bold text-navy text-sm">{faq.q}</span>
-            <svg class="w-4 h-4 text-orange flex-shrink-0 ml-3 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
-          </summary>
-          <div class="px-5 pb-5 border-t border-gray-100 pt-4">
-            <p class="font-body text-grey text-sm leading-relaxed" set:html={faq.a} />
+    <div class="flex flex-col gap-5">
+      {reviews.map((review) => (
+        <div class="bg-gray-50 border border-gray-100 rounded-xl p-6">
+          <div class="flex gap-0.5 mb-3">
+            {Array.from({ length: 5 }).map(() => (
+              <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            ))}
           </div>
-        </details>
+          <p class="font-body text-grey text-sm leading-relaxed italic mb-4">"{review.quote}"</p>
+          <p class="font-sub font-bold text-navy text-sm">&ndash; {review.name}</p>
+        </div>
       ))}
     </div>
   </div>
@@ -70,10 +78,10 @@ const faqs = [
 
 <!-- LEAD FORM -->
 <section id="lead-form" class="bg-navy py-14 sm:py-20">
-  <div class="max-w-2xl mx-auto px-5 sm:px-8">
+  <div class="max-w-lg mx-auto px-5 sm:px-8">
     <div class="text-center mb-8">
-      <p class="eyebrow tracking-widest mb-3">Still Have Questions?</p>
-      <h2 class="font-display font-bold text-white uppercase text-2xl sm:text-3xl leading-tight mb-4">Let's Talk It Through</h2>
+      <p class="eyebrow tracking-widest mb-3">Join Our Happy Clients</p>
+      <h2 class="font-display font-bold text-white uppercase text-2xl sm:text-3xl leading-tight mb-4">Get Your No-Obligation Offer</h2>
       <p class="font-body text-white/70 text-base leading-relaxed max-w-md mx-auto">We buy houses in ANY CONDITION in Arkansas. There are no commissions or fees, and no obligation whatsoever. Fill out the form below or call us at <a href="tel:+15015047109" class="text-orange hover:text-gold transition-colors font-bold">(501) 504-7109</a> &mdash; let's chat.</p>
     </div>
 
@@ -84,8 +92,8 @@ const faqs = [
       </div>
 
       <div class="px-6 pt-6 pb-6">
-        <form id="lead-capture-form" action="https://services.leadconnectorhq.com/hooks/kqj3LlvP9g5EoyEpo1w2/webhook-trigger/6b95aeb0-e415-417e-8586-3cba62f02194" method="POST">
-          <input type="hidden" name="source" value="faq">
+        <form id="lead-capture-form" action="YOUR_GHL_WEBHOOK_URL" method="POST">
+          <input type="hidden" name="source" value="testimonials">
           <input type="hidden" name="lead_source" value="Organic Website">
           <input type="hidden" name="lead_type" value="General Seller">
           <input type="hidden" name="pipeline_category" value="Seller Lead">
