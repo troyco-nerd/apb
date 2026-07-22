@@ -493,7 +493,7 @@ const { city } = Astro.props;
   </a>
 </div>
 
-<script>
+<script is:inline>
   function goToStep2() {
     const name = document.getElementById('f-name').value.trim();
     const phone = document.getElementById('f-phone').value.trim();
