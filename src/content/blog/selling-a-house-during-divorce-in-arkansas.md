@@ -94,7 +94,7 @@ Generally, no. If both spouses are on the title, both must agree to sell. Courts
 
 ### **How long does selling a house during divorce typically take in Arkansas?**
 
-Traditional market sales in Arkansas average 45–75 days from listing to closing in 2026, depending on market conditions. Couples seeking a faster resolution often work with cash buyers like [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com), which can close in as little as two weeks.
+Traditional market sales in Arkansas average 45–75 days from listing to closing in 2026, depending on market conditions. Couples seeking a faster resolution often work with cash buyers like [Arkansas Property Buyers](/), which can close in as little as two weeks.
 
 ### **What happens if we owe more than the house is worth?**
 
@@ -110,7 +110,7 @@ Courts often order the status quo maintained, meaning whoever was paying continu
 
 ## **Moving Forward After the Sale**
 
-Selling a house during a divorce in Arkansas demands attention to legal requirements, financial implications, and practical logistics. The process works best when both parties prioritize completing the transaction over winning individual battles. If you’re facing a divorce and need to sell your home quickly without the complications of traditional listings, [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) offers cash purchases that close on your timeline, eliminating repair demands and agent commissions while providing certainty during an uncertain time.
+Selling a house during a divorce in Arkansas demands attention to legal requirements, financial implications, and practical logistics. The process works best when both parties prioritize completing the transaction over winning individual battles. If you’re facing a divorce and need to sell your home quickly without the complications of traditional listings, [Arkansas Property Buyers](/) offers cash purchases that close on your timeline, eliminating repair demands and agent commissions while providing certainty during an uncertain time.
 
 -   [**Share**](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.arkansaspropertybuyers.com%2Fblog%2Fselling-a-house-during-divorce-in-arkansas%2F "Share on Facebook")
 -   [**Share**](https://twitter.com/intent/tweet?text=Selling+a+House+During+Divorce+in+Arkansas+%7C+Arkansas+Property+Buyers&url=https%3A%2F%2Fwww.arkansaspropertybuyers.com%2Fblog%2Fselling-a-house-during-divorce-in-arkansas%2F "Share on Twitter")

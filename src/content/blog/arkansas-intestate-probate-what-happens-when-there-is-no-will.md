@@ -74,7 +74,7 @@ Arkansas maintains an ancestral estate doctrine that traces property back to its
 
 Arkansas offers expedited procedures for modest estates. When the total estate value is $100,000 or less after deducting liens and encumbrances, heirs can use a small estate affidavit to collect assets without full probate administration. This process requires waiting 45 days after death and filing an affidavit with the court. Real property valued at less than $100,000 can be transferred through a similar simplified process. These procedures save time and legal fees for families dealing with smaller estates.
 
-For families dealing with inherited property they don’t want to maintain, [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) offers a straightforward solution. They purchase homes in any condition, eliminating the burden of repairs or extended listing periods during an already stressful time.
+For families dealing with inherited property they don’t want to maintain, [Arkansas Property Buyers](/) offers a straightforward solution. They purchase homes in any condition, eliminating the burden of repairs or extended listing periods during an already stressful time.
 
 ## **Frequently Asked Questions**
 
@@ -92,7 +92,7 @@ The estate escheats to the state of Arkansas after diligent efforts to locate he
 
 ### **Do I need an attorney for intestate probate?**
 
-While not legally required, an attorney helps navigate complex procedures and avoid costly mistakes. Administrators who mishandle estates can face personal liability. [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) often works with families navigating these situations and can provide referrals to local probate attorneys.
+While not legally required, an attorney helps navigate complex procedures and avoid costly mistakes. Administrators who mishandle estates can face personal liability. [Arkansas Property Buyers](/) often works with families navigating these situations and can provide referrals to local probate attorneys.
 
 ## **Moving Forward After Intestate Probate**
 

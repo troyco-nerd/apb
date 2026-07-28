@@ -58,7 +58,7 @@ Selling a home during a divorce adds layers of complexity to an already stressfu
 
 Both spouses should agree on a single agent to represent the sale of the property. Attempting to use separate agents creates conflicts and often delays the process. Look for someone experienced with divorce sales who understands court timelines and can communicate effectively with both parties and their attorneys.
 
-Some couples struggling to agree on listing decisions benefit from working with cash buyers like [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com), who can eliminate the need for staging, showings, and negotiations that require ongoing cooperation.
+Some couples struggling to agree on listing decisions benefit from working with cash buyers like [Arkansas Property Buyers](/), who can eliminate the need for staging, showings, and negotiations that require ongoing cooperation.
 
 ### **Determining a Listing Price and Handling Offers**
 
@@ -104,7 +104,7 @@ Yes, courts can order a home sold if spouses cannot agree on disposition. Judges
 
 ### **How long does selling a house during a divorce typically take?**
 
-Traditional home sales in Arkansas generally take 30–60 days from listing to closing, though complex divorces or court approvals may extend that timeline**.** Couples needing faster resolution often work with cash buyers like [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com), who can close in as little as two weeks.
+Traditional home sales in Arkansas generally take 30–60 days from listing to closing, though complex divorces or court approvals may extend that timeline**.** Couples needing faster resolution often work with cash buyers like [Arkansas Property Buyers](/), who can close in as little as two weeks.
 
 ### **What happens if we owe more than the house is worth?**
 

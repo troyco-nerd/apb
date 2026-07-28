@@ -116,11 +116,11 @@ Focus on items that affect safety, functionality, and first impressions: HVAC sy
 
 ### **Can I sell my Arkansas home as-is?**
 
-Absolutely. If repairs feel overwhelming or you need to sell quickly, [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) purchase homes in any condition without requiring improvements.
+Absolutely. If repairs feel overwhelming or you need to sell quickly, [Arkansas Property Buyers](/) purchase homes in any condition without requiring improvements.
 
 ## **Your Next Steps to a Successful Sale**
 
-Preparing your Arkansas home for sale requires attention to market timing, strategic improvements, proper documentation, and effective marketing. Each element contributes to achieving the best possible outcome, whether that means top dollar or a fast closing.If the traditional selling process feels overwhelming, or if you need to sell quickly due to foreclosure, inheritance, or relocation, consider reaching out to [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) for a fair cash offer within 24 hours. Their team handles properties in any condition throughout Little Rock and central Arkansas, eliminating the stress of repairs, commissions, and lengthy negotiations.
+Preparing your Arkansas home for sale requires attention to market timing, strategic improvements, proper documentation, and effective marketing. Each element contributes to achieving the best possible outcome, whether that means top dollar or a fast closing.If the traditional selling process feels overwhelming, or if you need to sell quickly due to foreclosure, inheritance, or relocation, consider reaching out to [Arkansas Property Buyers](/) for a fair cash offer within 24 hours. Their team handles properties in any condition throughout Little Rock and central Arkansas, eliminating the stress of repairs, commissions, and lengthy negotiations.
 
 -   [**Share**](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.arkansaspropertybuyers.com%2Fblog%2Fhow-to-ready-your-house-for-sale-in-arkansas%2F "Share on Facebook")
 -   [**Share**](https://twitter.com/intent/tweet?text=How+to+Ready+Your+House+for+Sale+in+Arkansas+%7C+Arkansas+Property+Buyers&url=https%3A%2F%2Fwww.arkansaspropertybuyers.com%2Fblog%2Fhow-to-ready-your-house-for-sale-in-arkansas%2F "Share on Twitter")

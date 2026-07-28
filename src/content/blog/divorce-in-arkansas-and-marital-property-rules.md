@@ -120,7 +120,7 @@ Debts incurred during marriage are divided equitably, similar to assets. Courts 
 
 Divorce in Arkansas requires careful attention to marital property rules that can significantly impact your financial future. Understanding equitable distribution principles, properly classifying assets, and working toward negotiated settlements typically produce better outcomes than contested litigation.
 
-If you’re facing divorce and need to sell property quickly without the complications of traditional real estate transactions, [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) provides cash offers within 24 hours with no repairs, commissions, or fees required. [Get your fair cash offer](https://www.arkansaspropertybuyers.com) and simplify one of the most challenging aspects of your divorce process.
+If you’re facing divorce and need to sell property quickly without the complications of traditional real estate transactions, [Arkansas Property Buyers](/) provides cash offers within 24 hours with no repairs, commissions, or fees required. [Get your fair cash offer](/) and simplify one of the most challenging aspects of your divorce process.
 
 -   [**Share**](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.arkansaspropertybuyers.com%2Fblog%2Fdivorce-in-arkansas-and-marital-property-rules%2F "Share on Facebook")
 -   [**Share**](https://twitter.com/intent/tweet?text=Divorce+in+Arkansas+and+Marital+Property+Rules+%7C+Arkansas+Property+Buyers&url=https%3A%2F%2Fwww.arkansaspropertybuyers.com%2Fblog%2Fdivorce-in-arkansas-and-marital-property-rules%2F "Share on Twitter")

@@ -48,7 +48,7 @@ Arkansas law sets the maximum security deposit at two months’ rent only for la
 
 After your tenancy ends, the landlord must return your security deposit within 60 days, minus any legitimate deductions for unpaid rent or damages beyond normal wear and tear. Landlords cannot keep deposits without providing an itemized statement explaining deductions. Vague claims of “cleaning” or “repairs” without documentation violate your rights.
 
-If you’re dealing with property complications after a tenancy, [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) works with homeowners facing various real estate challenges throughout the Little Rock area.
+If you’re dealing with property complications after a tenancy, [Arkansas Property Buyers](/) works with homeowners facing various real estate challenges throughout the Little Rock area.
 
 ### **Unreasonable Late Fees and Penalties**
 
@@ -80,7 +80,7 @@ Under the [Arkansas Fair Housing Act](https://ig.arkansas.gov/fair-housing/laws/
 
 A landlord cannot place advertisements indicating preferences for or against certain groups. Phrases like “perfect for singles” or “no children” violate fair housing standards. Similarly, application screening must apply consistent criteria to all applicants. Asking different questions based on a person’s background or appearance crosses legal lines.
 
-For homeowners who’ve inherited properties and want to avoid landlord responsibilities entirely, [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) offers a straightforward alternative to managing rental situations.
+For homeowners who’ve inherited properties and want to avoid landlord responsibilities entirely, [Arkansas Property Buyers](/) offers a straightforward alternative to managing rental situations.
 
 ## **Legal Recourse for Arkansas Tenants**
 

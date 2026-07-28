@@ -80,7 +80,7 @@ A short sale occurs when your lender agrees to accept less than you owe on the m
 
 A deed-in-lieu of foreclosure involves voluntarily transferring your property to your lender in exchange for the cancellation of your debt. This option avoids the public foreclosure process and may cause less credit damage. Lenders typically require you to attempt selling the property first and may not accept a deed in lieu if you have other liens on the property.
 
-For homeowners who need to sell quickly without the complications of traditional listings, [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com/) offers cash purchases that can close before foreclosure sales occur. This approach eliminates realtor commissions, repairs, and financing contingencies that slow traditional sales. Homeowners facing foreclosure can [get help avoiding foreclosure](/avoid-foreclosure/) and find solutions that preserve their equity and credit.
+For homeowners who need to sell quickly without the complications of traditional listings, [Arkansas Property Buyers](/) offers cash purchases that can close before foreclosure sales occur. This approach eliminates realtor commissions, repairs, and financing contingencies that slow traditional sales. Homeowners facing foreclosure can [get help avoiding foreclosure](/avoid-foreclosure/) and find solutions that preserve their equity and credit.
 
 ![Person calculating finances with a calculator, paperwork, and stacks of cash on a desk.](/images/blog/how-can-i-save-my-home-from-foreclosure-in-arkansas/Magnifying-glass-over-a-small-house-model-with-rolled-cash-and-paperwork-in-the-background-symbolizing-property-evaluation-or-real-estate-inspection-1024x683.png)
 
@@ -104,7 +104,7 @@ Foreclosure typically remains on your credit report for seven years and can redu
 
 ## **Your Next Steps to Protect Your Home**
 
-Saving your home from foreclosure in Arkansas requires quick action and strategic choices. Start by contacting your lender about loss mitigation options, then explore state assistance programs currently available through HUD or ADFA. If those paths don’t work, consider whether bankruptcy protection or [a quick sale](https://www.arkansaspropertybuyers.com/) better serves your long-term interests. The worst choice is to wait and hope the problem resolves itself. Every day you delay reduces your available options and negotiating leverage.
+Saving your home from foreclosure in Arkansas requires quick action and strategic choices. Start by contacting your lender about loss mitigation options, then explore state assistance programs currently available through HUD or ADFA. If those paths don’t work, consider whether bankruptcy protection or [a quick sale](/) better serves your long-term interests. The worst choice is to wait and hope the problem resolves itself. Every day you delay reduces your available options and negotiating leverage.
 
 -   [**Share**](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.arkansaspropertybuyers.com%2Fblog%2Fhow-can-i-save-my-home-from-foreclosure-in-arkansas%2F "Share on Facebook")
 -   [**Share**](https://twitter.com/intent/tweet?text=How+Can+I+Save+My+Home+From+Foreclosure+in+Arkansas%3F+%7C+Arkansas+Property+Buyers&url=https%3A%2F%2Fwww.arkansaspropertybuyers.com%2Fblog%2Fhow-can-i-save-my-home-from-foreclosure-in-arkansas%2F "Share on Twitter")

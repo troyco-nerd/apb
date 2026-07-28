@@ -52,7 +52,7 @@ If you inherited a rental property, the tax situation can be more complex. Renta
 
 Selling an inherited home quickly can be important, especially if you want to avoid ongoing maintenance costs, taxes, or if the property is in poor condition. Traditional real estate sales can be slow and complicated, especially if the house needs repairs or has tenants.
 
-That's where [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com/) come in. We specialize in buying houses directly from homeowners in any condition, often for cash, which means you can skip the hassle of listing, showings, and repairs.
+That's where [Arkansas Property Buyers](/) come in. We specialize in buying houses directly from homeowners in any condition, often for cash, which means you can skip the hassle of listing, showings, and repairs.
 
 We offer fair all-cash offers and can close in as little as three days, giving you control over the closing date. This is especially helpful if you need to sell quickly due to financial pressures, relocation, or simply want to avoid the drawn-out traditional sale process.
 
@@ -84,7 +84,7 @@ Tax rules around inherited property can be tricky. A CPA or tax advisor familiar
 
 ## How Arkansas Property Buyers Can Help You Sell Inherited Property
 
-If you want to avoid the stress of repairs, showings, or waiting months for a buyer, [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com/) offers a straightforward solution. We buy homes in any condition, pay cash, and handle most closing costs, so you get to keep more of your money.
+If you want to avoid the stress of repairs, showings, or waiting months for a buyer, [Arkansas Property Buyers](/) offers a straightforward solution. We buy homes in any condition, pay cash, and handle most closing costs, so you get to keep more of your money.
 
 Our process is simple: contact us with your property details, receive a no-obligation cash offer quickly, and choose your closing date. This can be a great option if you're dealing with an inherited property that you don't want to manage long-term or if you need cash fast.
 
@@ -114,4 +114,4 @@ Dealing with inherited property can be overwhelming, but understanding capital g
 
 ## Ready to Sell Your Inherited Property?
 
-At Arkansas Property Buyers, we understand the unique challenges that come with selling inherited property. That's why we offer a hassle-free solution to homeowners in Little Rock and the surrounding areas. With our straightforward process, you can receive a fair cash offer within 24 hours, without worrying about repairs, commissions, or fees. Let us help you move on quickly and with ease. [Get Your Fair Cash Offer](https://www.arkansaspropertybuyers.com/) today and say goodbye to the burden of an unwanted property.
+At Arkansas Property Buyers, we understand the unique challenges that come with selling inherited property. That's why we offer a hassle-free solution to homeowners in Little Rock and the surrounding areas. With our straightforward process, you can receive a fair cash offer within 24 hours, without worrying about repairs, commissions, or fees. Let us help you move on quickly and with ease. [Get Your Fair Cash Offer](/) today and say goodbye to the burden of an unwanted property.
