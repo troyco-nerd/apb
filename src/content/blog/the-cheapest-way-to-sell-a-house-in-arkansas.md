@@ -66,7 +66,7 @@ Cash buyers, including local investor [Arkansas Property Buyers](https://www.ark
 
 ### **Avoiding Hidden Service Fees in Instant Offers**
 
-iBuyer platforms and some cash buyer services charge service fees ranging from 5% to 13% of the sale price. These fees, combined with below-market offers, can result in worse outcomes than traditional sales. Reputable local cash buyers like [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) operate without hidden fees or commissions, providing transparent offers that reflect true net proceeds. Always request a detailed breakdown of any fees before accepting an offer.
+iBuyer platforms and some cash buyer services charge service fees ranging from 5% to 13% of the sale price. These fees, combined with below-market offers, can result in worse outcomes than traditional sales. Reputable local companies like [Arkansas Property Buyers](/) operate without hidden fees or commissions, providing transparent offers that reflect true net proceeds. Always request a detailed breakdown of any fees before accepting an offer.
 
 ## **Maximizing Profit in Regional Arkansas Markets**
 

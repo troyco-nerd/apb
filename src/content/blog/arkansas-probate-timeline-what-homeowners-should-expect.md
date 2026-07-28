@@ -60,7 +60,7 @@ Many estates need to sell real property to pay debts, distribute proceeds among 
 
 Unless the will grants specific authority, the personal representative must petition the court before selling real estate. This petition explains why the sale benefits the estate and proposes terms. Court approval typically takes three to six weeks. Some wills include provisions allowing sales without court involvement, significantly speeding this process.
 
-For homeowners who inherit property they don’t want to maintain, [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) can provide cash offers that simplify the sale process during probate.
+For homeowners who inherit property they don’t want to maintain, we offer [help with a probate property sale](/probate-help/) that provides cash offers and simplifies the process during probate.
 
 ### **Handling Property Taxes and Maintenance Costs**
 
@@ -88,11 +88,11 @@ Most estates with real property require a minimum of eight to twelve months due 
 
 ### **Can I sell an inherited house before probate closes?**
 
-Yes, but you’ll need court approval unless the will specifically grants the executor authority to sell without permission. The sale proceeds become part of the estate until final distribution.
+Yes, but you’ll need court approval unless the will specifically grants the executor authority to sell without permission. Many heirs in this situation look into options to [sell an inherited house in Arkansas](/probate-help/) before the estate fully closes. The sale proceeds become part of the estate until final distribution.
 
 ### **What happens if the deceased had no will in Arkansas?**
 
-The estate goes through intestate succession, with Arkansas law determining who inherits. A spouse and children typically share the estate according to statutory formulas. The probate process remains similar but may take longer.
+The estate goes through intestate succession, with Arkansas law determining who inherits. Our guide on [what happens when someone dies without a will](/blog/arkansas-intestate-probate-what-happens-when-there-is-no-will/) covers the succession rules in more detail. A spouse and children typically share the estate according to statutory formulas. The probate process remains similar but may take longer.
 
 ### **Do all Arkansas estates require probate?**
 

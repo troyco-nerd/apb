@@ -56,7 +56,7 @@ Buyers frequently request seller-paid home warranties as part of negotiations. T
 
 ### Northwest Arkansas vs. Central Arkansas Markets
 
-Northwest Arkansas, including Fayetteville and Bentonville, tends to have higher home values and correspondingly higher closing costs in absolute dollars. The competitive market there sometimes allows sellers to negotiate more favorable terms. Central Arkansas, particularly the Little Rock metro area, follows more traditional cost structures. For homeowners in Little Rock and surrounding areas looking to avoid these costs entirely, [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com/) offers cash purchases with minimal or no seller-paid closing costs, depending on the purchase agreement.
+Northwest Arkansas, including Fayetteville and Bentonville, tends to have higher home values and correspondingly higher closing costs in absolute dollars. The competitive market there sometimes allows sellers to negotiate more favorable terms. Central Arkansas, particularly the Little Rock metro area, follows more traditional cost structures. For homeowners in Little Rock and surrounding areas looking to avoid these costs entirely, you can [sell your house fast in Arkansas](/) for cash, with minimal or no seller-paid closing costs, depending on the purchase agreement.
 
 ### Impact of Local County Recording Fees
 

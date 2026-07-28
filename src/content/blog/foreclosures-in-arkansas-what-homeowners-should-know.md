@@ -98,7 +98,7 @@ A foreclosure typically remains on your credit report for seven years and can dr
 
 ### **Can I sell my house if I’m already in foreclosure?**
 
-Yes, you can sell your house at any point before the foreclosure sale is completed. If you owe more than the home’s value, you’ll need lender approval for a short sale. Cash buyers can often close quickly enough to beat foreclosure deadlines, providing a way to [resolve your situation](https://www.arkansaspropertybuyers.com) without the lasting credit impact.
+Yes, you can sell your house at any point before the foreclosure sale is completed. If you owe more than the home’s value, you’ll need lender approval for a short sale. Cash buyers can often close quickly enough to beat foreclosure deadlines, helping you [avoid foreclosure in Arkansas](/avoid-foreclosure/) without the lasting credit impact.
 
 ## **Navigating Post-Foreclosure and Eviction**
 

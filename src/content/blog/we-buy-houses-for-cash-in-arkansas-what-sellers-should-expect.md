@@ -38,7 +38,7 @@ Traditional buyers expect move-in-ready homes or negotiate significant price red
 
 ### **Avoiding Realtor Commissions and Closing Costs**
 
-Agent commissions typically consume 5% to 6% of your sale price in Arkansas. On a $200,000 home, that’s $10,000 to $12,000. Cash buyers don’t involve agents on the seller’s side, and most cover standard closing costs. [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) operates with no hidden fees, meaning the offer you accept is the amount you receive at closing.
+Agent commissions typically consume 5% to 6% of your sale price in Arkansas. On a $200,000 home, that’s $10,000 to $12,000. Cash buyers don’t involve agents on the seller’s side, and most cover standard closing costs. You can [see exactly how our process works](/how-we-buy-houses/) and find that we operate with no hidden fees, meaning the offer you accept is the amount you receive at closing.
 
 ### **Accelerated Timelines vs. Traditional Listings**
 

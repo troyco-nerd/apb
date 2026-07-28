@@ -100,7 +100,7 @@ Arkansas Property Buyers can often make an offer within 24 hours and close in as
 
 Arkansas Property Buyers typically pays many or all of the closing costs, making the sale simpler and less expensive for the seller.
 
-If you want to sell your Arkansas home fast, especially if it has liens or other issues, [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com/) is a reliable option that can help you avoid the usual hassles of selling.
+If you want to sell your Arkansas home fast, especially if it has liens or other issues left over from an inheritance or probate case, [help selling a property tied up in probate](/probate-help/) is a reliable option that can help you avoid the usual hassles of selling.
 
 ## Ready to Sell Your Property with Ease?
 

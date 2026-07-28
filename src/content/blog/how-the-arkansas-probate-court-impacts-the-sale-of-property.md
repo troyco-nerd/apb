@@ -64,7 +64,7 @@ Common delay sources include incomplete paperwork, contested wills, disputes amo
 
 Arkansas courts typically require that probate property sales meet or exceed two-thirds (approximately 66.7%) of the appraised value. This rule prevents fire sales that would harm heirs’ interests.
 
-For sellers, this means limited flexibility in pricing. Even in a declining market or with a property needing significant repairs, the court may reject offers below this threshold. Cash buyers like [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) often work within these constraints by purchasing properties at fair market value while handling all the complexity of probate transactions.
+For sellers, this means limited flexibility in pricing. Even in a declining market or with a property needing significant repairs, the court may reject offers below this threshold. Sellers who [work with our probate specialists](/probate-help/) can often navigate these constraints, since fair-market cash offers satisfy court requirements while handling all the complexity of probate transactions.
 
 ## **Navigating Challenges with Multiple Heirs and Disputes**
 

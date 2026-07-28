@@ -78,7 +78,7 @@ When an ex-spouse fails to complete the required refinancing or assumption, Arka
 
 ## **When Selling Makes More Sense Than Assuming**
 
-Sometimes neither spouse can qualify to assume the mortgage independently, or the property’s equity doesn’t justify the effort. Selling the home and dividing the proceeds often provides the cleanest financial break. For homeowners in Little Rock and surrounding Arkansas areas facing divorce complications with their property, [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) offers cash purchases that eliminate the uncertainty of traditional sales during already stressful times.
+Sometimes neither spouse can qualify to assume the mortgage independently, or the property’s equity doesn’t justify the effort. Selling the home and dividing the proceeds often provides the cleanest financial break. For homeowners in Little Rock and surrounding Arkansas areas facing divorce complications with their property, our team can help you [sell your house fast in Arkansas](/sell-your-house/) with cash purchases that eliminate the uncertainty of traditional sales during already stressful times.
 
 ![Real estate agent handing house keys to a person](/images/blog/assuming-a-mortgage-in-a-divorce-in-arkansas/Untitled-design-2026-03-09T180440.879-1024x683.png)
 

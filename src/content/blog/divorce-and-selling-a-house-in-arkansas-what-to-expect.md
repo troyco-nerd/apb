@@ -36,7 +36,7 @@ You have three primary paths forward with your marital home. Each carries distin
 
 Selling the home and dividing the proceeds remains the cleanest option for most divorcing couples. This approach provides both parties with liquid assets to start fresh and eliminates ongoing financial entanglement. The split doesn’t have to be 50/50; courts may order different percentages based on other asset divisions or circumstances.
 
-Timing matters significantly. Selling during divorce proceedings can delay finalization, but waiting until after the decree may complicate tax treatment or create disputes about maintenance responsibilities.
+Timing matters significantly. Selling during divorce proceedings can delay finalization, but waiting until after the decree may complicate tax treatment or create disputes about maintenance responsibilities. Our guide on [selling a house before or after divorce](/blog/sell-house-before-or-after-divorce-in-arkansas/) looks more closely at these timing tradeoffs.
 
 ### **Spousal Buyouts and Refinancing**
 
@@ -116,7 +116,7 @@ If both names appear on the deed, both signatures are required for sale. One spo
 
 ## **Moving Forward After the Sale**
 
-Divorce and selling a house in Arkansas demand patience, clear communication, and professional guidance. The decisions feel permanent because they largely are, but most couples find that resolving property questions brings relief and closure, allowing genuine fresh starts.If you’re facing divorce and need to sell your Arkansas home quickly without the complications of traditional listings, [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) offers fair cash offers within 24 hours with no repairs, commissions, or fees required. Sometimes the simplest path forward is the best one.
+Divorce and selling a house in Arkansas demand patience, clear communication, and professional guidance. The decisions feel permanent because they largely are, but most couples find that resolving property questions brings relief and closure, allowing genuine fresh starts.If you’re facing divorce and need to sell your Arkansas home quickly without the complications of traditional listings, you can [get a cash offer for your Arkansas property](/sell-your-house/) within 24 hours with no repairs, commissions, or fees required. Sometimes the simplest path forward is the best one.
 
 -   [**Share**](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.arkansaspropertybuyers.com%2Fblog%2Fdivorce-and-selling-a-house-in-arkansas-what-to-expect%2F "Share on Facebook")
 -   [**Share**](https://twitter.com/intent/tweet?text=Divorce+and+Selling+a+House+in+Arkansas%3A+What+to+Expect+%7C+Arkansas+Property+Buyers&url=https%3A%2F%2Fwww.arkansaspropertybuyers.com%2Fblog%2Fdivorce-and-selling-a-house-in-arkansas-what-to-expect%2F "Share on Twitter")

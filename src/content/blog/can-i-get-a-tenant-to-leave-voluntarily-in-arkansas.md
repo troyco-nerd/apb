@@ -42,7 +42,7 @@ Deliver this notice in writing, keeping a copy for your records. Many landlords 
 
 Sometimes, tenants don’t realize the severity of lease violations or property damage concerns. A calm conversation about specific issues often prompts voluntary action. Document everything discussed and follow up in writing.
 
-If you’re dealing with a rental property that’s become more trouble than it’s worth, [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) offers an alternative solution: purchasing properties with existing tenants.
+If you’re dealing with a rental property that’s become more trouble than it’s worth, you can [sell a tenant-occupied house in Arkansas](/sell-my-house-as-is/) instead of managing the situation yourself.
 
 ## **The ‘Cash for Keys’ Method in Arkansas**
 

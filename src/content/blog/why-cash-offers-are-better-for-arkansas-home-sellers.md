@@ -22,7 +22,7 @@ A traditional buyer might receive pre-approval, make an offer, then discover dur
 
 ### **Closing in Days Instead of Months**
 
-Standard Arkansas real estate transactions take roughly 30 to 45 days minimum. Cash sales through [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) can close in as few as seven days. For sellers facing time-sensitive situations, this difference matters enormously.
+Standard Arkansas real estate transactions take roughly 30 to 45 days minimum. [Request a no-obligation cash offer](/get-a-cash-offer-today/) and you could close in as few as seven days. For sellers facing time-sensitive situations, this difference matters enormously.
 
 Consider a homeowner who accepted a job transfer with a start date three weeks away. Traditional selling simply cannot accommodate that timeline. Cash buyers can, and frequently do.
 

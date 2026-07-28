@@ -88,7 +88,7 @@ If the deed remains in your name, the property is not part of the trust. That me
 
 Putting your property in a trust in Arkansas is a solid way to protect your assets and make life easier for your loved ones. The process involves choosing the right trust, creating and notarizing the document, and transferring the property deed properly.
 
-If you're also considering selling your property quickly or want to avoid the headaches of traditional sales, check out [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com/). We offer a fast, fair cash purchase process that can save you time and stress.
+If you're also considering selling instead of transferring into a trust, you can [get guidance on selling an inherited or probate property](/probate-help/). We offer a fast, fair cash purchase process that can save you time and stress.
 
 Taking control of your property's future starts with the right steps today.
 

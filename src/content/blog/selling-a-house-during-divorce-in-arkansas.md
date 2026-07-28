@@ -50,7 +50,7 @@ Selling during divorce adds procedural layers to an already complex transaction.
 
 ### **Selecting a Neutral Real Estate Agent**
 
-Both spouses should agree on a single agent who represents the property rather than either individual. Look for agents experienced with divorce sales who can communicate effectively with both parties. Some couples prefer working with cash home buyers like [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) to simplify the process and avoid prolonged market exposure during an already stressful time.
+Both spouses should agree on a single agent who represents the property rather than either individual. Look for agents experienced with divorce sales who can communicate effectively with both parties. Some couples prefer to [explore a cash sale option](/sell-your-house/) to simplify the process and avoid prolonged market exposure during an already stressful time.
 
 ### **Setting a Listing Price and Managing Repairs**
 
