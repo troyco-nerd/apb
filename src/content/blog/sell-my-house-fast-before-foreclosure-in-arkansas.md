@@ -58,7 +58,7 @@ Speed matters when foreclosure looms. Three primary strategies can help you clos
 
 ### **Selling to Local Cash Home Buyers**
 
-Cash buyers eliminate the delays that sink traditional sales. No mortgage approval waiting periods, no appraisal contingencies, no buyer financing falling through at the last minute. [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) specializes in purchasing homes quickly, often closing within two weeks.
+Cash buyers eliminate the delays that sink traditional sales. No mortgage approval waiting periods, no appraisal contingencies, no buyer financing falling through at the last minute. [Arkansas Property Buyers](/) specializes in purchasing homes quickly, often closing within two weeks.
 
 Cash buyers purchase properties as-is, meaning you skip repairs, staging, and showing preparations. For homeowners racing against foreclosure deadlines, this speed often makes the difference between keeping equity and losing everything.
 
@@ -124,7 +124,7 @@ Experienced cash buyers like Arkansas Property Buyers can close in as few as sev
 
 Every day of delay reduces your options. Start by gathering your mortgage documents, recent statements, and any foreclosure notices you’ve received. Calculate your equity by comparing your payoff amount to realistic sale prices in your neighborhood.
 
-Contact your lender’s loss mitigation department this week to discuss available options. Simultaneously, reach out to cash buyers who can provide quick offers. [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) provides fair cash offers within 24 hours, giving you concrete numbers to work with as you evaluate your choices.If you’re facing foreclosure in Arkansas and need to sell fast, working with experienced local buyers eliminates the uncertainty of traditional sales. [Stop the foreclosure process](/avoid-foreclosure/) and take the first step toward protecting your financial future.
+Contact your lender’s loss mitigation department this week to discuss available options. Simultaneously, reach out to cash buyers who can provide quick offers. [Arkansas Property Buyers](/) provides fair cash offers within 24 hours, giving you concrete numbers to work with as you evaluate your choices.If you’re facing foreclosure in Arkansas and need to sell fast, working with experienced local buyers eliminates the uncertainty of traditional sales. [Stop the foreclosure process](/avoid-foreclosure/) and take the first step toward protecting your financial future.
 
 -   [**Share**](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.arkansaspropertybuyers.com%2Fblog%2Fsell-my-house-fast-before-foreclosure-in-arkansas%2F "Share on Facebook")
 -   [**Share**](https://twitter.com/intent/tweet?text=Sell+My+House+Fast+Before+Foreclosure+in+Arkansas+%7C+Arkansas+Property+Buyers&url=https%3A%2F%2Fwww.arkansaspropertybuyers.com%2Fblog%2Fsell-my-house-fast-before-foreclosure-in-arkansas%2F "Share on Twitter")

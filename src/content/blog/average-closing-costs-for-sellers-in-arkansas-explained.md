@@ -66,7 +66,7 @@ County recording fees vary modestly across Arkansas's 75 counties. Most counties
 
 ### Negotiating Commission Rates
 
-Agent commissions aren't set in stone despite what some agents suggest. Sellers with desirable properties in hot markets have leverage to negotiate lower rates. Some agents accept 4% to 5% total commission for easy-to-sell homes. Alternatively, selling directly to [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com/) eliminates commission costs entirely, keeping more money in your pocket.
+Agent commissions aren't set in stone despite what some agents suggest. Sellers with desirable properties in hot markets have leverage to negotiate lower rates. Some agents accept 4% to 5% total commission for easy-to-sell homes. Alternatively, selling directly to [Arkansas Property Buyers](/) eliminates commission costs entirely, keeping more money in your pocket.
 
 ### Reviewing the Preliminary Settlement Statement
 
@@ -94,4 +94,4 @@ Many closing costs are negotiable between buyer and seller. Agent commissions, h
 
 Knowing what to expect from closing costs helps you plan effectively and avoid surprises at the settlement table. The average closing costs for sellers in Arkansas are significant, but informed sellers can minimize these expenses through careful negotiation and strategic choices about how they sell.
 
-If you're looking to skip the traditional selling process altogether, [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com/) provides a straightforward alternative. We offer fair cash offers within 24 hours, purchase homes as-is without requiring repairs, and cover all closing costs, letting you walk away with cash in hand and no unexpected deductions.
+If you're looking to skip the traditional selling process altogether, [Arkansas Property Buyers](/) provides a straightforward alternative. We offer fair cash offers within 24 hours, purchase homes as-is without requiring repairs, and cover all closing costs, letting you walk away with cash in hand and no unexpected deductions.

@@ -86,7 +86,7 @@ Arkansas does not require attorney involvement for real estate transactions, but
 
 ### **How long does it typically take to sell a house FSBO in Arkansas?**
 
-FSBO sales in Arkansas typically take 90–120 days on market, though this varies significantly by price, location, and condition. Properties priced competitively in desirable areas sell faster. If speed matters more than maximizing price, companies like [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) can close in as little as seven days.
+FSBO sales in Arkansas typically take 90–120 days on market, though this varies significantly by price, location, and condition. Properties priced competitively in desirable areas sell faster. If speed matters more than maximizing price, companies like [Arkansas Property Buyers](/) can close in as little as seven days.
 
 ### **What closing costs will I pay as an FSBO seller in Arkansas?**
 
@@ -94,7 +94,7 @@ Expect to pay title insurance (roughly $500-1,500 depending on sale price), reco
 
 ### **Can I sell my Arkansas house as-is without making repairs?**
 
-Yes, Arkansas allows as-is sales with proper disclosure. You must still disclose known defects honestly, even though no official disclosure form is mandated by state law. Some buyers specifically seek as-is properties for renovation projects. For sellers who want to avoid repair negotiations entirely, [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) purchases homes in any condition without requiring improvements.
+Yes, Arkansas allows as-is sales with proper disclosure. You must still disclose known defects honestly, even though no official disclosure form is mandated by state law. Some buyers specifically seek as-is properties for renovation projects. For sellers who want to avoid repair negotiations entirely, [Arkansas Property Buyers](/) purchases homes in any condition without requiring improvements.
 
 ## **Your Path to a Successful Arkansas Home Sale**
 

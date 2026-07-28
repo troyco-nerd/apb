@@ -16,7 +16,7 @@ The question of whether you should accept a cash offer for your house in Arkansa
 
 ### **The Rise of iBuyers and Local Investors in the Natural State**
 
-Arkansas has seen significant growth in cash home buying activity over the past decade. Most national iBuyer platforms have scaled back or exited smaller markets like Little Rock, while local investment companies like [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) have established strong regional presences. These buyers typically maintain ready capital, allowing them to close transactions in days rather than months.
+Arkansas has seen significant growth in cash home buying activity over the past decade. Most national iBuyer platforms have scaled back or exited smaller markets like Little Rock, while local investment companies like [Arkansas Property Buyers](/) have established strong regional presences. These buyers typically maintain ready capital, allowing them to close transactions in days rather than months.
 
 Local investors often outperform national platforms in terms of flexibility. They understand Arkansas-specific issues, such as property tax structures, neighborhood dynamics in cities from Conway to Jacksonville, and seasonal market patterns that affect pricing.
 
@@ -54,7 +54,7 @@ Whether this trade-off makes sense depends on your math. Calculate your net proc
 
 Standard Arkansas real estate commissions run 5% to 6% of the sale price. On a $200,000 home, that represents $10,000 to $12,000 paid at closing. Cash buyers typically charge no commissions, and many cover standard closing costs.
 
-Seller-paid closing costs in traditional transactions add another 2% to 3%. Title insurance, transfer taxes, and attorney fees accumulate quickly. [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) and similar local companies often absorb these expenses, improving your net position.
+Seller-paid closing costs in traditional transactions add another 2% to 3%. Title insurance, transfer taxes, and attorney fees accumulate quickly. [Arkansas Property Buyers](/) and similar local companies often absorb these expenses, improving your net position.
 
 ### **Bypassing the Appraisal and Inspection Contingencies**
 

@@ -80,7 +80,7 @@ Courts can order independent appraisals to settle valuation disputes. [Mediation
 
 When heirs reach an impasse, any co-owner can file a partition action asking the court to divide or sell the property. Arkansas courts prefer physical division when practical, but real estate often cannot be meaningfully split.
 
-In these cases, courts order the property sold and the proceeds divided among heirs. Partition sales typically result in lower prices than voluntary sales because buyers know the sellers are legally compelled to sell. Working with companies that [buy houses directly](https://www.arkansaspropertybuyers.com) can sometimes prevent partition actions by providing a fair offer that satisfies all parties.
+In these cases, courts order the property sold and the proceeds divided among heirs. Partition sales typically result in lower prices than voluntary sales because buyers know the sellers are legally compelled to sell. Working with companies that [buy houses directly](/) can sometimes prevent partition actions by providing a fair offer that satisfies all parties.
 
 ## **Strategies to Streamline the Arkansas Property Sale**
 
@@ -124,7 +124,7 @@ Yes. Probate properties can be sold in any condition, which appeals to cash buye
 
 ## **Moving Forward with Your Inherited Property**
 
-Understanding how Arkansas probate courts impact property sales helps you anticipate challenges and plan accordingly. Whether your estate qualifies for simplified procedures or requires full probate administration, knowing the rules prevents costly mistakes.If you’ve inherited property in Arkansas and want to avoid the complications of traditional sales, [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) offers a straightforward alternative. They provide fair cash offers within 24 hours, purchase properties in any condition, and handle the complexities of probate transactions so you can move forward without the burden of an unwanted property.
+Understanding how Arkansas probate courts impact property sales helps you anticipate challenges and plan accordingly. Whether your estate qualifies for simplified procedures or requires full probate administration, knowing the rules prevents costly mistakes.If you’ve inherited property in Arkansas and want to avoid the complications of traditional sales, [Arkansas Property Buyers](/) offers a straightforward alternative. They provide fair cash offers within 24 hours, purchase properties in any condition, and handle the complexities of probate transactions so you can move forward without the burden of an unwanted property.
 
 -   [**Share**](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.arkansaspropertybuyers.com%2Fblog%2Fhow-the-arkansas-probate-court-impacts-the-sale-of-property%2F "Share on Facebook")
 -   [**Share**](https://twitter.com/intent/tweet?text=How+the+Arkansas+Probate+Court+Impacts+the+Sale+of+Property+%7C+Arkansas+Property+Buyers&url=https%3A%2F%2Fwww.arkansaspropertybuyers.com%2Fblog%2Fhow-the-arkansas-probate-court-impacts-the-sale-of-property%2F "Share on Twitter")

@@ -124,11 +124,11 @@ If financing fails, the buyer can typically exit the contract and receive their 
 
 ### **Can I sell my Arkansas home as-is without repairs?**
 
-Yes. Arkansas law permits as-is sales with proper disclosure. Pricing must reflect the property’s condition. [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) specializes in purchasing homes in any condition without requiring repairs.
+Yes. Arkansas law permits as-is sales with proper disclosure. Pricing must reflect the property’s condition. [Arkansas Property Buyers](/) specializes in purchasing homes in any condition without requiring repairs.
 
 ## **Your Next Move as an Arkansas Seller**
 
-Understanding the steps in selling a home in Arkansas, as explained above, positions you for a successful transaction. From disclosure requirements to closing costs, each phase requires attention and informed decision-making. If navigating traditional sales feels overwhelming, [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) offers homeowners a straightforward alternative with fair cash offers within 24 hours, no repairs required, and zero commissions or fees.
+Understanding the steps in selling a home in Arkansas, as explained above, positions you for a successful transaction. From disclosure requirements to closing costs, each phase requires attention and informed decision-making. If navigating traditional sales feels overwhelming, [Arkansas Property Buyers](/) offers homeowners a straightforward alternative with fair cash offers within 24 hours, no repairs required, and zero commissions or fees.
 
 -   [**Share**](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.arkansaspropertybuyers.com%2Fblog%2Fsteps-in-selling-a-home-in-arkansas-explained%2F "Share on Facebook")
 -   [**Share**](https://twitter.com/intent/tweet?text=Steps+in+Selling+a+Home+in+Arkansas+Explained+%7C+Arkansas+Property+Buyers&url=https%3A%2F%2Fwww.arkansaspropertybuyers.com%2Fblog%2Fsteps-in-selling-a-home-in-arkansas-explained%2F "Share on Twitter")

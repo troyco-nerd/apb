@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://arkansaspropertybuyers.com/sitemap-index.xml

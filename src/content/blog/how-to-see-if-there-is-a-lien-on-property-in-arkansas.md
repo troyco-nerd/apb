@@ -52,7 +52,7 @@ Discovering a lien doesn't have to be a deal-breaker. How you handle it depends 
 
 Liens can prevent you from selling your property smoothly. Before listing your home, it's a good idea to clear any liens. This might mean paying off debts or negotiating with lienholders.
 
-If you're facing financial challenges or need to sell quickly, [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com/) can help. We buy houses in any condition, often for cash, and can handle properties with liens or other complications. This can save you from the hassle of traditional sales and help you close faster.
+If you're facing financial challenges or need to sell quickly, [Arkansas Property Buyers](/) can help. We buy houses in any condition, often for cash, and can handle properties with liens or other complications. This can save you from the hassle of traditional sales and help you close faster.
 
 ### If You're the Buyer
 
@@ -64,7 +64,7 @@ If you're unsure about the process or find a lien, reaching out to experts or co
 
 Arkansas property laws and lien processes can vary by county, so local knowledge is key. Whether you're buying or selling, partnering with a company familiar with the Arkansas market can make the process smoother.
 
-[Arkansas Property Buyers](https://www.arkansaspropertybuyers.com/) is a family-owned business based in Little Rock that specializes in buying homes quickly, even with liens or other issues. We offer fair cash offers and flexible closing dates, helping sellers avoid the headaches of traditional sales. Our local presence means we understand the unique challenges Arkansas homeowners face.
+[Arkansas Property Buyers](/) is a family-owned business based in Little Rock that specializes in buying homes quickly, even with liens or other issues. We offer fair cash offers and flexible closing dates, helping sellers avoid the headaches of traditional sales. Our local presence means we understand the unique challenges Arkansas homeowners face.
 
 ## Tips for Avoiding Lien Problems in Arkansas
 
@@ -104,4 +104,4 @@ If you want to sell your Arkansas home fast, especially if it has liens or other
 
 ## Ready to Sell Your Property with Ease?
 
-If you're looking to sell your property in Little Rock or the surrounding areas, Arkansas Property Buyers is here to offer a seamless solution. We understand the challenges of dealing with liens and other property issues, which is why we provide a fast, fair, and stress-free cash offer for your home. You can receive your no-obligation cash offer within 24 hours, without worrying about repairs, commissions, or fees. Let us help you move on swiftly and confidently. [Get Your Fair Cash Offer](https://www.arkansaspropertybuyers.com/) today and take the first step towards a hassle-free sale.
+If you're looking to sell your property in Little Rock or the surrounding areas, Arkansas Property Buyers is here to offer a seamless solution. We understand the challenges of dealing with liens and other property issues, which is why we provide a fast, fair, and stress-free cash offer for your home. You can receive your no-obligation cash offer within 24 hours, without worrying about repairs, commissions, or fees. Let us help you move on swiftly and confidently. [Get Your Fair Cash Offer](/) today and take the first step towards a hassle-free sale.

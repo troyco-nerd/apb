@@ -62,7 +62,7 @@ The headline price on a traditional sale rarely represents what sellers actually
 
 ### **Eliminating Realtor Commissions and Hidden Fees**
 
-Standard real estate commissions in Arkansas run 5% to 6% of the sale price. On a $200,000 home, that equals $10,000 to $12,000 paid to agents. Cash buyers like [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) purchase directly from homeowners, eliminating commission expenses entirely.
+Standard real estate commissions in Arkansas run 5% to 6% of the sale price. On a $200,000 home, that equals $10,000 to $12,000 paid to agents. Cash buyers like [Arkansas Property Buyers](/) purchase directly from homeowners, eliminating commission expenses entirely.
 
 Additional fees in traditional sales include marketing costs, MLS listing fees, and administrative charges that accumulate throughout the process.
 
@@ -118,7 +118,7 @@ Reputable cash buyers operate transparently, provide written offers, and use sta
 
 Arkansas homeowners facing difficult circumstances deserve options that work with their situations rather than against them. Cash offers provide certainty, speed, and simplicity that traditional sales cannot match. The financial calculations often favor cash sales once sellers account for commissions, repairs, staging, holding costs, and the risk of deals falling through.
 
-For homeowners in Little Rock and surrounding Arkansas communities, [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) offers fair cash offers within 24 to 48 hours, no repair requirements, and closings that fit your schedule. Whether you are facing foreclosure, managing an inherited property, or simply need to sell quickly, their straightforward process eliminates the stress and uncertainty of traditional sales.
+For homeowners in Little Rock and surrounding Arkansas communities, [Arkansas Property Buyers](/) offers fair cash offers within 24 to 48 hours, no repair requirements, and closings that fit your schedule. Whether you are facing foreclosure, managing an inherited property, or simply need to sell quickly, their straightforward process eliminates the stress and uncertainty of traditional sales.
 
 -   [**Share**](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.arkansaspropertybuyers.com%2Fblog%2Fwhy-cash-offers-are-better-for-arkansas-home-sellers%2F "Share on Facebook")
 -   [**Share**](https://twitter.com/intent/tweet?text=Why+Cash+Offers+Are+Better+for+Arkansas+Home+Sellers+%7C+Arkansas+Property+Buyers&url=https%3A%2F%2Fwww.arkansaspropertybuyers.com%2Fblog%2Fwhy-cash-offers-are-better-for-arkansas-home-sellers%2F "Share on Twitter")

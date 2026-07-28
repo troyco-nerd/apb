@@ -58,7 +58,7 @@ Also, let your family or beneficiaries know about the trust so they understand y
 
 ## When to Consider Selling Instead of Trust Transfer
 
-If you're looking to sell your Arkansas property quickly, especially if it needs repairs or you're facing a time crunch, putting it in a trust might not be the fastest option. [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com/) offers a straightforward solution for homeowners who want to sell fast without the hassle of traditional sales.
+If you're looking to sell your Arkansas property quickly, especially if it needs repairs or you're facing a time crunch, putting it in a trust might not be the fastest option. [Arkansas Property Buyers](/) offers a straightforward solution for homeowners who want to sell fast without the hassle of traditional sales.
 
 We buy houses in any condition, pay cash, and close quickly, sometimes in as little as three days. This can be a good alternative if you want to avoid the complexities of trust transfers or if you need cash fast.
 
@@ -94,4 +94,4 @@ Taking control of your property's future starts with the right steps today.
 
 ## Ready to Sell Your Property Quickly in Arkansas?
 
-If the idea of putting your property in a trust seems overwhelming, or if you're in need of a quicker solution, Arkansas Property Buyers is here to help. We understand that life's circumstances can make selling your property the best option. That's why we offer a hassle-free, fast, and fair cash offer for your home in Little Rock and the surrounding areas. No need for repairs, no commissions, and no fees, just a straightforward process that puts cash in your hand. Don't let the burden of an unwanted property weigh you down. [Get Your Fair Cash Offer](https://www.arkansaspropertybuyers.com/) today and start a new chapter in your life with ease.
+If the idea of putting your property in a trust seems overwhelming, or if you're in need of a quicker solution, Arkansas Property Buyers is here to help. We understand that life's circumstances can make selling your property the best option. That's why we offer a hassle-free, fast, and fair cash offer for your home in Little Rock and the surrounding areas. No need for repairs, no commissions, and no fees, just a straightforward process that puts cash in your hand. Don't let the burden of an unwanted property weigh you down. [Get Your Fair Cash Offer](/) today and start a new chapter in your life with ease.
