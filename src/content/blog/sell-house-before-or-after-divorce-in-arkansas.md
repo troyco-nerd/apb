@@ -10,7 +10,7 @@ draft: false
 
 ## **Understanding Arkansas Marital Property Laws**
 
-Divorce forces difficult decisions, and few carry more financial weight than what happens to the family home. For Arkansas couples facing this crossroads, the question of whether to sell the house before or after divorce becomes a strategic calculation with lasting consequences. The timing affects everything from tax liability to emotional stability, and getting it wrong can cost tens of thousands of dollars.
+Divorce forces difficult decisions, and few carry more financial weight than what happens to the family home. For Arkansas couples facing this crossroads, the question of whether to sell the house before or after divorce becomes a strategic calculation with lasting consequences, and our guide to [divorce and selling a house in Arkansas](/blog/divorce-and-selling-a-house-in-arkansas-what-to-expect/) walks through what to expect at each stage. The timing affects everything from tax liability to emotional stability, and getting it wrong can cost tens of thousands of dollars.
 
 Arkansas is a marital property (community property) state only in limited contexts, such as federal tax treatment; however, under [Arkansas Code § 9‑12‑315](https://law.justia.com/codes/arkansas/title-9/subtitle-2/chapter-12/subchapter-3/section-9-12-315/), the state follows an equitable distribution model that presumes a 50/50 (equal) division of marital property unless the court finds that an unequal distribution is more equitable. Your home likely represents your largest shared asset, and how you handle its sale directly impacts your financial fresh start. Understanding the legal framework helps you make an informed choice that protects your interests while minimizing conflict.
 
@@ -66,7 +66,7 @@ Both spouses remain liable for mortgage payments until the loan is refinanced or
 
 ### **Handling Maintenance and Staging Costs During Separation**
 
-Properties require upkeep during the sale process. Who pays for repairs, lawn care, and staging costs? Establishing these responsibilities in writing prevents disputes. Some couples split costs equally; others assign them based on who remains in the home. For those wanting to avoid these complications entirely, [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) purchases homes as-is, eliminating repair and staging expenses.
+Properties require upkeep during the sale process. Who pays for repairs, lawn care, and staging costs? Establishing these responsibilities in writing prevents disputes. Some couples split costs equally; others assign them based on who remains in the home. For those wanting to avoid these complications entirely, you can [request a cash offer for your home](/sell-your-house/) and sell as-is, eliminating repair and staging expenses.
 
 ## **Strategic Steps for Navigating the Arkansas Sale Process**
 

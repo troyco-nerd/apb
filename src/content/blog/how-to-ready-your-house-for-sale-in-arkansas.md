@@ -108,7 +108,7 @@ The median time on market for Arkansas homes was approximately 45 days, dependin
 
 ### **Do I need a real estate agent to sell my home in Arkansas?**
 
-While agents provide valuable services, some sellers prefer alternative options. [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) offers direct cash purchases for homeowners who want speed and simplicity without agent commissions.
+While agents provide valuable services, some sellers prefer alternative options. You can [sell your house as-is without repairs](/sell-my-house-as-is/) through a direct cash purchase, giving you speed and simplicity without agent commissions.
 
 ### **What repairs should I prioritize before listing?**
 

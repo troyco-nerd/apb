@@ -46,7 +46,7 @@ Once all issues are resolved, either through agreement or court decision, the ju
 
 ## **Equitable Distribution: Dividing Marital Property**
 
-Arkansas follows equitable distribution principles, meaning courts divide property fairly, though not necessarily equally. Several factors influence how judges allocate assets.
+Arkansas follows equitable distribution principles, meaning courts divide property fairly, though not necessarily equally. Our detailed breakdown of [Arkansas marital property rules](/blog/divorce-in-arkansas-and-marital-property-rules/) covers how courts classify and value these assets. Several factors influence how judges allocate assets.
 
 ### **Distinguishing Marital vs. Separate Assets**
 
@@ -60,7 +60,7 @@ Courts consider multiple factors when dividing property: length of the marriage,
 
 ### **Handling Real Estate and the Marital Home**
 
-The family home is often the couple’s largest asset. Options include selling and splitting the proceeds, one spouse buying out the other’s interest, or continued co-ownership until a specific event, such as children reaching adulthood. If you need to sell property quickly during divorce proceedings, [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) purchase homes as-is for cash, eliminating repair costs and real estate commissions that reduce your proceeds.
+The family home is often the couple’s largest asset. Options include selling and splitting the proceeds, one spouse buying out the other’s interest, or continued co-ownership until a specific event, such as children reaching adulthood. If you need to sell property quickly during divorce proceedings, [local cash home buyers](/sell-your-house/) purchase homes as-is for cash, eliminating repair costs and real estate commissions that reduce your proceeds.
 
 ### **Valuing Retirement Accounts and Pensions**
 

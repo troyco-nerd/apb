@@ -74,7 +74,7 @@ Dividing retirement accounts requires a Qualified Domestic Relations Order, a le
 
 The family home often becomes the most contested asset. Options include selling and splitting proceeds, one spouse buying out the other, or continued co-ownership until children reach adulthood. Professional appraisals establish fair market value, and courts consider mortgage balances, equity, and each spouse’s ability to maintain the property.
 
-For homeowners facing divorce who need to sell quickly, [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) offers cash purchases that eliminate the delays and complications of traditional sales.
+For homeowners facing divorce who need to sell quickly, it's possible to [sell an Arkansas house as-is](/sell-your-house/) for cash, eliminating the delays and complications of traditional sales.
 
 ### **Business Interests and Professional Practices**
 

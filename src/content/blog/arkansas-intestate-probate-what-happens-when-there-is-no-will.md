@@ -96,7 +96,7 @@ While not legally required, an attorney helps navigate complex procedures and av
 
 ## **Moving Forward After Intestate Probate**
 
-Intestate probate in Arkansas follows predictable rules, but those rules often surprise families expecting different outcomes. Understanding the succession hierarchy, administrator responsibilities, and special provisions helps heirs prepare for the process ahead. If you’ve inherited property through intestate succession and want to sell quickly without repairs or commissions, [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) provides fair cash offers within 24 hours, helping families move forward without the burden of unwanted real estate.
+Intestate probate in Arkansas follows predictable rules, but those rules often surprise families expecting different outcomes. Understanding the succession hierarchy, administrator responsibilities, and special provisions helps heirs prepare for the process ahead. If you’ve inherited property through intestate succession and want to sell quickly without repairs or commissions, [our probate and inherited property help](/probate-help/) connects you with fair cash offers within 24 hours, helping families move forward without the burden of unwanted real estate.
 
 -   [**Share**](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.arkansaspropertybuyers.com%2Fblog%2Farkansas-intestate-probate-what-happens-when-there-is-no-will%2F "Share on Facebook")
 -   [**Share**](https://twitter.com/intent/tweet?text=Arkansas+Intestate+Probate%3A+What+Happens+When+There+Is+No+Will+%7C+Arkansas+Property+Buyers&url=https%3A%2F%2Fwww.arkansaspropertybuyers.com%2Fblog%2Farkansas-intestate-probate-what-happens-when-there-is-no-will%2F "Share on Twitter")

@@ -76,7 +76,7 @@ A comprehensive marital settlement agreement addresses all contested issues befo
 
 ### **Equitable Distribution of Assets**
 
-Arkansas follows equitable distribution principles, meaning property is divided fairly rather than equally. Marital property includes assets acquired during marriage, while separate property remains with its original owner. If you’re selling property as part of your divorce settlement, [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) can provide quick cash offers that simplify the division of real estate assets.
+Arkansas follows equitable distribution principles, meaning property is divided fairly rather than equally. Marital property includes assets acquired during marriage, while separate property remains with its original owner. If you’re selling property as part of your divorce settlement, you can [learn how our home-buying process works](/sell-your-house/) to see how quick cash offers can simplify the division of real estate assets.
 
 ## **Finalizing the Divorce at the Hearing**
 

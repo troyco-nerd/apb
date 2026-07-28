@@ -112,7 +112,7 @@ Most Little Rock submarkets are experiencing 2.5% to 5% annual rent growth. Your
 
 ### **Should I sell my rental property or continue holding it?**
 
-This depends on your financial goals and the property’s performance. If management has become burdensome or the property requires significant capital investment, selling may make sense. [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) offers cash purchases for rental properties, eliminating the hassle of traditional sales.
+This depends on your financial goals and the property’s performance. If management has become burdensome or the property requires significant capital investment, selling may make sense. You can [get a cash offer for your Little Rock rental](/get-a-cash-offer-today/), eliminating the hassle of traditional sales.
 
 ### **How do I handle a rental property I inherited but don’t want to manage?**
 

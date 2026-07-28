@@ -80,7 +80,7 @@ A short sale occurs when your lender agrees to accept less than you owe on the m
 
 A deed-in-lieu of foreclosure involves voluntarily transferring your property to your lender in exchange for the cancellation of your debt. This option avoids the public foreclosure process and may cause less credit damage. Lenders typically require you to attempt selling the property first and may not accept a deed in lieu if you have other liens on the property.
 
-For homeowners who need to sell quickly without the complications of traditional listings, [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com/) offers cash purchases that can close before foreclosure sales occur. This approach eliminates realtor commissions, repairs, and financing contingencies that slow traditional sales. [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com/) specializes in helping homeowners facing foreclosure find solutions that preserve their equity and credit.
+For homeowners who need to sell quickly without the complications of traditional listings, [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com/) offers cash purchases that can close before foreclosure sales occur. This approach eliminates realtor commissions, repairs, and financing contingencies that slow traditional sales. Homeowners facing foreclosure can [get help avoiding foreclosure](/avoid-foreclosure/) and find solutions that preserve their equity and credit.
 
 ![Person calculating finances with a calculator, paperwork, and stacks of cash on a desk.](/images/blog/how-can-i-save-my-home-from-foreclosure-in-arkansas/Magnifying-glass-over-a-small-house-model-with-rolled-cash-and-paperwork-in-the-background-symbolizing-property-evaluation-or-real-estate-inspection-1024x683.png)
 
@@ -100,7 +100,7 @@ Bankruptcy stops foreclosure temporarily through the automatic stay. Chapter 13 
 
 ### **What happens to my credit after foreclosure in Arkansas?**
 
-Foreclosure typically remains on your credit report for seven years and can reduce your score by 100 to 160 points. Alternatives like loan modification, short sale, or working with Arkansas Property Buyers often cause less credit damage.
+Foreclosure typically remains on your credit report for seven years and can reduce your score by 100 to 160 points. Alternatives like loan modification, short sale, or [selling your house fast](/blog/sell-my-house-fast-before-foreclosure-in-arkansas/) often cause less credit damage.
 
 ## **Your Next Steps to Protect Your Home**
 

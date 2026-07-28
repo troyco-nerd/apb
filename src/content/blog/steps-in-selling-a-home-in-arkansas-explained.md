@@ -44,7 +44,7 @@ Arkansas markets vary significantly by region. Little Rock’s median home price
 
 [For-sale-by-owner](https://www.investopedia.com/terms/f/for-sale-by-owner.asp) transactions save the typical 5-6% commission but require significant time investment and market knowledge. FSBO sellers handle showings, negotiations, paperwork, and marketing independently. Statistics show FSBO homes sell for approximately 13% less than agent-listed properties.
 
-Some sellers prefer working directly with cash buyers like [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) to bypass both routes entirely. This approach eliminates commissions, repairs, and extended marketing periods when speed matters most.
+Some sellers prefer working directly with cash buyers, and you can [learn how our home-buying process works](/how-we-buy-houses/) to bypass both routes entirely. This approach eliminates commissions, repairs, and extended marketing periods when speed matters most.
 
 ### **Marketing Across Local and Digital Platforms**
 

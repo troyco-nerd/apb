@@ -110,7 +110,7 @@ You can sell the property "as-is" to a cash buyer like Arkansas Property Buyers 
 
 We typically provide a cash offer within 24 hours of contact and can close in as little as three days, depending on your needs and circumstances.
 
-Dealing with inherited property can be overwhelming, but understanding capital gains and knowing your selling options can make a big difference. If speed and simplicity matter, consider reaching out to [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com/) to explore a hassle-free sale.
+Dealing with inherited property can be overwhelming, but understanding capital gains and knowing your selling options can make a big difference. If speed and simplicity matter, consider [selling inherited property in Arkansas](/probate-help/) through a hassle-free sale.
 
 ## Ready to Sell Your Inherited Property?
 

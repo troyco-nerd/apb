@@ -106,7 +106,7 @@ Fee waivers apply regardless of whether your divorce is contested. Legal Aid org
 
 ### **What if I own property but have no income?**
 
-Judges consider your complete financial picture. Owning a home doesn’t automatically disqualify you from fee waivers if you lack liquid assets and income. If you need to sell property during a divorce, [Arkansas Property Buyers](https://www.arkansaspropertybuyers.com) can help you convert real estate to cash quickly.
+Judges consider your complete financial picture. Owning a home doesn’t automatically disqualify you from fee waivers if you lack liquid assets and income. If you need to sell property during a divorce, you can [sell your house fast for cash](/sell-your-house/) and convert real estate to cash quickly.
 
 ### **Do I need a lawyer for an uncontested divorce in Arkansas?**
 
