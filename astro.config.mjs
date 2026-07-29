@@ -6,7 +6,11 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   site: 'https://arkansaspropertybuyers.com',
-  integrations: [sitemap()],
+  integrations: [
+    sitemap({
+      filter: (page) => !page.includes('/preview-homepage-x9k2/'),
+    }),
+  ],
   vite: {
     plugins: [tailwindcss()]
   }
