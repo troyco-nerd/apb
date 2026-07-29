@@ -84,7 +84,7 @@ Real property transfers to beneficiaries through a personal representative’s d
 
 ### **How long does Arkansas probate typically take for an estate with real property?**
 
-Most estates with real property require a minimum of eight to twelve months due to the mandatory six-month creditor period. Complex estates or contested wills can take 18 months or longer.
+Most estates with real property require a minimum of eight to twelve months due to the mandatory six-month creditor period. Complex estates or contested wills can take 18 months or longer. For a closer look at the specific deadlines involved, see our guide on [how long you have to transfer property after a death in Arkansas](/blog/how-long-do-you-have-to-transfer-property-after-death-in-arkansas/).
 
 ### **Can I sell an inherited house before probate closes?**
 
