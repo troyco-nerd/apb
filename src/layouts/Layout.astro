@@ -61,5 +61,17 @@ const ogImage = new URL(image, Astro.site);
   <slot />
   <script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="6a568ff682c5a91e7f78480e" data-source="WEB_USER"></script>
   <script src="https://link.msgsndr.com/js/external-tracking.js" data-tracking-id="tk_0185c75748734d2499d33b8bc1006fdf"></script>
+  <script is:inline>
+    document.addEventListener('click', function (e) {
+      var link = e.target.closest('a[href^="tel:"]');
+      if (link && window.gtag) {
+        gtag('event', 'phone_call_click', {
+          phone_number: link.getAttribute('href').replace('tel:', ''),
+          link_text: link.textContent.trim(),
+          page_path: window.location.pathname
+        });
+      }
+    });
+  </script>
 </body>
 </html>
