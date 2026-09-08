@@ -17,6 +17,64 @@ const {
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const ogImage = new URL(image, Astro.site);
+
+const businessSchema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': ['LocalBusiness', 'Organization'],
+      '@id': 'https://arkansaspropertybuyers.com/#business',
+      name: 'Arkansas Property Buyers',
+      legalName: 'Arkansas Property Buyers LLC',
+      url: 'https://arkansaspropertybuyers.com/',
+      telephone: '+1-501-504-7109',
+      description: 'Arkansas Property Buyers is a family-owned Little Rock home buyer that purchases houses directly and as-is, with flexible closing dates and no agent commissions.',
+      image: 'https://arkansaspropertybuyers.com/images/apbteam.png',
+      logo: 'https://arkansaspropertybuyers.com/images/apb-icon.png',
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: '2024 Arkansas Valley Dr., Ste 407',
+        addressLocality: 'Little Rock',
+        addressRegion: 'AR',
+        postalCode: '72212',
+        addressCountry: 'US',
+      },
+      areaServed: [
+        {
+          '@type': 'City',
+          name: 'Little Rock',
+        },
+        {
+          '@type': 'AdministrativeArea',
+          name: 'Pulaski County',
+        },
+        {
+          '@type': 'State',
+          name: 'Arkansas',
+        },
+      ],
+      sameAs: [
+        'https://www.facebook.com/propertybuyersar/',
+      ],
+      contactPoint: {
+        '@type': 'ContactPoint',
+        telephone: '+1-501-504-7109',
+        contactType: 'customer service',
+        availableLanguage: 'English',
+      },
+    },
+    {
+      '@type': 'WebSite',
+      '@id': 'https://arkansaspropertybuyers.com/#website',
+      url: 'https://arkansaspropertybuyers.com/',
+      name: 'Arkansas Property Buyers',
+      publisher: {
+        '@id': 'https://arkansaspropertybuyers.com/#business',
+      },
+      inLanguage: 'en-US',
+    },
+  ],
+};
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -35,6 +93,7 @@ const ogImage = new URL(image, Astro.site);
   <meta name="description" content={description}>
   {noindex && <meta name="robots" content="noindex, nofollow">}
   <link rel="canonical" href={canonicalURL}>
+  <script type="application/ld+json" set:html={JSON.stringify(businessSchema)} />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
