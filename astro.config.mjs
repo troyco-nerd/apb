@@ -8,7 +8,7 @@ export default defineConfig({
   site: 'https://arkansaspropertybuyers.com',
   integrations: [
     sitemap({
-      filter: (page) => !page.includes('/preview-homepage-x9k2/'),
+      filter: (page) => !page.includes('/preview-homepage-x9k2/') && !page.includes('/review/'),
     }),
   ],
   vite: {
