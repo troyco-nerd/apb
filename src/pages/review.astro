@@ -1,0 +1,95 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const googleReviewUrl = 'https://g.page/r/CYdfZCbKjtjsEBM/review';
+---
+
+<Layout
+  title="Share Your Experience | Arkansas Property Buyers"
+  description="Share your experience with Arkansas Property Buyers. Your honest feedback helps other Arkansas homeowners know what to expect when they reach out to our team."
+  noindex={true}
+>
+  <div class="min-h-screen bg-gray-50 flex flex-col">
+    <header class="bg-white border-b border-gray-100">
+      <div class="max-w-5xl mx-auto px-5 sm:px-8 h-16 flex items-center justify-between">
+        <a href="/" class="flex items-center gap-2.5">
+          <img src="/images/apb-icon.png" alt="Arkansas Property Buyers" class="h-10 w-auto object-contain">
+          <span class="font-sub font-bold text-navy text-sm tracking-tight">Arkansas Property Buyers</span>
+        </a>
+        <a href="/" class="font-sub font-bold text-xs text-grey hover:text-navy transition-colors uppercase tracking-wider">Back to Website</a>
+      </div>
+    </header>
+
+    <main class="flex-1 flex items-center py-14 sm:py-20">
+      <div class="max-w-5xl mx-auto px-5 sm:px-8 w-full">
+        <div class="grid lg:grid-cols-[0.9fr_1.1fr] gap-10 lg:gap-14 items-center">
+          <div class="rounded-2xl overflow-hidden border border-gray-100 bg-white shadow-sm">
+            <img
+              src="/images/apbteam.png?v=3"
+              alt="Arkansas Property Buyers team in Little Rock, Arkansas"
+              class="w-full object-cover aspect-[4/3]"
+            >
+          </div>
+
+          <div>
+            <p class="eyebrow tracking-widest mb-3">Thank You for Trusting Us</p>
+            <h1 class="font-display font-bold text-navy uppercase leading-tight text-4xl sm:text-5xl mb-4">Would You Share Your Experience?</h1>
+            <p class="font-body text-grey text-base sm:text-lg leading-relaxed mb-6 max-w-xl">
+              We’re grateful we had the opportunity to work with you. If you have a minute, an honest Google review helps other Arkansas homeowners know what to expect when they reach out to us.
+            </p>
+
+            <a
+              id="google-review-button"
+              href={googleReviewUrl}
+              class="inline-flex items-center justify-center gap-3 bg-orange hover:bg-gold text-white font-sub font-bold text-sm px-8 py-4 rounded-lg transition-all uppercase tracking-wider shadow-md hover:shadow-lg hover:-translate-y-0.5 w-full sm:w-auto"
+            >
+              <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm3.37 14.23c-.92.87-2.15 1.37-3.37 1.37A5.6 5.6 0 116.4 12 5.6 5.6 0 0112 6.4c1.51 0 2.78.55 3.76 1.48l-1.53 1.53A3.34 3.34 0 0012 8.54 3.46 3.46 0 108.54 12 3.46 3.46 0 0012 15.46c1.73 0 2.91-.99 3.16-2.35H12v-2.06h5.34c.06.3.1.64.1 1.05 0 1.63-.55 3.08-2.07 4.13z"/></svg>
+              Leave a Google Review
+            </a>
+
+            <p class="font-body text-grey text-xs mt-3">Any honest feedback is appreciated — there’s no need to write anything long.</p>
+
+            <div class="mt-9 pt-8 border-t border-gray-200">
+              <h2 class="font-sub font-bold text-navy text-sm uppercase tracking-wider mb-4">Not sure what to say?</h2>
+              <p class="font-body text-grey text-sm leading-relaxed mb-4">You can simply share whatever stood out about your experience. A few things you might think about:</p>
+              <ul class="space-y-3 font-body text-grey text-sm">
+                <li class="flex gap-3"><span class="text-orange font-bold">•</span><span>Was the process easy to understand?</span></li>
+                <li class="flex gap-3"><span class="text-orange font-bold">•</span><span>Did our team communicate clearly and do what we said we would do?</span></li>
+                <li class="flex gap-3"><span class="text-orange font-bold">•</span><span>Did selling as-is make your situation easier?</span></li>
+                <li class="flex gap-3"><span class="text-orange font-bold">•</span><span>Would you recommend Arkansas Property Buyers to someone in a similar situation?</span></li>
+              </ul>
+            </div>
+
+            <div class="mt-8 bg-white border border-gray-200 rounded-xl p-5">
+              <p class="font-body text-grey text-sm leading-relaxed">
+                Have feedback you’d rather share directly with our team? We want to hear that too. <a href="/contact-us" class="font-sub font-bold text-orange hover:text-gold transition-colors">Send us a message.</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-white border-t border-gray-100 py-6">
+      <div class="max-w-5xl mx-auto px-5 sm:px-8 text-center">
+        <p class="font-body text-grey text-xs">Arkansas Property Buyers · Based in Little Rock, Arkansas · (501) 504-7109</p>
+      </div>
+    </footer>
+  </div>
+
+  <script is:inline>
+    document.addEventListener('DOMContentLoaded', function () {
+      var button = document.getElementById('google-review-button');
+      if (button) {
+        button.addEventListener('click', function () {
+          if (window.gtag) {
+            gtag('event', 'google_review_click', {
+              page_path: window.location.pathname,
+              destination: 'google_review_form'
+            });
+          }
+        });
+      }
+    });
+  </script>
+</Layout>
