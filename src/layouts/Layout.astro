@@ -17,6 +17,7 @@ const {
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const ogImage = new URL(image, Astro.site);
+const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY;
 
 const businessSchema = {
   '@context': 'https://schema.org',
@@ -132,5 +133,192 @@ const businessSchema = {
       }
     });
   </script>
+
+  <!-- Shared anti-spam protection for every APB lead form except probate -->
+  <script is:inline define:vars={{ turnstileSiteKey }}>
+    (function () {
+      var turnstileReady = false;
+
+      function getSource(form) {
+        var sourceField = form.querySelector('input[name="source"]');
+        return sourceField ? sourceField.value : '';
+      }
+
+      function isSkippedForm(form) {
+        return getSource(form) === 'probate-help';
+      }
+
+      function getStatus(form) {
+        var status = form.querySelector('[data-apb-form-status]');
+        if (!status) {
+          status = document.createElement('p');
+          status.setAttribute('data-apb-form-status', '');
+          status.setAttribute('role', 'status');
+          status.className = 'font-body text-xs text-grey text-center mt-3';
+          form.appendChild(status);
+        }
+        return status;
+      }
+
+      function getThankYouUrl(source) {
+        if (source === 'avoid-foreclosure') return '/thank-you/avoid-foreclosure/';
+        if (source === 'contact') return '/thank-you/contact/';
+        if (source === 'sell-as-is') return '/thank-you/sell-as-is/';
+        if (source === 'senior-living-transition') return '/thank-you/senior-living-transition/';
+        if (source === 'senior-care-help') return '/thank-you/senior-care-help/';
+        return '/thank-you/sell-my-house-fast/';
+      }
+
+      function addHoneypot(form) {
+        if (form.querySelector('input[name="company_website"]')) return;
+
+        var wrapper = document.createElement('div');
+        wrapper.setAttribute('aria-hidden', 'true');
+        wrapper.style.position = 'absolute';
+        wrapper.style.left = '-10000px';
+        wrapper.style.width = '1px';
+        wrapper.style.height = '1px';
+        wrapper.style.overflow = 'hidden';
+
+        var label = document.createElement('label');
+        label.textContent = 'Company website';
+
+        var input = document.createElement('input');
+        input.type = 'text';
+        input.name = 'company_website';
+        input.tabIndex = -1;
+        input.autocomplete = 'off';
+
+        label.appendChild(input);
+        wrapper.appendChild(label);
+        form.appendChild(wrapper);
+      }
+
+      function renderTurnstile(form) {
+        if (!turnstileReady || !window.turnstile || form.dataset.turnstileWidgetId) return;
+
+        var container = form.querySelector('[data-apb-turnstile]');
+        if (!container) {
+          container = document.createElement('div');
+          container.setAttribute('data-apb-turnstile', '');
+          container.className = 'mt-3';
+          form.appendChild(container);
+        }
+
+        if (!turnstileSiteKey) {
+          getStatus(form).textContent = 'Form verification is temporarily unavailable. Please call (501) 504-7109.';
+          return;
+        }
+
+        var widgetId = window.turnstile.render(container, {
+          sitekey: turnstileSiteKey,
+          action: 'lead_form',
+          appearance: 'interaction-only',
+          callback: function () {
+            getStatus(form).textContent = '';
+          },
+          'expired-callback': function () {
+            getStatus(form).textContent = 'Verification expired. Please submit again.';
+          },
+          'error-callback': function () {
+            getStatus(form).textContent = 'We could not verify your browser. Please try again or call (501) 504-7109.';
+          }
+        });
+
+        form.dataset.turnstileWidgetId = String(widgetId);
+      }
+
+      function prepareForms() {
+        document.querySelectorAll('form#lead-capture-form').forEach(function (form) {
+          if (isSkippedForm(form)) return;
+          form.action = '/api/lead';
+          addHoneypot(form);
+          renderTurnstile(form);
+        });
+      }
+
+      window.apbTurnstileReady = function () {
+        turnstileReady = true;
+        prepareForms();
+      };
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', prepareForms);
+      } else {
+        prepareForms();
+      }
+
+      document.addEventListener('submit', async function (event) {
+        var form = event.target;
+        if (!(form instanceof HTMLFormElement) || form.id !== 'lead-capture-form') return;
+        if (isSkippedForm(form)) return;
+
+        // Take control before the page-specific legacy GHL handlers run.
+        event.preventDefault();
+        event.stopImmediatePropagation();
+
+        var status = getStatus(form);
+        var tokenField = form.querySelector('input[name="cf-turnstile-response"]');
+        var token = tokenField ? tokenField.value : '';
+
+        if (!token) {
+          status.textContent = 'Please wait a moment while we verify your browser, then submit again.';
+          return;
+        }
+
+        var transactional = document.getElementById('cb-sms-transactional');
+        var marketing = document.getElementById('cb-sms-marketing');
+        var transactionalValue = document.getElementById('sms-transactional-consent');
+        var marketingValue = document.getElementById('sms-marketing-consent');
+
+        if (transactionalValue && transactional) {
+          transactionalValue.value = transactional.checked ? 'true' : 'false';
+        }
+        if (marketingValue && marketing) {
+          marketingValue.value = marketing.checked ? 'true' : 'false';
+        }
+
+        var submitButton = form.querySelector('button[type="submit"], input[type="submit"]');
+        var originalText = '';
+        if (submitButton) {
+          submitButton.disabled = true;
+          if (submitButton.tagName === 'BUTTON') {
+            originalText = submitButton.textContent;
+            submitButton.textContent = 'Sending...';
+          } else {
+            originalText = submitButton.value;
+            submitButton.value = 'Sending...';
+          }
+        }
+
+        status.textContent = 'Sending your information securely...';
+
+        try {
+          var response = await fetch('/api/lead', {
+            method: 'POST',
+            body: new FormData(form),
+            headers: { 'Accept': 'application/json' }
+          });
+
+          if (!response.ok) {
+            throw new Error('Lead submission failed');
+          }
+
+          window.location.href = getThankYouUrl(getSource(form));
+        } catch (error) {
+          status.textContent = 'We could not send your information. Please try again or call (501) 504-7109.';
+          if (submitButton) {
+            submitButton.disabled = false;
+            if (submitButton.tagName === 'BUTTON') {
+              submitButton.textContent = originalText;
+            } else {
+              submitButton.value = originalText;
+            }
+          }
+        }
+      }, true);
+    })();
+  </script>
+  <script async defer src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=apbTurnstileReady&render=explicit"></script>
 </body>
 </html>
