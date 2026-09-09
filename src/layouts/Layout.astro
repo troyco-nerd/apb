@@ -134,10 +134,19 @@ const businessSchema = {
     });
   </script>
 
-  <!-- Shared anti-spam protection for every APB lead form -->
+  <!-- Shared anti-spam protection for every APB lead form except probate -->
   <script is:inline define:vars={{ turnstileSiteKey }}>
     (function () {
       var turnstileReady = false;
+
+      function getSource(form) {
+        var sourceField = form.querySelector('input[name="source"]');
+        return sourceField ? sourceField.value : '';
+      }
+
+      function isSkippedForm(form) {
+        return getSource(form) === 'probate-help';
+      }
 
       function getStatus(form) {
         var status = form.querySelector('[data-apb-form-status]');
@@ -154,7 +163,6 @@ const businessSchema = {
       function getThankYouUrl(source) {
         if (source === 'avoid-foreclosure') return '/thank-you/avoid-foreclosure/';
         if (source === 'contact') return '/thank-you/contact/';
-        if (source === 'probate-help') return '/thank-you/probate-help/';
         if (source === 'sell-as-is') return '/thank-you/sell-as-is/';
         if (source === 'senior-living-transition') return '/thank-you/senior-living-transition/';
         return '/thank-you/sell-my-house-fast/';
@@ -221,6 +229,7 @@ const businessSchema = {
 
       function prepareForms() {
         document.querySelectorAll('form#lead-capture-form').forEach(function (form) {
+          if (isSkippedForm(form)) return;
           form.action = '/api/lead';
           addHoneypot(form);
           renderTurnstile(form);
@@ -241,6 +250,7 @@ const businessSchema = {
       document.addEventListener('submit', async function (event) {
         var form = event.target;
         if (!(form instanceof HTMLFormElement) || form.id !== 'lead-capture-form') return;
+        if (isSkippedForm(form)) return;
 
         // Take control before the page-specific legacy GHL handlers run.
         event.preventDefault();
@@ -293,9 +303,7 @@ const businessSchema = {
             throw new Error('Lead submission failed');
           }
 
-          var sourceField = form.querySelector('input[name="source"]');
-          var source = sourceField ? sourceField.value : '';
-          window.location.href = getThankYouUrl(source);
+          window.location.href = getThankYouUrl(getSource(form));
         } catch (error) {
           status.textContent = 'We could not send your information. Please try again or call (501) 504-7109.';
           if (submitButton) {
