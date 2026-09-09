@@ -133,7 +133,3 @@ export const onRequestPost = async (context: any) => {
 
   return json({ ok: true });
 };
-
-export const onRequest = async () => {
-  return json({ ok: false, error: 'Method not allowed.' }, 405);
-};
