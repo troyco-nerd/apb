@@ -21,14 +21,16 @@ function webhookKeyForSource(source: string): string | null {
   if (source === 'avoid-foreclosure') return 'foreclosure';
   if (source === 'sell-as-is') return 'sell_as_is';
   if (source === 'senior-living-transition') return 'senior_living';
+  if (source === 'senior-care-help') return 'senior_care';
   if (source === 'contact') return 'contact';
   if (source === 'compare') return 'compare';
   if (source === 'faq') return 'faq';
-  if (source === 'probate-help') return 'probate';
 
   if (
     source === 'sell-your-house' ||
     source === 'get-a-cash-offer-today' ||
+    source === 'how-we-buy-houses' ||
+    source === 'testimonials' ||
     source.startsWith('sell-my-house-fast-')
   ) {
     return 'general';
