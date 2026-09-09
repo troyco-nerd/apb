@@ -1,0 +1,71 @@
+name: Finish Turnstile routing
+
+on:
+  push:
+    branches:
+      - turnstile-spam-protection
+    paths:
+      - .github/workflows/finish-turnstile-routing.yml
+
+permissions:
+  contents: write
+
+jobs:
+  finish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: turnstile-spam-protection
+          fetch-depth: 0
+
+      - name: Complete protected form routing
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          lead_path = Path('functions/api/lead.ts')
+          lead = lead_path.read_text()
+          lead = lead.replace("  if (source === 'probate-help') return 'probate';\n", "")
+          lead = lead.replace(
+              "  if (source === 'senior-living-transition') return 'senior_living';\n",
+              "  if (source === 'senior-living-transition') return 'senior_living';\n"
+              "  if (source === 'senior-care-help') return 'senior_care';\n"
+          )
+          lead = lead.replace(
+              "    source === 'get-a-cash-offer-today' ||\n",
+              "    source === 'get-a-cash-offer-today' ||\n"
+              "    source === 'how-we-buy-houses' ||\n"
+              "    source === 'testimonials' ||\n"
+          )
+          lead_path.write_text(lead)
+
+          layout_path = Path('src/layouts/Layout.astro')
+          layout = layout_path.read_text()
+          layout = layout.replace(
+              "        if (source === 'senior-living-transition') return '/thank-you/senior-living-transition/';\n",
+              "        if (source === 'senior-living-transition') return '/thank-you/senior-living-transition/';\n"
+              "        if (source === 'senior-care-help') return '/thank-you/senior-care-help/';\n"
+          )
+          layout_path.write_text(layout)
+          PY
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.16.0'
+          cache: npm
+
+      - run: npm ci
+      - run: npm run build
+
+      - name: Commit validated routing changes
+        run: |
+          if git diff --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add functions/api/lead.ts src/layouts/Layout.astro
+          git commit -m "Complete protected lead routing"
+          git push origin HEAD:turnstile-spam-protection
