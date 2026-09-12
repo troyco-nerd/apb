@@ -8,6 +8,7 @@ const pageLabels = {
   '/get-a-cash-offer-today': 'Get a Cash Offer',
   '/how-we-buy-houses': 'How We Buy Houses',
   '/making-the-transition-easier': 'Senior Care Resources',
+  '/media': 'Press & Media',
   '/our-company': 'About Arkansas Property Buyers',
   '/probate-help': 'Probate & Inherited Property Help',
   '/sell-my-house-as-is': 'Sell a House As-Is',
