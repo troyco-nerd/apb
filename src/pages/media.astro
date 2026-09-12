@@ -1,0 +1,248 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout
+  title="Press & Media | Arkansas Property Buyers"
+  description="Arkansas Property Buyers is available for interviews and expert commentary on the Little Rock and Central Arkansas housing market, cash home sales, foreclosure, probate, inherited property, complex title issues, and difficult real estate situations."
+>
+
+<Header />
+
+<!-- HERO -->
+<section class="bg-navy py-16 sm:py-20">
+  <div class="max-w-5xl mx-auto px-5 sm:px-8">
+    <div class="max-w-3xl">
+      <p class="eyebrow tracking-widest mb-4">Press &amp; Media</p>
+      <h1 class="font-display font-bold text-white uppercase leading-tight text-4xl sm:text-6xl mb-6">A Local Source For Arkansas Real Estate Stories</h1>
+      <p class="font-body text-white/75 text-lg leading-relaxed max-w-2xl mb-8">Arkansas Property Buyers is available for interviews, background conversations, and expert commentary on the Little Rock and Central Arkansas housing market — especially when a story involves homeowners facing a difficult property situation.</p>
+      <div class="flex flex-col sm:flex-row gap-3">
+        <a href="tel:+15015047109" class="inline-flex items-center justify-center gap-2 bg-orange hover:bg-gold text-white font-sub font-bold text-sm px-6 py-3.5 rounded transition-colors uppercase tracking-wider">
+          Call (501) 504-7109
+        </a>
+        <a href="/contact-us" class="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 text-white font-sub font-bold text-sm px-6 py-3.5 rounded transition-colors uppercase tracking-wider">
+          Send a Media Inquiry &rarr;
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY APB -->
+<section class="bg-white py-14 sm:py-20">
+  <div class="max-w-5xl mx-auto px-5 sm:px-8">
+    <div class="grid lg:grid-cols-[1.1fr_.9fr] gap-10 lg:gap-16 items-center">
+      <div>
+        <p class="eyebrow tracking-widest mb-3">Local Perspective</p>
+        <h2 class="font-display font-bold text-navy uppercase text-2xl sm:text-4xl leading-tight mb-5">Real Estate Commentary From People Working Directly With Arkansas Homeowners</h2>
+        <p class="font-body text-grey text-base leading-relaxed mb-5">Arkansas Property Buyers is a family-owned home buying company based in Little Rock. For more than 30 years, the team has worked with homeowners navigating property sales, foreclosure, probate, inherited homes, major repairs, title complications, senior transitions, and other situations that do not always fit neatly into a traditional real estate transaction.</p>
+        <p class="font-body text-grey text-base leading-relaxed">For reporters, producers, and writers, that means access to practical perspective from people who regularly see the situations behind the housing-market numbers.</p>
+      </div>
+      <div class="rounded-2xl overflow-hidden shadow-lg bg-gray-100">
+        <img src="/images/apbteam.png" alt="Arkansas Property Buyers team in Little Rock, Arkansas" class="w-full h-auto object-cover">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMMENTARY TOPICS -->
+<section class="bg-gray-50 border-y border-gray-100 py-14 sm:py-20">
+  <div class="max-w-5xl mx-auto px-5 sm:px-8">
+    <div class="text-center mb-10">
+      <p class="eyebrow tracking-widest mb-3">Areas Of Commentary</p>
+      <h2 class="font-display font-bold text-navy uppercase text-2xl sm:text-4xl leading-tight">Topics We Can Help Explain</h2>
+      <p class="font-body text-grey text-sm sm:text-base leading-relaxed max-w-2xl mx-auto mt-4">We can provide on-the-record interviews, background context, and practical homeowner perspectives on stories involving:</p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      {[
+        ['Little Rock Housing Market', 'What local sellers are experiencing and how changing market conditions affect their options.'],
+        ['Cash & As-Is Home Sales', 'How direct home sales work, why sellers choose them, and how they compare with traditional listings.'],
+        ['Foreclosure & Distress', 'What homeowners may face when payments fall behind and why timing matters.'],
+        ['Probate & Inherited Homes', 'The practical property challenges families encounter while settling an estate.'],
+        ['Complex Title Problems', 'How liens, ownership questions, heirs, and other title complications can affect a property sale.'],
+        ['Major Repairs & Condition', 'What happens when a house needs significant work and a traditional sale becomes difficult.'],
+        ['Rental Property Challenges', 'Issues facing landlords with unwanted rentals, difficult properties, or changing circumstances.'],
+        ['Senior Living Transitions', 'Real estate considerations families face when an older homeowner needs to move or downsize.'],
+      ].map(([heading, copy]) => (
+        <div class="bg-white border border-gray-100 rounded-xl p-5">
+          <div class="w-9 h-9 bg-orange/10 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-4 h-4 text-orange" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M12 20h9"/>
+              <path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/>
+            </svg>
+          </div>
+          <h3 class="font-sub font-bold text-navy text-sm uppercase tracking-wide mb-2">{heading}</h3>
+          <p class="font-body text-grey text-sm leading-relaxed">{copy}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- SPOKESPEOPLE -->
+<section class="bg-white py-14 sm:py-20">
+  <div class="max-w-5xl mx-auto px-5 sm:px-8">
+    <div class="text-center mb-12">
+      <p class="eyebrow tracking-widest mb-3">Available For Interviews</p>
+      <h2 class="font-display font-bold text-navy uppercase text-2xl sm:text-4xl leading-tight">Meet Our Media Sources</h2>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+      <article class="border border-gray-100 rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row gap-6 items-center sm:items-start">
+        <img src="/images/randy-thomason.jpg" alt="Randy Thomason, Founder and Principal of Arkansas Property Buyers" class="w-32 h-32 rounded-full object-cover flex-shrink-0">
+        <div>
+          <p class="eyebrow tracking-wider mb-1">Founder &amp; Principal</p>
+          <h3 class="font-display font-bold text-navy uppercase text-xl mb-3">Randy Thomason</h3>
+          <p class="font-body text-grey text-sm leading-relaxed">Randy brings more than 30 years of entrepreneurial experience in Arkansas, with a background spanning real estate, business ownership, and community involvement. He can speak to homeowner decision-making, difficult real estate situations, market changes, and the practical realities of selling property outside a typical transaction.</p>
+        </div>
+      </article>
+
+      <article class="border border-gray-100 rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row gap-6 items-center sm:items-start">
+        <img src="/images/anthony-thomason.jpg" alt="Anthony Thomason, Partner at Arkansas Property Buyers" class="w-32 h-32 rounded-full object-cover flex-shrink-0">
+        <div>
+          <p class="eyebrow tracking-wider mb-1">Partner</p>
+          <h3 class="font-display font-bold text-navy uppercase text-xl mb-3">Anthony Thomason</h3>
+          <p class="font-body text-grey text-sm leading-relaxed">Anthony combines an entrepreneurial perspective with hands-on contracting and property-evaluation experience. He can provide practical insight into property condition, repair decisions, as-is sales, cash offers, complicated properties, and what local sellers are encountering in the market.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- STORY IDEAS -->
+<section class="bg-navy py-14 sm:py-20">
+  <div class="max-w-5xl mx-auto px-5 sm:px-8">
+    <div class="grid lg:grid-cols-[.8fr_1.2fr] gap-10 lg:gap-16">
+      <div>
+        <p class="eyebrow tracking-widest mb-3">Need An Angle?</p>
+        <h2 class="font-display font-bold text-white uppercase text-2xl sm:text-4xl leading-tight mb-5">Story Ideas We Can Help Develop</h2>
+        <p class="font-body text-white/65 text-base leading-relaxed">These are starting points, not canned pitches. We are happy to help a reporter pressure-test an angle, explain what we are seeing locally, or point toward the homeowner issues behind a broader housing story.</p>
+      </div>
+      <div class="space-y-3">
+        {[
+          'What Little Rock homeowners should know before accepting a cash offer for a house',
+          'When selling a house as-is makes sense — and when it does not',
+          'Why inherited homes can become complicated when multiple heirs or title issues are involved',
+          'What homeowners facing foreclosure should understand before time runs short',
+          'Why major repairs can change the economics of a traditional home sale',
+          'The property decisions families face when a parent moves into senior living',
+          'What local cash buyers see that may not show up in MLS housing-market data',
+          'How landlords decide when an unwanted rental property is no longer worth keeping',
+        ].map((idea) => (
+          <div class="flex items-start gap-3 border border-white/10 bg-white/5 rounded-lg px-4 py-3.5">
+            <svg class="w-4 h-4 text-orange flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            <p class="font-body text-white/80 text-sm leading-relaxed">{idea}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPANY FACTS + BOILERPLATE -->
+<section class="bg-white py-14 sm:py-20">
+  <div class="max-w-5xl mx-auto px-5 sm:px-8">
+    <div class="grid lg:grid-cols-2 gap-8">
+      <div class="bg-gray-50 border border-gray-100 rounded-2xl p-7 sm:p-8">
+        <p class="eyebrow tracking-widest mb-3">Company At A Glance</p>
+        <h2 class="font-display font-bold text-navy uppercase text-2xl mb-6">Arkansas Property Buyers</h2>
+        <dl class="space-y-4">
+          <div class="border-b border-gray-200 pb-3">
+            <dt class="font-sub font-bold text-navy text-xs uppercase tracking-wide mb-1">Based In</dt>
+            <dd class="font-body text-grey text-sm">Little Rock, Arkansas</dd>
+          </div>
+          <div class="border-b border-gray-200 pb-3">
+            <dt class="font-sub font-bold text-navy text-xs uppercase tracking-wide mb-1">Business</dt>
+            <dd class="font-body text-grey text-sm">Family-owned direct home buyer</dd>
+          </div>
+          <div class="border-b border-gray-200 pb-3">
+            <dt class="font-sub font-bold text-navy text-xs uppercase tracking-wide mb-1">Experience</dt>
+            <dd class="font-body text-grey text-sm">More than 30 years serving Arkansas homeowners</dd>
+          </div>
+          <div class="border-b border-gray-200 pb-3">
+            <dt class="font-sub font-bold text-navy text-xs uppercase tracking-wide mb-1">Service Area</dt>
+            <dd class="font-body text-grey text-sm">Little Rock, Central Arkansas, and surrounding communities</dd>
+          </div>
+          <div>
+            <dt class="font-sub font-bold text-navy text-xs uppercase tracking-wide mb-1">Office</dt>
+            <dd class="font-body text-grey text-sm">2024 Arkansas Valley Dr., Ste 407, Little Rock, AR 72212</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="border border-gray-100 rounded-2xl p-7 sm:p-8">
+        <p class="eyebrow tracking-widest mb-3">Company Boilerplate</p>
+        <h2 class="font-display font-bold text-navy uppercase text-2xl mb-5">For Publication</h2>
+        <p class="font-body text-grey text-sm leading-relaxed mb-5">Arkansas Property Buyers is a family-owned home buying company based in Little Rock, Arkansas. The company helps homeowners sell houses directly and as-is, without repairs, clean-outs, showings, or agent commissions. Its team works with property owners navigating foreclosure, probate, inherited homes, major repairs, unwanted rentals, title complications, senior transitions, and other difficult real estate situations throughout Central Arkansas and surrounding communities.</p>
+        <p class="font-body text-grey text-xs leading-relaxed italic">Reporters and editors are welcome to use or adapt this description when referencing Arkansas Property Buyers.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRESS ASSETS -->
+<section class="bg-gray-50 border-y border-gray-100 py-14 sm:py-20">
+  <div class="max-w-5xl mx-auto px-5 sm:px-8">
+    <div class="text-center mb-10">
+      <p class="eyebrow tracking-widest mb-3">Press Assets</p>
+      <h2 class="font-display font-bold text-navy uppercase text-2xl sm:text-4xl leading-tight">Photos &amp; Brand Materials</h2>
+      <p class="font-body text-grey text-sm mt-3">These files may be used in editorial coverage of Arkansas Property Buyers.</p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <a href="/images/Arkansas%20Property%20Buyers.png" target="_blank" class="group bg-white border border-gray-100 rounded-xl p-5 hover:border-orange/40 hover:shadow-sm transition-all">
+        <div class="h-28 flex items-center justify-center bg-gray-50 rounded-lg mb-4 p-3">
+          <img src="/images/Arkansas%20Property%20Buyers.png" alt="Arkansas Property Buyers logo" class="max-h-full max-w-full object-contain">
+        </div>
+        <p class="font-sub font-bold text-navy text-sm group-hover:text-orange transition-colors">Company Logo</p>
+        <p class="font-body text-grey text-xs mt-1">Open image &rarr;</p>
+      </a>
+
+      <a href="/images/apbteam.png" target="_blank" class="group bg-white border border-gray-100 rounded-xl p-5 hover:border-orange/40 hover:shadow-sm transition-all">
+        <div class="h-28 overflow-hidden bg-gray-50 rounded-lg mb-4">
+          <img src="/images/apbteam.png" alt="Arkansas Property Buyers team" class="w-full h-full object-cover">
+        </div>
+        <p class="font-sub font-bold text-navy text-sm group-hover:text-orange transition-colors">Team Photo</p>
+        <p class="font-body text-grey text-xs mt-1">Open image &rarr;</p>
+      </a>
+
+      <a href="/images/randy-thomason.jpg" target="_blank" class="group bg-white border border-gray-100 rounded-xl p-5 hover:border-orange/40 hover:shadow-sm transition-all">
+        <div class="h-28 overflow-hidden bg-gray-50 rounded-lg mb-4">
+          <img src="/images/randy-thomason.jpg" alt="Randy Thomason headshot" class="w-full h-full object-cover object-top">
+        </div>
+        <p class="font-sub font-bold text-navy text-sm group-hover:text-orange transition-colors">Randy Thomason</p>
+        <p class="font-body text-grey text-xs mt-1">Open headshot &rarr;</p>
+      </a>
+
+      <a href="/images/anthony-thomason.jpg" target="_blank" class="group bg-white border border-gray-100 rounded-xl p-5 hover:border-orange/40 hover:shadow-sm transition-all">
+        <div class="h-28 overflow-hidden bg-gray-50 rounded-lg mb-4">
+          <img src="/images/anthony-thomason.jpg" alt="Anthony Thomason headshot" class="w-full h-full object-cover object-top">
+        </div>
+        <p class="font-sub font-bold text-navy text-sm group-hover:text-orange transition-colors">Anthony Thomason</p>
+        <p class="font-body text-grey text-xs mt-1">Open headshot &rarr;</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- DEADLINE CTA -->
+<section class="bg-white py-14 sm:py-20">
+  <div class="max-w-4xl mx-auto px-5 sm:px-8">
+    <div class="bg-navy rounded-2xl p-8 sm:p-10 text-center">
+      <p class="eyebrow tracking-widest mb-3">On Deadline?</p>
+      <h2 class="font-display font-bold text-white uppercase text-2xl sm:text-4xl leading-tight mb-4">Need A Local Real Estate Source?</h2>
+      <p class="font-body text-white/70 text-base leading-relaxed max-w-2xl mx-auto mb-7">Tell us what you are working on and what kind of perspective you need. We will do our best to respond quickly and connect you with the right person on our team.</p>
+      <div class="flex flex-col sm:flex-row gap-3 justify-center">
+        <a href="tel:+15015047109" class="inline-flex items-center justify-center bg-orange hover:bg-gold text-white font-sub font-bold text-sm px-6 py-3.5 rounded transition-colors uppercase tracking-wider">Call (501) 504-7109</a>
+        <a href="/contact-us" class="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 border border-white/20 text-white font-sub font-bold text-sm px-6 py-3.5 rounded transition-colors uppercase tracking-wider">Contact The Team</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<Footer />
+
+</Layout>
