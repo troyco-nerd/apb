@@ -1,11 +1,15 @@
 ---
 import '../styles/global.css';
+import { SITE_URL, cleanPageTitle, getBreadcrumbs, getPageType, getServiceDefinition } from '../data/seo.js';
 
 interface Props {
   title?: string;
   description?: string;
   image?: string;
   noindex?: boolean;
+  article?: {
+    datePublished: string;
+  };
 }
 
 const {
@@ -13,68 +17,191 @@ const {
   description = 'Arkansas Property Buyers is a family-owned cash home buyer serving all of Arkansas. We buy houses as-is, with no repairs, no fees, and no obligation. Get a fair cash offer today.',
   image = '/images/apb-team.jpg',
   noindex = false,
+  article = null,
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const canonicalHref = canonicalURL.href;
 const ogImage = new URL(image, Astro.site);
 const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY;
 
-const businessSchema = {
-  '@context': 'https://schema.org',
-  '@graph': [
-    {
-      '@type': ['LocalBusiness', 'Organization'],
-      '@id': 'https://arkansaspropertybuyers.com/#business',
-      name: 'Arkansas Property Buyers',
-      legalName: 'Arkansas Property Buyers LLC',
-      url: 'https://arkansaspropertybuyers.com/',
-      telephone: '+1-501-504-7109',
-      description: 'Arkansas Property Buyers is a family-owned Little Rock home buyer that purchases houses directly and as-is, with flexible closing dates and no agent commissions.',
-      image: 'https://arkansaspropertybuyers.com/images/apbteam.png',
-      logo: 'https://arkansaspropertybuyers.com/images/apb-icon.png',
-      address: {
-        '@type': 'PostalAddress',
-        streetAddress: '2024 Arkansas Valley Dr., Ste 407',
-        addressLocality: 'Little Rock',
-        addressRegion: 'AR',
-        postalCode: '72212',
-        addressCountry: 'US',
-      },
-      areaServed: [
-        {
-          '@type': 'City',
-          name: 'Little Rock',
-        },
-        {
-          '@type': 'AdministrativeArea',
-          name: 'Pulaski County',
-        },
-        {
-          '@type': 'State',
-          name: 'Arkansas',
-        },
-      ],
-      sameAs: [
-        'https://www.facebook.com/propertybuyersar/',
-      ],
-      contactPoint: {
-        '@type': 'ContactPoint',
-        telephone: '+1-501-504-7109',
-        contactType: 'customer service',
-        availableLanguage: 'English',
-      },
+const businessId = `${SITE_URL}/#business`;
+const websiteId = `${SITE_URL}/#website`;
+const webpageId = `${canonicalHref}#webpage`;
+const breadcrumbId = `${canonicalHref}#breadcrumb`;
+const serviceId = `${canonicalHref}#service`;
+const articleId = `${canonicalHref}#article`;
+
+const pageName = cleanPageTitle(title);
+const breadcrumbs = getBreadcrumbs(Astro.url.pathname, pageName);
+const serviceDefinition = getServiceDefinition(Astro.url.pathname);
+const pageType = getPageType(Astro.url.pathname);
+
+const serviceArea = [
+  {
+    '@type': 'City',
+    name: 'Little Rock',
+    address: {
+      '@type': 'PostalAddress',
+      addressRegion: 'AR',
+      addressCountry: 'US',
     },
-    {
-      '@type': 'WebSite',
-      '@id': 'https://arkansaspropertybuyers.com/#website',
-      url: 'https://arkansaspropertybuyers.com/',
-      name: 'Arkansas Property Buyers',
-      publisher: {
-        '@id': 'https://arkansaspropertybuyers.com/#business',
-      },
-      inLanguage: 'en-US',
-    },
+  },
+  {
+    '@type': 'Place',
+    name: 'Central Arkansas and surrounding communities',
+    description: 'Areas within approximately two hours of Little Rock, Arkansas.',
+  },
+];
+
+const businessEntity = {
+  '@type': ['LocalBusiness', 'Organization'],
+  '@id': businessId,
+  name: 'Arkansas Property Buyers',
+  legalName: 'Arkansas Property Buyers LLC',
+  url: `${SITE_URL}/`,
+  telephone: '+1-501-504-7109',
+  description: 'Arkansas Property Buyers is a family-owned home buying company based in Little Rock, Arkansas. We buy houses directly and as-is for cash, without repairs, clean-outs, showings, or agent commissions.',
+  image: `${SITE_URL}/images/apbteam.png`,
+  logo: `${SITE_URL}/images/apb-icon.png`,
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: '2024 Arkansas Valley Dr., Ste 407',
+    addressLocality: 'Little Rock',
+    addressRegion: 'AR',
+    postalCode: '72212',
+    addressCountry: 'US',
+  },
+  areaServed: serviceArea,
+  openingHoursSpecification: {
+    '@type': 'OpeningHoursSpecification',
+    dayOfWeek: [
+      'https://schema.org/Monday',
+      'https://schema.org/Tuesday',
+      'https://schema.org/Wednesday',
+      'https://schema.org/Thursday',
+      'https://schema.org/Friday',
+      'https://schema.org/Saturday',
+    ],
+    opens: '08:00',
+    closes: '19:00',
+  },
+  sameAs: [
+    'https://www.facebook.com/propertybuyersar/',
   ],
+  contactPoint: {
+    '@type': 'ContactPoint',
+    telephone: '+1-501-504-7109',
+    contactType: 'customer service',
+    availableLanguage: 'English',
+  },
+};
+
+const websiteEntity = {
+  '@type': 'WebSite',
+  '@id': websiteId,
+  url: `${SITE_URL}/`,
+  name: 'Arkansas Property Buyers',
+  publisher: {
+    '@id': businessId,
+  },
+  inLanguage: 'en-US',
+};
+
+const webPageEntity = {
+  '@type': pageType,
+  '@id': webpageId,
+  url: canonicalHref,
+  name: pageName || title,
+  description,
+  isPartOf: {
+    '@id': websiteId,
+  },
+  publisher: {
+    '@id': businessId,
+  },
+  primaryImageOfPage: {
+    '@type': 'ImageObject',
+    url: ogImage.href,
+  },
+  inLanguage: 'en-US',
+};
+
+if (breadcrumbs.length > 1) {
+  webPageEntity.breadcrumb = {
+    '@id': breadcrumbId,
+  };
+}
+
+if (serviceDefinition) {
+  webPageEntity.mainEntity = {
+    '@id': serviceId,
+  };
+}
+
+if (article) {
+  webPageEntity.mainEntity = {
+    '@id': articleId,
+  };
+}
+
+const graph = [businessEntity, websiteEntity, webPageEntity];
+
+if (breadcrumbs.length > 1) {
+  graph.push({
+    '@type': 'BreadcrumbList',
+    '@id': breadcrumbId,
+    itemListElement: breadcrumbs.map((crumb, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: crumb.name,
+      item: new URL(crumb.path, SITE_URL).href,
+    })),
+  });
+}
+
+if (serviceDefinition) {
+  graph.push({
+    '@type': 'Service',
+    '@id': serviceId,
+    name: serviceDefinition.name,
+    serviceType: serviceDefinition.serviceType,
+    description: serviceDefinition.description,
+    url: canonicalHref,
+    provider: {
+      '@id': businessId,
+    },
+    areaServed: serviceArea,
+  });
+}
+
+if (article) {
+  graph.push({
+    '@type': 'BlogPosting',
+    '@id': articleId,
+    headline: pageName || title,
+    description,
+    image: ogImage.href,
+    datePublished: article.datePublished,
+    author: {
+      '@id': businessId,
+    },
+    publisher: {
+      '@id': businessId,
+    },
+    mainEntityOfPage: {
+      '@id': webpageId,
+    },
+    isPartOf: {
+      '@id': websiteId,
+    },
+    inLanguage: 'en-US',
+  });
+}
+
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@graph': graph,
 };
 ---
 <!DOCTYPE html>
@@ -94,7 +221,7 @@ const businessSchema = {
   <meta name="description" content={description}>
   {noindex && <meta name="robots" content="noindex, nofollow">}
   <link rel="canonical" href={canonicalURL}>
-  <script type="application/ld+json" set:html={JSON.stringify(businessSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
