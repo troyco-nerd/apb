@@ -108,7 +108,7 @@ const websiteEntity = {
   inLanguage: 'en-US',
 };
 
-const webPageEntity = {
+const webPageEntity: Record<string, any> = {
   '@type': pageType,
   '@id': webpageId,
   url: canonicalHref,
@@ -145,7 +145,7 @@ if (article) {
   };
 }
 
-const graph = [businessEntity, websiteEntity, webPageEntity];
+const graph: Record<string, any>[] = [businessEntity, websiteEntity, webPageEntity];
 
 if (breadcrumbs.length > 1) {
   graph.push({
