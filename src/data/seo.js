@@ -102,7 +102,7 @@ export function getBreadcrumbs(pathname, currentLabel = '') {
     ];
   }
 
-  const label = currentLabel || pageLabels[path];
+  const label = pageLabels[path] || currentLabel;
   if (!label) return [];
 
   return [
