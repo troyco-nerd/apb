@@ -1,9 +1,14 @@
 ---
+import { getBreadcrumbs } from '../data/seo.js';
+
 interface Props {
-  active?: 'about' | 'compare' | 'faq' | 'blog' | 'senior-care';
+  active?: 'about' | 'compare' | 'faq' | 'blog' | 'senior-care' | 'testimonials';
+  breadcrumbLabel?: string;
+  hideBreadcrumbs?: boolean;
 }
 
-const { active } = Astro.props;
+const { active, breadcrumbLabel = '', hideBreadcrumbs = false } = Astro.props;
+const breadcrumbs = hideBreadcrumbs ? [] : getBreadcrumbs(Astro.url.pathname, breadcrumbLabel);
 
 const linkClass = (key: string) =>
   active === key
@@ -58,3 +63,25 @@ const mobLinkClass = (key: string) =>
     </div>
   </div>
 </header>
+
+{breadcrumbs.length > 1 && (
+  <nav aria-label="Breadcrumb" class="bg-white border-b border-gray-100">
+    <div class="max-w-6xl mx-auto px-5 sm:px-8 py-2.5">
+      <ol class="flex flex-wrap items-center gap-1.5 font-body text-xs text-grey">
+        {breadcrumbs.map((crumb, index) => {
+          const isCurrent = index === breadcrumbs.length - 1;
+          return (
+            <li class="flex items-center gap-1.5">
+              {index > 0 && <span aria-hidden="true" class="text-grey/50">›</span>}
+              {isCurrent ? (
+                <span aria-current="page" class="text-navy font-bold">{crumb.name}</span>
+              ) : (
+                <a href={crumb.path} class="hover:text-orange transition-colors">{crumb.name}</a>
+              )}
+            </li>
+          );
+        })}
+      </ol>
+    </div>
+  </nav>
+)}
