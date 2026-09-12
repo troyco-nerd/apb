@@ -21,10 +21,11 @@ const formattedDate = post.data.pubDate.toLocaleDateString('en-US', {
   title={`${post.data.title} | Arkansas Property Buyers`}
   description={post.data.description}
   image={post.data.featuredImage}
+  article={{ datePublished: post.data.pubDate.toISOString() }}
 >
 
 <!-- HEADER -->
-<Header active="blog" />
+<Header active="blog" breadcrumbLabel={post.data.title} />
 
 <!-- ARTICLE HERO -->
 <section class="bg-white border-b border-gray-100 pt-12 pb-10">
