@@ -1,0 +1,13 @@
+---
+interface Props {
+  lead: string;
+  class?: string;
+}
+
+const { lead, class: className = '' } = Astro.props;
+---
+
+<aside class:list={['flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-5 sm:p-6 bg-gray-50 border border-gray-100 rounded-xl', className]}>
+  <p class="font-body text-grey text-sm leading-relaxed"><span class="font-sub font-bold text-navy">{lead}</span> Our Resources page collects helpful links and guides for Arkansas homeowners.</p>
+  <a href="/resource-page/" class="flex-shrink-0 text-center border border-navy text-navy hover:bg-navy hover:text-white font-sub font-bold text-xs px-5 py-3 rounded transition-colors uppercase tracking-wider">View Homeowner Resources &rarr;</a>
+</aside>
