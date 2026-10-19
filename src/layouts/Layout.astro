@@ -15,7 +15,7 @@ interface Props {
 const {
   title = 'Arkansas Property Buyers — Fair Cash Offers for Arkansas Homes',
   description = 'Arkansas Property Buyers is a family-owned home buyer based in Little Rock, serving Central Arkansas and surrounding communities. We buy houses as-is with no repairs, clean-outs, showings, or agent commissions.',
-  image = '/images/apb-team.jpg',
+  image = '/images/apb-share.png',
   noindex = false,
   article = null,
 } = Astro.props;
@@ -221,6 +221,14 @@ const structuredData = {
   <meta name="description" content={description}>
   {noindex && <meta name="robots" content="noindex, nofollow">}
   <link rel="canonical" href={canonicalURL}>
+
+  <!-- Favicons & app icons (sizes are multiples of 48px so Google can use them in search results) -->
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="apple-mobile-web-app-title" content="Arkansas Property Buyers">
+
   <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
 
   <!-- Open Graph -->
