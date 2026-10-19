@@ -78,6 +78,7 @@ export function getBreadcrumbs(pathname, currentLabel = '') {
   if (
     path === '/' ||
     path === '/review' ||
+    path === '/404' ||
     path.startsWith('/thank-you') ||
     path.startsWith('/preview-homepage')
   ) {

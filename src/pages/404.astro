@@ -1,0 +1,60 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const links = [
+  { href: '/get-a-cash-offer-today/', label: 'Get a Cash Offer', text: 'Tell us about your house and we\'ll make a fair, no-obligation offer.' },
+  { href: '/how-we-buy-houses/', label: 'How We Buy Houses', text: 'See how our simple, no-hassle process works.' },
+  { href: '/sell-your-house/', label: 'Sell Your House', text: 'Options for Arkansas homeowners who need a simpler or faster sale.' },
+  { href: '/sell-my-house-as-is/', label: 'Sell a House As-Is', text: 'Sell in its current condition, with no repairs or clean-out.' },
+  { href: '/avoid-foreclosure/', label: 'Avoid Foreclosure', text: 'Understand your options if you\'re behind on your mortgage.' },
+  { href: '/probate-help/', label: 'Probate & Inherited Property', text: 'Help for families handling an inherited house or probate.' },
+  { href: '/faq/', label: 'Frequently Asked Questions', text: 'Quick answers to the questions homeowners ask most.' },
+  { href: '/blog/', label: 'Blog', text: 'Guides on selling, foreclosure, probate, and more in Arkansas.' },
+];
+---
+
+<Layout
+  title="Page Not Found | Arkansas Property Buyers"
+  description="Sorry, we couldn't find that page. Here are links to the most helpful parts of the Arkansas Property Buyers website."
+  noindex
+>
+
+<!-- HEADER -->
+<Header hideBreadcrumbs />
+
+<!-- HERO -->
+<section class="bg-navy pt-16 pb-14 sm:pt-22 sm:pb-18">
+  <div class="max-w-3xl mx-auto px-5 sm:px-8 text-center">
+    <p class="eyebrow tracking-widest mb-4">Error 404</p>
+    <h1 class="font-display font-bold text-white uppercase leading-tight text-3xl sm:text-5xl mb-6">We Can't Find That Page</h1>
+    <p class="font-body text-white/70 text-base sm:text-lg leading-relaxed max-w-xl mx-auto">The link may be broken, or the page may have moved. Try one of the pages below, or call us and we'll point you in the right direction.</p>
+  </div>
+</section>
+
+<!-- HELPFUL LINKS -->
+<section class="bg-white py-14 sm:py-20">
+  <div class="max-w-4xl mx-auto px-5 sm:px-8">
+    <p class="eyebrow tracking-widest text-center mb-3">Where To Next?</p>
+    <h2 class="font-display font-bold text-navy uppercase text-2xl sm:text-3xl leading-tight text-center mb-10">Popular Pages</h2>
+
+    <div class="grid sm:grid-cols-2 gap-4 mb-12">
+      {links.map((link) => (
+        <a href={link.href} class="lift bg-gray-50 border border-gray-100 rounded-xl p-6 hover:border-orange transition-colors block">
+          <h3 class="font-sub font-bold text-navy text-sm uppercase tracking-wide mb-2">{link.label} &rarr;</h3>
+          <p class="font-body text-grey text-sm leading-relaxed">{link.text}</p>
+        </a>
+      ))}
+    </div>
+
+    <div class="text-center">
+      <a href="/" class="inline-flex items-center justify-center bg-orange hover:bg-gold text-white font-sub font-bold text-xs px-8 py-3.5 rounded transition-colors uppercase tracking-wider">Back to Homepage</a>
+      <p class="font-body text-grey text-sm mt-6">Need a hand? <a href="tel:+15015047109" class="text-orange hover:text-gold transition-colors font-bold">Call (501) 504-7109</a> or <a href="/contact-us/" class="text-orange hover:text-gold transition-colors font-bold">send us a message</a>.</p>
+    </div>
+  </div>
+</section>
+
+<Footer />
+
+</Layout>

@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import { getCollection, render } from 'astro:content';
 import Footer from '../../components/Footer.astro';
+import ResourceCallout from '../../components/ResourceCallout.astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog', ({ data }) => !data.draft);
@@ -15,6 +16,14 @@ const { Content } = await render(post);
 const formattedDate = post.data.pubDate.toLocaleDateString('en-US', {
   year: 'numeric', month: 'long', day: 'numeric',
 });
+
+// Posts on these topics link to the Resources page, matched on the post slug.
+const resourceTopics = [
+  { pattern: /foreclos/, lead: 'Facing foreclosure?' },
+  { pattern: /probate|intestate|owner-dies|after-death|inherited/, lead: 'Handling probate or an inherited house?' },
+  { pattern: /as-is|ugly|unwanted/, lead: 'Selling a house as-is?' },
+];
+const resourceLead = resourceTopics.find((topic) => topic.pattern.test(post.id))?.lead;
 ---
 
 <Layout
@@ -73,6 +82,7 @@ const formattedDate = post.data.pubDate.toLocaleDateString('en-US', {
       prose-hr:border-gray-100 prose-hr:my-10">
       <Content />
     </div>
+    {resourceLead && <ResourceCallout lead={resourceLead} class="mt-12" />}
   </div>
 </article>
 
