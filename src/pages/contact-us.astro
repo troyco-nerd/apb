@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { getCollection } from 'astro:content';
+import SmsConsent from '../components/SmsConsent.astro';
 
 const recentPosts = (await getCollection('blog', ({ data }) => !data.draft))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
@@ -47,34 +48,22 @@ const recentPosts = (await getCollection('blog', ({ data }) => !data.draft))
           <div class="grid sm:grid-cols-2 gap-5">
             <div>
               <label for="c-name" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Your Name</label>
-              <input id="c-name" type="text" name="firstName" placeholder="First &amp; Last Name" required class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+              <input id="c-name" type="text" name="firstName" autocomplete="name" placeholder="First &amp; Last Name" required class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
             </div>
             <div>
               <label for="c-phone" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Phone Number</label>
-              <input id="c-phone" type="tel" name="phone" placeholder="(501) 000-0000" required class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+              <input id="c-phone" type="tel" name="phone" inputmode="tel" autocomplete="tel" placeholder="(501) 000-0000" required class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
             </div>
           </div>
           <div>
             <label for="c-email" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Email Address</label>
-            <input id="c-email" type="email" name="email" placeholder="you@example.com" required class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
+            <input id="c-email" type="email" name="email" inputmode="email" autocomplete="email" placeholder="you@example.com" required class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400">
           </div>
           <div>
             <label for="c-message" class="block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5">Your Message</label>
             <textarea id="c-message" name="message" rows="5" placeholder="Tell us about your situation or ask us anything..." required class="field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400 resize-none"></textarea>
           </div>
-          <div class="flex flex-col gap-2.5">
-            <label class="flex items-start gap-2.5 cursor-pointer">
-              <input type="checkbox" id="cb-sms-transactional" class="mt-0.5 w-4 h-4 flex-shrink-0 rounded border-gray-300 text-orange focus:ring-orange focus:ring-offset-0">
-              <span class="font-body text-grey text-[11px] leading-snug">I agree to receive text messages from Arkansas Property Buyers LLC regarding my property inquiry, requested information, appointment scheduling, and related follow-up. Message frequency varies. Message and data rates may apply. Reply STOP to opt out or HELP for help.</span>
-            </label>
-            <label class="flex items-start gap-2.5 cursor-pointer">
-              <input type="checkbox" id="cb-sms-marketing" class="mt-0.5 w-4 h-4 flex-shrink-0 rounded border-gray-300 text-orange focus:ring-orange focus:ring-offset-0">
-              <span class="font-body text-grey text-[11px] leading-snug">I agree to receive occasional promotional and educational text messages from Arkansas Property Buyers LLC about property-selling options, homeowner resources, and related services. Message frequency varies. Message and data rates may apply. Reply STOP to opt out or HELP for help.</span>
-            </label>
-            <input type="hidden" id="sms-transactional-consent" name="sms_transactional_consent" value="false">
-            <input type="hidden" id="sms-marketing-consent" name="sms_marketing_consent" value="false">
-            <p class="font-body text-grey text-[11px] leading-snug">By submitting this form, you agree to our <a href="/terms-and-conditions/" class="text-orange hover:text-gold underline">Terms and Conditions</a> and acknowledge our <a href="/privacy/" class="text-orange hover:text-gold underline">Privacy Policy</a>.</p>
-          </div>
+          <SmsConsent />
           <button type="submit" class="bg-orange hover:bg-gold text-white font-sub font-bold text-sm px-8 py-3.5 rounded transition-colors uppercase tracking-wider w-full sm:w-auto">
             Send Message &rarr;
           </button>

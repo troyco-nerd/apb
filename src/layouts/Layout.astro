@@ -269,6 +269,21 @@ const structuredData = {
     });
   </script>
 
+  <!-- Mobile sticky CTA bar: keep --sticky-bar-h (used for body padding in global.css) equal to its real height,
+       which grows when a long label wraps onto two lines on narrow phones. -->
+  <script is:inline>
+    (function () {
+      var bar = document.querySelector('.apb-sticky-bar');
+      if (!bar) return;
+      function sync() {
+        document.documentElement.style.setProperty('--sticky-bar-h', bar.offsetHeight + 'px');
+      }
+      sync();
+      if (window.ResizeObserver) new ResizeObserver(sync).observe(bar);
+      else window.addEventListener('resize', sync);
+    })();
+  </script>
+
   <!-- Shared anti-spam protection for every APB lead form except probate -->
   <script is:inline define:vars={{ turnstileSiteKey }}>
     (function () {
