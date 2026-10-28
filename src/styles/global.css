@@ -34,6 +34,27 @@ body { font-size: 17px; font-family: 'Lato', sans-serif; color: #333; background
 .lift { transition: box-shadow .2s, transform .2s; }
 .lift:hover { transform: translateY(-2px); box-shadow: 0 6px 24px rgba(0,35,75,.08); }
 
+/* Layout measurements shared by the sticky header, the mobile sticky CTA bar and anchor jumps */
+:root {
+  --header-h: 66px;      /* sticky header (h-16 + 1px border = 65px) */
+  --sticky-bar-h: 65px;  /* mobile sticky CTA bar (.apb-sticky-bar), hidden at lg */
+}
+
+/* Anchor jumps (#lead-form, #offer-tool, #how-it-works, ...) land below the sticky header, not under it */
+[id] { scroll-margin-top: var(--header-h); }
+
+@media (max-width: 1023.98px) {
+  /* Pages with the mobile sticky bar: reserve its height so it never covers content or buttons */
+  body:has(.apb-sticky-bar) { padding-bottom: calc(var(--sticky-bar-h) + env(safe-area-inset-bottom, 0px)); }
+  /* ...and keep focused fields / scrolled-to buttons clear of the bar */
+  html:has(.apb-sticky-bar) { scroll-padding-bottom: calc(var(--sticky-bar-h) + env(safe-area-inset-bottom, 0px) + 12px); }
+
+  /* 16px minimum so iPhone Safari doesn't zoom in on every field */
+  input:not([type="checkbox"]):not([type="radio"]):not([type="hidden"]):not([type="submit"]):not([type="button"]),
+  select,
+  textarea { font-size: 16px; }
+}
+
 /* Orange text patterns — change sizes here to update across the whole site */
 .eyebrow { font-family: var(--font-sub); font-weight: 700; font-size: 0.875rem; color: var(--color-orange); text-transform: uppercase; }
 .tagline-script { font-family: var(--font-script); font-style: italic; font-weight: 500; color: var(--color-orange); font-size: 1.5rem; }

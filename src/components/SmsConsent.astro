@@ -1,0 +1,49 @@
+---
+// A2P SMS consent block shared by every lead form.
+// On screen: a one-line summary per checkbox plus a "Details" toggle that reveals the full required wording.
+// The checkboxes are optional and unchecked by default; submission never depends on them.
+// The element ids / hidden field names below are read by the shared submit handler in Layout.astro.
+---
+<div class="flex flex-col gap-2.5">
+  <div>
+    <div class="flex items-start gap-2.5">
+      <input type="checkbox" id="cb-sms-transactional" class="mt-0.5 w-4 h-4 flex-shrink-0 rounded border-gray-300 text-orange focus:ring-orange focus:ring-offset-0">
+      <span class="font-body text-grey text-[11px] leading-snug">
+        <label for="cb-sms-transactional" class="cursor-pointer">Text me about my inquiry &amp; follow-up.</label>
+        <button type="button" data-consent-toggle aria-expanded="false" aria-controls="sms-transactional-details" class="font-bold text-orange hover:text-gold underline whitespace-nowrap py-1 px-1 -my-1">Details</button>
+      </span>
+    </div>
+    <p id="sms-transactional-details" hidden class="font-body text-grey text-[11px] leading-snug mt-1.5 pl-[26px]">I agree to receive text messages from Arkansas Property Buyers LLC regarding my property inquiry, requested information, appointment scheduling, and related follow-up. Message frequency varies. Message and data rates may apply. Reply STOP to opt out or HELP for help.</p>
+  </div>
+
+  <div>
+    <div class="flex items-start gap-2.5">
+      <input type="checkbox" id="cb-sms-marketing" class="mt-0.5 w-4 h-4 flex-shrink-0 rounded border-gray-300 text-orange focus:ring-orange focus:ring-offset-0">
+      <span class="font-body text-grey text-[11px] leading-snug">
+        <label for="cb-sms-marketing" class="cursor-pointer">Send me occasional tips &amp; offers by text.</label>
+        <button type="button" data-consent-toggle aria-expanded="false" aria-controls="sms-marketing-details" class="font-bold text-orange hover:text-gold underline whitespace-nowrap py-1 px-1 -my-1">Details</button>
+      </span>
+    </div>
+    <p id="sms-marketing-details" hidden class="font-body text-grey text-[11px] leading-snug mt-1.5 pl-[26px]">I agree to receive occasional promotional and educational text messages from Arkansas Property Buyers LLC about property-selling options, homeowner resources, and related services. Message frequency varies. Message and data rates may apply. Reply STOP to opt out or HELP for help.</p>
+  </div>
+
+  <input type="hidden" id="sms-transactional-consent" name="sms_transactional_consent" value="false">
+  <input type="hidden" id="sms-marketing-consent" name="sms_marketing_consent" value="false">
+  <p class="font-body text-grey text-[11px] leading-snug">By submitting this form, you agree to our <a href="/terms-and-conditions/" class="text-orange hover:text-gold underline">Terms and Conditions</a> and acknowledge our <a href="/privacy/" class="text-orange hover:text-gold underline">Privacy Policy</a>.</p>
+</div>
+
+<script is:inline>
+  if (!window.__apbConsentToggle) {
+    window.__apbConsentToggle = true;
+    document.addEventListener('click', function (e) {
+      var btn = e.target.closest('[data-consent-toggle]');
+      if (!btn) return;
+      var details = document.getElementById(btn.getAttribute('aria-controls'));
+      if (!details) return;
+      var opening = details.hidden;
+      details.hidden = !opening;
+      btn.setAttribute('aria-expanded', String(opening));
+      btn.textContent = opening ? 'Hide' : 'Details';
+    });
+  }
+</script>

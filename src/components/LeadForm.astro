@@ -1,0 +1,242 @@
+---
+import SmsConsent from './SmsConsent.astro';
+
+/**
+ * The two-step "Get Your Offer" lead form, shared by the homepage and every landing page.
+ *
+ *   Step 1: the property  (street address, city, zip, situation, optional notes)
+ *   Step 2: the contact   (name, phone, email, SMS consent, submit)
+ *
+ * Submission is unchanged: the form posts the same field names to /api/lead, and the shared
+ * Turnstile / honeypot / fetch handler in Layout.astro does the sending. The only addition is
+ * that the situation dropdown (which has no name of its own) is folded into `additional_info`
+ * by the `formdata` listener below.
+ */
+interface Props {
+  /** Lead `source` value. Layout.astro / functions/api/lead.ts route on it. */
+  source: string;
+  /** Lead `lead_type` value. */
+  leadType: string;
+  heading?: string;
+  subheading?: string;
+  submitLabel?: string;
+  /** Redirect used only by the legacy handler below (probate, which Layout.astro skips). */
+  thankYouUrl?: string;
+  action?: string;
+  /** Extra hidden fields, e.g. { city_market: 'Conway' } on the city pages. */
+  extraHidden?: Record<string, string>;
+  /** Pre-filled city (city landing pages). */
+  city?: string;
+  /** Pre-selected "What best describes your situation?" option. */
+  situation?: string;
+  /** Optional line shown above the call button. */
+  callPrompt?: string;
+}
+
+const {
+  source,
+  leadType,
+  heading = 'Get Your No-Obligation Offer',
+  subheading = 'No pressure. No obligation. Just honest guidance.',
+  submitLabel = 'Get My Offer',
+  thankYouUrl = '/thank-you/sell-my-house-fast/',
+  action = '/api/lead',
+  extraHidden = {},
+  city = '',
+  situation = '',
+  callPrompt = '',
+} = Astro.props;
+
+const situations = [
+  'Avoid Foreclosure',
+  'Probate Help',
+  'Senior Living Transition',
+  'Sell My House As-Is',
+  'Other / just want an offer',
+];
+
+const labelClass = 'block font-sub font-bold text-navy text-xs uppercase tracking-wider mb-1.5';
+const fieldClass = 'field w-full border border-gray-200 rounded-lg px-4 py-3 font-body text-sm text-navy placeholder-gray-400';
+---
+<div class="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm">
+  <div class="bg-navy px-6 py-4 lg:py-5">
+    <h2 class="font-display font-bold text-white uppercase text-base lg:text-lg tracking-wide">{heading}</h2>
+    <p class="font-body text-white/60 text-xs lg:text-sm mt-1">{subheading}</p>
+  </div>
+
+  <div id="form-progress" class="px-6 pt-4 pb-1 lg:pt-5 lg:pb-2 flex items-center gap-2">
+    <div id="dot1" class="step-dot active w-7 h-7 rounded-full border-2 border-orange bg-orange text-white flex items-center justify-center font-sub font-bold text-xs flex-shrink-0">1</div>
+    <div id="connector" class="flex-1 h-0.5 bg-gray-200 transition-colors duration-300"></div>
+    <div id="dot2" class="step-dot w-7 h-7 rounded-full border-2 border-gray-200 flex items-center justify-center font-sub font-bold text-xs text-grey flex-shrink-0">2</div>
+    <span id="step-label" class="font-body text-xs text-grey ml-1 flex-shrink-0">Step 1 of 2</span>
+  </div>
+
+  <form id="lead-capture-form" action={action} method="POST" data-thank-you={thankYouUrl}>
+    <input type="hidden" name="source" value={source}>
+    {Object.entries(extraHidden).map(([name, value]) => <input type="hidden" name={name} value={value}>)}
+    <input type="hidden" name="lead_source" value="Organic Website">
+    <input type="hidden" name="lead_type" value={leadType}>
+    <input type="hidden" name="pipeline_category" value="Seller Lead">
+
+    <!-- STEP 1: the property -->
+    <div id="step1" class="px-6 pb-5 pt-3 fade-up">
+      <p class="font-sub font-bold text-navy text-xs uppercase tracking-wider mb-3 lg:mb-4">Tell us about the property</p>
+      <div class="flex flex-col gap-3 lg:gap-4">
+        <div>
+          <label for="f-street" class={labelClass}>Street Address</label>
+          <input id="f-street" type="text" name="address1" autocomplete="street-address" placeholder="123 Main St" class={fieldClass}>
+        </div>
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label for="f-city" class={labelClass}>City</label>
+            {city
+              ? <input id="f-city" type="text" name="city" autocomplete="address-level2" value={city} class={fieldClass}>
+              : <input id="f-city" type="text" name="city" autocomplete="address-level2" placeholder="Little Rock" class={fieldClass}>}
+          </div>
+          <div>
+            <label for="f-zip" class={labelClass}>Zip Code</label>
+            <input id="f-zip" type="text" name="postalCode" inputmode="numeric" autocomplete="postal-code" placeholder="72201" class={fieldClass}>
+          </div>
+        </div>
+        <div>
+          <label for="f-situation" class={labelClass}>What best describes your situation?</label>
+          <select id="f-situation" class={`${fieldClass} bg-white`}>
+            <option value="">Select one&hellip;</option>
+            {situations.map((option) => <option value={option} selected={option === situation}>{option}</option>)}
+          </select>
+        </div>
+        <div>
+          <label for="f-additional-info" class={labelClass}>Additional Information</label>
+          <textarea id="f-additional-info" name="additional_info" rows="3" placeholder="Please provide details on the property or your situation..." class={`${fieldClass} resize-none max-lg:h-[4.5rem]`}></textarea>
+        </div>
+        <button type="button" id="btn-next" class="w-full bg-orange hover:bg-gold text-white font-sub font-bold text-sm px-6 py-3.5 rounded transition-colors uppercase tracking-wider mt-1">
+          Next: Contact Info &rarr;
+        </button>
+      </div>
+      <p class="font-body text-xs text-grey text-center mt-3">Confidential &middot; no obligation &middot; no pressure</p>
+    </div>
+
+    <!-- STEP 2: how to reach you -->
+    <div id="step2" class="px-6 pb-5 pt-3 hidden">
+      <p class="font-sub font-bold text-navy text-xs uppercase tracking-wider mb-3 lg:mb-4">How can we reach you?</p>
+      <div class="flex flex-col gap-3 lg:gap-4">
+        <div>
+          <label for="f-name" class={labelClass}>Your Name</label>
+          <input id="f-name" type="text" name="firstName" autocomplete="name" placeholder="First &amp; Last Name" class={fieldClass}>
+        </div>
+        <div>
+          <label for="f-phone" class={labelClass}>Phone Number</label>
+          <input id="f-phone" type="tel" name="phone" inputmode="tel" autocomplete="tel" placeholder="(501) 000-0000" class={fieldClass}>
+        </div>
+        <div>
+          <label for="f-email" class={labelClass}>Email Address</label>
+          <input id="f-email" type="email" name="email" inputmode="email" autocomplete="email" placeholder="you@example.com" class={fieldClass}>
+        </div>
+        <SmsConsent />
+        <div class="flex gap-2 mt-1">
+          <button type="button" id="btn-back" class="w-1/3 border border-gray-200 text-grey font-sub font-bold text-xs px-4 py-3.5 rounded hover:border-navy hover:text-navy transition-colors">&larr; Back</button>
+          <button type="submit" class="flex-1 bg-orange hover:bg-gold text-white font-sub font-bold text-sm px-6 py-3.5 rounded transition-colors uppercase tracking-wider">{submitLabel}</button>
+        </div>
+      </div>
+      <p data-apb-form-status role="status" class="font-body text-xs text-grey text-center mt-3"></p>
+      <p class="font-body text-xs text-grey text-center mt-3">We'll follow up within 24 hours &middot; no pressure</p>
+    </div>
+  </form>
+
+  <div class="px-6 pb-5 pt-1 border-t border-gray-100">
+    {callPrompt && <p class="font-sub font-bold text-navy text-xs uppercase tracking-wider text-center mb-3">{callPrompt}</p>}
+    <a href="tel:+15015047109" class="inline-flex items-center justify-center gap-2 bg-navy hover:bg-orange text-white font-sub font-bold text-sm px-6 py-3.5 rounded transition-colors uppercase tracking-wider w-full">
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+      Or Call (501) 504-7109
+    </a>
+  </div>
+</div>
+
+<script is:inline>
+(function () {
+  var form = document.getElementById('lead-capture-form');
+  if (!form) return;
+
+  var step1 = document.getElementById('step1');
+  var step2 = document.getElementById('step2');
+  var dot1 = document.getElementById('dot1');
+  var dot2 = document.getElementById('dot2');
+  var connector = document.getElementById('connector');
+  var stepLabel = document.getElementById('step-label');
+  var progress = document.getElementById('form-progress');
+  var contactFields = ['f-name', 'f-phone', 'f-email'].map(function (id) { return document.getElementById(id); });
+  var mobile = window.matchMedia('(max-width: 1023.98px)');
+
+  // On a phone, bring the progress row to the top of the screen so the whole step (and its button) is in view.
+  function bringIntoView() {
+    if (mobile.matches && progress) progress.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function goToStep2() {
+    step1.classList.add('hidden');
+    step2.classList.remove('hidden');
+    step2.classList.add('fade-up');
+
+    dot1.classList.remove('active');
+    dot1.classList.add('done');
+    connector.classList.add('bg-orange');
+    connector.classList.remove('bg-gray-200');
+    dot2.classList.add('active');
+    dot2.classList.remove('border-gray-200', 'text-grey');
+    dot2.classList.add('border-orange', 'bg-orange', 'text-white');
+    stepLabel.textContent = 'Step 2 of 2';
+
+    // Name, phone and email are required, but only enforced once their step is showing
+    // (a hidden required field would silently block submission from step 1).
+    contactFields.forEach(function (field) { if (field) field.required = true; });
+    bringIntoView();
+  }
+
+  function goToStep1() {
+    step2.classList.add('hidden');
+    step1.classList.remove('hidden');
+    step1.classList.add('fade-up');
+
+    dot1.classList.add('active');
+    dot1.classList.remove('done');
+    connector.classList.remove('bg-orange');
+    connector.classList.add('bg-gray-200');
+    dot2.classList.remove('active', 'border-orange', 'bg-orange', 'text-white');
+    dot2.classList.add('border-gray-200', 'text-grey');
+    stepLabel.textContent = 'Step 1 of 2';
+
+    contactFields.forEach(function (field) { if (field) field.required = false; });
+    bringIntoView();
+  }
+
+  document.getElementById('btn-next').addEventListener('click', goToStep2);
+  document.getElementById('btn-back').addEventListener('click', goToStep1);
+
+  // "Go"/Enter on a step 1 field moves to step 2 instead of trying to submit the whole form.
+  step1.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter' && e.target.tagName === 'INPUT') {
+      e.preventDefault();
+      goToStep2();
+    }
+  });
+
+  // The situation dropdown has no field name of its own: send it inside additional_info.
+  form.addEventListener('formdata', function (e) {
+    var situation = document.getElementById('f-situation');
+    if (!situation || !situation.value) return;
+    var notes = String(e.formData.get('additional_info') || '').trim();
+    e.formData.set('additional_info', 'Situation: ' + situation.value + (notes ? '\n' + notes : ''));
+  });
+
+  // Legacy direct-post handler. Layout.astro's shared handler takes over (and stops propagation) for every
+  // form except probate-help, so in practice this only runs there.
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var f = e.target;
+    document.getElementById('sms-transactional-consent').value = document.getElementById('cb-sms-transactional').checked ? 'true' : 'false';
+    document.getElementById('sms-marketing-consent').value = document.getElementById('cb-sms-marketing').checked ? 'true' : 'false';
+    fetch(f.action, { method: 'POST', body: new FormData(f), mode: 'no-cors' })
+      .finally(function () { window.location.href = f.getAttribute('data-thank-you'); });
+  });
+})();
+</script>
