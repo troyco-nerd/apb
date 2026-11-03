@@ -4,6 +4,7 @@ metaTitle: "Arkansas Personal Property Tax When Selling a Home"
 description: "Learn how Arkansas personal property tax affects home sellers, how it is handled at closing, and how to avoid surprise costs before you sell."
 pubDate: 2026-11-04
 author: "Arkansas Property Buyers"
+featuredImage: "/images/blog/understanding-arkansas-personal-property-tax-before-selling-your-home/featured-placeholder.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/understanding-arkansas-personal-property-tax-before-selling-your-home/"
 draft: false
 ---

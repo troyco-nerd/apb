@@ -4,6 +4,7 @@ metaTitle: "Probate Sale in Arkansas: How to Sell an Inherited Home"
 description: "Learn how a probate sale works in Arkansas, from court approval and appraisals to closing, plus the timeline, costs, and faster options."
 pubDate: 2026-11-04
 author: "Arkansas Property Buyers"
+featuredImage: "/images/blog/probate-sale-in-arkansas-what-families-need-to-know-about-selling-property/featured-placeholder.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/probate-sale-in-arkansas-what-families-need-to-know-about-selling-property/"
 draft: false
 ---

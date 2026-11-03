@@ -4,6 +4,7 @@ metaTitle: "Pros and Cons of a Cash Offer on an Arkansas Home"
 description: "Weigh the pros and cons of a cash offer on your Arkansas house, including speed, as-is sales, lower prices, and fewer fees, before you decide to sell."
 pubDate: 2026-11-04
 author: "Arkansas Property Buyers"
+featuredImage: "/images/blog/pros-and-cons-of-a-cash-offer-on-a-house-in-arkansas-explained/featured-placeholder.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/pros-and-cons-of-a-cash-offer-on-a-house-in-arkansas-explained/"
 draft: false
 ---

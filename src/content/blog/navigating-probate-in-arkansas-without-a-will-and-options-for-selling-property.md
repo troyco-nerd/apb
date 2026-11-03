@@ -4,6 +4,7 @@ metaTitle: "Probate Without a Will in Arkansas: Selling Options"
 description: "Learn how probate works in Arkansas without a will, the steps to sell inherited property with court approval, and faster as-is options for estate homes."
 pubDate: 2026-11-04
 author: "Arkansas Property Buyers"
+featuredImage: "/images/blog/navigating-probate-in-arkansas-without-a-will-and-options-for-selling-property/featured-placeholder.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/navigating-probate-in-arkansas-without-a-will-and-options-for-selling-property/"
 draft: false
 ---

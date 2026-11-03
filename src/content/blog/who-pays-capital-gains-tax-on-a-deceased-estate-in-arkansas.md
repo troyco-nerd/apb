@@ -4,6 +4,7 @@ metaTitle: "Who Pays Capital Gains Tax on an Estate in Arkansas?"
 description: "Learn who pays capital gains tax on a deceased estate in Arkansas, how the stepped-up basis works, and ways heirs can reduce the tax on inherited property."
 pubDate: 2026-11-04
 author: "Arkansas Property Buyers"
+featuredImage: "/images/blog/who-pays-capital-gains-tax-on-a-deceased-estate-in-arkansas/featured-placeholder.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/who-pays-capital-gains-tax-on-a-deceased-estate-in-arkansas/"
 draft: false
 ---

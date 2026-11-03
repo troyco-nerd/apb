@@ -4,6 +4,7 @@ metaTitle: "Who Owns Property in a Revocable Trust in Arkansas"
 description: "Learn who owns property in an Arkansas revocable trust, including the grantor's control, the trustee's role, and what happens when the grantor dies."
 pubDate: 2026-11-04
 author: "Arkansas Property Buyers"
+featuredImage: "/images/blog/who-owns-the-property-in-a-revocable-trust-in-arkansas/featured-placeholder.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/who-owns-the-property-in-a-revocable-trust-in-arkansas/"
 draft: false
 ---
