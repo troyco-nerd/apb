@@ -1,7 +1,8 @@
 ---
 title: "Free Paperwork for Selling a House by Owner: What Arkansas Sellers Need"
-description: "Learn which free paperwork Arkansas sellers need when selling a house by owner, from disclosures and purchase agreements to closing documents, plus where to find reliable forms."
-pubDate: 2025-12-11
+metaTitle: "Free Paperwork to Sell a House by Owner in Arkansas"
+description: "Get the free forms you need to sell your Arkansas house by owner, including disclosures, purchase agreements, lead paint forms, and closing documents."
+pubDate: 2026-11-04
 author: "Arkansas Property Buyers"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/free-paperwork-for-selling-a-house-by-owner-what-arkansas-sellers-need/"
 draft: false

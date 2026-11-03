@@ -27,7 +27,7 @@ const resourceLead = resourceTopics.find((topic) => topic.pattern.test(post.id))
 ---
 
 <Layout
-  title={`${post.data.title} | Arkansas Property Buyers`}
+  title={post.data.metaTitle ?? `${post.data.title} | Arkansas Property Buyers`}
   description={post.data.description}
   image={post.data.featuredImage}
   article={{ datePublished: post.data.pubDate.toISOString() }}
