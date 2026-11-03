@@ -62,7 +62,7 @@ Working with professionals who understand estate sales in Arkansas can ease this
 
 ## When You Need to Sell a Property Fast After an Inheritance
 
-[Inheriting a property](https://www.nidirect.gov.uk/articles/inheriting-private-property) can be overwhelming, especially if you need to sell it quickly due to relocation, financial reasons, or simply to avoid ongoing maintenance. Traditional real estate sales can drag on, with repairs, showings, and financing delays.
+[Inheriting a property](https://www.irs.gov/publications/p551) can be overwhelming, especially if you need to sell it quickly due to relocation, financial reasons, or simply to avoid ongoing maintenance. Traditional real estate sales can drag on, with repairs, showings, and financing delays.
 
 This is where a local cash buyer like [Arkansas Property Buyers](/) can be a real help. They buy homes in any condition, often close in just a few days, and cover many closing costs. This flexibility gives sellers control over timing and reduces stress during a difficult time.
 

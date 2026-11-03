@@ -12,7 +12,7 @@ When a loved one passes away, dealing with their estate can feel overwhelming. O
 
 ## Understanding the Probate Process in Arkansas
 
-In Arkansas, most estates go through probate, a legal process that [validates the will](https://lcf.co.uk/media-centre/blogs/how-to-ensure-your-will-is-valid-lessons-from-an-unusual-case/) and distributes the deceased's assets. Probate timelines can vary depending on the estate's complexity and whether there are disputes among heirs. The probate process serves not only to ensure that the deceased's wishes are honored but also to provide a structured framework for resolving potential conflicts among family members and other beneficiaries.
+In Arkansas, most estates go through probate, a legal process that [validates the will](https://codes.findlaw.com/ar/title-28-wills-estates-and-fiduciary-relationships/ar-code-sect-28-40-104/) and distributes the deceased's assets. Probate timelines can vary depending on the estate's complexity and whether there are disputes among heirs. The probate process serves not only to ensure that the deceased's wishes are honored but also to provide a structured framework for resolving potential conflicts among family members and other beneficiaries.
 
 Once the probate court appoints an executor or administrator, they begin gathering assets, paying debts, and distributing what's left to heirs. The court usually sets deadlines for filing claims against the estate, but the actual time an heir has to claim their inheritance depends on several factors. Executors often have the responsibility of managing the estate's finances, including liquidating assets, filing tax returns, and ensuring all financial obligations are met before any distributions are made to heirs.
 
@@ -36,7 +36,7 @@ Not every inheritance case is straightforward. Certain circumstances can affect 
 
 ### Inherited Property That Needs Quick Decisions
 
-Sometimes, heirs [inherit property](https://www.docrlaw.com/articles/what-to-know-about-inheriting-property) that requires immediate attention, such as a house with maintenance issues or financial burdens. If you find yourself in this situation, selling the property quickly might be the best option.
+Sometimes, heirs inherit property that requires immediate attention, such as a house with maintenance issues or financial burdens. If you find yourself in this situation, selling the property quickly might be the best option.
 
 [Arkansas Property Buyers](/) specializes in buying inherited homes fast, especially when heirs want to avoid the hassle of repairs, showings, or lengthy sales processes. They offer fair cash offers and can close in as little as three days, giving heirs control over the timeline.
 

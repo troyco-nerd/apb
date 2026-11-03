@@ -22,7 +22,7 @@ Here's a rundown of the primary documents you'll want to have on hand when selli
 
 ### 1. Property Disclosure Statement
 
-Arkansas law requires sellers to provide a disclosure statement regarding the property's condition. This form covers things like known defects, repairs, and environmental hazards. Being honest here protects you from future claims and builds trust with buyers.
+Arkansas does not require most sellers to complete a state-mandated property condition disclosure form. The Arkansas Real Estate Commission has said there is no disclosure statute addressing individual sellers, so the form is largely voluntary. Many sellers still use the Seller Property Disclosure form from the Arkansas Realtors Association. Whatever form you use, you must not hide known material defects, and being honest here protects you from future claims and builds trust with buyers.
 
 ### 2. Purchase Agreement
 
@@ -98,7 +98,7 @@ They buy homes "as-is," pay cash, and cover many closing costs. This can save yo
 
 ### Do I really need a property disclosure statement in Arkansas?
 
-Yes, Arkansas law requires sellers to provide a disclosure statement about the property's condition. It helps protect both you and the buyer.
+Not by state law for most sales. Arkansas does not require a standard seller disclosure form for individual sellers. You still cannot hide known material defects, and a written disclosure helps protect both you and the buyer.
 
 ### Where can I get free Arkansas real estate forms?
 

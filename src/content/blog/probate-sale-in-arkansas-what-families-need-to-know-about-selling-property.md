@@ -32,7 +32,7 @@ Probate sales can be tricky for families dealing with grief and the practical de
 
 ### Lengthy Timeline
 
-[Probate can take several months,](https://pricelawfirm.com/the-8-things-that-add-months-of-delays-to-a-probate-case/) sometimes longer if the estate is complex or contested. This delay can be frustrating if you need to sell the property quickly, such as when heirs live out of state or the house requires costly maintenance.
+[Probate can take several months,](https://www.arcourts.gov/sites/default/files/Probate%20Benchbook%202022.pdf) sometimes longer if the estate is complex or contested. This delay can be frustrating if you need to sell the property quickly, such as when heirs live out of state or the house requires costly maintenance.
 
 ### Property Condition and Repairs
 

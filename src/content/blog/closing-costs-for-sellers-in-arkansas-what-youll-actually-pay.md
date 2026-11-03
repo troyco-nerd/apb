@@ -52,7 +52,7 @@ After closing, the sale must be recorded with the county to update public record
 
 ### 2. Transfer Taxes
 
-Arkansas charges a real estate transfer tax based on the sale price. The rate is 0.1% per $100 of the sale price, or $1 per $1,000. For example, on a $150,000 home, the transfer tax would be around $150. This fee is typically paid by the seller at closing.
+Arkansas charges a real estate transfer tax of $3.30 per $1,000 of the sale price, according to the [Arkansas Department of Finance and Administration](https://www.dfa.arkansas.gov/office/taxes/excise-tax-administration/miscellaneous-tax/arkansas-miscellaneous-tax-laws/real-property-transfer/). For example, on a $150,000 home, the transfer tax would be about $495. The state does not set who pays it, so the split is part of your contract. Confirm it with your title company.
 
 ### 3. Home Warranty or Other Seller Concessions
 
@@ -76,7 +76,7 @@ This approach eliminates many common closing costs. There are no agent commissio
 
 ### Who typically pays the closing costs in Arkansas, the buyer or the seller?
 
-Sellers usually pay most of the closing costs related to commissions, title insurance, transfer taxes, and recording fees. Buyers cover their own loan fees and inspections. However, some costs can be negotiated between buyer and seller.
+Sellers usually pay most of the closing costs related to commissions, owner's title insurance, and recording fees. Transfer taxes are set by state law and split as your contract says. Buyers cover their own loan fees and inspections. Some costs can be negotiated between buyer and seller.
 
 ### Can I avoid paying real estate agent commissions?
 

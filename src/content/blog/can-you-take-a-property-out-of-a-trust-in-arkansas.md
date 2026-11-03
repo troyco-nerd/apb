@@ -8,7 +8,7 @@ oldUrl: "https://www.arkansaspropertybuyers.com/blog/can-you-take-a-property-out
 draft: false
 ---
 
-If you've ever inherited a home or set up a trust in Arkansas, you might wonder if it's possible to [take a property out of that trust.](https://vk.law/california-trust-and-estate/estate-planning/how-to-move-property-in-and-out-of-a-trust/) Maybe you want to sell it, or perhaps you need to transfer ownership for personal reasons. The good news is, yes, you can take a property out of a trust in Arkansas, but the process depends on the type of trust and how it's set up.
+If you've ever inherited a home or set up a trust in Arkansas, you might wonder if it's possible to [take a property out of that trust.](https://codes.findlaw.com/ar/title-28-wills-estates-and-fiduciary-relationships/ar-code-sect-28-73-105/) Maybe you want to sell it, or perhaps you need to transfer ownership for personal reasons. The good news is, yes, you can take a property out of a trust in Arkansas, but the process depends on the type of trust and how it's set up.
 
 This article breaks down what you need to know about removing property from a trust in Arkansas, the steps involved, and how to handle it smoothly, especially if you're looking to sell fast or avoid the usual headaches of real estate transactions.
 

@@ -1,7 +1,7 @@
 ---
 title: "Understanding Arkansas Personal Property Tax Before Selling Your Home"
 metaTitle: "Arkansas Personal Property Tax When Selling a Home"
-description: "Learn how Arkansas personal property tax affects home sellers, who pays it at closing, and how to avoid surprise costs before you sell."
+description: "Learn how Arkansas personal property tax affects home sellers, how it is handled at closing, and how to avoid surprise costs before you sell."
 pubDate: 2026-11-04
 author: "Arkansas Property Buyers"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/understanding-arkansas-personal-property-tax-before-selling-your-home/"
@@ -26,18 +26,18 @@ Failing to account for personal property tax could lead to unexpected expenses o
 
 ## Paying Personal Property Tax in Arkansas: What You Should Know
 
-Arkansas' personal property tax is typically assessed annually by county tax collectors. The amount you owe depends on the value of your personal property and the local tax rate. Here are some key points to keep in mind:
+Arkansas' personal property tax is assessed by the county assessor and collected by the county collector. The amount you owe depends on the value of your personal property and the local tax rate. Here are some key points to keep in mind:
 
 - **Tax Assessment:** Your county assessor will determine the value of your personal property based on what you report and their own evaluations.
-- **Payment Deadlines:** Taxes are usually due by October 15 each year, but this can vary by county.
-- **Penalties for Late Payment:** If you don't pay on time, penalties and interest can add up quickly.
+- **Payment Deadlines:** Taxes are due by October 15 each year under [Arkansas Code § 26-36-201](https://codes.findlaw.com/ar/title-26-taxation/ar-code-sect-26-36-201/), and unpaid taxes after that date are delinquent.
+- **Penalties for Late Payment:** If you don't pay on time, the county adds a 10% penalty.
 - **Exemptions and Deductions:** Some personal property may be exempt or qualify for deductions, so it's worth checking with your local assessor's office.
 
-If you're selling your home mid-year, it's important to settle any outstanding personal property tax to avoid complications. The tax responsibility often falls on the seller up to the date of sale, so clearing this up beforehand can smooth the closing process.
+If you're selling your home mid-year, it's important to settle any outstanding personal property tax to avoid complications. How personal property tax is split at closing depends on your contract and local practice, so ask your title company how it will be handled.
 
 ## Who Is Responsible for Personal Property Tax After the Sale?
 
-Typically, the seller is responsible for personal property tax up to the date of closing. After that, the buyer assumes responsibility. This means you'll want to coordinate with your buyer and your county tax office to ensure taxes are paid appropriately and no surprises arise after the sale.
+The sale contract should state who pays personal property tax at closing. Practice can vary, so confirm the arrangement with your buyer and your county collector's office. This means you'll want to coordinate with your buyer and your county tax office to ensure taxes are paid appropriately and no surprises arise after the sale.
 
 Clear communication about what personal property is included in the sale and who pays the tax can prevent disputes and delays. If you're working with a professional home buyer like Arkansas Property Buyers, they can help clarify these details and handle much of the process for you.
 
@@ -62,8 +62,8 @@ To avoid surprises and ensure a smooth sale, consider these practical tips:
 
 1. **Inventory Personal Property:** Make a list of all items included in the sale and their estimated value.
 2. **Check Local Tax Rules:** Contact your county assessor's office to understand how personal property tax is assessed and paid.
-3. **Settle Outstanding Taxes:** Pay any due personal property taxes before closing to avoid liens or delays.
-4. **Clarify Responsibilities:** Clearly state in the sale agreement who is responsible for personal property taxes up to closing.
+3. **Settle Outstanding Taxes:** Pay any due personal property taxes before closing to avoid penalties or delays.
+4. **Clarify Responsibilities:** Clearly state in the sale agreement who is responsible for personal property taxes at closing.
 5. **Consider a Cash Buyer:** If you want to skip the stress, companies like Arkansas Property Buyers can simplify the process.
 
 Being proactive about personal property tax can save time and money, especially if you're selling under tight deadlines or difficult circumstances.
@@ -80,7 +80,7 @@ Absolutely. You can exclude personal property from the sale by removing items be
 
 ### What happens if I don't pay personal property tax before selling?
 
-Unpaid personal property taxes can create liens on your property, potentially delaying or complicating the sale. Buyers may require these taxes to be paid before closing, so it's best to clear them up early.
+Unpaid personal property taxes add a 10% penalty after October 15 and can delay or complicate the sale. Buyers may require these taxes to be paid before closing, so it's best to clear them up early.
 
 ### How does selling to Arkansas Property Buyers help with personal property tax?
 
