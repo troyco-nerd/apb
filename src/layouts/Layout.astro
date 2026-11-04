@@ -10,6 +10,8 @@ interface Props {
   article?: {
     datePublished: string;
   };
+  // Question/answer pairs that appear on the page; output as FAQPage JSON-LD.
+  faq?: Array<{ question: string; answer: string }>;
 }
 
 const {
@@ -18,6 +20,7 @@ const {
   image = '/images/apb-share.jpg',
   noindex = false,
   article = null,
+  faq = [],
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -31,6 +34,7 @@ const webpageId = `${canonicalHref}#webpage`;
 const breadcrumbId = `${canonicalHref}#breadcrumb`;
 const serviceId = `${canonicalHref}#service`;
 const articleId = `${canonicalHref}#article`;
+const faqId = `${canonicalHref}#faq`;
 
 const pageName = cleanPageTitle(title);
 const breadcrumbs = getBreadcrumbs(Astro.url.pathname, pageName);
@@ -195,6 +199,26 @@ if (article) {
     isPartOf: {
       '@id': websiteId,
     },
+    inLanguage: 'en-US',
+  });
+}
+
+if (faq.length > 0) {
+  graph.push({
+    '@type': 'FAQPage',
+    '@id': faqId,
+    url: canonicalHref,
+    isPartOf: {
+      '@id': webpageId,
+    },
+    mainEntity: faq.map(({ question, answer }) => ({
+      '@type': 'Question',
+      name: question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: answer,
+      },
+    })),
     inLanguage: 'en-US',
   });
 }

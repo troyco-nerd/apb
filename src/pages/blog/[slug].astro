@@ -6,6 +6,7 @@ import Footer from '../../components/Footer.astro';
 import ResourceCallout from '../../components/ResourceCallout.astro';
 import RelatedArticles from '../../components/RelatedArticles.astro';
 import { getClusterForPost, getRelatedSlugs } from '../../data/blogClusters.js';
+import { extractFaq } from '../../data/faq.js';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog', ({ data }) => !data.draft);
@@ -14,6 +15,9 @@ export async function getStaticPaths() {
 
 const { post, posts } = Astro.props;
 const { Content } = await render(post);
+
+// FAQ section of the post, output as FAQPage structured data.
+const faq = extractFaq(post.body);
 
 // Related articles from the same topic cluster (see src/data/blogClusters.js).
 const cluster = getClusterForPost(post.id);
@@ -39,6 +43,7 @@ const resourceLead = resourceTopics.find((topic) => topic.pattern.test(post.id))
   description={post.data.description}
   image={post.data.featuredImage}
   article={{ datePublished: post.data.pubDate.toISOString() }}
+  faq={faq}
 >
 
 <!-- HEADER -->
