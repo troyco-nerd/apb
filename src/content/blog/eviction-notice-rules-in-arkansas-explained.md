@@ -12,7 +12,7 @@ Arkansas landlords face strict procedural requirements when removing tenants fro
 
 ## **Legal Grounds for Eviction Under Arkansas Law**
 
-Arkansas recognizes specific circumstances that justify a tenant’s removal. Landlords cannot arbitrarily evict tenants; they must establish valid legal grounds before initiating proceedings.
+Arkansas recognizes specific circumstances that justify a tenant’s removal. [Landlords cannot arbitrarily evict tenants](/blog/what-a-landlord-cannot-do-in-arkansas-under-state-law/); they must establish valid legal grounds before initiating proceedings.
 
 ### **Nonpayment of Rent and the Three-Day Notice**
 

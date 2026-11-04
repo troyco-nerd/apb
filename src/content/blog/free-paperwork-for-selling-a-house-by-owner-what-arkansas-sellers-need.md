@@ -12,7 +12,7 @@ Selling a house on your own in Arkansas can seem like a big task, especially whe
 
 ## Why Selling Your House by Owner Makes Paperwork Important
 
-When you sell your house without an agent, you take on responsibilities that a real estate professional would typically handle. That means you need to be comfortable with contracts, disclosures, and closing documents. Missing a form or making a mistake can slow down your sale or even cause legal headaches later.
+When you sell your house without an agent, you take on responsibilities that a real estate professional would typically handle. That means you need to be comfortable with contracts, disclosures, and [closing documents](/blog/steps-in-selling-a-home-in-arkansas-explained/). Missing a form or making a mistake can slow down your sale or even cause legal headaches later. If that sounds like a lot, [compare selling by owner vs. a direct cash sale](/compare/).
 
 But it's not all complicated. Many sellers find that having access to free, reliable paperwork makes the process smoother and less stressful. Plus, you keep control over your sale timeline and avoid agent commissions.
 

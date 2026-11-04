@@ -21,7 +21,7 @@ In Arkansas, like in many states, the tax treatment of inherited property often 
 
 The stepped-up basis means that the value of the property is reset to its market value at the time of the owner's death. For example, if the deceased bought a house years ago for $100,000 but it's worth $300,000 when they pass away, the basis for capital gains tax purposes becomes $300,000.
 
-This is important because if the heirs sell the property soon after inheriting it, they may owe little to no capital gains tax. The tax is calculated on the difference between the sale price and the stepped-up basis, not the original purchase price.
+This is important because if the heirs sell the property soon after inheriting it, they may owe little to no capital gains tax. The tax is calculated on the difference between the sale price and the stepped-up basis, not the original purchase price. For more detail, see our guide to [capital gains on inherited property in Arkansas](/blog/capital-gains-on-inherited-property-in-arkansas-what-sellers-need-to-know/).
 
 ## Who Actually Pays the Capital Gains Tax?
 

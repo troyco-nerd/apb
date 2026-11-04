@@ -10,7 +10,7 @@ Inheriting a property can feel like a windfall, but selling it comes with its ow
 
 ## What Is Capital Gains Tax on Inherited Property?
 
-[Capital gains tax](https://smartasset.com/taxes/capital-gains-on-inherited-property) is the tax you pay on the profit made from selling an asset, like a house. When it comes to inherited property, the rules are a bit different than those for properties you bought yourself. The key concept here is the "stepped-up basis."
+[Capital gains tax](https://smartasset.com/taxes/capital-gains-on-inherited-property) is the tax you pay on the profit made from selling an asset, like a house. When it comes to inherited property, the rules are a bit different than those for properties you bought yourself. The key concept here is the "stepped-up basis." If the house is still part of the estate when it sells, also read [who pays capital gains tax on a deceased estate in Arkansas](/blog/who-pays-capital-gains-tax-on-a-deceased-estate-in-arkansas/).
 
 Basically, the IRS resets the value of the inherited property to its market value at the time of the previous owner's death. This means your starting point for calculating gains is the property's fair market value on that date, not what the original owner paid for it. This can significantly reduce the taxable gain when you sell.
 

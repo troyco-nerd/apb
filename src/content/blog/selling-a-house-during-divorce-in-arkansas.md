@@ -16,7 +16,7 @@ Arkansas property division operates under specific legal frameworks that directl
 
 ### **Equitable Distribution vs. Community Property**
 
-Arkansas is an equitable distribution state, not a community property state. This distinction matters significantly. Rather than splitting assets 50/50, Arkansas courts divide marital property based on what’s fair given each spouse’s circumstances. Factors include each spouse’s economic situation, contributions to the marriage, and future earning capacity. A judge might award one spouse a larger or smaller share of the home’s equity depending on statutory factors outlined in [Ark. Code Ann. § 9‑12‑315](https://law.justia.com/codes/arkansas/title-9/subtitle-2/chapter-12/subchapter-3/section-9-12-315/), but the court must state reasons for any division other than 50/50.
+Arkansas is an equitable distribution state, not a community property state. This distinction matters significantly. Rather than splitting assets 50/50, Arkansas courts divide [marital property](/blog/divorce-in-arkansas-and-marital-property-rules/) based on what’s fair given each spouse’s circumstances. Factors include each spouse’s economic situation, contributions to the marriage, and future earning capacity. A judge might award one spouse a larger or smaller share of the home’s equity depending on statutory factors outlined in [Ark. Code Ann. § 9‑12‑315](https://law.justia.com/codes/arkansas/title-9/subtitle-2/chapter-12/subchapter-3/section-9-12-315/), but the court must state reasons for any division other than 50/50.
 
 ### **Determining Marital vs. Non-Marital Assets**
 

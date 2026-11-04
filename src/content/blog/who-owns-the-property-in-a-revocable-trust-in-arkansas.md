@@ -15,7 +15,7 @@ If you've set up a revocable trust in Arkansas or are thinking about it, you mig
 
 [A revocable trust](https://www.consumerfinance.gov/ask-cfpb/what-is-a-revocable-living-trust-en-1775/) is a legal arrangement where you place your property into a trust that you can change or cancel at any time during your lifetime. You're usually the one who creates the trust, called the grantor or settlor. Because it's revocable, you keep control over the property and can make decisions about it just like you would if it were in your name alone.
 
-This flexibility makes revocable trusts popular for estate planning. They allow you to avoid probate, which means your property can transfer to your heirs more smoothly after you pass away. But while the trust is active, ownership and control have some specific features worth understanding.
+This flexibility makes revocable trusts popular for estate planning. They allow you to [avoid probate](/blog/arkansas-probate-timeline-what-homeowners-should-expect/), which means your property can transfer to your heirs more smoothly after you pass away. But while the trust is active, ownership and control have some specific features worth understanding.
 
 ## Who Is the Owner of Property in a Revocable Trust?
 

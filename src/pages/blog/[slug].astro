@@ -4,14 +4,22 @@ import Header from '../../components/Header.astro';
 import { getCollection, render } from 'astro:content';
 import Footer from '../../components/Footer.astro';
 import ResourceCallout from '../../components/ResourceCallout.astro';
+import RelatedArticles from '../../components/RelatedArticles.astro';
+import { getClusterForPost, getRelatedSlugs } from '../../data/blogClusters.js';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog', ({ data }) => !data.draft);
-  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post, posts } }));
 }
 
-const { post } = Astro.props;
+const { post, posts } = Astro.props;
 const { Content } = await render(post);
+
+// Related articles from the same topic cluster (see src/data/blogClusters.js).
+const cluster = getClusterForPost(post.id);
+const relatedPosts = getRelatedSlugs(post.id)
+  .map((slug) => posts.find((p) => p.id === slug))
+  .filter(Boolean);
 
 const formattedDate = post.data.pubDate.toLocaleDateString('en-US', {
   year: 'numeric', month: 'long', day: 'numeric',
@@ -85,6 +93,11 @@ const resourceLead = resourceTopics.find((topic) => topic.pattern.test(post.id))
     {resourceLead && <ResourceCallout lead={resourceLead} class="mt-12" />}
   </div>
 </article>
+
+<!-- RELATED ARTICLES -->
+{cluster && relatedPosts.length > 0 && (
+  <RelatedArticles cluster={cluster} posts={relatedPosts} />
+)}
 
 <!-- CTA BANNER -->
 <section class="bg-navy py-14">

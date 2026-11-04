@@ -1,0 +1,41 @@
+---
+// Shows posts from the same topic cluster plus a cluster-specific call to action.
+// Cluster data lives in src/data/blogClusters.js.
+interface Props {
+  cluster: {
+    label: string;
+    cta: { lead: string; text: string; href: string };
+  };
+  posts: Array<{ id: string; data: { title: string; description?: string } }>;
+}
+
+const { cluster, posts } = Astro.props;
+---
+
+<section class="bg-gray-50 border-t border-gray-100 py-12 sm:py-16" aria-labelledby="related-articles-heading">
+  <div class="max-w-3xl mx-auto px-5 sm:px-8">
+    <p class="font-sub font-bold text-xs text-orange uppercase tracking-wider mb-2">{cluster.label}</p>
+    <h2 id="related-articles-heading" class="font-display font-bold text-navy uppercase leading-tight text-2xl sm:text-3xl mb-6">Related Articles</h2>
+
+    <ul class="grid sm:grid-cols-2 gap-4 mb-8">
+      {posts.map((related) => (
+        <li>
+          <a href={`/blog/${related.id}/`} class="lift group block h-full bg-white border border-gray-100 rounded-xl p-5 hover:border-orange transition-colors">
+            <span class="block font-sub font-bold text-navy group-hover:text-orange transition-colors leading-snug mb-2">{related.data.title}</span>
+            {related.data.description && (
+              <span class="block font-body text-grey text-sm leading-relaxed line-clamp-2">{related.data.description}</span>
+            )}
+          </a>
+        </li>
+      ))}
+    </ul>
+
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-5 sm:p-6 bg-white border border-gray-100 rounded-xl">
+      <p class="font-body text-grey text-sm leading-relaxed">
+        <span class="font-sub font-bold text-navy">{cluster.cta.lead}</span>{' '}
+        <a href={cluster.cta.href} class="font-bold text-orange hover:text-gold transition-colors">{cluster.cta.text}</a>.
+      </p>
+      <a href={cluster.cta.href} class="flex-shrink-0 text-center bg-orange hover:bg-gold text-white font-sub font-bold text-xs px-5 py-3 rounded transition-colors uppercase tracking-wider">Learn More &rarr;</a>
+    </div>
+  </div>
+</section>

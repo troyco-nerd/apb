@@ -73,7 +73,7 @@ A court judgment alone doesn’t remove the tenant. You need additional steps to
 
 ### **Coordinating with the County Sheriff**
 
-After obtaining a judgment, request a writ of possession from the court clerk. This document authorizes the county sheriff to physically remove the tenant if the tenant does not leave voluntarily. The sheriff typically schedules the removal within 7 to 10 days, giving the tenant final notice to vacate.
+After obtaining a judgment, request a writ of possession from the court clerk. This document authorizes the county sheriff to physically remove the tenant if the tenant does not [leave voluntarily](/blog/can-i-get-a-tenant-to-leave-voluntarily-in-arkansas/). The sheriff typically schedules the removal within 7 to 10 days, giving the tenant final notice to vacate.
 
 ### **Handling Abandoned Personal Property**
 

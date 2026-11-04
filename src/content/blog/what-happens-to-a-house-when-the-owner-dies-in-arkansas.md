@@ -14,7 +14,7 @@ When a homeowner in Arkansas dies, their property doesn't just disappear or auto
 
 ### With a Will: Probate Process
 
-If the owner left a valid will, the property usually goes through probate. Probate is the legal process that confirms the will and allows the executor to distribute assets according to the deceased's wishes. This process can take several months, depending on the complexity of the estate and any disputes that arise.
+If the owner left a valid will, the property usually goes through [probate in Arkansas](/blog/arkansas-probate-timeline-what-homeowners-should-expect/). Probate is the legal process that confirms the will and allows the executor to distribute assets according to the deceased's wishes. This process can take several months, depending on the complexity of the estate and any disputes that arise.
 
 During probate, the court supervises the transfer of the house to the named heirs or beneficiaries. The executor handles paying debts and taxes before the property is officially transferred. Until probate is complete, the house remains part of the deceased's estate and cannot be sold or transferred without court approval.
 
@@ -30,7 +30,7 @@ Some properties are owned jointly with rights of survivorship, such as joint ten
 
 ## Options for Heirs: What to Do With the House
 
-Once the property legally transfers to the heirs, they face decisions about what to do with the house. This can be overwhelming, especially if the property needs repairs or if the heirs live far away.
+Once the property legally transfers to the heirs, they face decisions about what to do with the house. This can be overwhelming, especially if the property needs repairs or if the heirs live far away. If your parent is still living but moving to assisted living or memory care, the process is different; see our [senior living transition home sale help](/senior-living-transition/).
 
 ### Keep the House
 

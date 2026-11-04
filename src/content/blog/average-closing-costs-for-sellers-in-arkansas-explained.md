@@ -14,7 +14,7 @@ Understanding these costs before listing your property helps you set realistic e
 
 ## The Typical Percentage of Sales Price
 
-Most Arkansas sellers should budget 8% to 9% of their sale price for total closing costs. The largest chunk, typically 5% to 6%, goes toward real estate agent commissions. The remaining 2% to 3% covers transfer taxes, title services, prorated property taxes, and miscellaneous fees. A seller netting $200,000 on paper might actually walk away with $182,000 to $184,000 after all deductions.
+Most Arkansas sellers should budget 8% to 9% of their sale price for total closing costs. The largest chunk, typically 5% to 6%, goes toward real estate agent commissions. The remaining 2% to 3% covers transfer taxes, title services, prorated property taxes, and miscellaneous fees. A seller netting $200,000 on paper might actually walk away with $182,000 to $184,000 after all deductions. For a fee-by-fee breakdown, see [what Arkansas sellers actually pay in closing costs](/blog/closing-costs-for-sellers-in-arkansas-what-youll-actually-pay/).
 
 ## Who Pays What: Arkansas Customary Practices
 

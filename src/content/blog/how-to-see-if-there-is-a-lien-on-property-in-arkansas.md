@@ -52,7 +52,7 @@ Discovering a lien doesn't have to be a deal-breaker. How you handle it depends 
 
 Liens can prevent you from selling your property smoothly. Before listing your home, it's a good idea to clear any liens. This might mean paying off debts or negotiating with lienholders.
 
-If you're facing financial challenges or need to sell quickly, [Arkansas Property Buyers](/) can help. We buy houses in any condition, often for cash, and can handle properties with liens or other complications. This can save you from the hassle of traditional sales and help you close faster.
+If you're [facing foreclosure or financial challenges](/avoid-foreclosure/) or need to sell quickly, [Arkansas Property Buyers](/) can help. We buy houses in any condition, often for cash, and can [buy houses with liens](/get-a-cash-offer-today/) or other complications. This can save you from the hassle of traditional sales and help you close faster.
 
 ### If You're the Buyer
 

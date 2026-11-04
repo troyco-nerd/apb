@@ -9,7 +9,7 @@ oldUrl: "https://www.arkansaspropertybuyers.com/blog/closing-costs-for-sellers-i
 draft: false
 ---
 
-If you're selling a house in Arkansas, you probably already know that [closing costs](https://anytimeestimate.com/home-seller-costs/arkansas-seller-closing-cost-calculator/#calculator) can catch you off guard. These fees add up and can take a bite out of your profits if you're not prepared. Whether you're selling a home fast or just want to understand where your money is going, knowing what to expect with closing costs is key. This guide breaks down the typical seller expenses in Arkansas, so you can plan ahead and avoid surprises.
+If you're selling a house in Arkansas, you probably already know that [closing costs](https://anytimeestimate.com/home-seller-costs/arkansas-seller-closing-cost-calculator/#calculator) can catch you off guard. These fees add up and can take a bite out of your profits if you're not prepared. Whether you're [selling a home fast](/sell-your-house/) or just want to understand where your money is going, knowing what to expect with closing costs is key. This guide breaks down the typical seller expenses in Arkansas, so you can plan ahead and avoid surprises. For a quick look at the percentages most sellers budget, see our overview of [average closing costs for sellers in Arkansas](/blog/average-closing-costs-for-sellers-in-arkansas-explained/).
 
 ## What Are Closing Costs for Sellers?
 
@@ -81,7 +81,7 @@ Sellers usually pay most of the closing costs related to commissions, owner's ti
 
 ### Can I avoid paying real estate agent commissions?
 
-Yes, if you sell your home without an agent or sell directly to a cash buyer like Arkansas Property Buyers, you can avoid agent commissions entirely.
+Yes, if you sell your home without an agent or [sell directly to a cash buyer](/get-a-cash-offer-today/) like Arkansas Property Buyers, you can avoid agent commissions entirely.
 
 ### What does "selling as-is" mean for closing costs?
 
