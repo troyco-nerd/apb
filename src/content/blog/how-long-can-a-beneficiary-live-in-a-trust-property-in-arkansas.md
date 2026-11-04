@@ -3,7 +3,7 @@ title: "How Long Can a Beneficiary Live in a Trust Property in Arkansas?"
 metaTitle: "How Long a Beneficiary Can Live in a Trust Home in Arkansas"
 description: "Learn how long a beneficiary can live in an Arkansas trust property, including life estates, trustee rules, and options for selling a trust home quickly."
 pubDate: 2026-11-04
-author: "Arkansas Property Buyers"
+author: "Randy Thomason"
 featuredImage: "/images/blog/how-long-can-a-beneficiary-live-in-a-trust-property-in-arkansas/featured-placeholder.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/how-long-can-a-beneficiary-live-in-a-trust-property-in-arkansas/"
 draft: false

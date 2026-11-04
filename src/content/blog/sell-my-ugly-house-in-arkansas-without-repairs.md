@@ -1,8 +1,9 @@
 ---
 title: "Sell My Ugly House in Arkansas Without Repairs"
+metaTitle: "Sell My Ugly House in Arkansas Without Repairs"
 description: "Learn how to sell a distressed or 'ugly' house in Arkansas without making repairs, how cash buyers evaluate as-is properties, and what to expect from the process."
 pubDate: 2026-03-09
-author: "Arkansas Property Buyers"
+author: "Randy Thomason"
 draft: false
 ---
 

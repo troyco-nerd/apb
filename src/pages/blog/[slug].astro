@@ -7,6 +7,9 @@ import ResourceCallout from '../../components/ResourceCallout.astro';
 import RelatedArticles from '../../components/RelatedArticles.astro';
 import { getClusterForPost, getRelatedSlugs } from '../../data/blogClusters.js';
 import { extractFaq } from '../../data/faq.js';
+import AuthorBox from '../../components/AuthorBox.astro';
+import { getAuthor, authorPath, authorSchema } from '../../data/authors.js';
+import { SITE_URL } from '../../data/seo.js';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog', ({ data }) => !data.draft);
@@ -19,15 +22,19 @@ const { Content } = await render(post);
 // FAQ section of the post, output as FAQPage structured data.
 const faq = extractFaq(post.body);
 
+// Post author (matched on the frontmatter `author` field).
+const author = getAuthor(post.data.author);
+
 // Related articles from the same topic cluster (see src/data/blogClusters.js).
 const cluster = getClusterForPost(post.id);
 const relatedPosts = getRelatedSlugs(post.id)
   .map((slug) => posts.find((p) => p.id === slug))
   .filter(Boolean);
 
-const formattedDate = post.data.pubDate.toLocaleDateString('en-US', {
-  year: 'numeric', month: 'long', day: 'numeric',
-});
+const updatedDate = post.data.updatedDate && post.data.updatedDate > post.data.pubDate ? post.data.updatedDate : null;
+const formatDate = (date) => date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+const formattedUpdated = updatedDate ? formatDate(updatedDate) : null;
+const formattedDate = formatDate(post.data.pubDate);
 
 // Posts on these topics link to the Resources page, matched on the post slug.
 const resourceTopics = [
@@ -42,7 +49,11 @@ const resourceLead = resourceTopics.find((topic) => topic.pattern.test(post.id))
   title={post.data.metaTitle ?? `${post.data.title} | Arkansas Property Buyers`}
   description={post.data.description}
   image={post.data.featuredImage}
-  article={{ datePublished: post.data.pubDate.toISOString() }}
+  article={{
+    datePublished: post.data.pubDate.toISOString(),
+    dateModified: (updatedDate ?? post.data.pubDate).toISOString(),
+    author: authorSchema(author, SITE_URL, `${SITE_URL}/#business`),
+  }}
   faq={faq}
 >
 
@@ -52,15 +63,27 @@ const resourceLead = resourceTopics.find((topic) => topic.pattern.test(post.id))
 <!-- ARTICLE HERO -->
 <section class="bg-white border-b border-gray-100 pt-12 pb-10">
   <div class="max-w-3xl mx-auto px-5 sm:px-8">
-    <a href="/blog" class="inline-flex items-center gap-1.5 font-sub font-bold text-xs text-grey uppercase tracking-wider hover:text-orange transition-colors mb-6">
+    <a href="/blog/" class="inline-flex items-center gap-1.5 font-sub font-bold text-xs text-grey uppercase tracking-wider hover:text-orange transition-colors mb-6">
       <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M15 19l-7-7 7-7"/></svg>
       All Articles
     </a>
-    <p class="font-sub font-bold text-xs text-orange uppercase tracking-wider mb-3">{formattedDate}</p>
+    <p class="font-sub font-bold text-xs text-orange uppercase tracking-wider mb-3">
+      <time datetime={post.data.pubDate.toISOString()}>{formattedDate}</time>
+      {formattedUpdated && updatedDate && (
+        <span class="text-grey"> &middot; Updated <time datetime={updatedDate.toISOString()}>{formattedUpdated}</time></span>
+      )}
+    </p>
     <h1 class="font-display font-bold text-navy uppercase leading-tight text-3xl sm:text-4xl mb-4">{post.data.title}</h1>
     {post.data.description && (
       <p class="font-body text-grey text-base leading-relaxed">{post.data.description}</p>
     )}
+    <a href={authorPath(author)} rel="author" class="mt-6 inline-flex items-center gap-3 group">
+      <img src={author.image} alt={author.name} width="40" height="40" class="w-10 h-10 rounded-full object-cover object-top" loading="eager" />
+      <span class="font-body text-sm text-grey leading-snug">
+        By <span class="font-sub font-bold text-navy group-hover:text-orange transition-colors">{author.name}</span><br />
+        <span class="text-xs">{author.jobTitle}</span>
+      </span>
+    </a>
   </div>
 </section>
 
@@ -95,7 +118,8 @@ const resourceLead = resourceTopics.find((topic) => topic.pattern.test(post.id))
       prose-hr:border-gray-100 prose-hr:my-10">
       <Content />
     </div>
-    {resourceLead && <ResourceCallout lead={resourceLead} class="mt-12" />}
+    <AuthorBox author={author} class="mt-12" />
+    {resourceLead && <ResourceCallout lead={resourceLead} class="mt-6" />}
   </div>
 </article>
 
@@ -115,7 +139,7 @@ const resourceLead = resourceTopics.find((topic) => topic.pattern.test(post.id))
         <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
         Call (501) 504-7109
       </a>
-      <a href="/contact-us" class="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white border border-white/20 font-sub font-bold text-sm px-7 py-3.5 rounded transition-colors uppercase tracking-wider">
+      <a href="/contact-us/" class="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white border border-white/20 font-sub font-bold text-sm px-7 py-3.5 rounded transition-colors uppercase tracking-wider">
         Send Us a Message &rarr;
       </a>
     </div>

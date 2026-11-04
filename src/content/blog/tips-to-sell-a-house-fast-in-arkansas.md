@@ -1,8 +1,9 @@
 ---
 title: "Tips to Sell a House Fast in Arkansas"
+metaTitle: "Tips to Sell a House Fast in Arkansas: Seller Guide"
 description: "Learn how to navigate local market dynamics and choose the right closing method with these strategic tips to sell a house fast in Arkansas for top dollar."
 pubDate: 2026-03-09
-author: "Arkansas Property Buyers"
+author: "Randy Thomason"
 featuredImage: "/images/blog/tips-to-sell-a-house-fast-in-arkansas/Close-up-of-a-person-handing-house-keys-with-a-home-shaped-keychain-to-another-person-symbolizing-a-property-sale-or-new-home.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/tips-to-sell-a-house-fast-in-arkansas/"
 draft: false

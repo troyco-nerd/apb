@@ -1,8 +1,9 @@
 ---
 title: "8 Tips to Help You Sell a Vacant or Abandoned Home in Little Rock"
+metaTitle: "How to Sell a Vacant or Abandoned Home in Little Rock"
 description: "Do you need to sell a vacant or abandoned home in Little Rock? Here’s what you can do to make the process easier."
 pubDate: 2026-05-07
-author: "rthomason"
+author: "Randy Thomason"
 featuredImage: "/images/blog/sell-a-vacant-or-abandoned-home-in-little-rock/cropped-ChatGPT-Image-May-6-2026-01_54_48-PM.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/sell-a-vacant-or-abandoned-home-in-little-rock/"
 draft: false

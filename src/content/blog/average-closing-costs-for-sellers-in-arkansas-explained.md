@@ -1,8 +1,9 @@
 ---
 title: "Average Closing Costs for Sellers in Arkansas Explained"
+metaTitle: "Average Closing Costs for Sellers in Arkansas Explained"
 description: "Learn what Arkansas home sellers typically pay in closing costs, from agent commissions to transfer taxes, and how to reduce these expenses before you sell."
 pubDate: 2026-03-02
-author: "Arkansas Property Buyers"
+author: "Randy Thomason"
 draft: false
 ---
 

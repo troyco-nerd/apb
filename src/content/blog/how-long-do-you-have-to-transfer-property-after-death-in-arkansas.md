@@ -1,8 +1,9 @@
 ---
 title: "How Long Do You Have to Transfer Property After Death in Arkansas?"
+metaTitle: "How Long to Transfer Property After a Death in Arkansas"
 description: "Learn how long you have to transfer property after a death in Arkansas, key probate deadlines, and how to sell inherited property quickly if you need to."
 pubDate: 2025-10-26
-author: "Arkansas Property Buyers"
+author: "Randy Thomason"
 draft: false
 ---
 

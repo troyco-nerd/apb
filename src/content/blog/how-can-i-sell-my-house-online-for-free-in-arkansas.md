@@ -1,8 +1,9 @@
 ---
 title: "How Can I Sell My House Online for Free in Arkansas?"
+metaTitle: "How to Sell Your House Online for Free in Arkansas"
 description: "Discover how you can sell your house online for free in Arkansas by using top digital platforms to reach local buyers and keep your full equity at closing."
 pubDate: 2026-03-09
-author: "Arkansas Property Buyers"
+author: "Randy Thomason"
 featuredImage: "/images/blog/how-can-i-sell-my-house-online-for-free-in-arkansas/image-82.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/how-can-i-sell-my-house-online-for-free-in-arkansas/"
 draft: false

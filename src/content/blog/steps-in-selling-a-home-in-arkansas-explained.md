@@ -1,8 +1,9 @@
 ---
 title: "Steps in Selling a Home in Arkansas Explained"
+metaTitle: "Steps to Selling a Home in Arkansas, Explained"
 description: "Learn the essential steps in selling a home in Arkansas, explained from legal disclosure requirements to pricing strategies that maximize your equity."
 pubDate: 2026-03-09
-author: "Arkansas Property Buyers"
+author: "Randy Thomason"
 featuredImage: "/images/blog/steps-in-selling-a-home-in-arkansas-explained/A-realtor-shows-a-couple-market-data-at-a-wooden-table-with-a-22FOR-SALE22-sign-visible-through-a-large-window.jpg"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/steps-in-selling-a-home-in-arkansas-explained/"
 draft: false

@@ -3,7 +3,7 @@ title: "How Long Does an Heir Have to Claim Their Inheritance in Arkansas?"
 metaTitle: "How Long Heirs Have to Claim an Inheritance in Arkansas"
 description: "Learn how long heirs have to claim an inheritance in Arkansas, what probate deadlines mean, and the steps to take before an estate closes."
 pubDate: 2026-11-04
-author: "Arkansas Property Buyers"
+author: "Randy Thomason"
 featuredImage: "/images/blog/how-long-does-an-heir-have-to-claim-their-inheritance-in-arkansas/featured-placeholder.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/how-long-does-an-heir-have-to-claim-their-inheritance-in-arkansas/"
 draft: false

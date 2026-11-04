@@ -1,8 +1,9 @@
 ---
 title: "7 Ways Arkansas Property Buyers LLC Makes it Simple to Sell An Unwanted House in Little Rock"
+metaTitle: "How to Sell an Unwanted House in Little Rock, AR"
 description: "Do you need to sell an unwanted house in Little Rock? Whether it is occupied, vacant, or simply run down, find out how Arkansas Property Buyers LLC can help!"
 pubDate: 2026-05-07
-author: "rthomason"
+author: "Randy Thomason"
 featuredImage: "/images/blog/sell-an-unwanted-house-in-little-rock/cropped-ChatGPT-Image-May-6-2026-01_54_48-PM.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/sell-an-unwanted-house-in-little-rock/"
 draft: false

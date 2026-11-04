@@ -1,8 +1,9 @@
 ---
 title: "What Happens to a House When the Owner Dies in Arkansas?"
+metaTitle: "What Happens to a House When the Owner Dies in Arkansas?"
 description: "Learn how property ownership transfers after a death in Arkansas, whether there's a will or not, and what heirs can do with an inherited house."
 pubDate: 2025-10-27
-author: "Arkansas Property Buyers"
+author: "Randy Thomason"
 draft: false
 ---
 

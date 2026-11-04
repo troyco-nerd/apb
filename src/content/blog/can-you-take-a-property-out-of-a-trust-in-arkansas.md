@@ -3,7 +3,7 @@ title: "Can You Take a Property Out of a Trust in Arkansas?"
 metaTitle: "Remove Property From a Trust in Arkansas: Steps"
 description: "Learn how to take property out of a trust in Arkansas, including revocable vs. irrevocable rules, deed steps, and faster options for selling."
 pubDate: 2026-11-04
-author: "Arkansas Property Buyers"
+author: "Randy Thomason"
 featuredImage: "/images/blog/can-you-take-a-property-out-of-a-trust-in-arkansas/featured-placeholder.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/can-you-take-a-property-out-of-a-trust-in-arkansas/"
 draft: false

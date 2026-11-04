@@ -1,8 +1,9 @@
 ---
 title: "How to Put Property in a Trust in Arkansas Step-by-Step"
+metaTitle: "How to Put Property in a Trust in Arkansas: Step-by-Step"
 description: "A step-by-step guide to putting property in a trust in Arkansas, from choosing the right trust type to transferring the deed and updating your records."
 pubDate: 2025-10-26
-author: "Arkansas Property Buyers"
+author: "Randy Thomason"
 draft: false
 ---
 

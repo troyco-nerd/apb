@@ -1,8 +1,9 @@
 ---
 title: "Can I Get a Tenant to Leave Voluntarily in Arkansas?"
+metaTitle: "Can You Get a Tenant to Leave Voluntarily in Arkansas?"
 description: "Discover how you can get a tenant to leave voluntarily in Arkansas by using proven strategies like cash for keys and legal non-renewal notices."
 pubDate: 2026-03-09
-author: "Arkansas Property Buyers"
+author: "Randy Thomason"
 featuredImage: "/images/blog/can-i-get-a-tenant-to-leave-voluntarily-in-arkansas/Untitled-design-2026-03-09T220037.377.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/can-i-get-a-tenant-to-leave-voluntarily-in-arkansas/"
 draft: false
