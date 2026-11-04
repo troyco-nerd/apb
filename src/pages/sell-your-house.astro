@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import LeadForm from '../components/LeadForm.astro';
+import HelpfulGuides from '../components/HelpfulGuides.astro';
 
 const situations = [
   'Are you in foreclosure or about to be?',
@@ -78,6 +79,23 @@ const situations = [
             <p class="font-sub font-bold text-white text-sm">100% Free. 100% No Hassle. 100% No Obligation. No Commitment.</p>
           </div>
         </div>
+
+        <hr class="border-gray-100 mb-12">
+
+        <!-- HELPFUL GUIDES -->
+        <HelpfulGuides
+          variant="list"
+          heading="Selling Your House Fast In Arkansas: Guides"
+          slugs={[
+            'need-to-sell-a-house-quickly-in-arkansas-here-are-your-options',
+            'tips-to-sell-a-house-fast-in-arkansas',
+            'how-fast-will-my-house-sell-in-the-arkansas-market',
+            'should-i-accept-a-cash-offer-for-my-house-in-arkansas',
+            'the-cheapest-way-to-sell-a-house-in-arkansas',
+          ]}
+        >
+          <p class="font-body text-grey text-base leading-relaxed">Want to understand your options first? Start with these guides, or <a href="/compare/" class="text-orange hover:text-gold font-bold">compare a cash offer vs. listing with an agent</a>. In the Little Rock area? See how we help homeowners <a href="/" class="text-orange hover:text-gold font-bold">sell their house fast in Little Rock</a>.</p>
+        </HelpfulGuides>
 
       </div>
       <!-- ═══ END LEFT COLUMN ═══ -->

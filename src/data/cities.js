@@ -120,3 +120,19 @@ export const cities = [
     metaDescription: 'Sell your house fast in Clarksville, AR. Arkansas Property Buyers is a family-owned cash home buyer serving Clarksville and Johnson County. No repairs required, no pressure, no obligation.',
   },
 ];
+
+// Nearby service-area cities, used to cross-link city pages.
+export const nearbyCities = {
+  'alexander': ['bryant', 'benton'],
+  'austin': ['cabot', 'jacksonville', 'sherwood'],
+  'benton': ['bryant', 'alexander'],
+  'bryant': ['benton', 'alexander'],
+  'cabot': ['austin', 'jacksonville', 'sherwood'],
+  'conway': ['maumelle', 'north-little-rock'],
+  'jacksonville': ['sherwood', 'north-little-rock', 'cabot'],
+  'maumelle': ['north-little-rock', 'conway', 'sherwood'],
+  'north-little-rock': ['sherwood', 'maumelle', 'jacksonville'],
+  'sherwood': ['north-little-rock', 'jacksonville', 'cabot'],
+  'russellville': ['clarksville', 'conway'],
+  'clarksville': ['russellville'],
+};

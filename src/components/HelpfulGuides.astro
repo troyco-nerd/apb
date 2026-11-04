@@ -1,0 +1,38 @@
+---
+// A list of blog guides linked by title, for service, home, and city pages.
+// Pass blog post slugs; missing or draft posts are skipped.
+import { getCollection } from 'astro:content';
+
+interface Props {
+  slugs: string[];
+  eyebrow?: string;
+  heading: string;
+  // 'grid' for full-width sections, 'list' for narrow page columns
+  variant?: 'grid' | 'list';
+  class?: string;
+}
+
+const { slugs, eyebrow = 'Helpful Guides', heading, variant = 'grid', class: className = '' } = Astro.props;
+const posts = await getCollection('blog', ({ data }) => !data.draft);
+const guides = slugs.map((slug) => posts.find((p) => p.id === slug)).filter(Boolean);
+---
+
+{guides.length > 0 && (
+  <div class={className}>
+    <p class="eyebrow tracking-widest mb-3">{eyebrow}</p>
+    <h2 class:list={['font-display font-bold text-navy uppercase leading-tight', variant === 'grid' ? 'text-3xl sm:text-4xl mb-3' : 'text-2xl sm:text-3xl mb-3']}>{heading}</h2>
+    <slot />
+    <ul class:list={['mt-6', variant === 'grid' ? 'grid sm:grid-cols-2 lg:grid-cols-3 gap-4' : 'flex flex-col gap-3']}>
+      {guides.map((post) => (
+        <li>
+          <a href={`/blog/${post.id}/`} class="lift group block h-full bg-white border border-gray-100 rounded-xl p-5 hover:border-orange transition-colors">
+            <span class="block font-sub font-bold text-navy group-hover:text-orange transition-colors leading-snug">{post.data.title}</span>
+            {variant === 'grid' && post.data.description && (
+              <span class="block font-body text-grey text-sm leading-relaxed mt-2 line-clamp-2">{post.data.description}</span>
+            )}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+)}
