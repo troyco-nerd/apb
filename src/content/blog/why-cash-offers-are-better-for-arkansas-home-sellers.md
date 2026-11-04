@@ -62,7 +62,7 @@ The headline price on a traditional sale rarely represents what sellers actually
 
 ### **Eliminating Realtor Commissions and Hidden Fees**
 
-Standard real estate commissions in Arkansas run 5% to 6% of the sale price. On a $200,000 home, that equals $10,000 to $12,000 paid to agents. Cash buyers like [Arkansas Property Buyers](/) purchase directly from homeowners, eliminating commission expenses entirely.
+Standard real estate commissions in Arkansas run 5% to 6% of the sale price. On a $200,000 home, that equals $10,000 to $12,000 paid to agents. Cash buyers like Arkansas Property Buyers, which offers a [fast home sale in Arkansas](/sell-your-house/), purchase directly from homeowners, eliminating commission expenses entirely.
 
 Additional fees in traditional sales include marketing costs, MLS listing fees, and administrative charges that accumulate throughout the process.
 

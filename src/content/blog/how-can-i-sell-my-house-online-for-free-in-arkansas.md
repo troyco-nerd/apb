@@ -86,7 +86,7 @@ Arkansas does not require attorney involvement for real estate transactions, but
 
 ### **How long does it typically take to sell a house FSBO in Arkansas?**
 
-FSBO sales in Arkansas typically take 90–120 days on market, though this varies significantly by price, location, and condition. Properties priced competitively in desirable areas sell faster. If speed matters more than maximizing price, companies like [Arkansas Property Buyers](/) can close in as little as seven days.
+FSBO sales in Arkansas typically take 90–120 days on market, though this varies significantly by price, location, and condition. Properties priced competitively in desirable areas sell faster. If speed matters more than maximizing price, companies like Arkansas Property Buyers, a local option to [sell your house quickly in Arkansas](/sell-your-house/), can close in as little as seven days.
 
 ### **What closing costs will I pay as an FSBO seller in Arkansas?**
 

@@ -94,7 +94,7 @@ Generally, no. If both spouses are on the title, both must agree to sell. Courts
 
 ### **How long does selling a house during divorce typically take in Arkansas?**
 
-Traditional market sales in Arkansas average 45–75 days from listing to closing in 2026, depending on market conditions. Couples seeking a faster resolution often work with cash buyers like [Arkansas Property Buyers](/), which can close in as little as two weeks.
+Traditional market sales in Arkansas average 45–75 days from listing to closing in 2026, depending on market conditions. Couples seeking a faster resolution often work with cash buyers like Arkansas Property Buyers, a company that helps owners [sell a house fast in Arkansas](/sell-your-house/), which can close in as little as two weeks.
 
 ### **What happens if we owe more than the house is worth?**
 

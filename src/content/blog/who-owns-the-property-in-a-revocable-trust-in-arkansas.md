@@ -41,7 +41,7 @@ Another benefit is privacy. Unlike wills, trusts are not public records. This ke
 
 Selling property held in a revocable trust in Arkansas is straightforward. Since you control the trust as the trustee, you can sell the property just as you would if it were in your name. The sale proceeds usually go back into the trust. This keeps everything organized under the trust's umbrella.
 
-If you want to sell your house fast and avoid the hassle of traditional sales, [Arkansas Property Buyers](/) can help. They buy homes in any condition, often with cash offers, which can speed up the process significantly. Whether your property is in a trust or not, they offer a simple, transparent way to sell quickly without commissions or fees.
+If you want to sell your house fast and avoid the hassle of traditional sales, Arkansas Property Buyers, a [Little Rock company that buys houses for cash](/), can help. They buy homes in any condition, often with cash offers, which can speed up the process significantly. Whether your property is in a trust or not, they offer a simple, transparent way to sell quickly without commissions or fees.
 
 ## Common Situations Involving Property in Revocable Trusts
 
@@ -55,7 +55,7 @@ Upon your passing, the revocable trust typically becomes irrevocable. The succes
 
 ### Inherited Property in a Trust
 
-Sometimes, people inherit property that is already in a trust. If you find yourself in this situation and want to sell the inherited property quickly, [Arkansas Property Buyers](/) can offer a fair cash offer and close on your timeline. This can be a great option if the property needs repairs or if you want to avoid managing a rental or vacant home.
+Sometimes, people inherit property that is already in a trust. If you find yourself in this situation and want to sell the inherited property quickly, Arkansas Property Buyers can offer a fair cash offer and close on your timeline. This can be a great option if the property needs repairs or if you want to avoid managing a rental or vacant home.
 
 ## How to Confirm Ownership of Property in a Revocable Trust
 
@@ -93,7 +93,7 @@ Generally, no. Since the grantor controls the property, it is usually accessible
 
 ### How can I sell a house in a trust quickly in Arkansas?
 
-Working with [Arkansas Property Buyers](/) can speed up the sale. They buy homes for cash, often closing in days without the usual real estate hassles.
+Working with Arkansas Property Buyers can speed up the sale. They buy homes for cash, often closing in days without the usual real estate hassles.
 
 ### Do I need an attorney to create a revocable trust?
 

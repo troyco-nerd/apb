@@ -116,7 +116,7 @@ Focus on items that affect safety, functionality, and first impressions: HVAC sy
 
 ### **Can I sell my Arkansas home as-is?**
 
-Absolutely. If repairs feel overwhelming or you need to sell quickly, [Arkansas Property Buyers](/) purchase homes in any condition without requiring improvements.
+Absolutely. If repairs feel overwhelming or you need to sell quickly, Arkansas Property Buyers, a local team that helps owners [sell their house fast in Little Rock](/), purchase homes in any condition without requiring improvements.
 
 ## **Your Next Steps to a Successful Sale**
 

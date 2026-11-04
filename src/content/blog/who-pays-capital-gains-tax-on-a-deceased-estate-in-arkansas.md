@@ -41,7 +41,7 @@ Some scenarios can complicate the tax situation for a deceased estate in Arkansa
 
 ### Inherited Rental Properties or Problematic Houses
 
-Inherited properties that have tenants or need repairs can be a challenge. If you're an heir or executor looking to sell such a property, you might want to consider selling it "as-is" to avoid further expenses or headaches. [Arkansas Property Buyers](/) specializes in buying houses in any condition, often for cash, which can simplify the process and speed up the sale.
+Inherited properties that have tenants or need repairs can be a challenge. If you're an heir or executor looking to sell such a property, you might want to consider selling it "as-is" to avoid further expenses or headaches. Arkansas Property Buyers, a local team that helps owners [sell their house fast in Little Rock](/), specializes in buying houses in any condition, often for cash, which can simplify the process and speed up the sale.
 
 ### Properties With Title or Lien Issues
 
@@ -53,7 +53,7 @@ While the stepped-up basis already helps reduce capital gains tax, there are a f
 
 - **Sell Quickly After Inheritance:** Selling the property soon after inheriting it usually means less capital gains tax because the market value won't have changed much from the stepped-up basis.
 - **Use Tax Exemptions and Deductions:** Depending on your situation, some exemptions or deductions might apply. Consulting with a tax professional familiar with Arkansas law is a smart move.
-- **Consider Cash Buyers for Speed and Simplicity:** If you want to avoid the hassle of repairs, showings, or long listing times, [Arkansas Property Buyers](/) offers quick cash purchases, which can help you close faster and reduce holding costs.
+- **Consider Cash Buyers for Speed and Simplicity:** If you want to avoid the hassle of repairs, showings, or long listing times, Arkansas Property Buyers offers quick cash purchases, which can help you close faster and reduce holding costs.
 
 ## What Happens If the Estate Doesn't Have Enough Cash to Pay Taxes?
 
@@ -65,13 +65,13 @@ Working with professionals who understand estate sales in Arkansas can ease this
 
 [Inheriting a property](https://www.irs.gov/publications/p551) can be overwhelming, especially if you need to sell it quickly due to relocation, financial reasons, or simply to avoid ongoing maintenance. Traditional real estate sales can drag on, with repairs, showings, and financing delays.
 
-This is where a local cash buyer like [Arkansas Property Buyers](/) can be a real help. They buy homes in any condition, often close in just a few days, and cover many closing costs. This flexibility gives sellers control over timing and reduces stress during a difficult time.
+This is where a local cash buyer like Arkansas Property Buyers can be a real help. They buy homes in any condition, often close in just a few days, and cover many closing costs. This flexibility gives sellers control over timing and reduces stress during a difficult time.
 
 ## Summary: Who Pays Capital Gains Tax on a Deceased Estate in Arkansas?
 
 To sum it up, the person or entity selling the inherited property is responsible for capital gains tax. This could be the estate itself if the executor sells before distribution, or the heirs if they sell after receiving the property. Thanks to the stepped-up basis rule, the tax is usually calculated on the property's value at the time of death, which often reduces the amount owed.
 
-If you're dealing with an inherited property in Arkansas and want to avoid the headaches of traditional sales or need cash fast, consider reaching out to [Arkansas Property Buyers](/). They offer a straightforward, no-obligation cash offer and can close on your timeline.
+If you're dealing with an inherited property in Arkansas and want to avoid the headaches of traditional sales or need cash fast, consider reaching out to Arkansas Property Buyers. They offer a straightforward, no-obligation cash offer and can close on your timeline.
 
 ## Frequently Asked Questions
 
@@ -89,7 +89,7 @@ If the executor sells the property during probate, the estate is responsible for
 
 ### How quickly can I sell an inherited property in Arkansas?
 
-You can sell as quickly as you want, but traditional sales often take weeks or months. For a faster sale, [Arkansas Property Buyers](/) can close in as little as three days, buying homes in any condition.
+You can sell as quickly as you want, but traditional sales often take weeks or months. For a faster sale, Arkansas Property Buyers can close in as little as three days, buying homes in any condition.
 
 ### Are there fees or commissions when selling to Arkansas Property Buyers?
 

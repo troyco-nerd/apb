@@ -68,7 +68,7 @@ Based in Little Rock, Arkansas, Arkansas Property Buyers knows the local market 
 
 Ready to sell your house fast? Here's how to get started:
 
-1. **Visit Their Website:** Head over to [Arkansas Property Buyers](/) and fill out the simple online form with your property details.
+1. **Visit Their Website:** Head over to [Arkansas Property Buyers' cash offer page](/get-a-cash-offer-today/) and fill out the simple online form with your property details.
 2. **Get Your Offer:** Wait for a call or email with your no-obligation cash offer, usually within 24 hours.
 3. **Review and Decide:** Take your time to consider the offer. If it fits your needs, accept it and choose your closing date.
 4. **Close and Get Paid:** On closing day, sign the paperwork and get your cash payment. No commissions, no fees, just a fast sale.

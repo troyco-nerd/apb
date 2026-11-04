@@ -16,7 +16,7 @@ The question of whether you should accept a cash offer for your house in Arkansa
 
 ### **The Rise of iBuyers and Local Investors in the Natural State**
 
-Arkansas has seen significant growth in cash home buying activity over the past decade. Most national iBuyer platforms have scaled back or exited smaller markets like Little Rock, while local investment companies like [Arkansas Property Buyers](/) have established strong regional presences. These buyers typically maintain ready capital, allowing them to close transactions in days rather than months.
+Arkansas has seen significant growth in cash home buying activity over the past decade. Most national iBuyer platforms have scaled back or exited smaller markets like Little Rock, while local investment companies like Arkansas Property Buyers, a family-owned company that [buys houses in Little Rock](/), have established strong regional presences. These buyers typically maintain ready capital, allowing them to close transactions in days rather than months.
 
 Local investors often outperform national platforms in terms of flexibility. They understand Arkansas-specific issues, such as property tax structures, neighborhood dynamics in cities from Conway to Jacksonville, and seasonal market patterns that affect pricing.
 

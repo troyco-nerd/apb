@@ -62,11 +62,11 @@ When there's no will, families often face extra challenges. Disagreements about 
 
 Sometimes the property involved needs repairs, has liens, or is vacant. Managing these issues can add stress during an already difficult time. If you're looking to sell a property inherited without a will, you might want to consider selling it "as-is" to avoid costly repairs or tenant headaches.
 
-[Arkansas Property Buyers](/) specializes in buying houses in any condition, offering cash purchases that can close quickly. This can be a helpful option if you want to avoid the hassle of traditional sales after inheriting property.
+Arkansas Property Buyers, which offers a [fast home sale in Arkansas](/sell-your-house/), specializes in buying houses in any condition, offering cash purchases that can close quickly. This can be a helpful option if you want to avoid the hassle of traditional sales after inheriting property.
 
 ## How Arkansas Property Buyers Can Help
 
-Inheriting property without a will doesn't have to become a drawn-out burden. If you find yourself needing to sell an inherited home fast, [Arkansas Property Buyers](/) offers a straightforward solution. They buy homes in any condition, pay cash, and close on your schedule.
+Inheriting property without a will doesn't have to become a drawn-out burden. If you find yourself needing to sell an inherited home fast, Arkansas Property Buyers offers a straightforward solution. They buy homes in any condition, pay cash, and close on your schedule.
 
 This service is especially helpful if you want to avoid the delays and costs of listing a home on the market, making repairs, or dealing with tenants. Their local expertise in Arkansas means they understand the unique challenges sellers face here.
 

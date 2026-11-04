@@ -90,7 +90,7 @@ Both spouses must fully disclose all assets, debts, income, and expenses. Hidden
 
 Mediation offers a cost-effective alternative to litigation for property disputes. A neutral mediator helps spouses negotiate agreements without court intervention. Mediated settlements typically cost less, resolve faster, and give both parties greater control over the outcome. Many Arkansas courts require mediation attempts before scheduling trial dates.
 
-If you own property that complicates your divorce, such as a rental with management headaches or an inherited home you don’t want, selling quickly can simplify proceedings. [Arkansas Property Buyers](/) provides cash offers within 24 hours, helping divorcing couples convert real estate to easily divisible cash.
+If you own property that complicates your divorce, such as a rental with management headaches or an inherited home you don’t want, selling quickly can simplify proceedings. Arkansas Property Buyers, a local team that helps owners [sell their house fast in Little Rock](/), provides cash offers within 24 hours, helping divorcing couples convert real estate to easily divisible cash.
 
 ## **Frequently Asked Questions**
 

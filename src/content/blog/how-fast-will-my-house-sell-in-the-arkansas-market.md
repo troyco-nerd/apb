@@ -94,4 +94,4 @@ Absolutely. Homes with strong curb appeal sell an average of 5 to 10 days faster
 
 ## Your Path to a Faster Arkansas Home Sale
 
-Understanding your local market, pricing accurately, and choosing the right selling method determines how quickly your Arkansas home sells. If your situation demands speed over maximum price, consider reaching out to [Arkansas Property Buyers](/) for a no-obligation cash offer within 24 hours. Our straightforward process eliminates the uncertainty of traditional sales, letting you move forward on your timeline.
+Understanding your local market, pricing accurately, and choosing the right selling method determines how quickly your Arkansas home sells. If your situation demands speed over maximum price, consider reaching out to Arkansas Property Buyers, a [Little Rock cash home buyer](/), for a no-obligation cash offer within 24 hours. Our straightforward process eliminates the uncertainty of traditional sales, letting you move forward on your timeline.

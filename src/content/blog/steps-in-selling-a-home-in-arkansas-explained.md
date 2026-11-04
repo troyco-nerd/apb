@@ -124,7 +124,7 @@ If financing fails, the buyer can typically exit the contract and receive their 
 
 ### **Can I sell my Arkansas home as-is without repairs?**
 
-Yes. Arkansas law permits as-is sales with proper disclosure. Pricing must reflect the property’s condition. [Arkansas Property Buyers](/) specializes in purchasing homes in any condition without requiring repairs.
+Yes. Arkansas law permits as-is sales with proper disclosure. Pricing must reflect the property’s condition. Arkansas Property Buyers, a local team that helps owners [sell their house fast in Little Rock](/), specializes in purchasing homes in any condition without requiring repairs.
 
 ## **Your Next Move as an Arkansas Seller**
 

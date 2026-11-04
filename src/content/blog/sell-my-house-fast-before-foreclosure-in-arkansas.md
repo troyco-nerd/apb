@@ -58,7 +58,7 @@ Speed matters when foreclosure looms. Three primary strategies can help you clos
 
 ### **Selling to Local Cash Home Buyers**
 
-Cash buyers eliminate the delays that sink traditional sales. No mortgage approval waiting periods, no appraisal contingencies, no buyer financing falling through at the last minute. [Arkansas Property Buyers](/) specializes in purchasing homes quickly, often closing within two weeks.
+Cash buyers eliminate the delays that sink traditional sales. No mortgage approval waiting periods, no appraisal contingencies, no buyer financing falling through at the last minute. Arkansas Property Buyers, a [Little Rock company that buys houses for cash](/), specializes in purchasing homes quickly, often closing within two weeks.
 
 Cash buyers purchase properties as-is, meaning you skip repairs, staging, and showing preparations. For homeowners racing against foreclosure deadlines, this speed often makes the difference between keeping equity and losing everything.
 

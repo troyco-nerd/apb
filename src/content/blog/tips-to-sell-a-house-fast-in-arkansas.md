@@ -62,7 +62,7 @@ Your timeline and circumstances should dictate which selling approach makes the 
 
 ### **Selling to Arkansas Cash Home Buyers**
 
-Working with cash buyers who [sell your house fast in Arkansas](/) eliminates the uncertainty of traditional sales. There’s no waiting for buyer financing approval, no repair negotiations, and closings can happen in as little as one to two weeks rather than months, depending on title and lien status. This approach works particularly well for inherited properties, homes needing significant repairs, or situations requiring immediate relocation. You’ll typically receive below full market value, but the certainty and speed often outweigh the difference.
+Working with cash buyers who [sell your house fast in Arkansas](/sell-your-house/) eliminates the uncertainty of traditional sales. There’s no waiting for buyer financing approval, no repair negotiations, and closings can happen in as little as one to two weeks rather than months, depending on title and lien status. This approach works particularly well for inherited properties, homes needing significant repairs, or situations requiring immediate relocation. You’ll typically receive below full market value, but the certainty and speed often outweigh the difference.
 
 ### **The Pros and Cons of For Sale By Owner (FSBO)**
 
@@ -90,7 +90,7 @@ Most Arkansas buyers include inspection contingencies, allowing them to request 
 
 ### **How long does it typically take to sell a house in Arkansas?**
 
-The average Arkansas home spends 50–75 days on the market before going under contract, with another 30–45 days to close, based on 2025 Arkansas Realtors Association data. Well-priced homes in desirable areas often sell within two weeks. Cash sales through companies like [Arkansas Property Buyers](/) can close in as few as seven days.
+The average Arkansas home spends 50–75 days on the market before going under contract, with another 30–45 days to close, based on 2025 Arkansas Realtors Association data. Well-priced homes in desirable areas often sell within two weeks. Cash sales through companies like Arkansas Property Buyers, where you can [sell your house fast in Arkansas](/sell-your-house/), can close in as few as seven days.
 
 ### **What repairs should I make before selling my Arkansas home?**
 

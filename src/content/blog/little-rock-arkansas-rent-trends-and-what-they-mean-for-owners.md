@@ -116,7 +116,7 @@ This depends on your financial goals and the property’s performance. If manage
 
 ### **How do I handle a rental property I inherited but don’t want to manage?**
 
-Inherited properties often create unexpected management responsibilities. You can either hire professional management or sell the property. For quick, hassle-free sales, companies like [Arkansas Property Buyers](/) purchase properties as-is without requiring repairs or lengthy listing periods.
+Inherited properties often create unexpected management responsibilities. You can either hire professional management or sell the property. For quick, hassle-free sales, companies like Arkansas Property Buyers, which [buys rental properties as-is in Arkansas](/sell-my-house-as-is/), purchase properties as-is without requiring repairs or lengthy listing periods.
 
 ### **Which Little Rock neighborhoods offer the best rental yields?**
 

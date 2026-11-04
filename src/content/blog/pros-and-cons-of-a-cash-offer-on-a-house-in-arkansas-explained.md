@@ -13,7 +13,7 @@ If you're thinking about selling your house in Arkansas, you might have come acr
 
 ## What Is a Cash Offer on a House?
 
-[A cash offer](https://www.redfin.com/blog/cash-offer-on-house/) means the buyer has the funds available to purchase your home outright, without needing a mortgage or loan approval. This can be a big advantage because it removes the uncertainty and delays often tied to financing. In Arkansas, [Arkansas Property Buyers](/) specializes in making fair all-cash offers, especially for sellers who want to skip the usual hassles of listing and waiting.
+[A cash offer](https://www.redfin.com/blog/cash-offer-on-house/) means the buyer has the funds available to purchase your home outright, without needing a mortgage or loan approval. This can be a big advantage because it removes the uncertainty and delays often tied to financing. In Arkansas, Arkansas Property Buyers, a local option to [sell your house quickly in Arkansas](/sell-your-house/), specializes in making fair all-cash offers, especially for sellers who want to skip the usual hassles of listing and waiting.
 
 These buyers typically purchase homes "as-is," which means you don't have to worry about repairs, staging, or inspections that can slow down a traditional sale. If you need to sell quickly or are dealing with a property that needs work, a cash offer can be a practical solution.
 
@@ -60,7 +60,7 @@ Cash offers work well for homeowners who value convenience and speed over gettin
 - Relocating on short notice
 - Properties with title or lien complications
 
-In these situations, [Arkansas Property Buyers](/) offers a straightforward way out. They buy houses directly, pay cash, and handle many of the headaches that come with traditional sales.
+In these situations, Arkansas Property Buyers offers a straightforward way out. They buy houses directly, pay cash, and handle many of the headaches that come with traditional sales.
 
 ## How Arkansas Property Buyers Simplifies the Process
 

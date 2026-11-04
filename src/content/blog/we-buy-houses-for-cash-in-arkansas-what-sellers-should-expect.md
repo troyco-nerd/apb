@@ -16,7 +16,7 @@ Cash transactions follow a streamlined path compared to conventional sales. The 
 
 ### **Initial Inquiry and Property Assessment**
 
-Most cash buyers begin with a simple phone call or online form. You’ll provide basic property details: address, approximate square footage, number of bedrooms and bathrooms, and your timeline for selling. Within 24 to 48 hours, a representative typically schedules a walkthrough. During this visit, the buyer evaluates the property’s condition, noting repairs needed and comparing it to recent sales in your neighborhood. [Arkansas Property Buyers](/) completes this assessment quickly, often providing preliminary figures during the initial visit itself.
+Most cash buyers begin with a simple phone call or online form. You’ll provide basic property details: address, approximate square footage, number of bedrooms and bathrooms, and your timeline for selling. Within 24 to 48 hours, a representative typically schedules a walkthrough. During this visit, the buyer evaluates the property’s condition, noting repairs needed and comparing it to recent sales in your neighborhood. Arkansas Property Buyers, a [cash home buyer in Little Rock](/), completes this assessment quickly, often providing preliminary figures during the initial visit itself.
 
 ### **Receiving a No-Obligation Cash Offer**
 
