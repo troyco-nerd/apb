@@ -3,7 +3,7 @@ title: "Closing Costs for Sellers in Arkansas: What You'll Actually Pay"
 metaTitle: "Arkansas Seller Closing Costs: What You'll Actually Pay"
 description: "See the typical seller closing costs in Arkansas, from commissions and title insurance to transfer taxes and prorations, and ways to lower what you pay."
 pubDate: 2026-11-04
-author: "Arkansas Property Buyers"
+author: "Randy Thomason"
 featuredImage: "/images/blog/closing-costs-for-sellers-in-arkansas-what-youll-actually-pay/featured-placeholder.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/closing-costs-for-sellers-in-arkansas-what-youll-actually-pay/"
 draft: false

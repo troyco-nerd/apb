@@ -1,8 +1,9 @@
 ---
 title: "How to See If There Is a Lien on Property in Arkansas"
+metaTitle: "How to Check for a Lien on Property in Arkansas"
 description: "Learn how to check for liens on Arkansas property, why they matter for buyers and sellers, and what to do if you find one before your sale falls through."
 pubDate: 2025-12-11
-author: "Arkansas Property Buyers"
+author: "Randy Thomason"
 draft: false
 ---
 

@@ -1,0 +1,83 @@
+---
+// Author pages: /author/{slug}/ with full bio, articles, and Person structured data.
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { getCollection } from 'astro:content';
+import { authors, getAuthor, authorSchema } from '../../data/authors.js';
+import { SITE_URL } from '../../data/seo.js';
+
+export function getStaticPaths() {
+  return authors.map((author) => ({ params: { slug: author.slug }, props: { author } }));
+}
+
+const { author } = Astro.props;
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft))
+  .filter((post) => getAuthor(post.data.author).slug === author.slug)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const person = authorSchema(author, SITE_URL, `${SITE_URL}/#business`);
+---
+
+<Layout
+  title={`${author.name}, ${author.jobTitle}`}
+  description={author.shortBio}
+  image={author.image}
+  extraSchema={[person]}
+>
+
+<Header breadcrumbLabel={author.name} />
+
+<!-- AUTHOR HERO -->
+<section class="bg-white border-b border-gray-100 py-12 sm:py-16">
+  <div class="max-w-4xl mx-auto px-5 sm:px-8 flex flex-col sm:flex-row gap-8 items-start">
+    <img src={author.image} alt={author.name} width="192" height="192" loading="eager" class="w-40 h-40 sm:w-48 sm:h-48 rounded-2xl object-cover object-top flex-shrink-0 shadow-sm" />
+    <div>
+      <p class="eyebrow tracking-widest mb-2">{author.headline}</p>
+      <h1 class="font-display font-bold text-navy uppercase leading-tight text-4xl sm:text-5xl mb-2">{author.name}</h1>
+      <p class="font-sub font-bold text-grey text-sm mb-5">{author.jobTitle}</p>
+      <ul class="grid sm:grid-cols-2 gap-2">
+        {author.highlights.map((item) => (
+          <li class="flex items-start gap-2 font-body text-grey text-sm">
+            <svg class="w-4 h-4 text-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+            {item}
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- BIO -->
+<section class="bg-white py-12 sm:py-16">
+  <div class="max-w-3xl mx-auto px-5 sm:px-8">
+    <h2 class="font-display font-bold text-navy uppercase text-2xl sm:text-3xl leading-tight mb-6">About {author.name}</h2>
+    <div class="flex flex-col gap-4">
+      {author.bio.map((paragraph) => (
+        <p class="font-body text-grey text-base leading-relaxed">{paragraph}</p>
+      ))}
+    </div>
+    <p class="font-body text-grey text-base leading-relaxed mt-8">Have a question about your situation? <a href="/contact-us/" class="text-orange hover:text-gold font-bold">Contact our team</a> or <a href="/sell-your-house/" class="text-orange hover:text-gold font-bold">see how we help homeowners sell their house fast in Arkansas</a>.</p>
+  </div>
+</section>
+
+<!-- ARTICLES -->
+{posts.length > 0 && (
+  <section class="bg-gray-50 border-t border-gray-100 py-12 sm:py-16">
+    <div class="max-w-4xl mx-auto px-5 sm:px-8">
+      <h2 class="font-display font-bold text-navy uppercase text-2xl sm:text-3xl leading-tight mb-6">Articles by {author.name}</h2>
+      <ul class="grid sm:grid-cols-2 gap-3">
+        {posts.map((post) => (
+          <li>
+            <a href={`/blog/${post.id}/`} class="block h-full bg-white border border-gray-100 rounded-lg px-4 py-3.5 font-sub font-bold text-navy text-sm leading-snug hover:border-orange hover:text-orange transition-colors">{post.data.title}</a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+)}
+
+<Footer />
+
+</Layout>

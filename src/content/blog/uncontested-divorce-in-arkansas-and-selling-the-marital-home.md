@@ -1,8 +1,9 @@
 ---
 title: "Uncontested Divorce in Arkansas and Selling the Marital Home"
+metaTitle: "Uncontested Divorce in Arkansas and Selling the Home"
 description: "How uncontested divorce works in Arkansas, your options for handling the marital home, and how to navigate a home sale during the divorce process."
 pubDate: 2026-03-05
-author: "Arkansas Property Buyers"
+author: "Randy Thomason"
 draft: false
 ---
 

@@ -1,8 +1,9 @@
 ---
 title: "Arkansas Property Tax Basics for Homeowners Considering a Sale"
+metaTitle: "Arkansas Property Tax Basics Before Selling Your Home"
 description: "Understand Arkansas property tax basics before selling, including arrears billing, assessment ratios, exemptions, and how taxes get prorated at closing."
 pubDate: 2026-02-26
-author: "Arkansas Property Buyers"
+author: "Randy Thomason"
 draft: false
 ---
 

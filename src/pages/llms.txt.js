@@ -6,6 +6,7 @@ import { getCollection } from 'astro:content';
 import { SITE_URL } from '../data/seo.js';
 import { cities } from '../data/cities.js';
 import { blogClusters } from '../data/blogClusters.js';
+import { authors, authorPath } from '../data/authors.js';
 
 const url = (path) => `${SITE_URL}${path}`;
 
@@ -74,6 +75,7 @@ export async function GET() {
     '## Company',
     '',
     ...company.map(line),
+    ...authors.map((a) => `- [${a.name}](${url(authorPath(a))}): ${a.jobTitle}. ${a.shortBio}`),
     '',
     '## Optional',
     '',

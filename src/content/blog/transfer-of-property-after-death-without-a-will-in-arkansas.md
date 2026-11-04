@@ -3,7 +3,7 @@ title: "Transfer of Property After Death Without a Will in Arkansas"
 metaTitle: "Transfer Property Without a Will in Arkansas: Steps"
 description: "Learn how property transfers in Arkansas without a will, from intestate succession rules and probate steps to faster ways to sell."
 pubDate: 2026-11-04
-author: "Arkansas Property Buyers"
+author: "Randy Thomason"
 featuredImage: "/images/blog/transfer-of-property-after-death-without-a-will-in-arkansas/featured-placeholder.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/transfer-of-property-after-death-without-a-will-in-arkansas/"
 draft: false

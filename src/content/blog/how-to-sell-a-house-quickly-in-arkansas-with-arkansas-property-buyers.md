@@ -3,7 +3,7 @@ title: "How to Sell a House Quickly in Arkansas with Arkansas Property Buyers"
 metaTitle: "Sell Your Arkansas House Fast for Cash: How It Works"
 description: "See how to sell your Arkansas house fast with Arkansas Property Buyers, from a no-obligation cash offer within 24 hours to a closing in as little as three days."
 pubDate: 2026-11-04
-author: "Arkansas Property Buyers"
+author: "Randy Thomason"
 featuredImage: "/images/blog/how-to-sell-a-house-quickly-in-arkansas-with-arkansas-property-buyers/featured-placeholder.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/how-to-sell-a-house-quickly-in-arkansas-with-arkansas-property-buyers/"
 draft: false

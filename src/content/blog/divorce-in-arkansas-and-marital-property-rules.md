@@ -1,8 +1,9 @@
 ---
 title: "Divorce in Arkansas and Marital Property Rules"
+metaTitle: "Arkansas Divorce and Marital Property Rules for the Home"
 description: "Understand how divorce in Arkansas and marital property rules affect your assets to ensure a fair distribution of real estate and debt during mediation."
 pubDate: 2026-03-09
-author: "Arkansas Property Buyers"
+author: "Randy Thomason"
 featuredImage: "/images/blog/divorce-in-arkansas-and-marital-property-rules/image-83.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/divorce-in-arkansas-and-marital-property-rules/"
 draft: false

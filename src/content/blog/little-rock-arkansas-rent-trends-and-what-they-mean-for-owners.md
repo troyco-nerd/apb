@@ -1,8 +1,9 @@
 ---
 title: "Little Rock, Arkansas, Rent Trends and What They Mean for Owners"
+metaTitle: "Little Rock Rent Trends: What They Mean for Owners"
 description: "Explore Little Rock, Arkansas, rent trends and what they mean for owners to maximize your rental portfolio’s growth and maintain low vacancy rates today."
 pubDate: 2026-03-09
-author: "Arkansas Property Buyers"
+author: "Randy Thomason"
 featuredImage: "/images/blog/little-rock-arkansas-rent-trends-and-what-they-mean-for-owners/asd.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/little-rock-arkansas-rent-trends-and-what-they-mean-for-owners/"
 draft: false

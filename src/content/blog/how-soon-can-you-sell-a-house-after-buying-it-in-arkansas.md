@@ -1,8 +1,9 @@
 ---
 title: "How Soon Can You Sell a House After Buying It in Arkansas?"
+metaTitle: "How Soon Can You Sell a House After Buying in Arkansas?"
 description: "Learn whether Arkansas requires a waiting period before reselling a home, how mortgage terms can affect early resale, and how to sell quickly if you need to."
 pubDate: 2025-12-11
-author: "Arkansas Property Buyers"
+author: "Randy Thomason"
 draft: false
 ---
 

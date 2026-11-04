@@ -1,8 +1,9 @@
 ---
 title: "Probate Court in Little Rock, Arkansas, and How It Affects Real Estate Sales"
+metaTitle: "Little Rock Probate Court: How It Affects Home Sales"
 description: "Understand how Pulaski County Probate Court oversees the sale of inherited real estate in Little Rock, from court approval and appraisals to confirmation of sale."
 pubDate: 2026-02-20
-author: "Arkansas Property Buyers"
+author: "Randy Thomason"
 draft: false
 ---
 

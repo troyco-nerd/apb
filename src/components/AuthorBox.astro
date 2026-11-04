@@ -1,0 +1,22 @@
+---
+// "About the author" box shown at the end of blog posts.
+import { authorPath } from '../data/authors.js';
+
+interface Props {
+  author: { slug: string; name: string; jobTitle: string; image: string; shortBio: string };
+  class?: string;
+}
+
+const { author, class: className = '' } = Astro.props;
+---
+
+<aside class:list={['flex flex-col sm:flex-row gap-5 p-5 sm:p-6 bg-white border border-gray-100 rounded-xl', className]} aria-label="About the author">
+  <img src={author.image} alt={author.name} width="80" height="80" loading="lazy" class="w-20 h-20 rounded-xl object-cover object-top flex-shrink-0" />
+  <div>
+    <p class="font-sub font-bold text-xs text-orange uppercase tracking-wider mb-1">About the Author</p>
+    <p class="font-display font-bold text-navy uppercase text-lg leading-tight">{author.name}</p>
+    <p class="font-body text-grey text-xs mb-2">{author.jobTitle}</p>
+    <p class="font-body text-grey text-sm leading-relaxed mb-3">{author.shortBio}</p>
+    <a href={authorPath(author)} rel="author" class="font-sub font-bold text-xs text-orange hover:text-gold uppercase tracking-wider transition-colors">Read {author.name.split(' ')[0]}’s full bio &rarr;</a>
+  </div>
+</aside>

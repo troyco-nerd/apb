@@ -8,6 +8,8 @@ const blog = defineCollection({
     metaTitle: z.string().max(60).optional(),
     description: z.string().optional(),
     pubDate: z.coerce.date(),
+    // Set when a post's content is meaningfully revised (not for link or title tweaks).
+    updatedDate: z.coerce.date().optional(),
     author: z.string().optional(),
     featuredImage: z.string().optional(),
     oldUrl: z.string().optional(),

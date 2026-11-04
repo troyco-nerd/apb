@@ -1,8 +1,9 @@
 ---
 title: "Landlord Selling Property in Arkansas: What to Know"
+metaTitle: "Selling a Rental Property in Arkansas: Landlord Guide"
 description: "What Arkansas landlords need to know before selling a rental property, from tenant rights and lease transfers to security deposits and closing requirements."
 pubDate: 2026-03-09
-author: "Arkansas Property Buyers"
+author: "Randy Thomason"
 draft: false
 ---
 

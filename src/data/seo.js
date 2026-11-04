@@ -122,5 +122,6 @@ export function getPageType(pathname) {
   if (path === '/our-company') return 'AboutPage';
   if (path === '/contact-us') return 'ContactPage';
   if (path === '/blog') return 'CollectionPage';
+  if (path.startsWith('/author/')) return 'ProfilePage';
   return 'WebPage';
 }

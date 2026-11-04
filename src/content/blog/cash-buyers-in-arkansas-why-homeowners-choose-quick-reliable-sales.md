@@ -1,8 +1,9 @@
 ---
 title: "Cash Buyers in Arkansas: Why Homeowners Choose Quick, Reliable Sales"
+metaTitle: "Cash Home Buyers in Arkansas: Why Sellers Choose Them"
 description: "See why Arkansas homeowners are turning to cash buyers for faster, simpler home sales, how the process works, and whether it's the right fit for you."
 pubDate: 2025-10-26
-author: "Arkansas Property Buyers"
+author: "Randy Thomason"
 draft: false
 ---
 

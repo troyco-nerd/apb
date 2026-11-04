@@ -1,8 +1,9 @@
 ---
 title: "Capital Gains on Inherited Property in Arkansas: What Sellers Need to Know"
+metaTitle: "Capital Gains on Inherited Property in Arkansas"
 description: "Understand how capital gains tax works on inherited property in Arkansas, including the stepped-up basis, tax rates, and how to reduce your tax burden when selling."
 pubDate: 2025-10-26
-author: "Arkansas Property Buyers"
+author: "Randy Thomason"
 draft: false
 ---
 

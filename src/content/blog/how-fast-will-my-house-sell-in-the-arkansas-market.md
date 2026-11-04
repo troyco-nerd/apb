@@ -1,8 +1,9 @@
 ---
 title: "How Fast Will My House Sell in the Arkansas Market?"
+metaTitle: "How Fast Will My House Sell in Arkansas? Market Guide"
 description: "Learn what actually drives how fast a house sells in Arkansas, from regional and seasonal trends to pricing, condition, and cash offers versus traditional listings."
 pubDate: 2026-03-09
-author: "Arkansas Property Buyers"
+author: "Randy Thomason"
 draft: false
 ---
 

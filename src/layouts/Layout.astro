@@ -9,7 +9,12 @@ interface Props {
   noindex?: boolean;
   article?: {
     datePublished: string;
+    dateModified?: string;
+    // Person JSON-LD for the post author (see src/data/authors.js).
+    author?: Record<string, any>;
   };
+  // Extra JSON-LD entities to add to the page graph (e.g. a Person on an author page).
+  extraSchema?: Record<string, any>[];
   // Question/answer pairs that appear on the page; output as FAQPage JSON-LD.
   faq?: Array<{ question: string; answer: string }>;
 }
@@ -21,6 +26,7 @@ const {
   noindex = false,
   article = null,
   faq = [],
+  extraSchema = [],
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -187,9 +193,8 @@ if (article) {
     description,
     image: ogImage.href,
     datePublished: article.datePublished,
-    author: {
-      '@id': businessId,
-    },
+    dateModified: article.dateModified ?? article.datePublished,
+    author: article.author ? { '@id': article.author['@id'] } : { '@id': businessId },
     publisher: {
       '@id': businessId,
     },
@@ -201,6 +206,18 @@ if (article) {
     },
     inLanguage: 'en-US',
   });
+}
+
+if (article?.author) {
+  graph.push(article.author);
+}
+
+graph.push(...extraSchema);
+
+// On a profile page, point the page at the person it describes.
+const person = extraSchema.find((entity) => entity['@type'] === 'Person');
+if (pageType === 'ProfilePage' && person) {
+  webPageEntity.mainEntity = { '@id': person['@id'] };
 }
 
 if (faq.length > 0) {

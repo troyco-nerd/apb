@@ -2,6 +2,9 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import { getAuthor, authorPath } from '../data/authors.js';
+
+const randy = getAuthor('randy-thomason');
 ---
 
 <Layout
@@ -24,7 +27,7 @@ import Footer from '../components/Footer.astro';
         <a href="tel:+15015047109" class="inline-flex items-center justify-center bg-orange hover:bg-gold text-white font-sub font-bold text-xs sm:text-sm px-5 py-3 rounded transition-colors uppercase tracking-wider">
           Call (501) 504-7109
         </a>
-        <a href="/contact-us" class="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 border border-white/20 text-white font-sub font-bold text-xs sm:text-sm px-5 py-3 rounded transition-colors uppercase tracking-wider">
+        <a href="/contact-us/" class="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 border border-white/20 text-white font-sub font-bold text-xs sm:text-sm px-5 py-3 rounded transition-colors uppercase tracking-wider">
           Media Inquiry &rarr;
         </a>
       </div>
@@ -56,11 +59,11 @@ import Footer from '../components/Footer.astro';
 
     <div class="grid md:grid-cols-2 gap-5">
       <article class="border border-gray-100 rounded-2xl p-5 sm:p-6 flex gap-5 items-start">
-        <img src="/images/randy-thomason.jpg" alt="Randy Thomason, Founder and Principal of Arkansas Property Buyers" class="w-24 h-24 sm:w-28 sm:h-28 rounded-xl object-cover flex-shrink-0">
+        <img src="/images/randy-thomason.jpg" alt="Randy Thomason, CEO of Arkansas Property Buyers" class="w-24 h-24 sm:w-28 sm:h-28 rounded-xl object-cover flex-shrink-0">
         <div>
-          <p class="eyebrow tracking-wider mb-1">Founder &amp; Principal</p>
+          <p class="eyebrow tracking-wider mb-1">CEO</p>
           <h3 class="font-display font-bold text-navy uppercase text-xl mb-2">Randy Thomason</h3>
-          <p class="font-body text-grey text-sm leading-relaxed mb-3">30+ years of entrepreneurial experience in Arkansas, including real estate, business ownership, and community involvement.</p>
+          <p class="font-body text-grey text-sm leading-relaxed mb-3">CEO of Arkansas Property Buyers and ArkREIA, with 30+ years in real estate investing and more than $85 million in real estate purchased, sold, and managed. <a href="#randy-bio" class="text-orange hover:text-gold font-bold">Read full bio</a></p>
           <p class="font-sub font-bold text-navy text-xs uppercase tracking-wide">Best for: market changes, homeowner decisions, difficult sales, title and estate situations.</p>
         </div>
       </article>
@@ -74,6 +77,18 @@ import Footer from '../components/Footer.astro';
           <p class="font-sub font-bold text-navy text-xs uppercase tracking-wide">Best for: property condition, repairs, as-is sales, cash offers, and complicated properties.</p>
         </div>
       </article>
+    </div>
+
+    <!-- RANDY THOMASON BIO -->
+    <div id="randy-bio" class="mt-10 border border-gray-100 rounded-2xl p-6 sm:p-8 scroll-mt-24">
+      <p class="eyebrow tracking-widest mb-2">{randy.headline}</p>
+      <h2 class="font-display font-bold text-navy uppercase text-2xl sm:text-3xl leading-tight mb-5">Randy Thomason</h2>
+      <div class="flex flex-col gap-4">
+        {randy.bio.map((paragraph) => (
+          <p class="font-body text-grey text-base leading-relaxed">{paragraph}</p>
+        ))}
+      </div>
+      <a href={authorPath(randy)} class="inline-block mt-6 font-sub font-bold text-xs text-orange hover:text-gold uppercase tracking-wider transition-colors">Read Randy’s articles &rarr;</a>
     </div>
   </div>
 </section>
@@ -251,7 +266,7 @@ import Footer from '../components/Footer.astro';
       </div>
       <div class="flex flex-col sm:flex-row gap-2 flex-shrink-0">
         <a href="tel:+15015047109" class="inline-flex items-center justify-center bg-orange hover:bg-gold text-white font-sub font-bold text-xs sm:text-sm px-5 py-3 rounded transition-colors uppercase tracking-wider">Call (501) 504-7109</a>
-        <a href="/contact-us" class="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 border border-white/20 text-white font-sub font-bold text-xs sm:text-sm px-5 py-3 rounded transition-colors uppercase tracking-wider">Contact The Team</a>
+        <a href="/contact-us/" class="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 border border-white/20 text-white font-sub font-bold text-xs sm:text-sm px-5 py-3 rounded transition-colors uppercase tracking-wider">Contact The Team</a>
       </div>
     </div>
   </div>

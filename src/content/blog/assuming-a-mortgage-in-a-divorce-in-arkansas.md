@@ -1,8 +1,9 @@
 ---
 title: "Assuming a Mortgage in a Divorce in Arkansas"
+metaTitle: "Assuming a Mortgage in an Arkansas Divorce: Your Options"
 description: "Navigate the legal process of assuming a mortgage in a divorce in Arkansas to protect your credit and ensure a fair distribution of your marital property."
 pubDate: 2026-03-09
-author: "Arkansas Property Buyers"
+author: "Randy Thomason"
 featuredImage: "/images/blog/assuming-a-mortgage-in-a-divorce-in-arkansas/Untitled-design-2026-03-09T180440.879.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/assuming-a-mortgage-in-a-divorce-in-arkansas/"
 draft: false

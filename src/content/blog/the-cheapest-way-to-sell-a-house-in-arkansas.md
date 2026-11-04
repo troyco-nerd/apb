@@ -1,8 +1,9 @@
 ---
 title: "The Cheapest Way to Sell a House in Arkansas"
+metaTitle: "The Cheapest Way to Sell a House in Arkansas"
 description: "Discover the cheapest way to sell a house in Arkansas by comparing FSBO strategies and low-commission agents to save thousands on your next home sale."
 pubDate: 2026-03-09
-author: "Arkansas Property Buyers"
+author: "Randy Thomason"
 featuredImage: "/images/blog/the-cheapest-way-to-sell-a-house-in-arkansas/Wooden-house-model-placed-on-blocks-spelling-SALE-symbolizing-a-home-sale-or-real-estate-listing.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/the-cheapest-way-to-sell-a-house-in-arkansas/"
 draft: false

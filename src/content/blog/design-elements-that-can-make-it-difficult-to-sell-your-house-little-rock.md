@@ -1,8 +1,9 @@
 ---
 title: "Dated Design Elements That Can make it Difficult to Sell Your House in Little Rock"
+metaTitle: "Dated Design That Makes a Little Rock House Hard to Sell"
 description: "Do you need to sell your house in Little Rock? here are some dated design elements that may be holding up the process."
 pubDate: 2026-05-07
-author: "rthomason"
+author: "Randy Thomason"
 featuredImage: "/images/blog/design-elements-that-can-make-it-difficult-to-sell-your-house-little-rock/cropped-ChatGPT-Image-May-6-2026-01_54_48-PM.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/design-elements-that-can-make-it-difficult-to-sell-your-house-little-rock/"
 draft: false

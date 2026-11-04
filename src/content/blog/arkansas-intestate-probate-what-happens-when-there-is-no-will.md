@@ -1,8 +1,9 @@
 ---
 title: "Arkansas Intestate Probate: What Happens When There Is No Will"
+metaTitle: "Intestate Probate in Arkansas: What Happens With No Will"
 description: "Understand how Arkansas intestate probate works when there is no will to ensure you navigate state distribution laws and protect your family’s inheritance."
 pubDate: 2026-03-09
-author: "Arkansas Property Buyers"
+author: "Randy Thomason"
 featuredImage: "/images/blog/arkansas-intestate-probate-what-happens-when-there-is-no-will/Red-book-titled-Probate-Law-next-to-a-judges-gavel-on-a-wooden-table.png"
 oldUrl: "https://www.arkansaspropertybuyers.com/blog/arkansas-intestate-probate-what-happens-when-there-is-no-will/"
 draft: false
