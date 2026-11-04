@@ -38,7 +38,7 @@ Married couples filing jointly can still exclude up to $500,000 in capital gains
 
 ### **Reducing Legal Fees and Court Intervention**
 
-Every contested issue increases attorney hours. When couples agree to sell and split the proceeds before finalizing the divorce, they remove a major source of conflict from the negotiations. Less court time means lower legal fees and faster resolution. [Arkansas Property Buyers](/) works with divorcing couples who need quick, straightforward transactions that minimize complications during an already difficult time.
+Every contested issue increases attorney hours. When couples agree to sell and split the proceeds before finalizing the divorce, they remove a major source of conflict from the negotiations. Less court time means lower legal fees and faster resolution. Arkansas Property Buyers, a company that helps owners [sell a house fast in Arkansas](/sell-your-house/), works with divorcing couples who need quick, straightforward transactions that minimize complications during an already difficult time.
 
 ## **Advantages of Waiting to Sell After the Divorce**
 

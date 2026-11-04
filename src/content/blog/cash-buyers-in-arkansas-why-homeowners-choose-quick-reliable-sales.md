@@ -72,7 +72,7 @@ Our approach eliminates common frustrations like waiting for bank approvals, dea
 
 ### Local Expertise and Broad Coverage
 
-Arkansas Property Buyers serves a wide area around Little Rock, including cities like Benton, Bryant, Conway, and North Little Rock. This regional focus means we know the community and can tailor offers accordingly.
+Arkansas Property Buyers serves a wide area around Little Rock, including cities like [Benton](/sell-my-house-fast-benton-ar/), [Bryant](/sell-my-house-fast-bryant-ar/), [Conway](/sell-my-house-fast-conway-ar/), and [North Little Rock](/sell-my-house-fast-north-little-rock-ar/). This regional focus means we know the community and can tailor offers accordingly.
 
 ## Is Selling to a Cash Buyer Right for You?
 
@@ -113,7 +113,7 @@ Absolutely. Cash buyers buy properties with tenants, even if they are problemati
 
 Simply [visit our website](/) or call us to submit your property information and get a no-obligation offer.
 
-If selling your home quickly and without hassle sounds like the right move, reaching out to a trusted cash buyer in Arkansas could be the best step. With companies like Arkansas Property Buyers ready to help, you can skip the stress and get on with your next chapter.
+If [selling your home quickly](/sell-your-house/) and without hassle sounds like the right move, reaching out to a trusted cash buyer in Arkansas could be the best step. With companies like Arkansas Property Buyers ready to help, you can skip the stress and get on with your next chapter.
 
 ## Ready for a Hassle-Free Home Sale?
 

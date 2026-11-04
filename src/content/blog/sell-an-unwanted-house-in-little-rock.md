@@ -38,7 +38,7 @@ When you sell your house to Arkansas Property Buyers LLC, you don’t have to pa
 
 As local experts in the Little Rock real estate market, we understand the unique challenges and opportunities associated with selling a house in this area. We have the experience and knowledge necessary to provide you with a fair and accurate offer that meets your needs and exceeds your expectations.
 
-If you’re looking to sell an unwanted house in Little Rock, Arkansas Property Buyers LLC can help. We provide a quick and easy selling process with no commissions or fees, and we always look out for your best interest. [Contact Arkansas Property Buyers LLC](/) today to learn more about how we can help you sell your house quickly and easily. 501-504-7109
+If you’re looking to sell an unwanted house in Little Rock, Arkansas Property Buyers LLC can help. We provide a quick and easy selling process with no commissions or fees, and we always look out for your best interest. [Contact Arkansas Property Buyers LLC](/contact-us/) today to learn more about how we can help you [sell your house fast in Little Rock](/). 501-504-7109
 
 -   [**Share**](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.arkansaspropertybuyers.com%2Fblog%2Fsell-an-unwanted-house-in-little-rock%2F "Share on Facebook")
 -   [**Share**](https://twitter.com/intent/tweet?text=Sell+An+Unwanted+House+in+Little+Rock+%7C+Arkansas+Property+Buyers&url=https%3A%2F%2Fwww.arkansaspropertybuyers.com%2Fblog%2Fsell-an-unwanted-house-in-little-rock%2F "Share on Twitter")

@@ -12,7 +12,7 @@ Arkansas landlords face strict procedural requirements when removing tenants fro
 
 ## **Legal Grounds for Eviction Under Arkansas Law**
 
-Arkansas recognizes specific circumstances that justify a tenant’s removal. Landlords cannot arbitrarily evict tenants; they must establish valid legal grounds before initiating proceedings.
+Arkansas recognizes specific circumstances that justify a tenant’s removal. [Landlords cannot arbitrarily evict tenants](/blog/what-a-landlord-cannot-do-in-arkansas-under-state-law/); they must establish valid legal grounds before initiating proceedings.
 
 ### **Nonpayment of Rent and the Three-Day Notice**
 
@@ -102,7 +102,7 @@ The eviction case will likely be dismissed, forcing the landlord to restart the 
 
 ## **Moving Forward with Confidence**
 
-Navigating eviction notice rules in Arkansas requires attention to detail and strict compliance with statutory timelines. Landlords who follow proper procedures recover their properties efficiently, while those who cut corners face delays and potential liability.If you’re dealing with a problem property or difficult tenant situation, [Arkansas Property Buyers](/) offers an alternative worth considering. Rather than spending weeks on eviction proceedings, you can receive a fair cash offer within 24 hours and [sell your rental property as-is](/sell-my-house-as-is/), without repairs, commissions, or fees, and move forward without the burden of an unwanted rental property.
+Navigating eviction notice rules in Arkansas requires attention to detail and strict compliance with statutory timelines. Landlords who follow proper procedures recover their properties efficiently, while those who cut corners face delays and potential liability.If you’re dealing with a problem property or difficult tenant situation, Arkansas Property Buyers, a [Little Rock cash home buyer](/), offers an alternative worth considering. Rather than spending weeks on eviction proceedings, you can receive a fair cash offer within 24 hours and [sell your rental property as-is](/sell-my-house-as-is/), without repairs, commissions, or fees, and move forward without the burden of an unwanted rental property.
 
 -   [**Share**](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.arkansaspropertybuyers.com%2Fblog%2Feviction-notice-rules-in-arkansas-explained%2F "Share on Facebook")
 -   [**Share**](https://twitter.com/intent/tweet?text=Eviction+Notice+Rules+in+Arkansas+Explained+%7C+Arkansas+Property+Buyers&url=https%3A%2F%2Fwww.arkansaspropertybuyers.com%2Fblog%2Feviction-notice-rules-in-arkansas-explained%2F "Share on Twitter")

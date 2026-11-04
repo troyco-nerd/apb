@@ -91,7 +91,7 @@ Arkansas Property Buyers buys homes as-is and often handles tax and title issues
 
 Contact your county assessor's office or visit their website for detailed information about personal property tax rates, exemptions, and payment deadlines. Local government resources are the best place for accurate, up-to-date details.
 
-If you're ready to sell your home quickly and want to avoid the hassle of traditional sales, [Arkansas Property Buyers](/) is a trusted partner who can help. They offer fair cash offers, buy homes as-is, and handle many of the details, including personal property tax concerns. Reach out today to get started and see how simple selling your home can be.
+If you're ready to sell your home quickly and want to avoid the hassle of traditional sales, Arkansas Property Buyers, where you can [sell your house fast in Arkansas](/sell-your-house/), is a trusted partner who can help. They offer fair cash offers, buy homes as-is, and handle many of the details, including personal property tax concerns. Reach out today to get started and see how simple selling your home can be.
 
 ## Ready to Sell Your Home with Ease?
 

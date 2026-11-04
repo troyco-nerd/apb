@@ -14,7 +14,7 @@ Understanding these costs before listing your property helps you set realistic e
 
 ## The Typical Percentage of Sales Price
 
-Most Arkansas sellers should budget 8% to 9% of their sale price for total closing costs. The largest chunk, typically 5% to 6%, goes toward real estate agent commissions. The remaining 2% to 3% covers transfer taxes, title services, prorated property taxes, and miscellaneous fees. A seller netting $200,000 on paper might actually walk away with $182,000 to $184,000 after all deductions.
+Most Arkansas sellers should budget 8% to 9% of their sale price for total closing costs. The largest chunk, typically 5% to 6%, goes toward real estate agent commissions. The remaining 2% to 3% covers transfer taxes, title services, prorated property taxes, and miscellaneous fees. A seller netting $200,000 on paper might actually walk away with $182,000 to $184,000 after all deductions. For a fee-by-fee breakdown, see [what Arkansas sellers actually pay in closing costs](/blog/closing-costs-for-sellers-in-arkansas-what-youll-actually-pay/).
 
 ## Who Pays What: Arkansas Customary Practices
 
@@ -56,7 +56,7 @@ Buyers frequently request seller-paid home warranties as part of negotiations. T
 
 ### Northwest Arkansas vs. Central Arkansas Markets
 
-Northwest Arkansas, including Fayetteville and Bentonville, tends to have higher home values and correspondingly higher closing costs in absolute dollars. The competitive market there sometimes allows sellers to negotiate more favorable terms. Central Arkansas, particularly the Little Rock metro area, follows more traditional cost structures. For homeowners in Little Rock and surrounding areas looking to avoid these costs entirely, you can [sell your house fast in Arkansas](/) for cash, with minimal or no seller-paid closing costs, depending on the purchase agreement.
+Northwest Arkansas, including Fayetteville and Bentonville, tends to have higher home values and correspondingly higher closing costs in absolute dollars. The competitive market there sometimes allows sellers to negotiate more favorable terms. Central Arkansas, particularly the Little Rock metro area, follows more traditional cost structures. For homeowners in Little Rock and surrounding areas looking to avoid these costs entirely, you can [sell your house fast in Arkansas](/sell-your-house/) for cash, with minimal or no seller-paid closing costs, depending on the purchase agreement.
 
 ### Impact of Local County Recording Fees
 
@@ -66,7 +66,7 @@ County recording fees vary modestly across Arkansas's 75 counties. Most counties
 
 ### Negotiating Commission Rates
 
-Agent commissions aren't set in stone despite what some agents suggest. Sellers with desirable properties in hot markets have leverage to negotiate lower rates. Some agents accept 4% to 5% total commission for easy-to-sell homes. Alternatively, selling directly to [Arkansas Property Buyers](/) eliminates commission costs entirely, keeping more money in your pocket.
+Agent commissions aren't set in stone despite what some agents suggest. Sellers with desirable properties in hot markets have leverage to negotiate lower rates. Some agents accept 4% to 5% total commission for easy-to-sell homes. Alternatively, selling directly to Arkansas Property Buyers, which offers a [fast home sale in Arkansas](/sell-your-house/), eliminates commission costs entirely, keeping more money in your pocket.
 
 ### Reviewing the Preliminary Settlement Statement
 

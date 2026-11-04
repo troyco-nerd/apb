@@ -10,7 +10,7 @@ Inheriting a property can feel like a windfall, but selling it comes with its ow
 
 ## What Is Capital Gains Tax on Inherited Property?
 
-[Capital gains tax](https://smartasset.com/taxes/capital-gains-on-inherited-property) is the tax you pay on the profit made from selling an asset, like a house. When it comes to inherited property, the rules are a bit different than those for properties you bought yourself. The key concept here is the "stepped-up basis."
+[Capital gains tax](https://smartasset.com/taxes/capital-gains-on-inherited-property) is the tax you pay on the profit made from selling an asset, like a house. When it comes to inherited property, the rules are a bit different than those for properties you bought yourself. The key concept here is the "stepped-up basis." If the house is still part of the estate when it sells, also read [who pays capital gains tax on a deceased estate in Arkansas](/blog/who-pays-capital-gains-tax-on-a-deceased-estate-in-arkansas/).
 
 Basically, the IRS resets the value of the inherited property to its market value at the time of the previous owner's death. This means your starting point for calculating gains is the property's fair market value on that date, not what the original owner paid for it. This can significantly reduce the taxable gain when you sell.
 
@@ -52,7 +52,7 @@ If you inherited a rental property, the tax situation can be more complex. Renta
 
 Selling an inherited home quickly can be important, especially if you want to avoid ongoing maintenance costs, taxes, or if the property is in poor condition. Traditional real estate sales can be slow and complicated, especially if the house needs repairs or has tenants.
 
-That's where [Arkansas Property Buyers](/) come in. We specialize in buying houses directly from homeowners in any condition, often for cash, which means you can skip the hassle of listing, showings, and repairs.
+That's where Arkansas Property Buyers, a local buyer for [probate and inherited property in Arkansas](/probate-help/), come in. We specialize in buying houses directly from homeowners in any condition, often for cash, which means you can skip the hassle of listing, showings, and repairs.
 
 We offer fair all-cash offers and can close in as little as three days, giving you control over the closing date. This is especially helpful if you need to sell quickly due to financial pressures, relocation, or simply want to avoid the drawn-out traditional sale process.
 
@@ -114,4 +114,4 @@ Dealing with inherited property can be overwhelming, but understanding capital g
 
 ## Ready to Sell Your Inherited Property?
 
-At Arkansas Property Buyers, we understand the unique challenges that come with selling inherited property. That's why we offer a hassle-free solution to homeowners in Little Rock and the surrounding areas. With our straightforward process, you can receive a fair cash offer within 24 hours, without worrying about repairs, commissions, or fees. Let us help you move on quickly and with ease. [Get Your Fair Cash Offer](/) today and say goodbye to the burden of an unwanted property.
+At Arkansas Property Buyers, we understand the unique challenges that come with selling inherited property. That's why we offer a hassle-free solution to homeowners in Little Rock and the surrounding areas. With our straightforward process, you can receive a fair cash offer within 24 hours, without worrying about repairs, commissions, or fees. Let us help you move on quickly and with ease. [Get Your Fair Cash Offer](/get-a-cash-offer-today/) today and say goodbye to the burden of an unwanted property.

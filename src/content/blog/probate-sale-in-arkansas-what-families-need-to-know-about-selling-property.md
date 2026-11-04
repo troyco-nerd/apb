@@ -104,7 +104,7 @@ Disagreements can delay the probate process. The court may need to intervene or 
 
 ### Can Arkansas Property Buyers buy probate properties in any condition?
 
-Yes, they buy homes "as-is," regardless of condition. This is especially helpful if the property needs repairs or if heirs want a quick, hassle-free sale. Visit [Arkansas Property Buyers](/) to learn more.
+Yes, they buy homes "as-is," regardless of condition. This is especially helpful if the property needs repairs or if heirs want a quick, hassle-free sale. Visit Arkansas Property Buyers, which [buys inherited houses in Arkansas](/probate-help/), to learn more.
 
 Handling a probate sale is never easy, but with the right knowledge and support, families in Arkansas can navigate the process with less stress and more confidence. Whether you choose the traditional route or a cash buyer, understanding your options is the first step toward closing this chapter smoothly.
 

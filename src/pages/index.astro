@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import HelpfulGuides from '../components/HelpfulGuides.astro';
 import LeadForm from '../components/LeadForm.astro';
 ---
 
@@ -261,6 +262,26 @@ import LeadForm from '../components/LeadForm.astro';
         <h3 class="font-sub font-bold text-navy text-sm uppercase tracking-wide group-hover:text-orange transition-colors">Sell My House As-Is</h3>
       </a>
     </div>
+  </div>
+</section>
+
+<!-- HELPFUL GUIDES (blog links for Little Rock homeowners) -->
+<section id="guides" class="bg-gray-50 py-20 sm:py-28 border-b border-gray-100">
+  <div class="max-w-5xl mx-auto px-5 sm:px-8">
+    <HelpfulGuides
+      eyebrow="Helpful Guides"
+      heading="Guides For Little Rock Homeowners"
+      slugs={[
+        'need-to-sell-a-house-quickly-in-arkansas-here-are-your-options',
+        'how-fast-will-my-house-sell-in-the-arkansas-market',
+        'probate-court-in-little-rock-arkansas-and-how-it-affects-real-estate-sales',
+        'sell-a-vacant-or-abandoned-home-in-little-rock',
+        'little-rock-arkansas-rent-trends-and-what-they-mean-for-owners',
+        'closing-costs-for-sellers-in-arkansas-what-youll-actually-pay',
+      ]}
+    >
+      <p class="font-body text-grey text-base leading-relaxed max-w-2xl">Answers to the questions we hear most from homeowners in Little Rock and Pulaski County. Outside Little Rock? We also help owners <a href="/sell-your-house/" class="text-orange hover:text-gold font-bold">sell their house fast anywhere in Arkansas</a>. <a href="/blog/" class="text-orange hover:text-gold font-bold">Browse all articles &rarr;</a></p>
+    </HelpfulGuides>
   </div>
 </section>
 

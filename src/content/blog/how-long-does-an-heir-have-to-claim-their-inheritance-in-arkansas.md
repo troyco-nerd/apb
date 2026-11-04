@@ -39,13 +39,13 @@ Not every inheritance case is straightforward. Certain circumstances can affect 
 
 Sometimes, heirs inherit property that requires immediate attention, such as a house with maintenance issues or financial burdens. If you find yourself in this situation, selling the property quickly might be the best option.
 
-[Arkansas Property Buyers](/) specializes in buying inherited homes fast, especially when heirs want to avoid the hassle of repairs, showings, or lengthy sales processes. They offer fair cash offers and can close in as little as three days, giving heirs control over the timeline.
+Arkansas Property Buyers, a local option to [sell your house quickly in Arkansas](/sell-your-house/), specializes in buying inherited homes fast, especially when heirs want to avoid the hassle of repairs, showings, or lengthy sales processes. They offer fair cash offers and can close in as little as three days, giving heirs control over the timeline.
 
 ### Heirs Facing Foreclosure or Financial Pressure
 
 If the inherited property has mortgage payments or liens, the pressure to act quickly increases. Foreclosure risks can force heirs to decide fast whether to keep or sell the property. In these cases, working with a local buyer who understands Arkansas real estate laws can provide relief.
 
-[Arkansas Property Buyers](/) can be a helpful resource for heirs needing to sell quickly without the usual real estate headaches.
+Arkansas Property Buyers can be a helpful resource for heirs needing to sell quickly without the usual real estate headaches.
 
 ## Steps to Claim Your Inheritance in Arkansas
 
@@ -83,7 +83,7 @@ If an heir doesn't claim their inheritance, the estate may hold the assets for a
 
 ### Can I sell an inherited house quickly in Arkansas?
 
-Yes, selling an inherited property quickly is possible. [Arkansas Property Buyers](/) buys homes as-is for cash, often closing within days.
+Yes, selling an inherited property quickly is possible. Arkansas Property Buyers buys homes as-is for cash, often closing within days.
 
 ### Are there taxes on inherited property in Arkansas?
 

@@ -41,7 +41,7 @@ This option works well if the property is in good condition and the market is fa
 
 ### Selling "As-Is" to a Local Property Buyer
 
-For a faster, simpler sale, consider working with [Arkansas Property Buyers](/). They specialize in buying homes in any condition, often for cash, which means no repairs, no commissions, and no waiting for financing approvals.
+For a faster, simpler sale, consider working with Arkansas Property Buyers, a [cash home buyer in Little Rock](/). They specialize in buying homes in any condition, often for cash, which means no repairs, no commissions, and no waiting for financing approvals.
 
 This option is especially useful if the property has issues like damage, liens, or problematic tenants, or if you're dealing with time-sensitive situations like foreclosure or relocation. Arkansas Property Buyers offers fair all-cash offers, typically within 24 hours, and can close in as little as three days. You also get to choose the closing date, giving you control over the timing.
 

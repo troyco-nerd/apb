@@ -73,7 +73,7 @@ A court judgment alone doesn’t remove the tenant. You need additional steps to
 
 ### **Coordinating with the County Sheriff**
 
-After obtaining a judgment, request a writ of possession from the court clerk. This document authorizes the county sheriff to physically remove the tenant if the tenant does not leave voluntarily. The sheriff typically schedules the removal within 7 to 10 days, giving the tenant final notice to vacate.
+After obtaining a judgment, request a writ of possession from the court clerk. This document authorizes the county sheriff to physically remove the tenant if the tenant does not [leave voluntarily](/blog/can-i-get-a-tenant-to-leave-voluntarily-in-arkansas/). The sheriff typically schedules the removal within 7 to 10 days, giving the tenant final notice to vacate.
 
 ### **Handling Abandoned Personal Property**
 
@@ -113,7 +113,7 @@ Accepting any payment may reset the eviction timeline and waive your right to pr
 
 ## **Moving Forward After a Difficult Tenant Situation**
 
-Successfully removing a problem tenant often leaves landlords exhausted and questioning whether rental property ownership is worth the hassle. Dealing with evictions, court dates, and property damage can consume months of your time and thousands in legal fees. If you’re tired of tenant headaches, [Arkansas Property Buyers](/) offers an alternative: a fair cash offer within 24 hours for your rental property, regardless of its condition or current tenant situation. [Sell your rental without the hassle](/sell-my-house-as-is/) and move on without the burden of managing difficult tenants or navigating another eviction process.
+Successfully removing a problem tenant often leaves landlords exhausted and questioning whether rental property ownership is worth the hassle. Dealing with evictions, court dates, and property damage can consume months of your time and thousands in legal fees. If you’re tired of tenant headaches, Arkansas Property Buyers, which [buys rental properties as-is in Arkansas](/sell-my-house-as-is/), offers an alternative: a fair cash offer within 24 hours for your rental property, regardless of its condition or current tenant situation. [Sell your rental without the hassle](/sell-my-house-as-is/) and move on without the burden of managing difficult tenants or navigating another eviction process.
 
 -   [**Share**](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.arkansaspropertybuyers.com%2Fblog%2Fhow-to-get-tenants-out-of-a-property-in-arkansas%2F "Share on Facebook")
 -   [**Share**](https://twitter.com/intent/tweet?text=How+to+Get+Tenants+Out+of+a+Property+in+Arkansas+%7C+Arkansas+Property+Buyers&url=https%3A%2F%2Fwww.arkansaspropertybuyers.com%2Fblog%2Fhow-to-get-tenants-out-of-a-property-in-arkansas%2F "Share on Twitter")

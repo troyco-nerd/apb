@@ -12,7 +12,7 @@ Selling a home in Arkansas presents a different timeline than you might expect f
 
 ### Comparing Northwest Arkansas to the Little Rock Metro
 
-Northwest Arkansas, fueled by corporate headquarters and a booming tech sector, sees homes move faster than the state average. Properties in Bentonville, Rogers, and Fayetteville often receive offers within 25 to 40 days when priced correctly. The Little Rock metro tells a different story: homes in desirable suburbs like Maumelle, Sherwood, and Cabot typically sell within 50 to 70 days, while properties in North Little Rock and Jacksonville may sit longer depending on condition and pricing strategy.
+Northwest Arkansas, fueled by corporate headquarters and a booming tech sector, sees homes move faster than the state average. Properties in Bentonville, Rogers, and Fayetteville often receive offers within 25 to 40 days when priced correctly. The Little Rock metro tells a different story: homes in desirable suburbs like [Maumelle](/sell-my-house-fast-maumelle-ar/), [Sherwood](/sell-my-house-fast-sherwood-ar/), and [Cabot](/sell-my-house-fast-cabot-ar/) typically sell within 50 to 70 days, while properties in [North Little Rock](/sell-my-house-fast-north-little-rock-ar/) and [Jacksonville](/sell-my-house-fast-jacksonville-ar/) may sit longer depending on condition and pricing strategy.
 
 ### Seasonal Variations: When Arkansas Homes Sell Fastest
 
@@ -94,4 +94,4 @@ Absolutely. Homes with strong curb appeal sell an average of 5 to 10 days faster
 
 ## Your Path to a Faster Arkansas Home Sale
 
-Understanding your local market, pricing accurately, and choosing the right selling method determines how quickly your Arkansas home sells. If your situation demands speed over maximum price, consider reaching out to [Arkansas Property Buyers](/) for a no-obligation cash offer within 24 hours. Our straightforward process eliminates the uncertainty of traditional sales, letting you move forward on your timeline.
+Understanding your local market, pricing accurately, and choosing the right selling method determines how quickly your Arkansas home sells. If your situation demands speed over maximum price, consider reaching out to Arkansas Property Buyers, a [Little Rock cash home buyer](/), for a no-obligation cash offer within 24 hours. Our straightforward process eliminates the uncertainty of traditional sales, letting you move forward on your timeline.

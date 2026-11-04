@@ -48,7 +48,7 @@ Arkansas law sets the maximum security deposit at two months’ rent only for la
 
 After your tenancy ends, the landlord must return your security deposit within 60 days, minus any legitimate deductions for unpaid rent or damages beyond normal wear and tear. Landlords cannot keep deposits without providing an itemized statement explaining deductions. Vague claims of “cleaning” or “repairs” without documentation violate your rights.
 
-If you’re dealing with property complications after a tenancy, [Arkansas Property Buyers](/) works with homeowners facing various real estate challenges throughout the Little Rock area.
+If you’re dealing with property complications after a tenancy, Arkansas Property Buyers, a [cash home buyer in Little Rock](/), works with homeowners facing various real estate challenges throughout the Little Rock area.
 
 ### **Unreasonable Late Fees and Penalties**
 

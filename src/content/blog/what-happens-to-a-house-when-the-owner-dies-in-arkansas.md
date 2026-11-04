@@ -14,7 +14,7 @@ When a homeowner in Arkansas dies, their property doesn't just disappear or auto
 
 ### With a Will: Probate Process
 
-If the owner left a valid will, the property usually goes through probate. Probate is the legal process that confirms the will and allows the executor to distribute assets according to the deceased's wishes. This process can take several months, depending on the complexity of the estate and any disputes that arise.
+If the owner left a valid will, the property usually goes through [probate in Arkansas](/blog/arkansas-probate-timeline-what-homeowners-should-expect/). Probate is the legal process that confirms the will and allows the executor to distribute assets according to the deceased's wishes. This process can take several months, depending on the complexity of the estate and any disputes that arise.
 
 During probate, the court supervises the transfer of the house to the named heirs or beneficiaries. The executor handles paying debts and taxes before the property is officially transferred. Until probate is complete, the house remains part of the deceased's estate and cannot be sold or transferred without court approval.
 
@@ -30,7 +30,7 @@ Some properties are owned jointly with rights of survivorship, such as joint ten
 
 ## Options for Heirs: What to Do With the House
 
-Once the property legally transfers to the heirs, they face decisions about what to do with the house. This can be overwhelming, especially if the property needs repairs or if the heirs live far away.
+Once the property legally transfers to the heirs, they face decisions about what to do with the house. This can be overwhelming, especially if the property needs repairs or if the heirs live far away. If your parent is still living but moving to assisted living or memory care, the process is different; see our [senior living transition home sale help](/senior-living-transition/).
 
 ### Keep the House
 
@@ -50,7 +50,7 @@ For a faster, simpler solution, [Arkansas Property Buyers](/probate-help/) offer
 
 ## How Arkansas Property Buyers Can Help
 
-When dealing with an inherited house, especially if it's a burden or needs work, [Arkansas Property Buyers](/) offers a straightforward way to sell fast without the usual headaches. We buy homes directly from owners for cash, regardless of the property's condition.
+When dealing with an inherited house, especially if it's a burden or needs work, Arkansas Property Buyers, which [buys inherited houses in Arkansas](/probate-help/), offers a straightforward way to sell fast without the usual headaches. We buy homes directly from owners for cash, regardless of the property's condition.
 
 Our process is simple: you contact us with the property details, receive a no-obligation cash offer within 24 hours, and choose the closing date that works best for you. There are no commissions or hidden fees, and we often pay closing costs, making the sale smooth and transparent.
 
@@ -104,4 +104,4 @@ If you're dealing with an inherited property in Arkansas and want to explore you
 
 ## Ready to Sell Your Inherited Property?
 
-At Arkansas Property Buyers, we understand the emotional and logistical challenges that come with inheriting a house. That's why we're committed to offering a seamless solution for homeowners in Little Rock and the surrounding areas. If you're looking to sell your inherited property quickly and without any complications, our team is here to provide you with a fair cash offer within 24 hours. There's no need to worry about repairs, commissions, or fees. Let us help you move on from your unwanted property with ease. [Get Your Fair Cash Offer](/) today and experience a stress-free sale.
+At Arkansas Property Buyers, we understand the emotional and logistical challenges that come with inheriting a house. That's why we're committed to offering a seamless solution for homeowners in Little Rock and the surrounding areas. If you're looking to sell your inherited property quickly and without any complications, our team is here to provide you with a fair cash offer within 24 hours. There's no need to worry about repairs, commissions, or fees. Let us help you move on from your unwanted property with ease. [Get Your Fair Cash Offer](/get-a-cash-offer-today/) today and experience a stress-free sale.

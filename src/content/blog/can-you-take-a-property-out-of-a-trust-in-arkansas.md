@@ -39,7 +39,7 @@ This process puts the property back into the grantor's name or transfers it to a
 
 ## Why Remove Property from a Revocable Trust?
 
-People might want to remove property from a revocable trust for various reasons. They may want to sell the house quickly, refinance, or simplify their estate plans. If selling is the goal, working with [Arkansas Property Buyers](/) can help you avoid the usual delays and complications of traditional sales.
+People might want to remove property from a revocable trust for various reasons. They may want to sell the house quickly, refinance, or simplify their estate plans. If selling is the goal, working with Arkansas Property Buyers, which [buys inherited and estate property in Arkansas](/probate-help/), can help you avoid the usual delays and complications of traditional sales.
 
 ## Taking Property Out of an Irrevocable Trust in Arkansas
 
@@ -57,7 +57,7 @@ Because this process can be complex and time-consuming, it's often wise to consu
 
 Once the property is out of the trust and back in an individual's name, you have full control over it. That means you can sell it, refinance, or transfer it however you want.
 
-If you're planning to sell, you might want to consider a quick, hassle-free option like [Arkansas Property Buyers](/). They buy homes in any condition, pay cash, and close quickly, which is perfect if you want to avoid repairs, commissions, and long waiting periods.
+If you're planning to sell, you might want to consider a quick, hassle-free option like Arkansas Property Buyers. They buy homes in any condition, pay cash, and close quickly, which is perfect if you want to avoid repairs, commissions, and long waiting periods.
 
 ### Benefits of Selling After Removing Property from a Trust
 

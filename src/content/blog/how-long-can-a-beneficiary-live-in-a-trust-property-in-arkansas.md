@@ -43,7 +43,7 @@ In cases where the beneficiary wants to sell the property itself, the trustee us
 
 ## Options for Beneficiaries Who Need to Sell Quickly
 
-Sometimes beneficiaries need to sell trust property fast due to financial reasons, relocation, or other urgent needs. Selling a trust property can be complicated, but [Arkansas Property Buyers](/) offers solutions. They buy houses in Arkansas for cash, often in as little as three days, and purchase properties in any condition.
+Sometimes beneficiaries need to sell trust property fast due to financial reasons, relocation, or other urgent needs. Selling a trust property can be complicated, but Arkansas Property Buyers, a [Little Rock cash home buyer](/), offers solutions. They buy houses in Arkansas for cash, often in as little as three days, and purchase properties in any condition.
 
 This can be an excellent option for beneficiaries who want to avoid the hassle of traditional sales, repairs, or waiting for financing. Arkansas Property Buyers also handles closing costs and offers flexible closing dates, which can simplify the process.
 
@@ -66,7 +66,7 @@ Knowing these conditions helps beneficiaries and trustees avoid disputes and pla
 
 Inheriting a trust property can be a blessing, but it also comes with questions about living there or selling. If you inherit a property held in trust, your rights depend on the trust's terms and whether you are named as a beneficiary with occupancy rights.
 
-If you want to sell an inherited trust property quickly, [Arkansas Property Buyers](/) can help. They specialize in buying homes directly from owners in Arkansas, including inherited properties. Their cash offers and quick closings make it easier to move on without the usual real estate headaches.
+If you want to sell an inherited trust property quickly, Arkansas Property Buyers can help. They specialize in buying homes directly from owners in Arkansas, including inherited properties. Their cash offers and quick closings make it easier to move on without the usual real estate headaches.
 
 ### Key Considerations for Inherited Trust Properties
 

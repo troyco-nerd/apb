@@ -62,11 +62,11 @@ Cash sales eliminate financing contingencies and often close in days rather than
 
 ### **Comparing Net Proceeds: Market Value vs. Quick Cash**
 
-Cash buyers, including local investor [Arkansas Property Buyers](/), typically offer 60% to 80% of market value. The calculation isn’t straightforward, though. When you subtract agent commissions, closing costs, repair expenses, and holding costs from a traditional sale, cash offers often net within 10% to 15% of the alternative. For properties needing significant repairs or sellers facing time pressure, cash sales frequently deliver better outcomes.
+Cash buyers, including local investor Arkansas Property Buyers, a company that helps owners [sell a house fast in Arkansas](/sell-your-house/), typically offer 60% to 80% of market value. The calculation isn’t straightforward, though. When you subtract agent commissions, closing costs, repair expenses, and holding costs from a traditional sale, cash offers often net within 10% to 15% of the alternative. For properties needing significant repairs or sellers facing time pressure, cash sales frequently deliver better outcomes.
 
 ### **Avoiding Hidden Service Fees in Instant Offers**
 
-iBuyer platforms and some cash buyer services charge service fees ranging from 5% to 13% of the sale price. These fees, combined with below-market offers, can result in worse outcomes than traditional sales. Reputable local companies like [Arkansas Property Buyers](/) operate without hidden fees or commissions, providing transparent offers that reflect true net proceeds. Always request a detailed breakdown of any fees before accepting an offer.
+iBuyer platforms and some cash buyer services charge service fees ranging from 5% to 13% of the sale price. These fees, combined with below-market offers, can result in worse outcomes than traditional sales. Reputable local companies like Arkansas Property Buyers operate without hidden fees or commissions, providing transparent offers that reflect true net proceeds. Always request a detailed breakdown of any fees before accepting an offer.
 
 ## **Maximizing Profit in Regional Arkansas Markets**
 

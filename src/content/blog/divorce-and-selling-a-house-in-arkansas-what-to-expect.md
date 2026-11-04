@@ -58,7 +58,7 @@ Selling a home during a divorce adds layers of complexity to an already stressfu
 
 Both spouses should agree on a single agent to represent the sale of the property. Attempting to use separate agents creates conflicts and often delays the process. Look for someone experienced with divorce sales who understands court timelines and can communicate effectively with both parties and their attorneys.
 
-Some couples struggling to agree on listing decisions benefit from working with cash buyers like [Arkansas Property Buyers](/), who can eliminate the need for staging, showings, and negotiations that require ongoing cooperation.
+Some couples struggling to agree on listing decisions benefit from working with cash buyers like Arkansas Property Buyers, a [cash home buyer in Little Rock](/), who can eliminate the need for staging, showings, and negotiations that require ongoing cooperation.
 
 ### **Determining a Listing Price and Handling Offers**
 

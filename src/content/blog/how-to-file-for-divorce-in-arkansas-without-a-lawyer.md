@@ -76,7 +76,7 @@ A comprehensive marital settlement agreement addresses all contested issues befo
 
 ### **Equitable Distribution of Assets**
 
-Arkansas follows equitable distribution principles, meaning property is divided fairly rather than equally. Marital property includes assets acquired during marriage, while separate property remains with its original owner. If you’re selling property as part of your divorce settlement, you can [learn how our home-buying process works](/sell-your-house/) to see how quick cash offers can simplify the division of real estate assets.
+Arkansas follows equitable distribution principles, meaning property is divided fairly rather than equally. Marital property includes assets acquired during marriage, while separate property remains with its original owner. If you’re [selling property as part of your divorce](/blog/selling-a-house-during-divorce-in-arkansas/) settlement, you can [learn how our home-buying process works](/how-we-buy-houses/) to see how quick cash offers can simplify the division of real estate assets.
 
 ## **Finalizing the Divorce at the Hearing**
 
@@ -118,7 +118,7 @@ Yes, you can request restoration of your maiden name or previous name in your di
 
 ## **Moving Forward After Your Arkansas Divorce**
 
-Successfully filing for divorce in Arkansas without a lawyer requires attention to detail and patience with bureaucratic processes. The money saved on attorney fees can help you transition into your next chapter. If your divorce involves selling shared property, [Arkansas Property Buyers](/) offers fair cash offers within 24 hours, eliminating one major stress point during an already difficult time. Their no-fee, no-commission approach means more money stays in your pocket when dividing assets. [Get a cash offer today](/) and simplify your property division process.
+Successfully filing for divorce in Arkansas without a lawyer requires attention to detail and patience with bureaucratic processes. The money saved on attorney fees can help you transition into your next chapter. If your divorce involves selling shared property, Arkansas Property Buyers, a local option to [sell your house quickly in Arkansas](/sell-your-house/), offers fair cash offers within 24 hours, eliminating one major stress point during an already difficult time. Their no-fee, no-commission approach means more money stays in your pocket when dividing assets. [Get a cash offer today](/) and simplify your property division process.
 
 -   [**Share**](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.arkansaspropertybuyers.com%2Fblog%2Fhow-to-file-for-divorce-in-arkansas-without-a-lawyer%2F "Share on Facebook")
 -   [**Share**](https://twitter.com/intent/tweet?text=How+to+File+for+Divorce+in+Arkansas+Without+a+Lawyer+%7C+Arkansas+Property+Buyers&url=https%3A%2F%2Fwww.arkansaspropertybuyers.com%2Fblog%2Fhow-to-file-for-divorce-in-arkansas-without-a-lawyer%2F "Share on Twitter")

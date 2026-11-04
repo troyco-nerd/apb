@@ -74,7 +74,7 @@ Arkansas maintains an ancestral estate doctrine that traces property back to its
 
 Arkansas offers expedited procedures for modest estates. When the total estate value is $100,000 or less after deducting liens and encumbrances, heirs can use a small estate affidavit to collect assets without full probate administration. This process requires waiting 45 days after death and filing an affidavit with the court. Real property valued at less than $100,000 can be transferred through a similar simplified process. These procedures save time and legal fees for families dealing with smaller estates.
 
-For families dealing with inherited property they don’t want to maintain, [Arkansas Property Buyers](/) offers a straightforward solution. They purchase homes in any condition, eliminating the burden of repairs or extended listing periods during an already stressful time.
+For families dealing with inherited property they don’t want to maintain, Arkansas Property Buyers, a local buyer for [probate and inherited property in Arkansas](/probate-help/), offers a straightforward solution. They purchase homes in any condition, eliminating the burden of repairs or extended listing periods during an already stressful time.
 
 ## **Frequently Asked Questions**
 

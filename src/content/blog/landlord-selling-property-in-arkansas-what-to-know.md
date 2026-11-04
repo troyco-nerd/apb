@@ -18,7 +18,7 @@ Most standard lease agreements in Arkansas automatically transfer to new owners.
 
 ### The Impact of Fixed-Term vs. Month-to-Month Tenancy
 
-Fixed-term leases bind both the new owner and the tenant until the lease expires. A buyer purchasing your property with 18 months remaining on a tenant's lease cannot simply terminate that agreement early. Month-to-month arrangements offer more flexibility since either party can end the tenancy with proper notice, typically 30 days, unless the lease specifies a longer period in Arkansas. This distinction significantly affects your buyer pool and property value.
+Fixed-term leases bind both the new owner and the tenant until the lease expires. A buyer purchasing your property with 18 months remaining on a tenant's lease cannot simply terminate that agreement early. Month-to-month arrangements offer more flexibility since either party can [end the tenancy with proper notice](/blog/how-to-get-tenants-out-of-a-property-in-arkansas/), typically 30 days, unless the lease specifies a longer period in Arkansas. This distinction significantly affects your buyer pool and property value.
 
 ### Arkansas Security Deposit Transfer Requirements
 

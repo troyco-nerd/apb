@@ -35,6 +35,10 @@ const faqs = [
 <Layout
   title="Frequently Asked Questions | Arkansas Property Buyers"
   description="Answers to the most common questions homeowners ask Arkansas Property Buyers about selling a house for cash — pricing, fees, timelines, and how we're different from a real estate agent."
+  faq={faqs.map((faq) => ({
+    question: faq.q,
+    answer: faq.a.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim(),
+  }))}
 >
 
 <!-- HEADER -->

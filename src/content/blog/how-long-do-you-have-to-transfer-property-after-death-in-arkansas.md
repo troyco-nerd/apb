@@ -69,7 +69,7 @@ Transferring property after death isn't always straightforward. Here are some co
 - **Title Issues:** Sometimes liens, unpaid taxes, or unclear ownership records can delay transfer.
 - **Property Condition:** If the property needs repairs or has tenants, it can be harder to sell or transfer quickly.
 
-In any of these cases, working with a local expert like Arkansas Property Buyers can provide relief. We specialize in buying properties as-is and can help you avoid the hassle of repairs or tenant management. Visit [Arkansas Property Buyers](/) for more information.
+In any of these cases, working with a local expert like Arkansas Property Buyers can provide relief. We specialize in buying properties as-is and can help you avoid the hassle of repairs or tenant management. Visit Arkansas Property Buyers, a family-owned company that [buys houses in Little Rock](/), for more information.
 
 ## Steps to Take After a Loved One Passes Away
 
@@ -117,4 +117,4 @@ There is no strict deadline, but probate and estate administration timelines gen
 
 ## Ready to Sell Your Property Quickly in Arkansas?
 
-If you've inherited a property in Arkansas and are looking to sell it without the usual hassle, Arkansas Property Buyers is here to help. We provide a fast, fair, and stress-free cash offer for properties in Little Rock and the surrounding areas. Our simple process ensures you get a fair cash offer within 24 hours, with no need for repairs, commissions, or fees. Let us make your life easier by buying your house quickly, so you can move on without the burden of an unwanted property. [Get Your Fair Cash Offer](/) today and see how we can help you streamline the process of transferring property after death.
+If you've inherited a property in Arkansas and are looking to sell it without the usual hassle, Arkansas Property Buyers is here to help. We provide a fast, fair, and stress-free cash offer for properties in Little Rock and the surrounding areas. Our simple process ensures you get a fair cash offer within 24 hours, with no need for repairs, commissions, or fees. Let us make your life easier by buying your house quickly, so you can move on without the burden of an unwanted property. [Get Your Fair Cash Offer](/get-a-cash-offer-today/) today and see how we can help you streamline the process of transferring property after death.
